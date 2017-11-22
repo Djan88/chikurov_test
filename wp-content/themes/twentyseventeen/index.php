@@ -51,7 +51,15 @@ get_header(); ?>
 					'next_text' => '<span class="screen-reader-text">' . __( 'Next page', 'twentyseventeen' ) . '</span>' . twentyseventeen_get_svg( array( 'icon' => 'arrow-right' ) ),
 					'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'twentyseventeen' ) . ' </span>',
 				) );
-                <?php if (  $wp_query->max_num_pages > 1 ) : ?>
+
+
+			else :
+
+				get_template_part( 'template-parts/post/content', 'none' );
+
+			endif;
+			?>
+            <?php if (  $wp_query->max_num_pages > 1 ) : ?>
                 <script>
                     var ajaxurl = '<?php echo site_url() ?>/wp-admin/admin-ajax.php';
                     var true_posts = '<?php echo serialize($wp_query->query_vars); ?>';
@@ -60,13 +68,6 @@ get_header(); ?>
                 </script>
                 <div id="true_loadmore">Загрузить ещё</div>
             <?php endif; ?>
-
-			else :
-
-				get_template_part( 'template-parts/post/content', 'none' );
-
-			endif;
-			?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
