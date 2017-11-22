@@ -42,6 +42,6 @@
 	</div><!-- .site-content-contain -->
 </div><!-- #page -->
 <?php wp_footer(); ?>
-
+<script src="<?php bloginfo('template_url'); ?>/loadmore.js"></script>
 </body>
 </html>
