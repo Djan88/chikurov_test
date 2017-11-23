@@ -93,5 +93,3 @@ function tutsplus_filter_expired_posts( $query ) {
     }
 }
 add_action( 'pre_get_posts', 'tutsplus_filter_expired_posts' );
-
-?>
