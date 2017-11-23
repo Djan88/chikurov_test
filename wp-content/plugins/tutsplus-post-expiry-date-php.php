@@ -12,7 +12,7 @@ function tutsplus_add_expiry_date_metabox() {
         __( 'Дата семинара', 'tutsplus'),
         'tutsplus_expiry_date_metabox_callback',
         'post',
-        'advanced',
+        'normal',
         'default'
     );
 }
