@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7b385d7-5662-46a9-ac8d-3ec441269911" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="archive.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+            <state relative-caret-position="86">
+              <caret line="35" column="63" lean-forward="false" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -37,9 +38,11 @@
       <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="150">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding>
+                <element signature="e#6#197#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,8 +60,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="601" column="54" lean-forward="true" selection-start-line="601" selection-start-column="54" selection-end-line="601" selection-end-column="54" />
+            <state relative-caret-position="435">
+              <caret line="609" column="59" lean-forward="false" selection-start-line="609" selection-start-column="59" selection-end-line="609" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -88,12 +91,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/twentyseventeen/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyseventeen/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyseventeen/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/tutsplus-post-expiry-date-php.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyseventeen/loadmore.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/seminar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php" />
       </list>
     </option>
   </component>
@@ -368,12 +372,12 @@
       <option name="presentableId" value="Default" />
       <updated>1511352581482</updated>
       <workItem from="1511352583103" duration="5730000" />
-      <workItem from="1511435654665" duration="3039000" />
+      <workItem from="1511435654665" duration="3290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8769000" />
+    <option name="totallyTimeSpent" value="9020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -506,26 +510,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/seminar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="601" column="54" lean-forward="true" selection-start-line="601" selection-start-column="54" selection-end-line="601" selection-end-column="54" />
+        <state relative-caret-position="30">
+          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#197#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="609" column="59" lean-forward="false" selection-start-line="609" selection-start-column="59" selection-end-line="609" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        <state relative-caret-position="86">
+          <caret line="35" column="63" lean-forward="false" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
           <folding />
         </state>
       </provider>

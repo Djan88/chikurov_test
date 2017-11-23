@@ -607,7 +607,7 @@ function true_load_posts(){
         // запускаем цикл
         while( have_posts() ): the_post();
 
-            get_template_part( 'template-parts/post/content', get_post_format() );
+            get_template_part( 'template-parts/post/seminar', get_post_format() );
 
         endwhile;
 
