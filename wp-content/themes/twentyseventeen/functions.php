@@ -619,11 +619,4 @@ function true_load_posts(){
 add_action('wp_ajax_loadmore', 'true_load_posts');
 add_action('wp_ajax_nopriv_loadmore', 'true_load_posts');
 ?>
-<?php
-function true_filter_by_date($where = '') {
-    $from = '2017-11-23'; // промежуток времени c 15.11 до 24.12
-    $to = '2017-11-23';
-    $where .= " AND post_date >= '$from' AND post_date <= '$to'";
-    return $where;
-}
-?>
+
