@@ -35,7 +35,7 @@ get_header(); ?>
                 'meta_query' => array(
                     array(
                         'key' => 'seminar_start',
-                        'value' => aray(2017-11-23, 2017-11-24),
+                        'value' => array(2017-11-23, 2017-11-24),
                         'compare' => 'BETWEEN',
                         'type' => 'DATE',
                     ),
