@@ -28,8 +28,8 @@
       <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="216">
+              <caret line="35" column="76" lean-forward="false" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -72,8 +72,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="624" column="19" lean-forward="false" selection-start-line="624" selection-start-column="19" selection-end-line="624" selection-end-column="19" />
+            <state relative-caret-position="475">
+              <caret line="623" column="17" lean-forward="false" selection-start-line="623" selection-start-column="17" selection-end-line="623" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -384,12 +384,12 @@
       <option name="presentableId" value="Default" />
       <updated>1511352581482</updated>
       <workItem from="1511352583103" duration="5730000" />
-      <workItem from="1511435654665" duration="4993000" />
+      <workItem from="1511435654665" duration="5594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10723000" />
+    <option name="totallyTimeSpent" value="11324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -544,16 +544,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="26" />
+        <state relative-caret-position="216">
+          <caret line="35" column="76" lean-forward="false" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="624" column="19" lean-forward="false" selection-start-line="624" selection-start-column="19" selection-end-line="624" selection-end-column="19" />
+        <state relative-caret-position="475">
+          <caret line="623" column="17" lean-forward="false" selection-start-line="623" selection-start-column="17" selection-end-line="623" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -621,9 +621,10 @@ add_action('wp_ajax_nopriv_loadmore', 'true_load_posts');
 ?>
 <?php
 function true_filter_by_date($where = '') {
+    $startDate = get_field('seminar_start');
     $today = date("Y-m-d");
     $from = $today;
-    $where .= " AND $startDate >= '$from'";
+    $where .= "$startDate >= '$from'";
     return $where;
 }
 ?>
