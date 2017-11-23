@@ -9,7 +9,7 @@ Version: 1.0
 function tutsplus_add_expiry_date_metabox() {
     add_meta_box(
         'tutsplus_expiry_date_metabox',
-        __( 'Expiry Date', 'tutsplus'),
+        __( 'Дата семинара', 'tutsplus'),
         'tutsplus_expiry_date_metabox_callback',
         'post',
         'side',
@@ -46,7 +46,7 @@ function tutsplus_expiry_date_metabox_callback( $post ) { ?>
                 });
             });
         </script>
-        
+
     </form>
 
 <?php }
