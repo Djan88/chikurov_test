@@ -13,8 +13,9 @@
 ?>
 <?php
 $date_seminar = get_field('seminar_start');
-$seminar_d = date('D',$date_seminar);
-$seminar_m = date('M',$date_seminar);
+$date_formated = strtotime($date_seminar);
+$seminar_d = date('d',$date_formated);
+$seminar_m = date('m',$date_formated);
 echo '<div class="wrap">';
 echo '<div class="title">';
 echo the_title();
