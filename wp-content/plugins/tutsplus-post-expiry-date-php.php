@@ -31,7 +31,7 @@ function tutsplus_expiry_date_metabox_callback( $post ) { ?>
 
         <label for "tutsplus_expiry_date"><?php __('Expiry Date', 'tutsplus' ); ?></label>
 
-        <input type="text" class="MyDate" name="tutsplus_expiry_date" value=<?php echo esc_attr( $tutsplus_expiry_date ); ?> / >
+        <input type="text" class="MyDate" name="tutsplus_expiry_date" value=<?php echo esc_attr( $tutsplus_expiry_date ); ?>  >
 
     </form>
 

@@ -37,8 +37,8 @@
       <file leaf-file-name="tutsplus-post-expiry-date-php.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/tutsplus-post-expiry-date-php.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="26" column="81" lean-forward="false" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
+            <state relative-caret-position="368">
+              <caret line="33" column="125" lean-forward="false" selection-start-line="33" selection-start-column="125" selection-end-line="33" selection-end-column="125" />
               <folding />
             </state>
           </provider>
@@ -310,12 +310,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511352581482</updated>
-      <workItem from="1511352583103" duration="4199000" />
+      <workItem from="1511352583103" duration="4262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4199000" />
+    <option name="totallyTimeSpent" value="4262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -409,8 +409,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/tutsplus-post-expiry-date-php.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="81" lean-forward="false" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
+        <state relative-caret-position="368">
+          <caret line="33" column="125" lean-forward="false" selection-start-line="33" selection-start-column="125" selection-end-line="33" selection-end-column="125" />
           <folding />
         </state>
       </provider>
