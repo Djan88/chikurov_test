@@ -32,12 +32,14 @@ get_header(); ?>
             $querySeminar = new WP_Query( array(
                 'category_name' => 'seminary',
                 'posts_per_page' => '2',
-                'meta_query' => array(
-                    array(
-                        'key' => 'seminar_start',
-                        'value' => array(2017-11-23, 2017-11-24),
-                        'compare' => 'BETWEEN',
-                        'type' => 'DATE',
+                'order' => 'ASC',
+                'orderby' => 'meta_value',
+                'meta_key' => 'seminar_start',
+                'meta_query' => array (
+                    array (
+                        'key' => 'date_from',
+                        'value' => date('Y-m-d'),
+                        'compare' => '>=',
                     ),
                 ),
             ));

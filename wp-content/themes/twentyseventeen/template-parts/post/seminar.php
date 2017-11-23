@@ -17,7 +17,7 @@ echo '<div class="title">';
 echo the_title();
 echo '</div>';
 echo '<div class="content">';
-echo the_content('(Читать дальше...)');
+echo the_field('seminar_start');
 echo '</div>';
 echo '</div>';
 ?>
