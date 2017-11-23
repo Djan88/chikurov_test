@@ -11,6 +11,7 @@
  */
 
 ?>
+<?php
 echo '<div class="wrap">';
 echo '<div class="title">';
 echo the_title();
@@ -19,3 +20,4 @@ echo '<div class="content">';
 echo the_content('(Читать дальше...)');
 echo '</div>';
 echo '</div>';
+?>
