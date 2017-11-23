@@ -29,13 +29,17 @@ get_header(); ?>
 		<?php if(is_category(2)) { ?>
             <?php
             // The Query
-            $querySeminar = new WP_Query( array(
+            $querySeminar = array(
                 'category_name' => 'seminary',
                 'posts_per_page' => '2'
-            ));
-            while ($querySeminar->have_posts()) : $querySeminar->the_post();
-                get_template_part( 'template-parts/post/seminar', get_post_format() );
-            endwhile;
+            );
+            $seminars = new WP_Query( $querySeminar );
+            if ( $seminars->have_posts() ) :
+                while ( $seminars->have_posts() ) : $seminars->the_post();
+                    // Здесь выводим посты
+                    get_template_part( 'template-parts/post/seminar', get_post_format() );
+                endwhile;
+            endif;
             wp_reset_postdata();
             ?>
             <?php if (  $querySeminar->max_num_pages > 1 ) : ?>
