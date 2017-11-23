@@ -31,7 +31,9 @@ get_header(); ?>
             // The Query
             $querySeminar = new WP_Query( array(
                 'category_name' => 'seminary',
-                'posts_per_page' => '2'
+                'posts_per_page' => '2',
+                'orderby' => 'meta_value',
+                'meta_key' => 'seminar_start'
             ));
             while ($querySeminar->have_posts()) : $querySeminar->the_post();
                 get_template_part( 'template-parts/post/seminar', get_post_format() );
