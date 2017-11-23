@@ -29,7 +29,9 @@ get_header(); ?>
 		<?php if(is_category(2)) { ?>
             <?php
             // The Query
-            $query = new WP_Query();
+            $query = new WP_Query(
+                array( 'category_name' => 'seminary', 'posts_per_page' => '2' )
+            );
             while ($query->have_posts()) : $query->the_post();
                 echo '<div class="wrap">';
                 echo '<div class="title">';
