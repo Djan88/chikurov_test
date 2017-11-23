@@ -13,8 +13,8 @@
 ?>
 <?php
 $date_seminar = get_field('seminar_start');
-$seminar_d = ('dd',$date_seminar);
-$seminar_m = ('mm',$date_seminar);
+$seminar_d = date('dd',$date_seminar);
+$seminar_m = date('mm',$date_seminar);
 echo '<div class="wrap">';
 echo '<div class="title">';
 echo the_title();
