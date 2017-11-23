@@ -13,7 +13,7 @@ function tutsplus_add_expiry_date_metabox() {
         'tutsplus_expiry_date_metabox_callback',
         'post',
         'normal',
-        'default'
+        'core'
     );
 }
 add_action( 'add_meta_boxes', 'tutsplus_add_expiry_date_metabox' );
