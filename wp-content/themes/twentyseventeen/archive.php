@@ -29,27 +29,40 @@ get_header(); ?>
 		<?php if(is_category(2)) { ?>
             <?php
             // The Query
-            $querySeminars = new WP_Query(
+            $query = new WP_Query(
                 array( 'category_name' => 'seminary', 'posts_per_page' => '2' )
             );
-            while ($querySeminars->have_posts()) : $querySeminars->the_post();
-                echo '<div class="wrap">';
-                echo '<div class="title">';
-                echo the_title();
-                echo '</div>';
-                echo '<div class="content">';
-                echo the_content('(Читать дальше...)');
-                echo '</div>';
-                echo '</div>';
-            endwhile;
-            wp_reset_postdata();
-            ?>
-            <?php if (  $querySeminars->max_num_pages > 1 ) : ?>
+            if ( have_posts($query) ) : ?>
+                <?php
+                /* Start the Loop */
+                while ( have_posts() ) : the_post();
+
+                    /*
+                     * Include the Post-Format-specific template for the content.
+                     * If you want to override this in a child theme, then include a file
+                     * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+                     */
+                    get_template_part( 'template-parts/post/content', get_post_format() );
+
+                endwhile;
+
+                the_posts_pagination( array(
+                    'prev_text' => twentyseventeen_get_svg( array( 'icon' => 'arrow-left' ) ) . '<span class="screen-reader-text">' . __( 'Previous page', 'twentyseventeen' ) . '</span>',
+                    'next_text' => '<span class="screen-reader-text">' . __( 'Next page', 'twentyseventeen' ) . '</span>' . twentyseventeen_get_svg( array( 'icon' => 'arrow-right' ) ),
+                    'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'twentyseventeen' ) . ' </span>',
+                ) );
+
+            else :
+
+                get_template_part( 'template-parts/post/content', 'none' );
+
+            endif; ?>
+            <?php if (  $wp_query->max_num_pages > 1 ) : ?>
                 <script>
                     var ajaxurl = '<?php echo site_url() ?>/wp-admin/admin-ajax.php';
-                    var true_posts = '<?php echo serialize($querySeminars->query_vars); ?>';
+                    var true_posts = '<?php echo serialize($wp_query->query_vars); ?>';
                     var current_page = <?php echo (get_query_var('paged')) ? get_query_var('paged') : 1; ?>;
-                    var max_pages = '<?php echo $querySeminars->max_num_pages; ?>';
+                    var max_pages = '<?php echo $wp_query->max_num_pages; ?>';
                 </script>
                 <div id="true_loadmore">Загрузить ещё</div>
             <?php endif; ?>
