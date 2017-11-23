@@ -29,11 +29,19 @@ get_header(); ?>
 		<?php if(is_category(2)) { ?>
             <?php
             // The Query
-            $querySeminar = new WP_Query(
-                array( 'category_name' => 'seminary', 'posts_per_page' => '2' )
-            );
+            $querySeminar = new WP_Query( array(
+                'category_name' => 'seminary',
+                'posts_per_page' => '2',
+                'meta_query' => array(
+                    array(
+                        'key' => 'seminar_start',
+                        'value' => 2017-11-23,
+                        'compare' => '>=',
+                        'type' => 'DATE',
+                    ),
+                ),
+            ));
             while ($querySeminar->have_posts()) : $querySeminar->the_post();
-                $startDate = get_field('seminar_start');
                 get_template_part( 'template-parts/post/seminar', get_post_format() );
             endwhile;
             wp_reset_postdata();
