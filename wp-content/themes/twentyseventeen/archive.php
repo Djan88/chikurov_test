@@ -41,6 +41,7 @@ get_header(); ?>
                 echo '</div>';
             endwhile;
             wp_reset_postdata();
+            ?>
             <?php if (  $wp_query->max_num_pages > 1 ) : ?>
                 <script>
                     var ajaxurl = '<?php echo site_url() ?>/wp-admin/admin-ajax.php';
