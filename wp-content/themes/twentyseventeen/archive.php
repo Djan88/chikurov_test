@@ -28,7 +28,6 @@ get_header(); ?>
 
 		<?php if(is_category(2)) { ?>
             <?php
-            add_filter('posts_where', 'true_filter_by_date'); // включаем фильтр
             // The Query
             $querySeminar = new WP_Query(
                 array( 'category_name' => 'seminary', 'posts_per_page' => '2' )
@@ -38,7 +37,6 @@ get_header(); ?>
                 get_template_part( 'template-parts/post/seminar', get_post_format() );
             endwhile;
             wp_reset_postdata();
-            remove_filter('posts_where', 'true_filter_by_date');
             ?>
             <?php if (  $querySeminar->max_num_pages > 1 ) : ?>
                 <script>
