@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7b385d7-5662-46a9-ac8d-3ec441269911" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/seminar.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/seminar.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,17 +24,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="archive.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+            <state relative-caret-position="225">
+              <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seminar.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="seminar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/seminar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -109,8 +107,8 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/tutsplus-post-expiry-date-php.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyseventeen/loadmore.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/seminar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php" />
       </list>
     </option>
   </component>
@@ -369,12 +367,12 @@
       <workItem from="1511352583103" duration="5730000" />
       <workItem from="1511435654665" duration="6758000" />
       <workItem from="1511448841156" duration="1053000" />
-      <workItem from="1511450558266" duration="495000" />
+      <workItem from="1511450558266" duration="541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14036000" />
+    <option name="totallyTimeSpent" value="14082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -643,14 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/seminar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -658,6 +648,14 @@
           <folding>
             <element signature="e#6#200#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
