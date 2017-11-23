@@ -12,12 +12,17 @@
 
 ?>
 <?php
+$date_seminar = get_field('seminar_start');
+$seminar_d = ('dd',$date_seminar);
+$seminar_m = ('mm',$date_seminar);
 echo '<div class="wrap">';
 echo '<div class="title">';
 echo the_title();
 echo '</div>';
 echo '<div class="content">';
-echo the_field('seminar_start');
+echo $seminar_d;
+echo ' / ';
+echo $seminar_m;
 echo '</div>';
 echo '</div>';
 ?>
