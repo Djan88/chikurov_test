@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7b385d7-5662-46a9-ac8d-3ec441269911" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +71,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="623" column="17" lean-forward="false" selection-start-line="623" selection-start-column="17" selection-end-line="623" selection-end-column="17" />
+            <state relative-caret-position="490">
+              <caret line="624" column="21" lean-forward="false" selection-start-line="624" selection-start-column="21" selection-end-line="624" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -384,12 +383,12 @@
       <option name="presentableId" value="Default" />
       <updated>1511352581482</updated>
       <workItem from="1511352583103" duration="5730000" />
-      <workItem from="1511435654665" duration="5594000" />
+      <workItem from="1511435654665" duration="5682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11324000" />
+    <option name="totallyTimeSpent" value="11412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -552,8 +551,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="623" column="17" lean-forward="false" selection-start-line="623" selection-start-column="17" selection-end-line="623" selection-end-column="17" />
+        <state relative-caret-position="490">
+          <caret line="624" column="21" lean-forward="false" selection-start-line="624" selection-start-column="21" selection-end-line="624" selection-end-column="21" />
           <folding />
         </state>
       </provider>
