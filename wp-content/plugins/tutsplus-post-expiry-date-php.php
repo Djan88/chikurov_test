@@ -20,11 +20,11 @@ add_action( 'add_meta_boxes', 'tutsplus_add_expiry_date_metabox' );
 
 function tutsplus_expiry_date_metabox_callback( $post ) { ?>
 
-    wp_nonce_field( 'tutsplus_expiry_date_metabox_nonce', 'tutsplus_nonce' );
 
     <form action="" method="post">
 
         <?php
+        wp_nonce_field( 'tutsplus_expiry_date_metabox_nonce', 'tutsplus_nonce' );
         //retrieve metadata value if it exists
         $tutsplus_expiry_date = get_post_meta( $post->ID, 'expires', true );
         ?>
