@@ -34,7 +34,15 @@ get_header(); ?>
                 'posts_per_page' => '2',
                 'order' => 'ASC',
                 'orderby' => 'meta_value',
-                'meta_key' => 'seminar_start'
+                'meta_key' => 'seminar_start',
+                'meta_query' => array(
+                    array(
+                        'key' => 'seminar_start',
+                        'value' => date('Y-m-d'),
+                        'compare' => '>=',
+                        'type' => 'DATE'
+                    )
+                )
             ));
             while ($querySeminar->have_posts()) : $querySeminar->the_post();
                 get_template_part( 'template-parts/post/seminar', get_post_format() );
