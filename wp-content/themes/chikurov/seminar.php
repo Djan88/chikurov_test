@@ -26,7 +26,7 @@ if($seminar_end){
 } else {
  echo $seminar_start;
 }
-echo '<span class="fa fa-map-marker"></span>Город: ';
+echo ' <span class="fa fa-map-marker"></span>Город: ';
 echo $seminar_city;
 echo '<br>';
 echo '</div>';
