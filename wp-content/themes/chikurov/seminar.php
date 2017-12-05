@@ -15,8 +15,11 @@
 $seminar_start = get_field('seminar_start');
 $date_formated_start = strtotime($seminar_start);
 $seminar_start_d = date('d',$date_formated_start);
-$seminar_start_m = date('M',$date_formated_start);
+$seminar_start_m = date('m',$date_formated_start);
 $seminar_start_y = date('Y',$date_formated_start);
+if ($seminar_start_m == 12) {
+  $seminar_start_m = 'Декабря';
+}
 
 $seminar_end = get_field('seminar_end');
 $seminar_city = get_field('city');
