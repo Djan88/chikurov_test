@@ -64,7 +64,7 @@
                 'meta_query' => array(
                     array(
                         'key' => 'seminar_start',
-                        'value' => date('d-m-Y'),
+                        'value' => date('Y-m-d'),
                         'compare' => '>=',
                         'type' => 'DATE'
                     )
