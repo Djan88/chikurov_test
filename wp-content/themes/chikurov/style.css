@@ -955,6 +955,10 @@ div#true_loadmore
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.seminar_date 
+{
+    display: inline-block;
+}
 /******************************
 responsive area
 ********************************/
@@ -1123,6 +1127,10 @@ responsive area
 /* XS Portrait */
 
 @media (max-width: 479px) {
+    .seminar_date 
+    {
+        display: block;
+    }
     .header-logo {
         position: absolute;
         right: 0;
