@@ -28,7 +28,7 @@ echo $seminar_start_d;
 echo '.';
 echo $seminar_start_m;
 echo '.';
-echo $seminar_start_Y;
+echo $seminar_start_y;
 if($seminar_end){
  echo $seminar_end;
 } else {
