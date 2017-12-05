@@ -950,6 +950,11 @@ section#doctor
 {
     display: none;
 }
+div#true_loadmore 
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /******************************
 responsive area
 ********************************/
