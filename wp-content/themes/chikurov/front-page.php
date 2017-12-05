@@ -57,7 +57,7 @@
             // The Query
             $querySeminar = new WP_Query( array(
                 'category_name' => 'seminary',
-                'posts_per_page' => '2',
+                'posts_per_page' => '10',
                 'order' => 'ASC',
                 'orderby' => 'meta_value',
                 'meta_key' => 'seminar_start',
