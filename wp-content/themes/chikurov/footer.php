@@ -13,12 +13,9 @@
       </div>
     </div>
   </footer>
-
+  <?php wp_footer(); ?>
   <!-- script tags
   ============================================================= -->
-  <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.1.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/gmaps.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/smoothscroll.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/custom.js"></script>
 </body>
