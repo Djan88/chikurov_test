@@ -13,7 +13,7 @@
 ?>
 <?php
 $seminar_start = get_field('seminar_start');
-$date_formated_start = strtotime($date_seminar);
+$date_formated_start = strtotime($seminar_start);
 $seminar_start_d = date('d',$date_formated);
 $seminar_start_m = date('m',$date_formated);
 $seminar_start_y = date('Y',$date_formated);
