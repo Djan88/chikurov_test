@@ -13,14 +13,22 @@
 ?>
 <?php
 $seminar_start = get_field('seminar_start');
+$date_formated_start = strtotime($date_seminar);
+$seminar_start_d = date('d',$date_formated);
+$seminar_start_m = date('m',$date_formated);
+$seminar_start_y = date('Y',$date_formated);
+
 $seminar_end = get_field('seminar_end');
 $seminar_city = get_field('city');
 echo '<div class="seminar_item col-md-12">';
 echo '<div class="row">';
 echo '<div class="seminar_time col-md-12">';
 echo '<span class="fa fa-calendar"></span> ';
-echo $seminar_start;
-echo ' — ';
+echo $seminar_start_d;
+echo '.';
+echo $seminar_start_m;
+echo '.';
+echo $seminar_start_Y;
 if($seminar_end){
  echo $seminar_end;
 } else {
