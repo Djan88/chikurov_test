@@ -77,6 +77,7 @@ $seminar_city = get_field('city');
 echo '<div class="seminar_item col-md-12">';
 echo '<div class="row">';
 echo '<div class="seminar_time col-md-12">';
+echo '<div class="seminar_date">';
 echo '<span class="fa fa-calendar"></span> ';
 echo $seminar_start_d;
 echo $seminar_start_m;
@@ -91,6 +92,7 @@ if($seminar_end){
  echo $seminar_start_m;
  echo $seminar_start_y;
 }
+echo '</div>'
 echo ' <span class="fa fa-map-marker"></span>Город: ';
 echo $seminar_city;
 echo '<br>';
