@@ -17,6 +17,7 @@
   <!-- script tags
   ============================================================= -->
   <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/js/loadmore.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/custom.js"></script>
 </body>
 </html>
