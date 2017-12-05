@@ -40,15 +40,3 @@ echo '</div>';
 echo '</div>';
 echo '</div>';
 ?>
-
-<div class="seminar_item col-md-12">
-  <div class="row">
-    <div class="seminar_time col-md-12">
-      <span class="fa fa-calendar"></span> 29.11.2017 — 1.12.2017
-      <span class="fa fa-map-marker"></span>Город:  Москва<br>
-    </div>
-    <div class="seminar_title col-md-12">
-      <a href="seminar.html">Базовый семинар по Биологическому центрированию</a>
-    </div>
-  </div>
-</div>
