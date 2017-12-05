@@ -33,7 +33,7 @@ echo '</div>';
 echo '<div class="seminar_title col-md-12">';
 echo '<a target="_blank" href="';
 echo the_permalink();
-echo '">'
+echo '">';
 echo the_title();
 echo '</a>';
 echo '</div>';
