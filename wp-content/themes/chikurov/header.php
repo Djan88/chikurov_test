@@ -52,7 +52,7 @@
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     
                     <ul class="nav navbar-nav navbar-left">
-                      <li><a class="menu active" href="#seminars">Семинары</a></li>
+                      <li><a class="menu active" href="/#seminars">Семинары</a></li>
                       <!-- <li><a class="menu" href="#about">Биологическое центрирование</a></li> -->
                       <li><a class="menu" href="#service">Визардтерапия</a></li>
                       <li><a class="menu" href="#team">Заказать видеокурс</a></li>
@@ -66,7 +66,7 @@
         </div>
         <div class="col-xs-2 col-sm-2 col-md-1 header-logo center-block">
           <br>
-          <a href="index.html"><img src="<?php bloginfo('template_url'); ?>/img/bc_2.png" alt="" class="img-responsive logo"></a>
+          <a href="/"><img src="<?php bloginfo('template_url'); ?>/img/bc_2.png" alt="" class="img-responsive logo"></a>
         </div>
       </div>
     </div>
