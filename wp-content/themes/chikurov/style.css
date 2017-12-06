@@ -984,7 +984,10 @@ div#true_loadmore
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+.bc .content_img.pull-left
+{
+    max-width: 235px;
+}
 /******************************
 responsive area
 ********************************/
