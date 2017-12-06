@@ -68,7 +68,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2><?php the_title(); ?></h2>
+            <h2 class="page_title"><?php the_title(); ?></h2>
+            <div class="hidden page_url"><?php the_permalink(); ?></div>
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
             <div class="seminar_params clearfix">
