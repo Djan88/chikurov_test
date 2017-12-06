@@ -138,10 +138,15 @@
           </div>
         </div>
       </div>
-    </section><!-- end of doctor section -->
-    <section class="doctor seminar text-center" id="doctor">
-      <div id="seminar_map" style="height: 300px;"></div>
     </section>
+    <!-- end of doctor section -->
+    <?php $coords_seminar = get_field('coords');?>
+    <?php if ($coords_seminar) { ?>
+      <section class="doctor seminar text-center" id="doctor">
+        <?php $seminar_map = "[showyamap] [placemark coordinates='".$coords_seminar."'/] [/showyamap]";?>
+        <?php echo do_shortcode($seminar_map); ?>
+      </section>
+    <?php } ?>
   <?php endwhile; else: ?>
     <?php _e('Sorry, no posts matched your criteria.'); ?>
   <?php endif; ?>
