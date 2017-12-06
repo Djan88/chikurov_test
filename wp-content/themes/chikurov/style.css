@@ -997,7 +997,7 @@ responsive area
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .navbar-default .navbar-nav>li>a {
-        font-size: 17px;
+        font-size: 15px;
         padding: 14px 12px;
     }
     .main-menu {
@@ -1049,7 +1049,7 @@ responsive area
         max-width: 100px;
     }
     .navbar-default .navbar-nav>li>a {
-        font-size: 18px;
+        font-size: 16px;
         padding: 10px 8px;
     }
     .carousel-caption h1 {
@@ -1165,6 +1165,14 @@ responsive area
 /* XS Portrait */
 
 @media (max-width: 479px) {
+    .main-menu 
+    {
+        margin-top: 0;
+    }
+    .navbar-default .navbar-toggle 
+    {
+        margin-top: 15px;
+    }
     .menu_footer {
         top: 55px;
     }
