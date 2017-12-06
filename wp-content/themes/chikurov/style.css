@@ -1028,6 +1028,11 @@ div#true_loadmore
 {
     margin-bottom: 0;
 }
+.rc-anchor.rc-anchor-normal.rc-anchor-light {
+    background: #ddeff7;
+    border: 1px solid #42b3e5;
+    border-radius: 6px;
+}
 /******************************
 responsive area
 ********************************/
