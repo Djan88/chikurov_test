@@ -1017,6 +1017,7 @@ div#true_loadmore
 .order_seminar input[type="text"],.order_seminar input[type="email"],.order_seminar input[type="tel"]
 {
     font-size: 18px;
+    max-width: 100%;
 }
 /******************************
 responsive area
