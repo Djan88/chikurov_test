@@ -769,6 +769,7 @@ p b
 .media_area_item i
 {
     bottom: 0;
+    position: absolute;
 }
 .media_area_item.media_area_item-instagram i
 {
@@ -1254,7 +1255,7 @@ responsive area
     }
     .navbar-default .navbar-toggle 
     {
-        margin-top: 15px;
+        margin-top: 20px;
     }
     .carousel-caption {
         margin-top: -60px;
