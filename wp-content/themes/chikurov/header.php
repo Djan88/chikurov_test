@@ -52,7 +52,7 @@
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     
                     <ul class="nav navbar-nav navbar-left">
-                      <li><a class="menu active" href="/#seminars">Семинары</a></li>
+                      <li><a class="menu" href="/#seminars">Семинары</a></li>
                       <!-- <li><a class="menu" href="#about">Биологическое центрирование</a></li> -->
                       <li><a class="menu video_cours" href="">Заказать видеокурс</a></li>
                       <li><a class="menu" href="http://www.chikurov.com/reestr/">Реестр специалистов</a></li>
