@@ -25,8 +25,7 @@
   <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/loadmore.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/custom.js"></script>
-  <script>
-    console.log('status');
-  </script>
+  <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.1.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
 </body>
 </html>
