@@ -137,6 +137,7 @@
             ?>
           </div>
           <div class="col-md-12 order_seminar">
+            <h4 class="content_center">Записаться на семинар</h4>
             <div class="row">
               <?php echo do_shortcode('[contact-form-7 id="4" title="Запись на семинар"]'); ?>
             </div>
