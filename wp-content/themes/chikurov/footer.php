@@ -10,6 +10,7 @@
           <a target="_blank" href="https://www.youtube.com/user/ThePractik01/"><i class="fa fa-youtube" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.instagram.com/yuchikurov/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
+        <div class="clearfix"></div>
         <div class="menu_footer">
           <a href="#">Расписание семинаров</a>
           <a href="#">Визардтерапия</a>
