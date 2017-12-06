@@ -13,8 +13,8 @@
         <div class="clearfix"></div>
         <div class="menu_footer">
           <a href="#">Расписание семинаров</a>
-          <a href="#">Визардтерапия</a>
-          <a href="#">Реестр специалистов</a>
+          <a href="/wizardterapiya">Визардтерапия</a>
+          <a href="/#bc">Биологическое центрирование</a>
         </div>
       </div>
     </div>
