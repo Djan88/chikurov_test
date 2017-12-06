@@ -1147,6 +1147,9 @@ responsive area
     .contact-caption {
         margin-top: 140px;
     }
+    .menu_footer a {
+        font-size: 18px;
+    }
 }
 
 /* XS Portrait */
@@ -1154,6 +1157,9 @@ responsive area
 @media (max-width: 479px) {
     .menu_footer {
         top: 55px;
+    }
+    .menu_footer a {
+        font-size: 18px;
     }
     .seminar_params .pull-left 
     {
