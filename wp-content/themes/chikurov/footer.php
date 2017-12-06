@@ -1,6 +1,6 @@
   <footer class="footer clearfix">
     <div class="container">
-      <div class="row">
+      <div class="row footer-area">
         <div class="col-xs-6 footer-para">
           <p>&copy; Юрий Чикуров</p>
         </div>
@@ -9,6 +9,11 @@
           <a target="_blank" href="https://www.facebook.com/profile.php?id=100012253260685&pnref"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.youtube.com/user/ThePractik01/"><i class="fa fa-youtube" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.instagram.com/yuchikurov/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <div class="menu_footer">
+          <a href="#">Расписание семинаров</a>
+          <a href="#">Визардтерапия</a>
+          <a href="#">Реестр специалистов</a>
         </div>
       </div>
     </div>
