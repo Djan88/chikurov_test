@@ -1129,6 +1129,14 @@ responsive area
 /* XS Portrait */
 
 @media (max-width: 479px) {
+    .seminar_params .pull-left 
+    {
+        float: none!important;
+    }
+    .seminar_params .pull-right 
+    {
+        float: none!important;
+    }
     .seminar_date 
     {
         display: block;
