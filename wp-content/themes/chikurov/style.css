@@ -1014,6 +1014,10 @@ div#true_loadmore
     margin-top: -1px;
     border-top: 1px solid #42b3e5;
 }
+.order_seminar input[type="text"],.order_seminar input[type="email"],.order_seminar input[type="tel"]
+{
+    font-size: 18px;
+}
 /******************************
 responsive area
 ********************************/
