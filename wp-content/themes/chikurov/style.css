@@ -1071,6 +1071,9 @@ responsive area
     .contact-caption {
         margin-top: 110px;
     }
+    .menu_footer {
+        top: 55px;
+    }
 }
 
 /* xs */
