@@ -1152,6 +1152,9 @@ responsive area
 /* XS Portrait */
 
 @media (max-width: 479px) {
+    .menu_footer {
+        top: 55px;
+    }
     .seminar_params .pull-left 
     {
         float: none!important;
