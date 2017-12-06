@@ -70,7 +70,7 @@
           <div class="col-md-12">
             <h2><?php the_title(); ?></h2>
           </div>
-          <div class="col-md-6 col-sm-6 col-xs-12 seminar_article">
+          <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
             <div class="seminar_params clearfix">
               <div class="pull-left">
                 <span class="fa fa-calendar"></span> Дата проведения:
@@ -107,7 +107,7 @@
             </div>
             <div class="pull-right btn btn-primary">Записаться</div>
           </div>
-          <div class="col-md-6 col-sm-6 col-xs-12 seminar_article">
+          <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
             <div class="seminar_params clearfix">
               <div class="pull-left">
                 <span class="fa fa-user"></span> Читает:
