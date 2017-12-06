@@ -12,7 +12,7 @@
         </div>
         <div class="clearfix"></div>
         <div class="menu_footer">
-          <a href="#">Расписание семинаров</a>
+          <a href="/#seminars">Расписание семинаров</a>
           <a href="/wizardterapiya">Визардтерапия</a>
           <a href="/#bc">Биологическое центрирование</a>
         </div>
