@@ -103,7 +103,7 @@
               <div class="pull-left">
                 <span class="fa fa-map-marker"></span> Место проведения:
               </div>
-              <span class="pull-right"><?php the_field('adres'); ?></span>
+              <span class="pull-right"><?php the_field('city'); ?> <?php the_field('adres'); ?></span>
             </div>
             <div class="pull-right btn btn-primary">Записаться</div>
           </div>
