@@ -54,9 +54,9 @@
                     <ul class="nav navbar-nav navbar-left">
                       <li><a class="menu active" href="/#seminars">Семинары</a></li>
                       <!-- <li><a class="menu" href="#about">Биологическое центрирование</a></li> -->
-                      <li><a class="menu" href="#service">Визардтерапия</a></li>
-                      <li><a class="menu" href="#team">Заказать видеокурс</a></li>
-                      <li><a class="menu" href="#kontakts">Контакты</a></li>
+                      <li><a class="menu" href="/wizardterapiya">Визардтерапия</a></li>
+                      <li><a class="menu video_cours" href="">Заказать видеокурс</a></li>
+                      <li><a class="menu" href="/kontakty">Контакты</a></li>
                     </ul>
                   </div><!-- /navbar-collapse -->
                 </div><!-- / .container-fluid -->
