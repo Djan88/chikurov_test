@@ -961,6 +961,22 @@ div#true_loadmore
 {
     display: inline-block;
 }
+.row.footer-area 
+{
+    position: relative;
+}
+.menu_footer 
+{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.menu_footer a
+{
+    font-size: 15px;
+}
 /******************************
 responsive area
 ********************************/
