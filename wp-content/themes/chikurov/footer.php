@@ -26,13 +26,7 @@
   <script src="<?php bloginfo('template_url'); ?>/js/loadmore.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/custom.js"></script>
   <script>
-    jQuery(document).ready(function () {
-      console.log('status');
-      jQuery('.seminar_title').val(jQuery('.page_title').text());
-      jQuery('.seminar_url').val(jQuery('.page_url').text());
-      console.log(jQuery('.page_title').text());
-      console.log(jQuery('.page_url').text());
-    });
+    console.log('status');
   </script>
 </body>
 </html>
