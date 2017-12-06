@@ -14,6 +14,7 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
   <?php wp_head(); ?>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
   
