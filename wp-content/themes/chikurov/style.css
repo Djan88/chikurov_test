@@ -1024,6 +1024,10 @@ div#true_loadmore
     background: #ddeff7;
     border-radius: 6px;
 }
+.order_seminar h4
+{
+    margin-bottom: 0;
+}
 /******************************
 responsive area
 ********************************/
