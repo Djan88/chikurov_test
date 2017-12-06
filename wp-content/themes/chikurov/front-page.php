@@ -2,11 +2,14 @@
   <section class="doctor text-center" id="doctor">
     <div class="container">
       <div class="row">
-        <!-- <div class="col-md-12"><h2>Чикуров Юрий Валентинович</h2></div> -->
-        <?php
-        the_content(__('(more...)'));
-        edit_post_link(__('Edit This'));
-        ?>
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+          <?php
+          the_content(__('(more...)'));
+          edit_post_link(__('Edit This'));
+          ?>
+        <?php endwhile; else: ?>
+          <?php _e('Sorry, no posts matched your criteria.'); ?>
+        <?php endif; ?>
       </div>
     </div>
   </section><!-- end of doctor section -->
