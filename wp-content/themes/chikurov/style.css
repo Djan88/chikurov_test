@@ -764,6 +764,23 @@ p b
     width: 30px;
     height: 30px;
     text-align: center;
+    position: relative;
+}
+.media_area_item i
+{
+    bottom: 0;
+}
+.media_area_item.media_area_item-instagram i
+{
+    bottom: -2px;
+}
+.media_area_item.media_area_item-facebook i
+{
+    bottom: -1px;
+}
+.media_area_item.media_area_item-vk i
+{
+    bottom: -2px;
 }
 .media_area .fa-instagram:before {
     content: "\f16d";
@@ -786,7 +803,7 @@ p b
 }
 .media_area
 {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .main-menu
 {
