@@ -1129,6 +1129,10 @@ responsive area
     .menu_footer {
         top: 55px;
     }
+    .wpcf7-form-control.g-recaptcha.wpcf7-recaptcha div {
+        margin: auto;
+        margin-top: 15px;
+    }
 }
 
 /* xs */
@@ -1204,6 +1208,10 @@ responsive area
     }
     .menu_footer a {
         font-size: 18px;
+    }
+    .wpcf7-form-control.g-recaptcha.wpcf7-recaptcha div {
+        margin: auto;
+        margin-top: 15px;
     }
 }
 
@@ -1369,5 +1377,9 @@ responsive area
     }
     .footer p {
         font-size: 10px;
+    }
+    .wpcf7-form-control.g-recaptcha.wpcf7-recaptcha div {
+        margin: auto;
+        margin-top: 15px;
     }
 }
