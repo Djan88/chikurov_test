@@ -1222,11 +1222,11 @@ responsive area
     }
     .contacts_email, .contacts_phone 
     {
-        font-size: 13px;
+        font-size: 17px;
     }
     .contacts_home 
     {
-        font-size: 17px;
+        font-size: 20px;
     }
     .menu_footer {
         top: 55px;
@@ -1358,13 +1358,14 @@ responsive area
     {
         float: none!important;
     }
-    .contacts_email, .contacts_phone 
+    .contacts_email.pull-left, .contacts_phone.pull-right
     {
-        font-size: 11px;
+        font-size: 17px;
+        float: none!important
     }
     .contacts_home 
     {
-        font-size: 14px;
+        font-size: 20px;
     }
     .menu_footer {
         top: 55px;
