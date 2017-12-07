@@ -1366,6 +1366,7 @@ responsive area
     .contacts_home 
     {
         font-size: 20px;
+        display: block;
     }
     .menu_footer {
         top: 55px;
