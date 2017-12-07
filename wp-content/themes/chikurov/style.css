@@ -804,15 +804,29 @@ p b
 }
 .media_area
 {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }
 .main-menu
 {
-    margin-top: 15px;
+    /*margin-top: 15px;*/
+}
+.header-logo.center-block 
+{
+    margin-top: -15px;
 }
 .media_area_item i 
 {
     font-size: 22px;
+}
+.contacts_phone 
+{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.contacts_home
+{
+    text-align: center;
+    font-size: 18px;
 }
 .phone_i_email 
 {
