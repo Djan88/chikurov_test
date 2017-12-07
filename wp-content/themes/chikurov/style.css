@@ -1070,6 +1070,7 @@ ul.nav.navbar-nav.navbar-left
 {
     width: 100%;
     text-align: center;
+    white-space: nowrap;
 }
 .navbar-nav>li 
 {
@@ -1158,7 +1159,11 @@ responsive area
     }
     .navbar-default .navbar-nav>li>a {
         font-size: 16px;
-        padding: 10px 8px;
+        padding: 5px;
+    }
+    .container-fluid, .navbar-collapse, .main-menu
+    {
+        padding: 0;
     }
     .carousel-caption h1 {
         font-size: 90px;
@@ -1228,7 +1233,7 @@ responsive area
     }
     .navbar-header {
         position: absolute;
-        top: -55px;
+        /*top: -55px;*/
         right: 0;
     }
     .main-menu {
