@@ -23,7 +23,6 @@
   <header class="top-header">
     <div class="container">
       <div class="row contacts">
-        <div class="col-md-4 contacts_phone">+7 (495) 135-25-48 | <a class="contacts_email" href="mailto:info@chikurov.com">info@chikurov.com</a></div>
         <div class="col-md-4 contacts_home"><a href="/">Школа Доктора Чикурова</a></div>
       </div>
       <div class="row">
@@ -32,14 +31,10 @@
           <a target="_blank" href="https://www.facebook.com/profile.php?id=100012253260685&pnref" class="media_area_item media_area_item-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.youtube.com/user/ThePractik01/" class="media_area_item media_area_item-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.instagram.com/yuchikurov/" class="media_area_item media_area_item-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <span><a class="contacts_email" href="mailto:info@chikurov.com">info@chikurov.com</a> | +7 (495) 135-25-48</span>
         </div>
         <div class="col-md-9 col-xs-12 main-menu">
           <div class="row">
-            <!--<div class="col-md-12 contact_area">
-              <div class="row">
-                 <div class="col-md-8 phone_i_email pull-right"><a href="mailto:info@chikurov.com">info@chikurov.com</a> | +7 (495) 135-25-48</div> 
-              </div>
-            </div>-->
             <div class="col-md-12">
               <nav class="navbar navbar-default">
                 <div class="container-fluid nav-bar">
