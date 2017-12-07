@@ -106,7 +106,7 @@
               </div>
               <span class="pull-right"><?php the_field('city'); ?> <?php the_field('adres'); ?></span>
             </div>
-            <div class="pull-right seminar_order btn btn-primary">Записаться</div>
+            <a href="#order" class="pull-right seminar_order btn btn-primary">Записаться</a>
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
             <div class="seminar_params clearfix">
@@ -139,7 +139,7 @@
             ?>
           </div>
           <div class="col-md-12 order_seminar">
-            <h4 class="content_center">Записаться на семинар</h4>
+            <h4 class="content_center" id="order">Записаться на семинар</h4>
             <div class="row">
               <?php echo do_shortcode('[contact-form-7 id="4" title="Запись на семинар"]'); ?>
             </div>

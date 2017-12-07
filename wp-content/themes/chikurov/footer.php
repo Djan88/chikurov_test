@@ -27,5 +27,18 @@
   <script src="<?php bloginfo('template_url'); ?>/js/custom.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.1.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
+  <div class="modal fade" id="videoCours" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="videoCoursLabel">Заказать видеокурс</h4>
+              </div>
+              <div class="modal-body">
+                  <?php echo do_shortcode('[contact-form-7 id="159" title="Заказ видео курса"]')?>
+              </div>
+          </div>
+      </div>
+  </div>
 </body>
 </html>
