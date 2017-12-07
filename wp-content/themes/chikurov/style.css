@@ -765,6 +765,7 @@ p b
     height: 30px;
     text-align: center;
     position: relative;
+    white-space: nowrap;
 }
 .media_area_item i
 {
