@@ -23,8 +23,8 @@
   <header class="top-header">
     <div class="container">
       <div class="row contacts">
-        <div class="col-md-4 contacts_phone"><a class="contacts_email" href="mailto:info@chikurov.com">info@chikurov.com</a> | +7 (495) 135-25-48</div>
-        <div class="col-md-4 contacts_home"><a href="/">Школа Доктора Чикурова</a></div>
+        <div class="col-md-4 contacts_phone pull-left"><a class="contacts_email" href="mailto:info@chikurov.com">info@chikurov.com</a> | +7 (495) 135-25-48</div>
+        <div class="col-md-4 contacts_home pull-right"><a href="/">Школа Доктора Чикурова</a></div>
       </div>
       <div class="row">
         <div class="media_area col-md-2 col-xs-4">
