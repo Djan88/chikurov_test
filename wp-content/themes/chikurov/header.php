@@ -23,7 +23,7 @@
   <header class="top-header">
     <div class="container">
       <div class="row contacts">
-        <div class="col-md-4 contacts">
+        <div class="col-md-6 col-md-offset-3 contacts">
           <a class="contacts_email" href="mailto:info@chikurov.com">info@chikurov.com</a>
           <a class="contacts_home" href="/"> Школа Доктора Чикурова </a>
           <span class="contacts_phone">+7 (495) 135-25-48</span>
