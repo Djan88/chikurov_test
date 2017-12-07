@@ -1077,6 +1077,10 @@ ul.nav.navbar-nav.navbar-left
      float: none; 
     display: inline-block;
 }
+.contacts_wrap
+{
+    position: relative;
+}
 /******************************
 responsive area
 ********************************/
@@ -1229,7 +1233,7 @@ responsive area
         right: 0;
         left: 0;
         top: 0;
-        max-width: 100px;
+        max-width: 80px;
     }
     .navbar
     {
@@ -1248,7 +1252,7 @@ responsive area
         min-height: 80px;
     }
     .navbar-default .navbar-nav>li>a {
-        font-size: 20px;
+        font-size: 15px;
     }
     .carousel-caption {
         margin-top: -110px;
@@ -1293,7 +1297,26 @@ responsive area
         margin: auto;
         margin-top: 15px;
     }
+    .navbar-default .navbar-nav>li>a 
+    {
+        font-size: 13px;
+    }
+    .media_area 
+    {
+        white-space: nowrap;
+        position: absolute;
+        top: 45px;
+        width: 180px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .header-logo
+    {
+        display: none;
+    }
 }
+@media (max-width: 670px) {
 
 /* XS Portrait */
 

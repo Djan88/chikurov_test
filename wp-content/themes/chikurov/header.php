@@ -22,7 +22,7 @@
   header section -->
   <header class="top-header">
     <div class="container">
-      <div class="row">
+      <div class="row contacts_wrap">
         <div class="media_area col-md-1 col-xs-1 col-sm-2">
           <a target="_blank" href="http://vk.com/id139677998" class="media_area_item media_area_item-vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.facebook.com/profile.php?id=100012253260685&pnref" class="media_area_item media_area_item-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
