@@ -33,7 +33,7 @@
           <a target="_blank" href="https://www.youtube.com/user/ThePractik01/" class="media_area_item media_area_item-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.instagram.com/yuchikurov/" class="media_area_item media_area_item-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
-        <div class="col-md-9 col-xs-12 main-menu">
+        <div class="col-md-8 col-xs-12 main-menu">
           <div class="row">
             <!--<div class="col-md-12 contact_area">
               <div class="row">
@@ -61,7 +61,6 @@
                       <!-- <li><a class="menu" href="#about">Биологическое центрирование</a></li> -->
                       <li><a class="menu video_cours" href="">Заказать видеокурс</a></li>
                       <li><a class="menu" target="_blank" href="http://www.chikurov.com/reestr/">Реестр специалистов</a></li>
-                      <li><a class="menu" href="/kontakty">Контакты</a></li>
                     </ul>
                   </div><!-- /navbar-collapse -->
                 </div><!-- / .container-fluid -->
@@ -69,7 +68,7 @@
             </div>     
           </div>
         </div>
-        <div class="col-xs-2 col-sm-2 col-md-1 header-logo center-block">
+        <div class="col-xs-2 col-sm-2 col-md-2 header-logo center-block">
           <br>
           <a href="/"><img src="<?php bloginfo('template_url'); ?>/img/bc_2.png" alt="" class="img-responsive logo"></a>
         </div>
