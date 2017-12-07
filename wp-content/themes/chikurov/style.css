@@ -835,10 +835,11 @@ p b
 .contacts_email 
 {
     font-size: 16px;
+    padding-top: 5px;
 }
 .contacts_phone 
 {
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 16px;
     color: #337ab7;
 }
