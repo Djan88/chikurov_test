@@ -1212,7 +1212,7 @@ responsive area
 @media (min-width: 480px) and (max-width: 767px) {
     .main-menu
     {
-        margin-top: 0;
+        margin-top: 25px;
     }
     .contacts_email, .contacts_phone 
     {
@@ -1317,6 +1317,25 @@ responsive area
     }
 }
 @media (max-width: 670px) {
+    .navbar-default .navbar-nav>li>a 
+    {
+        font-size: 13px;
+    }
+    .media_area 
+    {
+        white-space: nowrap;
+        position: absolute;
+        top: 45px;
+        width: 180px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .header-logo
+    {
+        display: none;
+    }
+}
 
 /* XS Portrait */
 
