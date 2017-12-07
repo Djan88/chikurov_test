@@ -1349,15 +1349,6 @@ responsive area
     {
         display: none;
     }
-}
-
-/* XS Portrait */
-
-@media (max-width: 479px) {
-    .seminar_order
-    {
-        float: none!important;
-    }
     .contacts_email.pull-left, .contacts_phone.pull-right
     {
         font-size: 17px;
@@ -1367,6 +1358,15 @@ responsive area
     {
         font-size: 20px;
         display: block;
+    }
+}
+
+/* XS Portrait */
+
+@media (max-width: 479px) {
+    .seminar_order
+    {
+        float: none!important;
     }
     .menu_footer {
         top: 55px;
