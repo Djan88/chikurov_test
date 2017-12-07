@@ -29,7 +29,7 @@
           <a target="_blank" href="https://www.youtube.com/user/ThePractik01/" class="media_area_item media_area_item-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.instagram.com/yuchikurov/" class="media_area_item media_area_item-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
-        <div class="col-md-6 col-md-offset-2 col-sm-8 col-sm-offset-1 contacts">
+        <div class="col-md-6 col-md-offset-2 col-sm-8 col-sm-offset-1 col-xs-8 col-xs-offset-2 contacts">
           <a class="contacts_email" href="mailto:info@chikurov.com">info@chikurov.com</a>
           <a class="contacts_home" href="/"> Школа Доктора Чикурова </a>
           <span class="contacts_phone">+7 (495) 135-25-48</span>
@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-xs-12 col-sm-8 col-sm-offset-3 main-menu">
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-3 col-xs-12 main-menu">
           <div class="row">
             <div class="col-md-12">
               <nav class="navbar navbar-default">
