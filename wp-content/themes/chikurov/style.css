@@ -1350,11 +1350,11 @@ responsive area
 @media (max-width: 479px) {
     .contacts_email, .contacts_phone 
     {
-        font-size: 12px;
+        font-size: 11px;
     }
     .contacts_home 
     {
-        font-size: 15px;
+        font-size: 14px;
     }
     .menu_footer {
         top: 55px;
