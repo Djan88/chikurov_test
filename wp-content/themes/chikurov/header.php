@@ -23,7 +23,7 @@
   <header class="top-header">
     <div class="container">
       <div class="row">
-        <div class="media_area col-md-1 col-xs-4">
+        <div class="media_area col-md-1 col-xs-1 col-sm-2">
           <a target="_blank" href="http://vk.com/id139677998" class="media_area_item media_area_item-vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.facebook.com/profile.php?id=100012253260685&pnref" class="media_area_item media_area_item-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.youtube.com/user/ThePractik01/" class="media_area_item media_area_item-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
@@ -34,13 +34,13 @@
           <a class="contacts_home" href="/"> Школа Доктора Чикурова </a>
           <span class="contacts_phone">+7 (495) 135-25-48</span>
         </div>
-        <div class="col-xs-2 col-sm-2 col-sm-offset-1 col-md-1 col-md-offset-2 header-logo">
+        <div class="col-xs-2 col-sm-1 col-sm-offset-1 col-md-1 col-md-offset-2 header-logo">
           <br>
           <a href="/"><img src="<?php bloginfo('template_url'); ?>/img/bc_2.png" alt="" class="img-responsive logo"></a>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-xs-12 main-menu">
+        <div class="col-md-8 col-md-offset-2 col-xs-1 col-sm-12 main-menu">
           <div class="row">
             <div class="col-md-12">
               <nav class="navbar navbar-default">

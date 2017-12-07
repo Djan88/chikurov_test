@@ -1134,6 +1134,14 @@ responsive area
 /* sm */
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .contacts_email, .contacts_phone 
+    {
+        font-size: 13px;
+    }
+    .contacts_home 
+    {
+        font-size: 17px;
+    }
     .top-header .container
     {
         position: relative;
@@ -1189,6 +1197,14 @@ responsive area
 /* xs */
 
 @media (min-width: 480px) and (max-width: 767px) {
+    .contacts_email, .contacts_phone 
+    {
+        font-size: 13px;
+    }
+    .contacts_home 
+    {
+        font-size: 17px;
+    }
     .menu_footer {
         top: 55px;
     }
@@ -1269,6 +1285,14 @@ responsive area
 /* XS Portrait */
 
 @media (max-width: 479px) {
+    .contacts_email, .contacts_phone 
+    {
+        font-size: 13px;
+    }
+    .contacts_home 
+    {
+        font-size: 17px;
+    }
     .menu_footer {
         top: 55px;
     }
