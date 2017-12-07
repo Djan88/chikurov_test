@@ -829,6 +829,7 @@ p b
     display: inline-block;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+    white-space: nowrap;
 }
 .contacts_email 
 {
@@ -1083,18 +1084,14 @@ responsive area
 /* md */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    /*.contacts_email 
+    .contacts_email, .contacts_phone 
     {
-        font-size: 15px;
+        font-size: 13px;
     }
     .contacts_home 
     {
-        font-size: 19px;
+        font-size: 17px;
     }
-    .contacts_phone 
-    {
-        font-size: 15px;
-    }*/
     .navbar-default .navbar-nav>li>a {
         font-size: 15px;
         padding: 14px 12px;
