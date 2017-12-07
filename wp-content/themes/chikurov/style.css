@@ -1350,11 +1350,11 @@ responsive area
 @media (max-width: 479px) {
     .contacts_email, .contacts_phone 
     {
-        font-size: 13px;
+        font-size: 12px;
     }
     .contacts_home 
     {
-        font-size: 17px;
+        font-size: 15px;
     }
     .menu_footer {
         top: 55px;
@@ -1419,12 +1419,12 @@ responsive area
         right: 10%;
     }
     .navbar-default .navbar-nav>li>a {
-        font-size: 16px;
+        font-size: 10px;
         text-align: left;
     }
     .main-menu 
     {
-        margin-top: 0;
+        margin-top: 25px;
     }
     .navbar-default .navbar-toggle 
     {
