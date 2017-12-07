@@ -22,6 +22,11 @@
   header section -->
   <header class="top-header">
     <div class="container">
+      <div class="row contacts">
+        <div class="col-md-4 contacts_phone">+7 (495) 135-25-48</div>
+        <div class="col-md-4"><a class="contacts_email" href="mailto:info@chikurov.com">info@chikurov.com</a></div>
+        <div class="col-md-4"><a class="contacts_home" href="/">Школа Доктора Чикурова</a></div>
+      </div>
       <div class="row">
         <div class="media_area col-md-2 col-xs-4">
           <a target="_blank" href="http://vk.com/id139677998" class="media_area_item media_area_item-vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
