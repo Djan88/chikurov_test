@@ -1082,6 +1082,10 @@ ul.nav.navbar-nav.navbar-left
 {
     position: relative;
 }
+.modal-body input 
+{
+    max-width: 100%;
+}
 /******************************
 responsive area
 ********************************/
