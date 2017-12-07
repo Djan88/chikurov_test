@@ -1349,6 +1349,10 @@ responsive area
 /* XS Portrait */
 
 @media (max-width: 479px) {
+    .seminar_order
+    {
+        float: none!important;
+    }
     .contacts_email, .contacts_phone 
     {
         font-size: 11px;

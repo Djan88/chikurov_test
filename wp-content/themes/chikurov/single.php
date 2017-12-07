@@ -106,7 +106,7 @@
               </div>
               <span class="pull-right"><?php the_field('city'); ?> <?php the_field('adres'); ?></span>
             </div>
-            <div class="pull-right btn btn-primary">Записаться</div>
+            <div class="pull-right seminar_order btn btn-primary">Записаться</div>
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
             <div class="seminar_params clearfix">
