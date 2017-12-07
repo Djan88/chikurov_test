@@ -818,21 +818,33 @@ p b
 {
     font-size: 22px;
 }
+.contacts 
+{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #42b3e5;
+    border-right: 1px solid #42b3e5;
+    border-left: 1px solid #42b3e5;
+    background: #f5fcff;
+    display: inline-block;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.contacts_email 
+{
+    font-size: 16px;
+}
 .contacts_phone 
 {
     margin-top: 10px;
     font-size: 16px;
+    color: #337ab7;
 }
 .contacts_home
 {
-    text-align: right;
-    margin-top: 10px;
-}
-.contacts_home a
-{
-    text-align: center;
-    font-size: 18px;
-    color: #555;
+    font-size: 20px;
+    padding: 0 10px;
+    color: #000;
 }
 .phone_i_email 
 {
