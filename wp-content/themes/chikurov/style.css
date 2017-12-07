@@ -826,7 +826,13 @@ p b
 .contacts_home
 {
     text-align: center;
+    margin-top: 10px;
+}
+.contacts_home
+{
+    text-align: center;
     font-size: 18px;
+    color: #555;
 }
 .phone_i_email 
 {
