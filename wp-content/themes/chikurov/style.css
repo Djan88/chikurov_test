@@ -1339,7 +1339,7 @@ responsive area
     {
         white-space: nowrap;
         position: absolute;
-        top: 45px;
+        top: 73px;
         width: 180px;
         left: 0;
         right: 0;
@@ -1348,6 +1348,10 @@ responsive area
     .header-logo
     {
         display: none;
+    }
+    .contacts_email.pull-left:after
+    {
+        content: ' | ';
     }
     .contacts_email.pull-left, .contacts_phone.pull-right
     {
