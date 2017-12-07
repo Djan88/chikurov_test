@@ -806,9 +806,9 @@ p b
 {
     white-space: nowrap;
 }
-.main-menu
+.main-menu 
 {
-    /*margin-top: 15px;*/
+    margin-top: -32px;
 }
 .header-logo.center-block 
 {
@@ -1065,6 +1065,16 @@ div#true_loadmore
     border: 1px solid #42b3e5;
     border-radius: 6px;
 }
+ul.nav.navbar-nav.navbar-left 
+{
+    width: 100%;
+    text-align: center;
+}
+.navbar-nav>li 
+{
+     float: none; 
+    display: inline-block;
+}
 /******************************
 responsive area
 ********************************/
@@ -1073,6 +1083,18 @@ responsive area
 /* md */
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    /*.contacts_email 
+    {
+        font-size: 15px;
+    }
+    .contacts_home 
+    {
+        font-size: 19px;
+    }
+    .contacts_phone 
+    {
+        font-size: 15px;
+    }*/
     .navbar-default .navbar-nav>li>a {
         font-size: 15px;
         padding: 14px 12px;
@@ -1081,7 +1103,7 @@ responsive area
         margin-top: 5px;
     }
     .media_area {
-        margin-top: 20px;
+        margin-top: 5px;
     }
     .carousel-caption h1 {
         font-size: 120px;
