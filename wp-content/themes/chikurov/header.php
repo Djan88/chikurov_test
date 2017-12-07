@@ -23,41 +23,45 @@
   <header class="top-header">
     <div class="container">
       <div class="row contacts">
+        <div class="col-md-4 contacts_phone"><a class="contacts_email" href="mailto:info@chikurov.com">info@chikurov.com</a> | +7 (495) 135-25-48</div>
         <div class="col-md-4 contacts_home"><a href="/">Школа Доктора Чикурова</a></div>
       </div>
       <div class="row">
-        <div class="media_area col-md-3 col-xs-4">
+        <div class="media_area col-md-2 col-xs-4">
           <a target="_blank" href="http://vk.com/id139677998" class="media_area_item media_area_item-vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.facebook.com/profile.php?id=100012253260685&pnref" class="media_area_item media_area_item-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.youtube.com/user/ThePractik01/" class="media_area_item media_area_item-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.instagram.com/yuchikurov/" class="media_area_item media_area_item-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-          <span><a class="contacts_email" href="mailto:info@chikurov.com">info@chikurov.com</a> | +7 (495) 135-25-48</span>
         </div>
-        <div class="col-md-8 col-xs-12 main-menu">
-          <nav class="navbar navbar-default">
-            <div class="container-fluid nav-bar">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-              </div>
+        <div class="col-md-9 col-xs-12 main-menu">
+          <div class="row">
+            <div class="col-md-12">
+              <nav class="navbar navbar-default">
+                <div class="container-fluid nav-bar">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </div>
 
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                
-                <ul class="nav navbar-nav navbar-left">
-                  <li><a class="menu" href="/#seminars">Семинары</a></li>
-                  <!-- <li><a class="menu" href="#about">Биологическое центрирование</a></li> -->
-                  <li><a class="menu video_cours" href="">Заказать видеокурс</a></li>
-                  <li><a class="menu" target="_blank" href="http://www.chikurov.com/reestr/">Реестр специалистов</a></li>
-                </ul>
-              </div><!-- /navbar-collapse -->
-            </div><!-- / .container-fluid -->
-          </nav>
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    
+                    <ul class="nav navbar-nav navbar-left">
+                      <li><a class="menu" href="/#seminars">Семинары</a></li>
+                      <!-- <li><a class="menu" href="#about">Биологическое центрирование</a></li> -->
+                      <li><a class="menu video_cours" href="">Заказать видеокурс</a></li>
+                      <li><a class="menu" target="_blank" href="http://www.chikurov.com/reestr/">Реестр специалистов</a></li>
+                    </ul>
+                  </div><!-- /navbar-collapse -->
+                </div><!-- / .container-fluid -->
+              </nav>
+            </div>     
+          </div>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-1 header-logo center-block">
           <br>
