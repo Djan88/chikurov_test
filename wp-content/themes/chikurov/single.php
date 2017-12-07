@@ -130,9 +130,9 @@
               </span>
             </div>
           </div>
+          <div class="clearfix"></div>
           <div class="col-md-12 seminar_content">
             <h4 class="content_center">О чем этот семинар</h4>
-            <div class="clearfix"></div>
             <?php
             the_content(__('(more...)'));
             edit_post_link(__('Edit This'));
