@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 col-xs-12 main-menu">
+        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 main-menu">
           <div class="row">
             <div class="col-md-12">
               <nav class="navbar navbar-default">
