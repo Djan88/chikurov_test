@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-3 col-xs-12 main-menu">
+        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 col-xs-12 main-menu">
           <div class="row">
             <div class="col-md-12">
               <nav class="navbar navbar-default">
@@ -64,6 +64,7 @@
                       <!-- <li><a class="menu" href="#about">Биологическое центрирование</a></li> -->
                       <li><a class="menu video_cours" href="" data-toggle="modal" data-target="#videoCours">Заказать видеокурс</a></li>
                       <li><a class="menu" target="_blank" href="http://www.yuchikurov.info/reestr/">Реестр специалистов</a></li>
+                      <li><a class="menu" target="_blank" href="http://www.wizardmachine.ru/">WizardMachine</a></li>
                     </ul>
                   </div><!-- /navbar-collapse -->
                 </div><!-- / .container-fluid -->
