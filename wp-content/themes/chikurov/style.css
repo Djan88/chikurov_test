@@ -1330,11 +1330,16 @@ responsive area
         background-image: none;
         border: 1px solid transparent;
         border-radius: 4px;
+        float:none;
     }
     .navbar-nav>li 
     {
         float: none;
         display: block; 
+    }
+    .navbar-header 
+    {
+        text-align: center;
     }
 }
 @media (max-width: 670px) {
@@ -1342,6 +1347,10 @@ responsive area
     {
         float: none;
         display: block; 
+    }
+    .navbar-header 
+    {
+        text-align: center;
     }
     .navbar-toggle 
     {
@@ -1353,6 +1362,7 @@ responsive area
         background-image: none;
         border: 1px solid transparent;
         border-radius: 4px;
+        float:none;
     }
     .contacts
     {
