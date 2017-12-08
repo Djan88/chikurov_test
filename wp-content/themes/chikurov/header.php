@@ -63,7 +63,7 @@
                       <li><a class="menu" href="/#seminars">Семинары</a></li>
                       <!-- <li><a class="menu" href="#about">Биологическое центрирование</a></li> -->
                       <li><a class="menu video_cours" href="" data-toggle="modal" data-target="#videoCours">Заказать видеокурс</a></li>
-                      <li><a class="menu" target="_blank" href="http://www.chikurov.com/reestr/">Реестр специалистов</a></li>
+                      <li><a class="menu" target="_blank" href="http://www.yuchikurov.info/reestr/">Реестр специалистов</a></li>
                     </ul>
                   </div><!-- /navbar-collapse -->
                 </div><!-- / .container-fluid -->
