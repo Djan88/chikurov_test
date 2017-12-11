@@ -755,6 +755,10 @@ body,
     text-align: justify;
     font-style: italic;
 }
+.seminar_content div 
+{
+    margin-bottom: 5px;
+}
 p b
 {
     font-weight: 500;
