@@ -97,6 +97,7 @@ echo '</div>';
 echo '<div class="seminar_date">';
 echo ' <span class="fa fa-map-marker"></span>Город: ';
 echo $seminar_city;
+echo ' | ';
 echo ' <span class="fa fa-user"></span>Читает: ';
 echo $seminar_autor;
 echo '</div>';
