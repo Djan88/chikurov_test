@@ -1087,6 +1087,10 @@ ul.nav.navbar-nav.navbar-left
 {
     max-width: 100%;
 }
+.on_wide 
+{
+    display: inline;
+}
 /******************************
 responsive area
 ********************************/
