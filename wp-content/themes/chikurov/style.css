@@ -1345,6 +1345,10 @@ responsive area
     }
 }
 @media (max-width: 670px) {
+    .on_wide
+    {
+        display: none;
+    }
     .navbar-nav>li 
     {
         float: none;
