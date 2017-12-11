@@ -1014,6 +1014,10 @@ div#true_loadmore
 {
     display: inline-block;
 }
+.seminar_date:first-child
+{
+    margin-right: 5px;
+}
 .row.footer-area 
 {
     position: relative;
