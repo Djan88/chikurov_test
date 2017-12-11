@@ -13,7 +13,7 @@
         <div class="clearfix"></div>
         <div class="menu_footer">
           <a href="/#seminars">Расписание семинаров</a>
-          <a href="/wizardterapiya">Визардтерапия</a>
+          <a href="http://www.yuchikurov.info/members/admin/author_books/" target="_blank">Книги Доктора Чикурова</a>
           <a href="/#bc">Биологическое центрирование</a>
         </div>
       </div>
