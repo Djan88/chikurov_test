@@ -94,6 +94,7 @@ if($seminar_end){
  echo $seminar_start_y;
 }
 echo '</div>';
+echo ' | ';
 echo '<div class="seminar_date">';
 echo ' <span class="fa fa-map-marker"></span>Город: ';
 echo $seminar_city;
