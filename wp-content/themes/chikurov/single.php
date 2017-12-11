@@ -104,7 +104,7 @@
               <div class="pull-left">
                 <span class="fa fa-map-marker"></span> Место проведения:
               </div>
-              <span class="pull-right"><?php the_field('city'); ?> <?php the_field('adres'); ?></span>
+              <span class="pull-right"><?php the_field('city'); ?>, <?php the_field('adres'); ?></span>
             </div>
             <a href="#order" class="pull-right seminar_order btn btn-primary">Записаться</a>
           </div>
