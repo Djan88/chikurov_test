@@ -141,7 +141,7 @@
           <div class="col-md-12 order_seminar">
             <h4 class="content_center" id="order">Записаться на семинар</h4>
             <div class="row">
-              <?php $autor = het_field('autor');?>
+              <?php $autor = get_field('autor');?>
               <?php if ($autor == 'Юрий Чикуров') {?>
                 <?php echo do_shortcode('[contact-form-7 id="4" title="Запись на семинар"]'); ?>
               <?php } else { ?>
