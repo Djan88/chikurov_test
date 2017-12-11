@@ -749,7 +749,7 @@ body,
 .carousel-inner .item {
     height: 100%;
 }
-.doctor p 
+.doctor p, .seminar_content
 {
     font-size: 16px;
     text-align: justify;
