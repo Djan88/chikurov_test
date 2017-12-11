@@ -74,6 +74,7 @@ if ($seminar_end_m == 01) {
   $seminar_end_m = ' декабря ';
 }
 $seminar_city = get_field('city');
+$seminar_autor = get_field('autor');
 echo '<div class="seminar_item col-md-12">';
 echo '<div class="row">';
 echo '<div class="seminar_time col-md-12">';
@@ -93,10 +94,13 @@ if($seminar_end){
  echo $seminar_start_y;
 }
 echo '</div>';
+echo '<div class="seminar_date">';
 echo ' <span class="fa fa-map-marker"></span>Город: ';
 echo $seminar_city;
-echo '<br>';
+echo ' <span class="fa fa-map-user"></span>Читает: ';
+echo $seminar_autor;
 echo '</div>';
+echo '<br>';
 echo '<div class="seminar_title col-md-12">';
 echo '<a target="_blank" href="';
 echo the_permalink();
