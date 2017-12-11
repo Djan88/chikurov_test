@@ -1437,6 +1437,7 @@ responsive area
     .seminar_date 
     {
         display: block;
+        margin-top: 5px;
     }
     .header-logo {
         position: absolute;
