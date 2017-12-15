@@ -23,23 +23,12 @@
             // The Query
             $wp_query = new WP_Query( array(
                 'category_name' => 'seminary',
-                'order' => 'ASC',
-                'orderby' => 'meta_value',
-                'meta_key' => 'seminar_start',
-                'meta_query' => array(
-                    array(
-                        'key' => 'seminar_start',
-                        'value' => date('Y-m-d'),
-                        'compare' => '>=',
-                        'type' => 'DATE'
-                    )
-                )
+                'order' => 'ASC'
             ));
-            if (have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post();
+            while ($wp_query->have_posts()) : $wp_query->the_post();
                 get_template_part( 'seminar', get_post_format() );
             endwhile;
             wp_reset_postdata();
-            endif;
             ?>
             <?php if (  $wp_query->max_num_pages > 1 ) : ?>
                 <script>
