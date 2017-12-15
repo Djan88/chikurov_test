@@ -1,7 +1,6 @@
 jQuery(function($){
     $('#true_loadmore').on('click', function(event) {
         $(this).text('Загружаю...'); // изменяем текст кнопки, вы также можете добавить прелоадер
-        console.log('test');
         var data = {
             'action': 'loadmore',
             'query': true_posts,
