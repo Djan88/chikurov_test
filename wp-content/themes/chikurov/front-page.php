@@ -2,7 +2,14 @@
   <section class="doctor text-center" id="doctor">
     <div class="container">
       <div class="row">
-        
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+          <?php
+          the_content(__('(more...)'));
+          edit_post_link(__('Edit This'));
+          ?>
+        <?php endwhile; else: ?>
+          <?php _e('Sorry, no posts matched your criteria.'); ?>
+        <?php endif; ?>
       </div>
     </div>
   </section><!-- end of doctor section -->
@@ -28,9 +35,14 @@
                     )
                 )
             ));
-            while ($wp_query->have_posts()) : $wp_query->the_post();
-                get_template_part( 'seminar', get_post_format() );
-            endwhile;
+            if ( $query->have_posts() ) {
+              while ( $query->have_posts() ) {
+                get_template_part( 'seminar');
+              }
+            } else {
+              // Постов не найдено
+            }
+            /* Возвращаем оригинальные данные поста. Сбрасываем $post. */
             wp_reset_postdata();
             ?>
             <?php if (  $wp_query->max_num_pages > 1 ) : ?>
