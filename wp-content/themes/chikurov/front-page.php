@@ -35,8 +35,8 @@
                     )
                 )
             ));
-            if ( $query->have_posts() ) {
-              while ( $query->have_posts() ) {
+            if ( $wp_query->have_posts() ) {
+              while ( $wp_query->have_posts() ) {
                 get_template_part( 'seminar');
               }
             } else {
