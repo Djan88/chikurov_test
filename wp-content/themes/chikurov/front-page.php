@@ -48,6 +48,7 @@
                     var current_page = <?php echo (get_query_var('paged')) ? get_query_var('paged') : 1; ?>;
                     var max_pages = '<?php echo $querySeminar->max_num_pages; ?>';
                 </script>
+                <div href="seminar.html" id="true_loadmore" class="btn btn-primary btn-lg">Загрузить еще</div>
             <?php endif; ?>
           </div>
         </div>
