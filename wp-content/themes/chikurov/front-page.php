@@ -35,14 +35,9 @@
                     )
                 )
             ));
-            if ( $wp_query->have_posts() ) {
-              while ( $wp_query->have_posts() ) {
+            while ($wp_query->have_posts()) : $wp_query->the_post();
                 get_template_part( 'seminar');
-              }
-            } else {
-              // Постов не найдено
-            }
-            /* Возвращаем оригинальные данные поста. Сбрасываем $post. */
+            endwhile;
             wp_reset_postdata();
             ?>
             <?php if (  $wp_query->max_num_pages > 1 ) : ?>
