@@ -39,8 +39,8 @@
                 get_template_part( 'seminar', get_post_format() );
             endwhile;
             wp_reset_postdata();
+            endif;
             ?>
-            <?php endif; ?>
             <?php if (  $wp_query->max_num_pages > 1 ) : ?>
                 <script>
                     var ajaxurl = '<?php echo site_url() ?>/wp-admin/admin-ajax.php';
