@@ -24,8 +24,6 @@
   ============================================================= -->
   <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/loadmore.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/custom.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.1.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
   <div class="modal fade" id="videoCours" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
       <div class="modal-dialog modal-sm">
