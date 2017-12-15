@@ -1,6 +1,7 @@
 jQuery(function($){
     $('#true_loadmore').click(function(){
         $(this).text('Загружаю...'); // изменяем текст кнопки, вы также можете добавить прелоадер
+        console.log('test');
         var data = {
             'action': 'loadmore',
             'query': true_posts,
@@ -11,7 +12,6 @@ jQuery(function($){
             data:data, // данные
             type:'POST', // тип запроса
             success:function(data){
-                console.log('test');
                 if( data ) {
                     $('#true_loadmore').text('Загрузить ещё').before(data); // вставляем новые посты
                     current_page++; // увеличиваем номер страницы на единицу
