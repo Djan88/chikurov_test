@@ -75,7 +75,10 @@ if ($seminar_end_m == 01) {
 }
 $seminar_city = get_field('city');
 $seminar_autor = get_field('autor');
-echo '<div class="seminar_item col-md-12">';
+echo '<div class="seminar_item col-md-12"';
+echo 'data-start="';
+echo $seminar_start;
+echo'">';
 echo '<div class="row">';
 echo '<div class="seminar_time col-md-12">';
 echo '<div class="seminar_date">';
