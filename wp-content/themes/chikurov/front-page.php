@@ -47,7 +47,7 @@
                 var current_page = <?php echo (get_query_var('paged')) ? get_query_var('paged') : 1; ?>;
                 var max_pages = '<?php echo $wp_query->max_num_pages; ?>';
               </script>
-              <div id="true_loadmore" class="btn btn-primary btn-lg">Загрузить ещё</div>
+              <div id="loadSeminar" class="btn btn-primary btn-lg">Загрузить ещё</div>
             <?php endif; ?>
           </div>
         </div>
