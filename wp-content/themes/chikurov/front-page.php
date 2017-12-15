@@ -38,7 +38,6 @@
             while ($wp_query->have_posts()) : $wp_query->the_post();
                 get_template_part( 'seminar');
             endwhile;
-            wp_reset_postdata();
             ?>
             <?php if (  $wp_query->max_num_pages > 1 ) : ?>
                 <script>
