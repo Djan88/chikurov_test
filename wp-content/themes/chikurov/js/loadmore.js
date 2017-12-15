@@ -11,6 +11,7 @@ jQuery(function($){
             data:data, // данные
             type:'POST', // тип запроса
             success:function(data){
+                console.log('test');
                 if( data ) {
                     $('#true_loadmore').text('Загрузить ещё').before(data); // вставляем новые посты
                     current_page++; // увеличиваем номер страницы на единицу
