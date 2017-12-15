@@ -35,7 +35,7 @@
                     )
                 )
             ));
-            while ($wp_query->have_posts()) : $wp_query->the_post();
+            if (have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post();
                 get_template_part( 'seminar', get_post_format() );
             endwhile;
             wp_reset_postdata();
