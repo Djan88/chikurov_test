@@ -8,7 +8,7 @@
           <a target="_blank" href="http://vk.com/id139677998"><i class="fa fa-vk" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.facebook.com/profile.php?id=100012253260685&pnref"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.youtube.com/user/ThePractik01/"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-          <a target="_blank" href="https://www.instagram.com/yuchikurov/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://www.instagram.com/dr.chikurov/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
         <div class="clearfix"></div>
         <div class="menu_footer">
