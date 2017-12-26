@@ -27,7 +27,7 @@
           <a target="_blank" href="http://vk.com/id139677998" class="media_area_item media_area_item-vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.facebook.com/profile.php?id=100012253260685&pnref" class="media_area_item media_area_item-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.youtube.com/user/ThePractik01/" class="media_area_item media_area_item-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-          <a target="_blank" href="https://www.instagram.com/yuchikurov/" class="media_area_item media_area_item-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://www.instagram.com/dr.chikurov/" class="media_area_item media_area_item-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
         <div class="col-md-6 col-md-offset-2 col-sm-8 col-sm-offset-1 col-xs-12 contacts">
           <a class="contacts_email pull-left" href="mailto:info@chikurov.com">info@chikurov.com</a>
