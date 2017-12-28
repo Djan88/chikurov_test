@@ -98,7 +98,7 @@
                   echo $seminar_start_y;
                 }
                 ?>
-                <?php if (get_field('seminar_time_start')) { ?>
+                <?php if (get_field('seminar_time_start')&& get_field('time_true')) { ?>
                   (<i class="fa fa-clock-o" aria-hidden="true"> </i> <?php the_field('seminar_time_start'); ?> — <?php the_field('seminar_time_end'); ?>)
                 <?php } ?>
               </div>
