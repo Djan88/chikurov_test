@@ -158,6 +158,7 @@
             the_content(__('(more...)'));
             edit_post_link(__('Edit This'));
             ?>
+            <h5 class="age">Внимание! Семинар рассчитан на аудиторию достигшую возраста 18 лет</h5>
           </div>
           <div class="col-md-12 order_seminar">
             <h4 class="content_center" id="order">Записаться на семинар</h4>
