@@ -99,8 +99,7 @@
                 }
                 ?>
                 <?php if (get_field('seminar_time_start')) { ?>
-                  <i class="fa fa-clock-o" aria-hidden="true"> </i>
-                  (<?php the_field('seminar_time_start'); ?> — <?php the_field('seminar_time_end'); ?>)
+                  (<i class="fa fa-clock-o" aria-hidden="true"> </i> <?php the_field('seminar_time_start'); ?> — <?php the_field('seminar_time_end'); ?>)
                 <?php } ?>
               </div>
             </div>
