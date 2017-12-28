@@ -106,7 +106,18 @@
               </div>
               <span class="pull-right"><?php the_field('city'); ?>, <?php the_field('adres'); ?></span>
             </div>
-            <a href="#order" class="pull-right seminar_order btn btn-primary">Записаться</a>
+            <?php if (get_field('order_closed');) { ?>
+              <div class="seminar_params clearfix">
+                <div class="pull-left order_open">
+                  <span class="fa fa-pencil-square-o"></span> Запись открыта
+                </div>
+                <span class="pull-right">
+                  <a href="#order" class="pull-right seminar_order btn btn-primary">Записаться</a>
+                </span>
+              </div>
+            <?php } else { ?>
+
+            <?php } ?>
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
             <div class="seminar_params clearfix">
