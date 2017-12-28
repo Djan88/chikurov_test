@@ -982,12 +982,12 @@ section#doctor
 .seminar_params .pull-right 
 {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 15px;
 }
 .seminar_params .pull-left 
 {
     font-weight: 300;
-    font-size: 15px;
+    font-size: 16px;
 }
 .seminar_params .pull-left .fa
 {
@@ -1094,6 +1094,22 @@ ul.nav.navbar-nav.navbar-left
 .on_wide 
 {
     display: inline;
+}
+.pull-left.order_open 
+{
+    padding-top: 5px;
+    padding-bottom: 6px;
+    font-size: 17px;
+    color: darkcyan;
+    font-weight: 500;
+}
+.pull-left.order_closed 
+{
+    padding-top: 5px;
+    padding-bottom: 6px;
+    font-size: 17px;
+    color: red;
+    font-weight: 500;
 }
 /******************************
 responsive area

@@ -108,6 +108,15 @@
             </div>
             <?php if (get_field('order_closed')) { ?>
               <div class="seminar_params clearfix">
+                <div class="pull-left order_closed">
+                  <span class="fa fa-pencil-square-o"></span> Запись закрыта
+                </div>
+                <span class="pull-right">
+                  <button class="pull-right disabled btn btn-primary" data-toggle="popover" data-placement="top" data-original-title="Свободные места на этот семинар исчерпаны" data-content='Ознакомьтесь с расписанием чтоб узнать когда состоится следующий семинар'>Записаться</a>
+                </button>
+              </div>
+            <?php } else { ?>
+              <div class="seminar_params clearfix">
                 <div class="pull-left order_open">
                   <span class="fa fa-pencil-square-o"></span> Запись открыта
                 </div>
@@ -115,8 +124,6 @@
                   <a href="#order" class="pull-right seminar_order btn btn-primary">Записаться</a>
                 </span>
               </div>
-            <?php } else { ?>
-
             <?php } ?>
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
