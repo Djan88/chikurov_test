@@ -1111,6 +1111,16 @@ ul.nav.navbar-nav.navbar-left
     color: red;
     font-weight: 500;
 }
+.order_closed_text 
+{
+    font-size: 18px;
+    padding: 5px;
+    background: #ddeff7;
+    border: 1px solid #42b3e5;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /******************************
 responsive area
 ********************************/
