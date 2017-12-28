@@ -158,7 +158,10 @@
             the_content(__('(more...)'));
             edit_post_link(__('Edit This'));
             ?>
-            <h5 class="age">Внимание! Семинар рассчитан на аудиторию достигшую возраста 18 лет</h5>
+            <?php $autor = get_field('autor');?>
+            <?php if ($autor == 'Юрий Чикуров') {?>
+              <h5 class="age">Внимание! Семинар рассчитан на аудиторию достигшую возраста 18 лет</h5>
+            <?php } ?>
           </div>
           <div class="col-md-12 order_seminar">
             <h4 class="content_center" id="order">Записаться на семинар</h4>
@@ -169,7 +172,6 @@
                   Ознакомьтесь с <a href="/#seminars">расписанием</a> чтоб узнать когда состоится следующий семинар <?php the_title(); ?>
                 </div>
               <?php } else { ?>
-                <?php $autor = get_field('autor');?>
                 <?php if ($autor == 'Юрий Чикуров') {?>
                   <?php echo do_shortcode('[contact-form-7 id="4" title="Запись на семинар"]'); ?>
                 <?php } else { ?>
