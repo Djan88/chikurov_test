@@ -159,11 +159,18 @@
           <div class="col-md-12 order_seminar">
             <h4 class="content_center" id="order">Записаться на семинар</h4>
             <div class="row">
-              <?php $autor = get_field('autor');?>
-              <?php if ($autor == 'Юрий Чикуров') {?>
-                <?php echo do_shortcode('[contact-form-7 id="4" title="Запись на семинар"]'); ?>
+              <?php if (get_field('order_closed')) { ?>
+                <div class="order_closed_text">
+                  Свободные места на этот семинар исчерпаны.<br>
+                  Ознакомьтесь с <a href="/#seminars">расписанием</a> чтоб узнать когда состоится следующий семинар <?php the_title(); ?>
+                </div>
               <?php } else { ?>
-                <?php echo do_shortcode('[contact-form-7 id="170" title="Запись на семинар_Иванова"]'); ?>
+                <?php $autor = get_field('autor');?>
+                <?php if ($autor == 'Юрий Чикуров') {?>
+                  <?php echo do_shortcode('[contact-form-7 id="4" title="Запись на семинар"]'); ?>
+                <?php } else { ?>
+                  <?php echo do_shortcode('[contact-form-7 id="170" title="Запись на семинар_Иванова"]'); ?>
+                <?php } ?>
               <?php } ?>
             </div>
           </div>
