@@ -106,7 +106,7 @@
               </div>
               <span class="pull-right"><?php the_field('city'); ?>, <?php the_field('adres'); ?></span>
             </div>
-            <?php if (get_field('order_closed');) { ?>
+            <?php if (get_field('order_closed')) { ?>
               <div class="seminar_params clearfix">
                 <div class="pull-left order_open">
                   <span class="fa fa-pencil-square-o"></span> Запись открыта
