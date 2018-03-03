@@ -73,8 +73,8 @@ if ($seminar_end_m == 01) {
 } else if ($seminar_end_m == 12) {
   $seminar_end_m = ' декабря ';
 }
-$seminar_from = $seminar_start_d+$seminar_start_m+$seminar_start_y;
-$seminar_to = $seminar_end_d+$seminar_end_m+$seminar_end_y;
+$seminar_from = ' '+$seminar_start_d+$seminar_start_m+$seminar_start_y;
+$seminar_to = ' '+$seminar_end_d+$seminar_end_m+$seminar_end_y;
 $seminar_city = get_field('city');
 $seminar_autor = get_field('autor');
 echo '<div class="seminar_item col-md-12"';
