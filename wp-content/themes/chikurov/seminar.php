@@ -73,6 +73,8 @@ if ($seminar_end_m == 01) {
 } else if ($seminar_end_m == 12) {
   $seminar_end_m = ' декабря ';
 }
+$seminar_from = $seminar_start_d+$seminar_start_m+$seminar_start_y;
+$seminar_to = $seminar_end_d+$seminar_end_m+$seminar_end_y;
 $seminar_city = get_field('city');
 $seminar_autor = get_field('autor');
 echo '<div class="seminar_item col-md-12"';
@@ -83,18 +85,12 @@ echo '<div class="row">';
 echo '<div class="seminar_time col-md-12">';
 echo '<div class="seminar_date">';
 echo '<span class="fa fa-calendar"></span> ';
-echo $seminar_start_d;
-echo $seminar_start_m;
-echo $seminar_start_y;
+echo $seminar_from;
 echo ' — ';
 if($seminar_end){
- echo $seminar_end_d;
- echo $seminar_end_m;
- echo $seminar_end_y;
+ echo $seminar_to;
 } else {
- echo $seminar_start_d;
- echo $seminar_start_m;
- echo $seminar_start_y;
+ echo $seminar_from;
 }
 echo '</div>';
 echo '<div class="on_wide">';
