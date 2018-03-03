@@ -31,9 +31,9 @@ if ($seminar_start_m == 01) {
   $seminar_start_m = ' июня ';
 } else if ($seminar_start_m == 07) {
   $seminar_start_m = ' июля ';
-} else if ($seminar_start_m == 08) {
+} else if ($seminar_start_m === 08) {
   $seminar_start_m = ' августа ';
-} else if ($seminar_start_m == 09) {
+} else if ($seminar_start_m === 09) {
   $seminar_start_m = ' сентября ';
 } else if ($seminar_start_m == 10) {
   $seminar_start_m = ' октября ';
@@ -62,9 +62,9 @@ if ($seminar_end_m == 01) {
   $seminar_end_m = ' июня ';
 } else if ($seminar_end_m == 07) {
   $seminar_end_m = ' июля ';
-} else if ($seminar_end_m == 08) {
+} else if ($seminar_end_m === 08) {
   $seminar_end_m = ' августа ';
-} else if ($seminar_end_m == 09) {
+} else if ($seminar_end_m === 09) {
   $seminar_end_m = ' сентября ';
 } else if ($seminar_end_m == 10) {
   $seminar_end_m = ' октября ';
