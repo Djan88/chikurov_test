@@ -27,4 +27,9 @@ Deny from 70.35.195.49
 Deny from 93.174.93.163
 Deny from 195.22.127.235
 Deny from 91.200.12.157
-
+Deny from 46.173.1.35
+Deny from 188.226.6.122
+Deny from 188.170.193.52
+Deny from 91.200.12.28
+Deny from 188.170.193.52
+Deny from 45.55.189.193
