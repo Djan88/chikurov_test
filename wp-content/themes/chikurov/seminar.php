@@ -17,23 +17,23 @@ $date_formated_start = strtotime($seminar_start);
 $seminar_start_d = date('d',$date_formated_start);
 $seminar_start_m = date('m',$date_formated_start);
 $seminar_start_y = date('Y',$date_formated_start);
-if ($seminar_start_m == 01) {
+if ($seminar_start_m == 1) {
   $seminar_start_m = ' января ';
-} else if ($seminar_start_m == 02) {
+} else if ($seminar_start_m == 2) {
   $seminar_start_m = ' февраля ';
-} else if ($seminar_start_m == 03) {
+} else if ($seminar_start_m == 3) {
   $seminar_start_m = ' марта ';
-} else if ($seminar_start_m == 04) {
+} else if ($seminar_start_m == 4) {
   $seminar_start_m = ' апреля ';
-} else if ($seminar_start_m == 05) {
+} else if ($seminar_start_m == 5) {
   $seminar_start_m = ' мая ';
-} else if ($seminar_start_m == 06) {
+} else if ($seminar_start_m == 6) {
   $seminar_start_m = ' июня ';
-} else if ($seminar_start_m == 07) {
+} else if ($seminar_start_m == 7) {
   $seminar_start_m = ' июля ';
-} else if ($seminar_start_m > 07 && $seminar_start_m < 09) {
+} else if ($seminar_start_m == 8) {
   $seminar_start_m = ' августа ';
-} else if ($seminar_start_m > 08 && $seminar_start_m < 10) {
+} else if ($seminar_start_m == 9) {
   $seminar_start_m = ' сентября ';
 } else if ($seminar_start_m == 10) {
   $seminar_start_m = ' октября ';
@@ -48,23 +48,23 @@ $date_formated_end = strtotime($seminar_end);
 $seminar_end_d = date('d',$date_formated_end);
 $seminar_end_m = date('m',$date_formated_end);
 $seminar_end_y = date('Y',$date_formated_end);
-if ($seminar_end_m == 01) {
+if ($seminar_end_m == 1) {
   $seminar_end_m = ' января ';
-} else if ($seminar_end_m == 02) {
+} else if ($seminar_end_m == 2) {
   $seminar_end_m = ' февраля ';
-} else if ($seminar_end_m == 03) {
+} else if ($seminar_end_m == 3) {
   $seminar_end_m = ' марта ';
-} else if ($seminar_end_m == 04) {
+} else if ($seminar_end_m == 4) {
   $seminar_end_m = ' апреля ';
-} else if ($seminar_end_m == 05) {
+} else if ($seminar_end_m == 5) {
   $seminar_end_m = ' мая ';
-} else if ($seminar_end_m == 06) {
+} else if ($seminar_end_m == 6) {
   $seminar_end_m = ' июня ';
-} else if ($seminar_end_m == 07) {
+} else if ($seminar_end_m == 7) {
   $seminar_end_m = ' июля ';
-} else if ($seminar_start_m > 07 && $seminar_start_m < 09) {
+} else if ($seminar_end_m == 8) {
   $seminar_end_m = ' августа ';
-} else if ($seminar_start_m > 08 && $seminar_start_m < 10) {
+} else if ($seminar_end_m == 9) {
   $seminar_end_m = ' сентября ';
 } else if ($seminar_end_m == 10) {
   $seminar_end_m = ' октября ';
