@@ -51,6 +51,19 @@
           </div>
       </div>
   </div>
+  <div class="modal fade" id="lovushka_down" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
+      <div class="modal-dialog styled_form">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="videoCoursLabel">Купить Антистресс ловушку</h4>
+              </div>
+              <div class="modal-body">
+                  <?php echo do_shortcode('[contact-form-7 id="449" title="Купить ловушку"]')?>
+              </div>
+          </div>
+      </div>
+  </div>
   <script>
     jQuery(function($){
         $('#loadSeminar').on('click', function(event) {
