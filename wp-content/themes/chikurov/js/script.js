@@ -27,7 +27,7 @@ jQuery(document).ready(function () {
   }
   if (popupStatus == false) {
     setTimeout(openPopup, 5000);
-    jQuery('.send_book').on('hidden.bs.modal', function (e) {
+    jQuery('#book_down').on('hidden.bs.modal', function (e) {
       setTimeout(openPopupTwo, 25000);
     })
     localStorage.setItem('popupStatus', true);
