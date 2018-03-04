@@ -1143,6 +1143,7 @@ h5.age
 .styled_form .modal-body
 {
     text-align: center;
+    background: #EBEBEB;
 }
 .styled_form .ajax-loader
 {
@@ -1151,12 +1152,16 @@ h5.age
 }
 .styled_form .styled_input
 {
-    background: #BFBFBF;
+    background: #fff;
     border: 1px solid #777;
     border-radius: 6px;
     height: 35px;
     padding: 5px;
     font-size: 17px;
+}
+.styled_form .modal-content
+{
+    font-size: 15px;
 }
 /******************************
 responsive area
