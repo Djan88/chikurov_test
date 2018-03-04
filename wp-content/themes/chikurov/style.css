@@ -1131,18 +1131,32 @@ h5.age
     text-align: center;
     padding: 3px;
 }
-.g-recaptcha div 
+.styled_form .g-recaptcha div 
 {
     margin: auto;
 }
-.modal-body
+.styled_form .modal-header
+{
+    background: #D32C33;
+    color: #fff;
+}
+.styled_form .modal-body
 {
     text-align: center;
 }
-.ajax-loader
+.styled_form .ajax-loader
 {
     display: block;
     margin: auto;
+}
+.styled_form .styled_input
+{
+    background: #BFBFBF;
+    border: 1px solid #777;
+    border-radius: 6px;
+    height: 35px;
+    padding: 5px;
+    font-size: 17px;
 }
 /******************************
 responsive area
