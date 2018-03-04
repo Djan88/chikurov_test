@@ -15,7 +15,10 @@ jQuery(document).ready(function () {
     }
   };
   var popupStatus = false;
-  setTimeout(jQuery('#book_down').modal('show'), 5000);
+  function openPopup(){
+    jQuery('#book_down').modal('show')
+  }
+  setTimeout(openPopup, 5000);
   //Получение данных из локального хранилища
   // if(supportsStorage && localStorage.getItem('popupStatus')){
   //   popupStatus = localStorage.getItem('popupStatus');
