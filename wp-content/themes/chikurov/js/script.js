@@ -14,16 +14,17 @@ jQuery(document).ready(function () {
       return false;
     }
   };
-  var popupStatus
+  var popupStatus = false;
+  setTimeout(jQuery('#book_down').modal('show'), 5000);
   //Получение данных из локального хранилища
-  if(supportsStorage && localStorage.getItem('popupStatus')){
-    popupStatus = localStorage.getItem('popupStatus');
-  }
-  if (popupStatus == false) {
-    setTimeout(jQuery('#book_down').modal('show'), 5000);
-    jQuery(".send_book").on("click", function(){
-      setTimeout(jQuery('#lovushka_down').modal('show'), 5000);
-    });
-    localStorage.setItem('popupStatus', true);
-  }
+  // if(supportsStorage && localStorage.getItem('popupStatus')){
+  //   popupStatus = localStorage.getItem('popupStatus');
+  // }
+  // if (popupStatus == false) {
+  //   setTimeout(jQuery('#book_down').modal('show'), 5000);
+  //   jQuery(".send_book").on("click", function(){
+  //     setTimeout(jQuery('#lovushka_down').modal('show'), 5000);
+  //   });
+  //   localStorage.setItem('popupStatus', true);
+  // }
 });
