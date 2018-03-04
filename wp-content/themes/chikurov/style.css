@@ -1131,6 +1131,19 @@ h5.age
     text-align: center;
     padding: 3px;
 }
+.g-recaptcha div 
+{
+    margin: auto;
+}
+.modal-body
+{
+    text-align: center;
+}
+.ajax-loader
+{
+    display: block;
+    margin: auto;
+}
 /******************************
 responsive area
 ********************************/
