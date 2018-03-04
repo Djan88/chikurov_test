@@ -16,18 +16,20 @@ jQuery(document).ready(function () {
   };
   var popupStatus = false;
   function openPopup(){
-    jQuery('#book_down').modal('show')
+    jQuery('#book_down').modal('show');
   }
-  setTimeout(openPopup, 5000);
+  function openPopupTwo(){
+    jQuery('#lovushka_down').modal('show');
+  }
   //Получение данных из локального хранилища
-  // if(supportsStorage && localStorage.getItem('popupStatus')){
-  //   popupStatus = localStorage.getItem('popupStatus');
-  // }
-  // if (popupStatus == false) {
-  //   setTimeout(jQuery('#book_down').modal('show'), 5000);
-  //   jQuery(".send_book").on("click", function(){
-  //     setTimeout(jQuery('#lovushka_down').modal('show'), 5000);
-  //   });
-  //   localStorage.setItem('popupStatus', true);
-  // }
+  if(supportsStorage && localStorage.getItem('popupStatus')){
+    popupStatus = localStorage.getItem('popupStatus');
+  }
+  if (popupStatus == false) {
+    setTimeout(openPopup, 5000);
+    jQuery(".send_book").on("click", function(){
+      setTimeout(openPopupTwo, 5000);
+    });
+    localStorage.setItem('popupStatus', true);
+  }
 });
