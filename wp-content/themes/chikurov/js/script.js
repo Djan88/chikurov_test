@@ -22,7 +22,7 @@ jQuery(document).ready(function () {
   if (popupStatus == false) {
     setTimeout(jQuery('#book_down').modal('show'), 5000);
     jQuery(".send_book").on("click", function(){
-      setTimeout(openPopupTwo, 5000);
+      setTimeout(jQuery('#lovushka_down').modal('show'), 5000);
     });
     localStorage.setItem('popupStatus', true);
   }
