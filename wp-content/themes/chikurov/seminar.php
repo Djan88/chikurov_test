@@ -89,9 +89,10 @@ $month_names = array(
   11 => 'ноябрь',
   12 => 'декабрь' 
 );
+
+$cur_year = 1;
 include "variables.php";
 echo $cur_year;
-echo $cur_month;
 
 $seminar_city = get_field('city');
 $seminar_autor = get_field('autor');
