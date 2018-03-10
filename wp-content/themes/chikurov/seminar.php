@@ -95,7 +95,7 @@ include "variables.php";
 $seminar_city = get_field('city');
 $seminar_autor = get_field('autor');
 if (!$cur_month && $cur_month < $seminar_start_m) {
-  echo '<div class="seminar_item col-md-12"';
+  echo '<div class="seminar_item col-md-12 seminar_heading_wrap"';
   echo '<h3 class="seminar_heading">';
   $cur_month = $month_names[$seminar_start_m];
   echo $cur_month;
