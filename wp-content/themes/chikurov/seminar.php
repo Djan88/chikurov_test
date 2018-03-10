@@ -96,7 +96,7 @@ $seminar_city = get_field('city');
 $seminar_autor = get_field('autor');
 echo '<div class="seminar_item col-md-12"';
 if (!$cur_month && $cur_month < $seminar_start_m) {
-  echo '<h3 class="seminar_heading"'
+  echo '<h3 class="seminar_heading"';
   $cur_month = $month_names[$seminar_start_m];
   echo $cur_month;
   if (!$cur_year && $cur_year < $seminar_start_y) {
@@ -104,7 +104,7 @@ if (!$cur_month && $cur_month < $seminar_start_m) {
   }
   echo ' ';
   echo $cur_year;
-  echo '</h3>'
+  echo '</h3>';
 }
 echo "</div>";
 echo '<div class="seminar_item col-md-12"';
