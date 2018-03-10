@@ -93,7 +93,7 @@ $month_names = array(
 $seminar_city = get_field('city');
 $seminar_autor = get_field('autor');
 global $cur_month;
-if (!$cur_month || $cur_month != $seminar_start_months) {
+if ($cur_month != $seminar_start_months) {
   echo '<div class="seminar_item col-md-12 seminar_heading_wrap">';
   echo '<h3 class="seminar_heading">';
   $cur_month = date('m',$date_formated_start);
