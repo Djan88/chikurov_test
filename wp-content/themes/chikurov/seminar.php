@@ -98,14 +98,15 @@ global $cur_month;
 if (!$cur_month && $cur_month < $seminar_start_months) {
   echo '<div class="seminar_item col-md-12 seminar_heading_wrap">';
   echo '<h3 class="seminar_heading">';
+  echo $seminar_start_months;
   $cur_month = $month_names[$seminar_start_months];
   echo $cur_month;
-  global $cur_year;
-  if (!$cur_year && $cur_year < $seminar_start_y) {
-    $cur_year = $seminar_start_y;
-    echo ' ';
-    echo $cur_year;
-  }
+  // global $cur_year;
+  // if (!$cur_year && $cur_year < $seminar_start_y) {
+  //   $cur_year = $seminar_start_y;
+  //   echo ' ';
+  //   echo $cur_year;
+  // }
   echo '</h3>';
   echo "</div>";
 }
