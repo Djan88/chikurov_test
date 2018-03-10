@@ -90,8 +90,6 @@ $month_names = array(
   '12' => 'Декабрь' 
 );
 
-include "variables.php";
-
 $seminar_city = get_field('city');
 $seminar_autor = get_field('autor');
 global $cur_month;
@@ -100,12 +98,8 @@ if (!$cur_month || $cur_month != $seminar_start_months) {
   echo '<h3 class="seminar_heading">';
   $cur_month = date('m',$date_formated_start);
   echo $month_names[$cur_month];
-  global $cur_year;
-  if (!$cur_year || $cur_year < $seminar_start_y) {
-    $cur_year = $seminar_start_y;
-    echo ' ';
-    echo $cur_year;
-  }
+  echo ' ';
+  echo $seminar_start_y;
   echo '</h3>';
   echo "</div>";
 }
