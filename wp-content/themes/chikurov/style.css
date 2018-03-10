@@ -1179,6 +1179,10 @@ h3.seminar_heading
     border: 1px solid #42b3e5;
     margin: 0;
 }
+.seminar_heading_wrap_
+{
+    display: none;
+}
 /******************************
 responsive area
 ********************************/
