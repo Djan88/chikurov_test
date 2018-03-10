@@ -100,7 +100,7 @@ if (!$cur_month && $cur_month < $seminar_start_months) {
   echo '<h3 class="seminar_heading">';
   echo $seminar_start_months;
   $cur_month = $month_names[$seminar_start_months];
-  echo $month_names[$seminar_start_months]
+  echo $month_names[$seminar_start_months];
   // global $cur_year;
   // if (!$cur_year && $cur_year < $seminar_start_y) {
   //   $cur_year = $seminar_start_y;
