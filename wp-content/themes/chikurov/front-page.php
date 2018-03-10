@@ -36,6 +36,8 @@
                 )
             ));
             while ($wp_query->have_posts()) : $wp_query->the_post();
+                $cur_year;
+                $cur_month;
                 get_template_part( 'seminar');
             endwhile;
             wp_reset_postdata();
