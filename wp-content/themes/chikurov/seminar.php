@@ -107,7 +107,8 @@ $seminar_autor = get_field('autor');
 //   echo '</h3>';
 //   echo "</div>";
 // }
-global $test_var += 1;
+global $test_var
+$test_var += 1;
 echo $test_var;
 echo '<div class="seminar_item col-md-12"';
 echo 'data-start="';
