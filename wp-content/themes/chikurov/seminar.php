@@ -106,7 +106,7 @@ if (!$cur_month && $cur_month < $seminar_start_m) {
   // echo $cur_year;
   // echo '</h3>';
 }
-echo "</div>";
+// echo "</div>";
 echo '<div class="seminar_item col-md-12"';
 echo 'data-start="';
 echo $seminar_start;
