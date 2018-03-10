@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
+  <link rel="icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico">
   <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>

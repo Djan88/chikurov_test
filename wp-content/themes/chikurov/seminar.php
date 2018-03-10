@@ -48,6 +48,7 @@ $date_formated_end = strtotime($seminar_end);
 $seminar_end_d = date('d',$date_formated_end);
 $seminar_end_m = date('m',$date_formated_end);
 $seminar_end_y = date('Y',$date_formated_end);
+
 if ($seminar_end_m == 1) {
   $seminar_end_m = ' января ';
 } else if ($seminar_end_m == 2) {
@@ -73,8 +74,39 @@ if ($seminar_end_m == 1) {
 } else if ($seminar_end_m == 12) {
   $seminar_end_m = ' декабря ';
 }
+
+$month_names = array(
+  1 => 'январь',
+  2 => 'февраль',
+  3 => 'март',
+  4 => 'апрель',
+  5 => 'май',
+  6 => 'июнь',
+  7 => 'июль',
+  8 => 'август',
+  9 => 'сентябрь',
+  10 => 'октябрь',
+  11 => 'ноябрь',
+  12 => 'декабрь' 
+);
+
+$cur_year;
+$cur_month;
 $seminar_city = get_field('city');
 $seminar_autor = get_field('autor');
+echo '<div class="seminar_item col-md-12"';
+if (!$cur_month && $cur_month < $seminar_start_m) {
+  echo '<h3 class="seminar_heading"'
+  $cur_month = $month_names[$seminar_start_m];
+  echo $cur_month;
+  if (!$cur_year && $cur_year < $seminar_start_y) {
+    $cur_year = $seminar_start_y;
+  }
+  echo ' ';
+  echo $cur_year;
+  echo '</h3>'
+}
+echo "</div>";
 echo '<div class="seminar_item col-md-12"';
 echo 'data-start="';
 echo $seminar_start;
