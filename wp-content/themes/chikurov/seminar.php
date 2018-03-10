@@ -90,17 +90,15 @@ $month_names = array(
   12 => 'декабрь' 
 );
 
-global $cur_year;
-global $cur_month;
 $seminar_city = get_field('city');
 $seminar_autor = get_field('autor');
 echo '<div class="seminar_item col-md-12"';
 if (!$cur_month && $cur_month < $seminar_start_m) {
   echo '<h3 class="seminar_heading">';
-  $cur_month = $month_names[$seminar_start_m];
+  global $cur_month = $month_names[$seminar_start_m];
   echo $cur_month;
   if (!$cur_year && $cur_year < $seminar_start_y) {
-    $cur_year = $seminar_start_y;
+    global $cur_year = $seminar_start_y;
   }
   echo ' ';
   echo $cur_year;
