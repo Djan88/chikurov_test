@@ -15,7 +15,7 @@
 $seminar_start = get_field('seminar_start');
 $date_formated_start = strtotime($seminar_start);
 $seminar_start_d = date('d',$date_formated_start);
-$seminar_start_m = date('m',$date_formated_start);
+$seminar_start_m = $seminar_start_months = date('m',$date_formated_start);
 $seminar_start_y = date('Y',$date_formated_start);
 if ($seminar_start_m == 1) {
   $seminar_start_m = ' января ';
@@ -94,10 +94,10 @@ include "variables.php";
 
 $seminar_city = get_field('city');
 $seminar_autor = get_field('autor');
-if (!$cur_month && $cur_month < date('m',$date_formated_start)) {
-  echo '<div class="seminar_item col-md-12 seminar_heading_wrap"';
+if (!$cur_month && $cur_month < $seminar_start_months) {
+  echo '<div class="seminar_item col-md-12 seminar_heading_wrap">';
   echo '<h3 class="seminar_heading">';
-  $cur_month = $month_names[date('m',$date_formated_start)];
+  $cur_month = $month_names[$seminar_start_months];
   echo $cur_month;
   if (!$cur_year && $cur_year < $seminar_start_y) {
     $cur_year = $seminar_start_y;
