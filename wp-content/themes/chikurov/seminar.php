@@ -76,15 +76,15 @@ if ($seminar_end_m == 1) {
 }
 
 $month_names = array(
-  1 => 'январь',
-  2 => 'февраль',
-  3 => 'март',
-  4 => 'апрель',
-  5 => 'май',
-  6 => 'июнь',
-  7 => 'июль',
-  8 => 'август',
-  9 => 'сентябрь',
+  01 => 'январь',
+  02 => 'февраль',
+  03 => 'март',
+  04 => 'апрель',
+  05 => 'май',
+  06 => 'июнь',
+  07 => 'июль',
+  08 => 'август',
+  09 => 'сентябрь',
   10 => 'октябрь',
   11 => 'ноябрь',
   12 => 'декабрь' 
@@ -100,7 +100,7 @@ if (!$cur_month && $cur_month < $seminar_start_months) {
   echo '<h3 class="seminar_heading">';
   echo $seminar_start_months;
   $cur_month = $month_names[$seminar_start_months];
-  echo $cur_month;
+  echo $month_names[$seminar_start_months]
   // global $cur_year;
   // if (!$cur_year && $cur_year < $seminar_start_y) {
   //   $cur_year = $seminar_start_y;
