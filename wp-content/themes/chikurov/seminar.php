@@ -94,9 +94,8 @@ $seminar_city = get_field('city');
 $seminar_autor = get_field('autor');
 global $cur_month;
 if ($cur_month != $seminar_start_months) {
-  echo '<div class="seminar_item col-md-12 seminar_heading_wrap">';
+  echo '<div class="seminar_item col-md-12 seminar_heading_wrap'+' seminar_heading_wrap_'+$cur_month+'">';
   echo '<h3 class="seminar_heading">';
-  echo $cur_month;
   $cur_month = date('m',$date_formated_start);
   echo $month_names[$cur_month];
   echo ' ';
