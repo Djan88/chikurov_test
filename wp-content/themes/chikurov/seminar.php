@@ -91,6 +91,7 @@ $month_names = array(
 );
 
 $cur_year = 1;
+echo $cur_year;
 include "variables.php";
 echo $cur_year;
 
