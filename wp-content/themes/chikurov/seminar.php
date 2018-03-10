@@ -89,7 +89,7 @@ $month_names = array(
   11 => 'ноябрь',
   12 => 'декабрь' 
 );
-include "variables.php"
+include "variables.php";
 echo $cur_year;
 echo $cur_month;
 
