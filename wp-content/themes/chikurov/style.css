@@ -1164,6 +1164,21 @@ h5.age
 {
     font-size: 15px;
 }
+.seminar_heading_wrap
+{
+    text-align: center;
+}
+h3.seminar_heading
+ {
+    font-size: 30px;
+    color: #555;
+    font-weight: normal;
+    border-radius: 6px;
+    padding: 5px;
+    background: #ddeff7;
+    border: 1px solid #42b3e5;
+    margin: 0;
+}
 /******************************
 responsive area
 ********************************/
