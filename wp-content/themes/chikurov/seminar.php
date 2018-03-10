@@ -89,22 +89,23 @@ $month_names = array(
   11 => 'ноябрь',
   12 => 'декабрь' 
 );
+include "variables.php"
+echo $cur_year;
+echo $cur_month;
 
-global $cur_year;
-global $cur_month;
 $seminar_city = get_field('city');
 $seminar_autor = get_field('autor');
-echo '<div class="seminar_item col-md-12"';
+// echo '<div class="seminar_item col-md-12"';
 if (!$cur_month && $cur_month < $seminar_start_m) {
-  echo '<h3 class="seminar_heading">';
+  // echo '<h3 class="seminar_heading">';
   $cur_month = $month_names[$seminar_start_m];
-  echo $cur_month;
+  // echo $cur_month;
   if (!$cur_year && $cur_year < $seminar_start_y) {
-    $cur_year = $seminar_start_y;
+    // $cur_year = $seminar_start_y;
   }
-  echo ' ';
-  echo $cur_year;
-  echo '</h3>';
+  // echo ' ';
+  // echo $cur_year;
+  // echo '</h3>';
 }
 echo "</div>";
 echo '<div class="seminar_item col-md-12"';
