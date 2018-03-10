@@ -35,7 +35,7 @@
                     )
                 )
             ));
-            $test_var = 0;
+            $test_var = 1;
             while ($wp_query->have_posts()) : $wp_query->the_post();
                 get_template_part( 'seminar');
             endwhile;
