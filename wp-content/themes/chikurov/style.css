@@ -1183,6 +1183,15 @@ h3.seminar_heading
 {
     display: none;
 }
+.lt-block 
+{
+    background: #EBEBEB;
+}
+.lt-block-wrapper 
+{
+    padding: 10px 0;
+    text-align: center;
+}
 /******************************
 responsive area
 ********************************/
