@@ -46,7 +46,8 @@
                   <h4 class="modal-title" id="videoCoursLabel">Получить книгу бесплатно</h4>
               </div>
               <div class="modal-body">
-                  <?php echo do_shortcode('[contact-form-7 id="434" title="Скачать книгу"]')?>
+                  <?php //echo do_shortcode('[contact-form-7 id="434" title="Скачать книгу"]')?>
+                  <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="http://school-bcru.getcourse.ru/pl/lite/widget/script?id=24256"></script>
               </div>
           </div>
       </div>
