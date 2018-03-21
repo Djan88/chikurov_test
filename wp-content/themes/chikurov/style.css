@@ -1192,6 +1192,11 @@ h3.seminar_heading
     padding: 10px 0;
     text-align: center;
 }
+.global-confirm-checkbox-block 
+{
+    margin: 10px 0;
+    font-size: 11px;
+}
 /******************************
 responsive area
 ********************************/
