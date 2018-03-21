@@ -53,17 +53,7 @@
                       <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/themes/chikurov/img/oblojka.png" alt="">
                     </div>
                     <div class="col-md-8">
-                      <form id="ltForm2951937"  action="http://school-bc.ru/pl/lite/block-public/process-html?id=5852695" method="post">
-                        <input type="hidden" name="formParams[setted_offer_id]" ><br>
-                        <input type="text" maxlength="60" class="styled_input" placeholder="Введите ваш эл. адрес" name="formParams[email]" value="" ><br>
-                        <div class="global-confirm-checkbox-block"><label><input class="global-confirm-checkbox" type="checkbox" checked="" name="globalConfirmCheckbox"> <span class="checkbox-text">Я согласен на&nbsp;обработку моих персональных данных в&nbsp;соответствии&nbsp;с&nbsp;<a href="/cms/system/legal" target="_blank">Условиями</a></span></label></div>
-                        <p>Введите адрес электронной почты и мы вышлем Вам ссылку на книгу <b>(это бесплатно)</b>. Если письма нет, проверьте папку "Спам".</p><b>Пожалуйста проверяйте корректно ли введен e-mail</b>
-                        <button type="submit" id="button7253258" class="btn btn-primary">Получить книгу</button><br>
-                        <input type="hidden" name="__gc__internal__form__helper" class="__gc__internal__form__helper" value="">
-                        <input type="hidden" name="requestTime" value="1521630980">
-                        <input type="hidden" name="requestSimpleSign" value="cc3ef85b7cea5dc3f9305e60ea588db7">
-                      </form>
-                      <script>window.onload=function(){document.getElementsByClassName("__gc__internal__form__helper").value = window.location.href;}</script>
+                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="http://school-bcru.getcourse.ru/pl/lite/widget/script?id=24256"></script>
                     </div>
                   </div>
               </div>
