@@ -47,7 +47,15 @@
               </div>
               <div class="modal-body">
                   <?php //echo do_shortcode('[contact-form-7 id="434" title="Скачать книгу"]')?>
-                  <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="http://school-bcru.getcourse.ru/pl/lite/widget/script?id=24256"></script>
+                  <h4>"Биологическое центрирование. Практическое руководство"</h4>
+                  <div class="clearfix">
+                    <div class="col-md-4" style="text-align: center;">
+                      <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/themes/chikurov/img/oblojka.png" alt="">
+                    </div>
+                    <div class="col-md-8">
+                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="http://school-bcru.getcourse.ru/pl/lite/widget/script?id=24256"></script>
+                    </div>
+                  </div>
               </div>
           </div>
       </div>
