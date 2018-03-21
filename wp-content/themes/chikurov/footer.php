@@ -65,10 +65,18 @@
           <div class="modal-content">
               <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                  <h4 class="modal-title" id="videoCoursLabel">Купить Антистресс Визард-ловушку</h4>
+                  <h4 class="modal-title" id="videoCoursLabel">Антистресс Визард-ловушка</h4>
               </div>
               <div class="modal-body">
-                  <?php echo do_shortcode('[contact-form-7 id="449" title="Купить ловушку"]')?>
+                  <?php //echo do_shortcode('[contact-form-7 id="449" title="Купить ловушку"]')?>
+                  <div class="clearfix">
+                    <div class="col-md-4" style="text-align: center;">
+                    <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="http://chikurov.com/wp-content/uploads/2018/03/IMG_3817-167x300.jpg" alt="">
+                    </div>
+                    <div class="col-md-8">
+                      <script id="b85b70eafb20cae19a3f8910bfeaf0f331d89c4d" src="http://school-bcru.getcourse.ru/pl/lite/widget/script?id=24443"></script>
+                    </div>
+                  </div>
               </div>
           </div>
       </div>
