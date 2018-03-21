@@ -53,7 +53,15 @@
                       <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/themes/chikurov/img/oblojka.png" alt="">
                     </div>
                     <div class="col-md-8">
-                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="http://school-bcru.getcourse.ru/pl/lite/widget/script?id=24256"></script>
+                      <form id="ltForm2951937"  action="http://school-bc.ru/pl/lite/block-public/process-html?id=5852695" method="post">
+                        <input type="hidden" name="formParams[setted_offer_id]" ><br>
+                        <input type="text" maxlength="60"  placeholder="Введите ваш эл. адрес" name="formParams[email]" value="" ><br>
+                        <button type="submit" id="button7253258" style="color: #fff; background-color: #337ab7; ">Получить книгу</button><br>
+                        <input type="hidden" name="__gc__internal__form__helper" class="__gc__internal__form__helper" value="">
+                        <input type="hidden" name="requestTime" value="1521630980">
+                        <input type="hidden" name="requestSimpleSign" value="cc3ef85b7cea5dc3f9305e60ea588db7">
+                      </form>
+                      <script>window.onload=function(){document.getElementsByClassName("__gc__internal__form__helper").value = window.location.href;}</script>
                     </div>
                   </div>
               </div>
