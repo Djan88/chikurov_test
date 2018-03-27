@@ -53,7 +53,7 @@
                       <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/themes/chikurov/img/oblojka.png" alt="">
                     </div>
                     <div class="col-md-8">
-                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="http://school-bcru.getcourse.ru/pl/lite/widget/script?id=24256"></script>
+                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https://school-bcru.getcourse.ru/pl/lite/widget/script?id=24256"></script>
                     </div>
                   </div>
               </div>
@@ -74,7 +74,7 @@
                     <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="http://chikurov.com/wp-content/uploads/2018/03/IMG_3817-167x300.jpg" alt="">
                     </div>
                     <div class="col-md-8">
-                      <script id="b85b70eafb20cae19a3f8910bfeaf0f331d89c4d" src="http://school-bcru.getcourse.ru/pl/lite/widget/script?id=24443"></script>
+                      <script id="b85b70eafb20cae19a3f8910bfeaf0f331d89c4d" src="https://school-bcru.getcourse.ru/pl/lite/widget/script?id=24443"></script>
                     </div>
                   </div>
               </div>
