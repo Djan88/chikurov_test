@@ -1201,6 +1201,11 @@ h3.seminar_heading
 {
     text-align: center;
     display: inline;
+    margin-left: 5px;
+}
+.video_page
+{
+    text-align: center;
 }
 /******************************
 responsive area
