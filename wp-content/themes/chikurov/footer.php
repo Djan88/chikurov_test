@@ -5,7 +5,7 @@
           <p>&copy; Юрий Чикуров</p>
         </div>
         <div class="col-xs-6 text-right">
-          <a target="_blank" href="http://vk.com/id139677998"><i class="fa fa-vk" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://vk.com/id139677998"><i class="fa fa-vk" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.facebook.com/profile.php?id=100012253260685&pnref"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.youtube.com/user/ThePractik01/"><i class="fa fa-youtube" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.instagram.com/dr.chikurov/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -14,7 +14,7 @@
         <div class="menu_footer">
           <a href="/video">Видео</a>
           <a href="/otzyvy">Отзывы</a>
-          <a href="http://www.yuchikurov.info/members/admin/author_books/" target="_blank">Книги Доктора Чикурова</a>
+          <a href="https://www.yuchikurov.info/members/admin/author_books/" target="_blank">Книги Доктора Чикурова</a>
           <a href="/#bc">Биологическое центрирование</a>
         </div>
       </div>
@@ -72,7 +72,7 @@
                   <?php //echo do_shortcode('[contact-form-7 id="449" title="Купить ловушку"]')?>
                   <div class="clearfix">
                     <div class="col-md-4" style="text-align: center;">
-                    <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="http://chikurov.com/wp-content/uploads/2018/03/IMG_3817-167x300.jpg" alt="">
+                    <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="https://chikurov.com/wp-content/uploads/2018/03/IMG_3817-167x300.jpg" alt="">
                     </div>
                     <div class="col-md-8">
                       <script id="b85b70eafb20cae19a3f8910bfeaf0f331d89c4d" src="https://school-bcru.getcourse.ru/pl/lite/widget/script?id=24443"></script>
