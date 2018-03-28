@@ -1197,6 +1197,11 @@ h3.seminar_heading
     margin: 10px 0;
     font-size: 11px;
 }
+.online_book
+{
+    text-align: center;
+    display: inline;
+}
 /******************************
 responsive area
 ********************************/
