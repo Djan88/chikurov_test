@@ -2,6 +2,8 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
 RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -40,3 +42,4 @@ Deny from 109.252.11.98
 Deny from 116.31.124.11
 Deny from 91.200.12.35
 Deny from 120.78.81.123
+Deny from 37.59.178.104
