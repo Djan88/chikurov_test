@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
   console.log('status');
-  jQuery('.seminar_title').val(jQuery('.page_title').text());
+  jQuery('.seminar_title').val(jQuery('.title_info').text());
   jQuery('.seminar_url').val(jQuery('.page_url').text());
   jQuery('.seminar_date').val(jQuery('.date_info').text());
   jQuery('.seminar_time').val(jQuery('.time_info').text());
