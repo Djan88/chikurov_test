@@ -149,7 +149,7 @@
                 <span class="fa fa-envelope"></span> Написать письмо:
               </div>
               <span class="pull-right">
-                <a class="email_info"> href="mailto:<?php the_field('email'); ?>"><?php the_field('email'); ?></a>
+                <a class="email_info" href="mailto:<?php the_field('email'); ?>"><?php the_field('email'); ?></a>
               </span>
             </div>
           </div>
