@@ -68,7 +68,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="page_title"><?php the_title(); ?></h2>
+            <h2 class="page_title"><?php the_title(); ?><span class="price_info"><?php the_field('seminar_price'); ?></span></h2>
             <div class="hidden page_url"><?php the_permalink(); ?></div>
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
@@ -77,29 +77,31 @@
                 <span class="fa fa-calendar"></span> Дата проведения:
               </div> 
               <div class="pull-right">
-                <?php 
-                  echo $seminar_start_d;
-                  echo ' ';
-                  echo $seminar_start_m;
-                  echo ' ';
-                  echo $seminar_start_y;
-                ?> — 
-                <?php if ($seminar_end) {
-                  echo $seminar_end_d;
-                  echo ' ';
-                  echo $seminar_end_m;
-                  echo ' ';
-                  echo $seminar_end_y;
-                } else {
-                  echo $seminar_start_d;
-                  echo ' ';
-                  echo $seminar_start_m;
-                  echo ' ';
-                  echo $seminar_start_y;
-                }
-                ?>
+                <span class="date_info"> 
+                  <?php
+                    echo $seminar_start_d;
+                    echo ' ';
+                    echo $seminar_start_m;
+                    echo ' ';
+                    echo $seminar_start_y;
+                  ?> — 
+                  <?php if ($seminar_end) {
+                    echo $seminar_end_d;
+                    echo ' ';
+                    echo $seminar_end_m;
+                    echo ' ';
+                    echo $seminar_end_y;
+                  } else {
+                    echo $seminar_start_d;
+                    echo ' ';
+                    echo $seminar_start_m;
+                    echo ' ';
+                    echo $seminar_start_y;
+                  }
+                  ?>
+                </span>
                 <?php if (get_field('seminar_time_start')&& get_field('time_true')) { ?>
-                  (<i class="fa fa-clock-o" aria-hidden="true"> </i> <?php the_field('seminar_time_start'); ?> — <?php the_field('seminar_time_end'); ?>)
+                  (<i class="fa fa-clock-o" aria-hidden="true"> </i> <span class="time_info"> <?php the_field('seminar_time_start'); ?> — <?php the_field('seminar_time_end'); ?></span> )
                 <?php } ?>
               </div>
             </div>
@@ -107,7 +109,7 @@
               <div class="pull-left">
                 <span class="fa fa-map-marker"></span> Место проведения:
               </div>
-              <span class="pull-right"><?php the_field('city'); ?>, <?php the_field('adres'); ?></span>
+              <span class="pull-right"><span class="place_info"> <?php the_field('city'); ?>, <?php the_field('adres'); ?></span></span>
             </div>
             <?php if (get_field('order_closed')) { ?>
               <div class="seminar_params clearfix">
@@ -140,14 +142,14 @@
               <div class="pull-left">
                 <span class="fa fa-phone"></span> Записаться по телефону:
               </div>
-              <span class="pull-right"><?php the_field('phone'); ?></span>
+              <span class="pull-right phone_info"><?php the_field('phone'); ?></span>
             </div>
             <div class="seminar_params clearfix">
               <div class="pull-left">
                 <span class="fa fa-envelope"></span> Написать письмо:
               </div>
               <span class="pull-right">
-                <a href="mailto:<?php the_field('email'); ?>"><?php the_field('email'); ?></a>
+                <a class="email_info"> href="mailto:<?php the_field('email'); ?>"><?php the_field('email'); ?></a>
               </span>
             </div>
           </div>

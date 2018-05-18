@@ -2,6 +2,12 @@ jQuery(document).ready(function () {
   console.log('status');
   jQuery('.seminar_title').val(jQuery('.page_title').text());
   jQuery('.seminar_url').val(jQuery('.page_url').text());
+  jQuery('.seminar_date').val(jQuery('.date_info').text());
+  jQuery('.seminar_time').val(jQuery('.time_info').text());
+  jQuery('.seminar_place').val(jQuery('.place_info').text());
+  jQuery('.seminar_price').val(jQuery('.price_info').text());
+  jQuery('.seminar_email').val(jQuery('.email_info').text());
+  jQuery('.seminar_phone').val(jQuery('.phone_info').text());
   console.log(jQuery('.page_title').text());
   console.log(jQuery('.page_url').text());
   jQuery('.speed_closed').popover({

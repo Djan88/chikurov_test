@@ -1207,6 +1207,10 @@ h3.seminar_heading
 {
     text-align: center;
 }
+.price_info
+{
+    display: none;
+}
 /******************************
 responsive area
 ********************************/
