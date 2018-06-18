@@ -176,8 +176,10 @@
               <?php } else { ?>
                 <?php if ($autor == 'Юрий Чикуров') {?>
                   <?php echo do_shortcode('[contact-form-7 id="4" title="Запись на семинар"]'); ?>
-                <?php } else { ?>
+                <?php } else if ($autor == 'Ирина Иванова') { ?>
                   <?php echo do_shortcode('[contact-form-7 id="170" title="Запись на семинар_Иванова"]'); ?>
+                <?php } else if ($autor == 'Василий Киселев') { ?>
+                  <?php echo do_shortcode('[contact-form-7 id="170" title="Запись на семинар_Киселев"]'); ?>
                 <?php } ?>
               <?php } ?>
             </div>
