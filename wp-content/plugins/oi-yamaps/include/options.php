@@ -1,40 +1,43 @@
 <?php
+
+namespace oiyamaps;
+
 function oiym_fields() {
 	$fields = array(
 		'height'      => array(
-			'title'   => __( 'Map height', 'oiyamaps' ),
+			'title'   => __( 'Map height', 'oi-yamaps' ),
 			'type'    => 'text',
 			'section' => 'setting_section_1',
 			'page'    => 'oiym-setting-admin',
-			'hint'    => __( 'Use px or %. 400px by default', 'oiyamaps' ),
+			'hint'    => __( 'Use px or %. 400px by default', 'oi-yamaps' ),
 		),
 		'width'       => array(
-			'title'   => __( 'Map width', 'oiyamaps' ),
+			'title'   => __( 'Map width', 'oi-yamaps' ),
 			'type'    => 'text',
 			'section' => 'setting_section_1',
 			'page'    => 'oiym-setting-admin',
-			'hint'    => __( 'Use px or %. 100% by default', 'oiyamaps' ),
+			'hint'    => __( 'Use px or %. 100% by default', 'oi-yamaps' ),
 		),
 		'zoom'        => array(
-			'title'   => __( 'Map zoom', 'oiyamaps' ),
+			'title'   => __( 'Map zoom', 'oi-yamaps' ),
 			'type'    => 'text',
 			'section' => 'setting_section_1',
 			'page'    => 'oiym-setting-admin',
-			'hint'    => __( '16 by default', 'oiyamaps' ),
+			'hint'    => __( '16 by default', 'oi-yamaps' ),
 		),
 		'placemark'   => array(
-			'title'   => __( 'Default placemark', 'oiyamaps' ),
+			'title'   => __( 'Default placemark', 'oi-yamaps' ),
 			'type'    => 'text',
 			'section' => 'setting_section_1',
 			'page'    => 'oiym-setting-admin',
-			'hint'    => __( 'You can use different placemarks. Checkout this page - ' . '<a target="_blank" href="https://api.yandex.ru/maps/doc/jsapi/2.x/ref/reference/option.presetStorage.xml">https://api.yandex.ru/maps/...</a>', 'oiyamaps' ),
+			'hint'    => sprintf(__( 'You can use different placemarks. Checkout that page - %s', 'oi-yamaps' ),'<a target="_blank" href="https://tech.yandex.ru/maps/doc/jsapi/2.1/ref/reference/option.presetStorage-docpage/">https://tech.yandex.ru/maps/...</a>'),
 		),
 		'author_link' => array(
-			'title'   => __( "Show link to the plugin's page", 'oiyamaps' ),
+			'title'   => __( "Show link to the plugin's page", 'oi-yamaps' ),
 			'type'    => 'checkbox',
 			'section' => 'setting_section_1',
 			'page'    => 'oiym-setting-admin',
-			'hint'    => __( 'It is just a link to the plugin page in corner of the map.', 'oiyamaps' ),
+			'hint'    => __( 'It is just a link to the plugin page in corner of the map.', 'oi-yamaps' ),
 		),
 	);
 
@@ -110,10 +113,10 @@ function oiym_psf( $atts ) {
 				       $atts['after'] . $atts['hint'];
 				break;
 			case 'text':
-				$out = $atts['before'] . '<input type="' . $atts['type'] . '" id="' . OIYM_PREFIX . 'options[' . $atts['key'] . ']" name="' . OIYM_PREFIX . 'options[' . $atts['key'] . ']" class="regular-text" value="' . $atts['value'] . '" ' . $atts['addon'] . '/>' . $atts['after'] . $atts['hint'];
+				$out = $atts['before'] . '<input type="' . $atts['type'] . '" id="' . prefix() . 'options[' . $atts['key'] . ']" name="' . prefix() . 'options[' . $atts['key'] . ']" class="regular-text" value="' . $atts['value'] . '" ' . $atts['addon'] . '/>' . $atts['after'] . $atts['hint'];
 				break;
 			case 'hidden':
-				$out = $atts['before'] . '<input type="' . $atts['type'] . '" id="' . OIYM_PREFIX . 'options[' . $atts['key'] . ']" name="' . OIYM_PREFIX . 'options[' . $atts['key'] . ']" value="' . $atts['value'] . '">' . $atts['after'] . $atts['hint'];
+				$out = $atts['before'] . '<input type="' . $atts['type'] . '" id="' . prefix() . 'options[' . $atts['key'] . ']" name="' . prefix() . 'options[' . $atts['key'] . ']" value="' . $atts['value'] . '">' . $atts['after'] . $atts['hint'];
 				break;
 			case 'checkbox':
 				if ( $atts['value'] == '1' ) {
@@ -121,10 +124,10 @@ function oiym_psf( $atts ) {
 				} else {
 					$checked_flag = '';
 				}
-				$out = $atts['before'] . '<input type="' . $atts['type'] . '" id="' . OIYM_PREFIX . 'options[' . $atts['key'] . ']" name="' . OIYM_PREFIX . 'options[' . $atts['key'] . ']"' . ' value="1"' . $checked_flag . '' . $atts['addon'] . '>' . $atts['after'] . $atts['hint'];
+				$out = $atts['before'] . '<input type="' . $atts['type'] . '" id="' . prefix() . 'options[' . $atts['key'] . ']" name="' . prefix() . 'options[' . $atts['key'] . ']"' . ' value="1"' . $checked_flag . '' . $atts['addon'] . '>' . $atts['after'] . $atts['hint'];
 				break;
 			case 'textarea':
-				$out = $atts['before'] . '<textarea class="wp-editor-area" id="' . OIYM_PREFIX . 'options[' . $atts['key'] . ']" name="' . OIYM_PREFIX . 'options[' . $atts['key'] . ']" ' . $atts['addon'] . '>' . $atts['value'] . '</textarea>' . $atts['after'] . $atts['hint'];
+				$out = $atts['before'] . '<textarea class="wp-editor-area" id="' . prefix() . 'options[' . $atts['key'] . ']" name="' . prefix() . 'options[' . $atts['key'] . ']" ' . $atts['addon'] . '>' . $atts['value'] . '</textarea>' . $atts['after'] . $atts['hint'];
 				break;
 		}
 	}
@@ -153,8 +156,8 @@ class OIYM_SettingsPage {
 	public function add_plugin_page() {
 		// This page will be under "Settings"
 		add_options_page(
-			__( 'Oi Yandex Maps Settings', 'oiyamaps' ),
-			__( 'Oi Yandex Maps', 'oiyamaps' ),
+			__( 'Oi Yandex.Maps Settings', 'oi-yamaps' ),
+			__( 'Oi Yandex.Maps', 'oi-yamaps' ),
 			'manage_options',
 			'oiym-setting-admin',
 			array( $this, 'settings_page' )
@@ -166,16 +169,15 @@ class OIYM_SettingsPage {
 	 */
 	public function settings_page() {
 		// Set class property
-		$this->options = ( get_option( OIYM_PREFIX . 'options', oi_yamaps_defaults() ) );
+		$this->options = ( get_option( prefix() . 'options', oi_yamaps_defaults() ) );
 		?>
 
 		<div class="wrap">
-			<?php screen_icon(); ?>
-			<h2><?php _e( 'Oi Yandex Maps Settings', 'oiyamaps' ); ?></h2>
+			<h2><?php _e( 'Oi Yandex.Maps Settings', 'oi-yamaps' ); ?></h2>
 			<form method="post" action="options.php">
 				<?php
 				// This prints out all hidden setting fields
-				settings_fields( OIYM_PREFIX . 'option_group' );
+				settings_fields( prefix() . 'option_group' );
 				submit_button();
 				do_settings_sections( 'oiym-setting-admin' );
 				submit_button();
@@ -191,8 +193,8 @@ class OIYM_SettingsPage {
 	 */
 	public function page_init() {
 		register_setting(
-			OIYM_PREFIX . 'option_group', // Option group
-			OIYM_PREFIX . 'options', // Option name
+			prefix() . 'option_group', // Option group
+			prefix() . 'options', // Option name
 			array( $this, 'sanitize' ) // Sanitize
 		);
 
@@ -224,11 +226,11 @@ class OIYM_SettingsPage {
 	public function sections() {
 		$fields = array(
 			'setting_section_1' => array(
-				'title' => __( 'Map defaults', 'oiyamaps' ),
+				'title' => __( 'Map defaults', 'oi-yamaps' ),
 				'page'  => 'oiym-setting-admin',
 			),
 			'setting_section_2' => array(
-				'title' => __( 'Info', 'oiyamaps' ),
+				'title' => __( 'Info', 'oi-yamaps' ),
 				'page'  => 'oiym-setting-admin',
 			),
 		);
@@ -266,7 +268,7 @@ class OIYM_SettingsPage {
 	 */
 	public function setting_section_1_callback() {
 
-		_e( 'Default parameters', 'oiyamaps' );
+		_e( 'Default parameters', 'oi-yamaps' );
 	}
 
 	public function setting_section_2_callback() {
@@ -316,7 +318,7 @@ class OIYM_SettingsPage {
 		<div class="oiplug_ad">
 
 			<p><a href="https://oiplug.com/plugins/oi-yandex-maps-for-wordpress/?utm_source=wordpress&utm_medium=adminbar&utm_campaign=documentation&utm_content=1" target="_blank"
-			      class="myButton"><?php _e( 'Documentation', 'oiyamaps' ); ?></a></p>
+			      class="myButton"><?php _e( 'Documentation', 'oi-yamaps' ); ?></a></p>
 		</div>
 
 		<?php
@@ -347,7 +349,12 @@ class OIYM_SettingsPage {
 
 	public function author_link_callback() {
 		$key = 'author_link';
-		print oiym_psf( array( 'key' => $key, 'value' => esc_attr( $this->options[ $key ] ), ) );
+		if(!empty($this->options[ $key ]) && $this->options[ $key ] !== 0){
+			$value = 1;
+		}else{
+			$value = 0;
+		}
+		print oiym_psf( array( 'key' => $key, 'value' => $value, ) );
 	}
 
 	/* END: EDIT HERE */
@@ -357,3 +364,5 @@ class OIYM_SettingsPage {
 if ( is_admin() ) {
 	$my_settings_page = new OIYM_SettingsPage();
 }
+
+// eof

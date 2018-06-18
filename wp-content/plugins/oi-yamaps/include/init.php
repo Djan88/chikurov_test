@@ -2,11 +2,11 @@
 /**
  *
  */
+namespace oiyamaps;
 
-define( 'OIYM_PATH', plugin_dir_path( __FILE__ ));
-define( 'OIYM_PREFIX', 'oiym_');
-require_once( OIYM_PATH . 'options.php' );
-require_once( OIYM_PATH . 'thickbox.php' );
+function prefix(){
+	return 'oiym_';
+}
 
 /* Display a notice that can be dismissed */
 function oiym_admin_notice()
@@ -19,16 +19,16 @@ function oiym_admin_notice()
 ?>
 	<div class="updated" style="position: relative;">
 		<p>
-			<?php printf(__('Check out the <a href="%1$s">option page</a> of Oi Yandex.Maps for WordPress plugin.','oiyamaps'), 'options-general.php?page=oiym-setting-admin'); ?>
+			<?php printf(__('Check out the <a href="%1$s">option page</a> of Oi Yandex.Maps for WordPress plugin.','oi-yamaps'), 'options-general.php?page=oiym-setting-admin'); ?>
 		</p>
 		<a href="<?php print oi_yamaps_same_page( 'oiym_nag_ignore=0' ); ?>" class="notice-dismiss">
-			<span class="screen-reader-text"><?php _e( 'Hide Notice', 'oiyamaps' ); ?></span>
+			<span class="screen-reader-text"><?php _e( 'Hide Notice', 'oi-yamaps' ); ?></span>
 		</a>
 	</div>
 <?php
 	}
 }
-add_action('admin_notices', 'oiym_admin_notice');
+add_action('admin_notices', __NAMESPACE__.'\oiym_admin_notice');
 
 function oiym_nag_ignore()
 {
@@ -40,4 +40,6 @@ function oiym_nag_ignore()
 		add_user_meta($user_id, 'oiym_ignore_notice', 'true', true);
 	}
 }
-add_action('admin_init', 'oiym_nag_ignore');
+add_action('admin_init', __NAMESPACE__.'\oiym_nag_ignore');
+
+// eof
