@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php if (in_category(2)) { ?>
+<?php if (in_category(2) || in_category(3)) { ?>
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <?php
     $seminar_start = get_field('seminar_start');
