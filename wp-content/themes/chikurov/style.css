@@ -1215,6 +1215,11 @@ h3.seminar_heading
 {
     color: transparent;
 }
+.footer-social
+{
+    position: relative;
+    z-index: 999;
+}
 /******************************
 responsive area
 ********************************/
