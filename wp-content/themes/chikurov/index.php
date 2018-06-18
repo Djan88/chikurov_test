@@ -15,20 +15,38 @@
           <div class="row">
             <?php
             // The Query
-            $wp_query = new WP_Query( array(
-                'category_name' => 'seminary',
-                'order' => 'ASC',
-                'orderby' => 'meta_value',
-                'meta_key' => 'seminar_start',
-                'meta_query' => array(
-                    array(
-                        'key' => 'seminar_start',
-                        'value' => date('Y-m-d'),
-                        'compare' => '>=',
-                        'type' => 'DATE'
-                    )
-                )
-            ));
+            if (is_page(546)) {
+              $wp_query = new WP_Query( array(
+                  'category_name' => 'seminary',
+                  'order' => 'ASC',
+                  'orderby' => 'meta_value',
+                  'meta_key' => 'seminar_start',
+                  'meta_query' => array(
+                      array(
+                          'key' => 'seminar_start',
+                          'value' => date('Y-m-d'),
+                          'compare' => '>=',
+                          'type' => 'DATE'
+                      )
+                  )
+              ));
+            } else if (630) {
+              $wp_query = new WP_Query( array(
+                  'category_name' => 'seminary-masterov',
+                  'order' => 'ASC',
+                  'orderby' => 'meta_value',
+                  'meta_key' => 'seminar_start',
+                  'meta_query' => array(
+                      array(
+                          'key' => 'seminar_start',
+                          'value' => date('Y-m-d'),
+                          'compare' => '>=',
+                          'type' => 'DATE'
+                      )
+                  )
+              ));
+            }
+            
             $cur_month = 0;
             while ($wp_query->have_posts()) : $wp_query->the_post();
                 get_template_part( 'seminar');
