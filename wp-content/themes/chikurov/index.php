@@ -1,9 +1,16 @@
 <?php get_header(); ?>
-<?php if (is_page(546)) { ?>
+<?php if (is_page(546) || is_page(630)) { ?>
     <section class="seminars text-center" id="seminars">
     <div class="container">
       <div class="row">
-        <div class="col-md-12"><h2>Расписание семинаров</h2></div>
+        <div class="col-md-12">
+          <?php if (is_page(546)) { ?>
+            <h2>Расписание семинаров</h2>
+          <?php } ?> 
+          <?php if (is_page(630)) { ?>
+            <h2>Семинары сертифицированных специалистов</h2>
+          <?php } ?> 
+        </div>
         <div class="col-md-12 seminar_wrap">
           <div class="row">
             <?php
