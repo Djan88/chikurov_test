@@ -41,7 +41,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12 main-menu">
+        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 main-menu">
           <div class="row">
             <div class="col-md-12">
               <nav class="navbar navbar-default">
@@ -64,8 +64,7 @@
                       <li><a class="menu" href="/#seminars">Семинары</a></li>
                       <!-- <li><a class="menu" href="#about">Биологическое центрирование</a></li> -->
                       <li><a class="menu" href="http://school-bc.ru/" target="_blank">Онлайн школа</a></li>
-                      <li><a class="menu" target="_blank" href="http://www.yuchikurov.info/reestr/">Специалисты</a></li>
-                      <li><a class="menu" href="/seminary-masterov/">Семинары специалистов</a></li>
+                      <li><a class="menu" target="_blank" href="http://www.yuchikurov.info/reestr/">Реестр специалистов</a></li>
                       <li><a class="menu" target="_blank" href="http://www.yuchikurov.info/">Визардтерапия</a></li>
                       <li><a class="menu" href="/kniga">Книга</a></li>
                     </ul>

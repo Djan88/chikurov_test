@@ -20,6 +20,27 @@ jQuery(document).ready(function () {
       return false;
     }
   };
+  // Фильтрация по городам
+  jQuery('.btn_city_filter').on('click', function(event) {
+    jQuery('.btn_city_filter').removeClass('active');
+    jQuery(this).addClass('active');
+    var filter_param = jQuery(this).data('filter');
+    if (filter_param == 'all') {
+      jQuery('.seminar_in').removeClass('hidden');
+    } else if (filter_param == 'msk') {
+      jQuery('.seminar_in').addClass('hidden');
+      jQuery('.seminar_item__msk').removeClass('hidden');
+    } else if (filter_param == 'spb') {
+      jQuery('.seminar_in').addClass('hidden');
+      jQuery('.seminar_item__spb').removeClass('hidden');
+    } else if (filter_param == 'kiev') {
+      jQuery('.seminar_in').addClass('hidden');
+      jQuery('.seminar_item__kiev').removeClass('hidden');
+    } else if (filter_param == 'ast') {
+      jQuery('.seminar_in').addClass('hidden');
+      jQuery('.seminar_item__ast').removeClass('hidden');
+    }
+  });
   var popupStatus = false;
   function openPopup(){
     jQuery('#book_down').modal('show');

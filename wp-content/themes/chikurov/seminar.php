@@ -114,7 +114,7 @@ if ($cur_month != $seminar_start_months) {
   echo '</h3>';
   echo "</div>";
 }
-echo '<div class="seminar_item ';
+echo '<div class="seminar_item seminar_in';
 echo $seminar_filter;
 echo ' col-md-12"';
 echo 'data-start="';

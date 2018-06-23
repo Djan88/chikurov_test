@@ -905,6 +905,10 @@ section#doctor
     text-align: left;
     font-size: 15px;
 }
+.seminar_city_name 
+{
+    color: #f19b22;
+}
 .seminar_adress 
 {
     display: inline-block;
