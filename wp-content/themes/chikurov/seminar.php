@@ -92,13 +92,13 @@ $month_names = array(
 
 $seminar_city = get_field('city');
 if ($seminar_city == 'Москва') {
-  $seminar_filter = 'seminar_item__msk'
+  $seminar_filter = 'seminar_item__msk';
 } else if ($seminar_city == 'Санкт-Петербург') {
-  $seminar_filter = 'seminar_item__spb'
+  $seminar_filter = 'seminar_item__spb';
 } else if ($seminar_city == 'Киев') {
-  $seminar_filter = 'seminar_item__kiev'
+  $seminar_filter = 'seminar_item__kiev';
 } else if ($seminar_city == 'Астана') {
-  $seminar_filter = 'seminar_item__ast'
+  $seminar_filter = 'seminar_item__ast';
 }
 $seminar_autor = get_field('autor');
 global $cur_month;
