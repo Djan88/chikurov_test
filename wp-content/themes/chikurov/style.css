@@ -918,6 +918,10 @@ section#doctor
     display: inline-block;
     text-align: center;
 }
+.btn_city_filter
+{
+    margin-top: 3px;
+}
 .seminar_time .fa
 {
     margin-right: 5px;

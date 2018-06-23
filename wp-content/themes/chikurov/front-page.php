@@ -17,7 +17,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12"><h2>Расписание семинаров</h2></div>
-        <div class="cyties col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
+        <div class="cyties col-md-12">
           <button type="button" data-filter="all" class="btn btn-warning btn_city_filter active">Все города</button>
           <button type="button" data-filter="msk" class="btn btn-warning btn_city_filter">Москва</button>
           <button type="button" data-filter="spb" class="btn btn-warning btn_city_filter">Санкт—Петербург</button>
