@@ -91,6 +91,15 @@ $month_names = array(
 );
 
 $seminar_city = get_field('city');
+if ($seminar_city == 'Москва') {
+  $seminar_filter = 'seminar_item__msk'
+} else if ($seminar_city == 'Санкт-Петербург') {
+  $seminar_filter = 'seminar_item__spb'
+} else if ($seminar_city == 'Киев') {
+  $seminar_filter = 'seminar_item__kiev'
+} else if ($seminar_city == 'Астана') {
+  $seminar_filter = 'seminar_item__ast'
+}
 $seminar_autor = get_field('autor');
 global $cur_month;
 if ($cur_month != $seminar_start_months) {
@@ -105,7 +114,9 @@ if ($cur_month != $seminar_start_months) {
   echo '</h3>';
   echo "</div>";
 }
-echo '<div class="seminar_item col-md-12"';
+echo '<div class="seminar_item ';
+echo $seminar_filter;
+echo ' col-md-12"';
 echo 'data-start="';
 echo $seminar_start;
 echo'">';
@@ -137,14 +148,14 @@ echo ' | ';
 echo ' <span class="fa fa-user"></span>Читает: ';
 echo $seminar_autor;
 echo '</div>';
-echo '<br>';
-echo '<div class="seminar_title col-md-12">';
+echo '<div class="on_wide">';
+echo ' | ';
+echo '</div>';
 echo '<a target="_blank" href="';
 echo the_permalink();
 echo '">';
 echo the_title();
 echo '</a>';
-echo '</div>';
 echo '</div>';
 echo '</div>';
 echo '</div>';
