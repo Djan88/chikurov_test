@@ -6,6 +6,13 @@
         <div class="col-md-12">
           <?php if (is_page(546)) { ?>
             <h2>Расписание семинаров</h2>
+            <div class="cyties col-md-12">
+              <button type="button" data-filter="all" class="btn btn-warning btn_city_filter active">Все города</button>
+              <button type="button" data-filter="msk" class="btn btn-warning btn_city_filter">Москва</button>
+              <button type="button" data-filter="spb" class="btn btn-warning btn_city_filter">Санкт—Петербург</button>
+              <button type="button" data-filter="kiev" class="btn btn-warning btn_city_filter">Киев</button>
+              <button type="button" data-filter="ast" class="btn btn-warning btn_city_filter">Астана</button>
+            </div>
           <?php } ?> 
           <?php if (is_page(630)) { ?>
             <h2>Семинары сертифицированных специалистов</h2>
