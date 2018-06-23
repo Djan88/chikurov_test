@@ -11,7 +11,6 @@
               <button type="button" data-filter="msk" class="btn btn-warning btn_city_filter">Москва</button>
               <button type="button" data-filter="spb" class="btn btn-warning btn_city_filter">Санкт—Петербург</button>
               <button type="button" data-filter="kiev" class="btn btn-warning btn_city_filter">Киев</button>
-              <button type="button" data-filter="ast" class="btn btn-warning btn_city_filter">Астана</button>
             </div>
           <?php } ?> 
           <?php if (is_page(630)) { ?>
