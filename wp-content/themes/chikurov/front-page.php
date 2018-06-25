@@ -13,6 +13,26 @@
       </div>
     </div>
   </section><!-- end of doctor section -->
+  <!-- Мастера -->
+  <section class="seminars text-center" id="lectors">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><h2>Преподаватели школы</h2></div>
+        <div class="col-md-12">
+          <div class="school-lector col-md-3 col-md-offset-6">
+            <a target="_blank" href="http://www.yuchikurov.info/members/irina_ivanova/">
+              <img src="<?php bloginfo('template_url'); ?>/img/ivanova.jpg" alt="">
+              <div class="lector_name">Ирина Иванова</div>
+            </a>
+            <div class="lector_tel">+38(099)294-82-24</div>
+            <div class="lector_email">
+              <a href="mailto:drivanova524@gmail.com">drivanova524@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="seminars text-center" id="seminars">
     <div class="container">
       <div class="row">
