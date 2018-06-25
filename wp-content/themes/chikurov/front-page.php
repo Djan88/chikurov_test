@@ -19,14 +19,26 @@
       <div class="row">
         <div class="col-md-12"><h2>Преподаватели школы</h2></div>
         <div class="col-md-12">
-          <div class="school-lector col-md-3 col-md-offset-6">
+          <div class="school-lector col-md-3 col-md-offset-3">
             <a target="_blank" href="http://www.yuchikurov.info/members/irina_ivanova/">
               <img src="<?php bloginfo('template_url'); ?>/img/ivanova.jpg" alt="">
               <div class="lector_name">Ирина Иванова</div>
             </a>
-            <div class="lector_tel">+38(099)294-82-24</div>
-            <div class="lector_email">
+            <div class="lector_city"><span class="glyphicon glyphicon-home"></span> Киев</div>
+            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +38(099)294-82-24</div>
+            <div class="lector_email"><span class="glyphicon glyphicon-envelope"></span> 
               <a href="mailto:drivanova524@gmail.com">drivanova524@gmail.com</a>
+            </div>
+          </div>
+          <div class="school-lector col-md-3 col-md-offset-3">
+            <a target="_blank" href="http://www.yuchikurov.info/members/irina_ivanova/">
+              <img src="<?php bloginfo('template_url'); ?>/img/kiselev.jpg" alt="">
+              <div class="lector_name">Василий Киселев</div>
+            </a>
+            <div class="lector_city"><span class="glyphicon glyphicon-home"></span> Санкт-Петербург</div>
+            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(911)210-48-99</div>
+            <div class="lector_email"><span class="glyphicon glyphicon-envelope"></span> 
+              <a href="mailto:kv@bio-mehanika.ru">kv@bio-mehanika.ru</a>
             </div>
           </div>
         </div>

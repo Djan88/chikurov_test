@@ -1195,6 +1195,25 @@ h3.seminar_heading
 {
     display: none;
 }
+section#lectors 
+{
+    border-bottom: 1px solid #42b3e5;
+    padding-bottom: 15px;
+}
+.school-lector 
+{
+    background: #f5fcff;
+    border: 1px solid #42b3e5;
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.school-lector img 
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
 .lt-block 
 {
     background: #EBEBEB;
