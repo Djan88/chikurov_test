@@ -31,7 +31,7 @@
             </div>
           </div>
           <div class="school-lector col-md-3 col-xs-12">
-            <a target="_blank" href="http://www.yuchikurov.info/members/irina_ivanova/">
+            <a target="_blank" href="http://www.yuchikurov.info/members/Bazilevs/">
               <img src="<?php bloginfo('template_url'); ?>/img/kiselev.jpg" alt="">
               <div class="lector_name">Василий Киселев</div>
             </a>
