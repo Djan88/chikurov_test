@@ -1256,6 +1256,10 @@ section#lectors
     position: relative;
     z-index: 999;
 }
+.lector_city 
+{
+    color: #f19b22;
+}
 /******************************
 responsive area
 ********************************/

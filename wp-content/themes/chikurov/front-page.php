@@ -26,8 +26,8 @@
             </a>
             <div class="lector_city"><span class="glyphicon glyphicon-home"></span> г. Киев</div>
             <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +38(099)294-82-24</div>
-            <div class="lector_email"><span class="glyphicon glyphicon-envelope"></span> 
-              <a href="mailto:drivanova524@gmail.com">drivanova524@gmail.com</a>
+            <div class="lector_email">
+              <a href="mailto:drivanova524@gmail.com"><span class="glyphicon glyphicon-envelope"></span> drivanova524@gmail.com</a>
             </div>
           </div>
           <div class="school-lector col-md-3 col-xs-12">
@@ -37,8 +37,8 @@
             </a>
             <div class="lector_city"><span class="glyphicon glyphicon-home"></span> г. Санкт-Петербург</div>
             <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(911)210-48-99</div>
-            <div class="lector_email"><span class="glyphicon glyphicon-envelope"></span> 
-              <a href="mailto:kv@bio-mehanika.ru">kv@bio-mehanika.ru</a>
+            <div class="lector_email">
+              <a href="mailto:kv@bio-mehanika.ru"><span class="glyphicon glyphicon-envelope"></span> kv@bio-mehanika.ru</a>
             </div>
           </div>
         </div>
