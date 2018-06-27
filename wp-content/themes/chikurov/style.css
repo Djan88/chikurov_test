@@ -1072,7 +1072,7 @@ div#loadSeminar
     padding: 10px;
     margin-top: 15px;
     border: 1px solid #42b3e5;
-    background: #ddeff7;
+    /*background: #ddeff7;*/
     border-radius: 6px;
 }
 .order_seminar h4
@@ -1259,6 +1259,17 @@ section#lectors
 .lector_city 
 {
     color: #f19b22;
+}
+.order_seminar 
+{
+    background: #ddeff7;
+    border: 1px solid #42b3e5;
+    padding: 10px;
+    border-radius: 6px;
+}
+.order_seminar p 
+{
+    display: none;
 }
 /******************************
 responsive area
