@@ -1271,6 +1271,10 @@ section#lectors
 {
     display: none;
 }
+input.wpcf7-form-control 
+{
+    margin-top: 5px;
+}
 /******************************
 responsive area
 ********************************/
