@@ -4,7 +4,7 @@
         <div class="col-xs-6 footer-para">
           <p>&copy; Юрий Чикуров</p>
         </div>
-        <div class="col-xs-6 col-sm-3 text-right footer-social">
+        <div class="col-xs-6 col-sm-3 pull-right text-right footer-social">
           <a target="_blank" href="https://vk.com/id139677998"><i class="fa fa-vk" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.facebook.com/profile.php?id=100012253260685&pnref"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.youtube.com/user/ThePractik01/"><i class="fa fa-youtube" aria-hidden="true"></i></a>
