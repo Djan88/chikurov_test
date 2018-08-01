@@ -39,31 +39,31 @@
     $seminar_end_d = date('d',$date_formated_end);
     $seminar_end_m = date('m',$date_formated_end);
     $seminar_end_y = date('Y',$date_formated_end);
-    if ($seminar_end_m == 01) {
-      $seminar_end_m = ' января ';
-    } else if ($seminar_end_m == 02) {
-      $seminar_end_m = ' февраля ';
-    } else if ($seminar_end_m == 03) {
-      $seminar_end_m = ' марта ';
-    } else if ($seminar_end_m == 04) {
-      $seminar_end_m = ' апреля ';
-    } else if ($seminar_end_m == 05) {
-      $seminar_end_m = ' мая ';
-    } else if ($seminar_end_m == 06) {
-      $seminar_end_m = ' июня ';
-    } else if ($seminar_end_m == 07) {
-      $seminar_end_m = ' июля ';
-    } else if ($seminar_end_m == 08) {
-      $seminar_end_m = ' августа ';
-    } else if ($seminar_end_m == 09) {
-      $seminar_end_m = ' сентября ';
-    } else if ($seminar_end_m == 10) {
-      $seminar_end_m = ' октября ';
-    } else if ($seminar_end_m == 11) {
-      $seminar_end_m = ' ноября ';
-    } else if ($seminar_end_m == 12) {
-      $seminar_end_m = ' декабря ';
-    }
+    // if ($seminar_end_m == 01) {
+    //   $seminar_end_m = ' января ';
+    // } else if ($seminar_end_m == 02) {
+    //   $seminar_end_m = ' февраля ';
+    // } else if ($seminar_end_m == 03) {
+    //   $seminar_end_m = ' марта ';
+    // } else if ($seminar_end_m == 04) {
+    //   $seminar_end_m = ' апреля ';
+    // } else if ($seminar_end_m == 05) {
+    //   $seminar_end_m = ' мая ';
+    // } else if ($seminar_end_m == 06) {
+    //   $seminar_end_m = ' июня ';
+    // } else if ($seminar_end_m == 07) {
+    //   $seminar_end_m = ' июля ';
+    // } else if ($seminar_end_m == 08) {
+    //   $seminar_end_m = ' августа ';
+    // } else if ($seminar_end_m == 09) {
+    //   $seminar_end_m = ' сентября ';
+    // } else if ($seminar_end_m == 10) {
+    //   $seminar_end_m = ' октября ';
+    // } else if ($seminar_end_m == 11) {
+    //   $seminar_end_m = ' ноября ';
+    // } else if ($seminar_end_m == 12) {
+    //   $seminar_end_m = ' декабря ';
+    // }
     ?>
     <section class="doctor seminar text-center" id="doctor">
       <div class="container">
