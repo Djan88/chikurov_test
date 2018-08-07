@@ -108,10 +108,10 @@
           $query_reviews = new WP_Query( array( 'category_name' => 'otzyvy', 'posts_per_page' => '5' ) );
           $cur_month = 0;
           while ($query_reviews->have_posts()) : $query_reviews->the_post();
-              echo '<div class="review">';
+              echo '<div class="review col-md-3 col-xs-12">';
               echo '<a href=">';
               echo the_field('link_review');
-              echo '" title="Ссылка на источник">';
+              echo '" target="_blank" title="Ссылка на источник">';
               echo '<img src="';
               echo the_field('img_review');
               echo '" alt="">';
@@ -121,7 +121,7 @@
               echo '</p>';
               echo '<a href=">';
               echo the_field('link_review');
-              echo '" title="Ссылка на источник">';
+              echo '" target="_blank" title="Ссылка на источник">';
               echo the_title();
               echo '</a>';
               echo '</div>';
