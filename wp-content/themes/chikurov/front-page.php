@@ -120,7 +120,7 @@
               echo '" alt="">';
               echo '</a>';
               echo '<p>';
-              echo the_content(__('(читать далее...)'));
+              echo the_content(__('(читать полностью)'));
               echo '</p>';
               echo '<a href="';
               if (get_field('link_review')) {
