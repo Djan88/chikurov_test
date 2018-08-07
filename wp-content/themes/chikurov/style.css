@@ -1278,6 +1278,8 @@ input.wpcf7-form-control
 section#seminars 
 {
     background: #f5fcff;
+    border-bottom: 1px solid #42b3e5;
+    padding-bottom: 10px;
 }
 /******************************
 responsive area
