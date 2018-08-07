@@ -109,7 +109,7 @@
           while ($query_reviews->have_posts()) : $query_reviews->the_post();
               echo '<div class="review col-md-3 col-xs-12">';
               echo '<a href=">';
-              echo the_permalink()
+              echo the_permalink();
               echo '" target="_blank" title="Ссылка на источник">';
               echo '<img src="';
               echo the_field('img_review');
@@ -121,7 +121,7 @@
               echo '<a href=">';
               echo the_field('link_review');
               echo '" target="_blank" title="Ссылка на источник">';
-              echo the_permalink()
+              echo the_permalink();
               echo '</a>';
               echo '</div>';
           endwhile;
