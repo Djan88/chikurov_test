@@ -1284,6 +1284,21 @@ section#seminars
 .review
 {
     font-style: italic;
+    background: #f5fcff;
+    border: 1px solid #42b3e5;
+    width: 24%;
+    margin: 0 0.5%;
+    padding: 5px;
+    border-radius: 6px;
+    max-height: 200px;
+}
+.reviews h4
+{
+    margin-top: 0;
+}
+.reviews img 
+{
+    border-radius: 50%;
 }
 /******************************
 responsive area
