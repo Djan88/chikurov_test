@@ -108,7 +108,7 @@
           $cur_month = 0;
           while ($query_reviews->have_posts()) : $query_reviews->the_post();
               echo '<div class="review col-md-3 col-xs-12">';
-              echo '<a href=">';
+              echo '<a href="';
               echo the_field('link_review');
               echo '" target="_blank" title="Ссылка на источник">';
               echo '<img src="';
@@ -118,7 +118,7 @@
               echo '<p>';
               echo the_content(__('(читать далее...)'));
               echo '</p>';
-              echo '<a href=">';
+              echo '<a href="';
               echo the_field('link_review');
               echo '" target="_blank" title="Ссылка на источник">';
               echo the_field('name_review');
