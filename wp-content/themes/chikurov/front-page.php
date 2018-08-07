@@ -115,7 +115,7 @@
               echo the_field('img_review');
               echo '" alt="">';
               echo '</a>';
-              echo '<p class="content_review">';
+              echo '<p>';
               echo the_content(__('(читать далее...)'));
               echo '</p>';
               echo '<a href=">';
