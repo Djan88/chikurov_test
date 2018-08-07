@@ -100,29 +100,28 @@
       <div class="row">
         <div class="col-md-12">
           <h2>Отзывы</h2>
-          <h4>Все отзывы снабжены ссылкой на источник.</h4>
         </div>
         <div class="col-md-12 bc reviews">
           <?php
           // The Query
-          $query_reviews = new WP_Query( array( 'category_name' => 'otzyvy', 'posts_per_page' => '5' ) );
+          $query_reviews = new WP_Query( array( 'category_name' => 'otzyvy', 'posts_per_page' => '4' ) );
           $cur_month = 0;
           while ($query_reviews->have_posts()) : $query_reviews->the_post();
               echo '<div class="review col-md-3 col-xs-12">';
               echo '<a href=">';
-              echo the_field('link_review');
+              echo the_permalink()
               echo '" target="_blank" title="Ссылка на источник">';
               echo '<img src="';
               echo the_field('img_review');
               echo '" alt="">';
               echo '</a>';
-              echo '<p>';
+              echo '<p class="content_review">';
               echo the_content(__('(читать далее...)'));
               echo '</p>';
               echo '<a href=">';
               echo the_field('link_review');
               echo '" target="_blank" title="Ссылка на источник">';
-              echo the_field('name_review');
+              echo the_permalink()
               echo '</a>';
               echo '</div>';
           endwhile;

@@ -1281,6 +1281,10 @@ section#seminars
     border-bottom: 1px solid #42b3e5;
     padding-bottom: 10px;
 }
+.content_review
+{
+    font-style: italic;
+}
 /******************************
 responsive area
 ********************************/
