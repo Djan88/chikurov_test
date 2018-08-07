@@ -114,7 +114,7 @@
               echo '" title="Ссылка на источник">';
               echo '<img src="';
               echo the_field('img_review');
-              echo '" alt="">'
+              echo '" alt="">';
               echo '</a>';
               echo '<p>';
               echo the_content(__('(more...)'));
