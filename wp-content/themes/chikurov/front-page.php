@@ -119,9 +119,9 @@
               echo the_content(__('(читать далее...)'));
               echo '</p>';
               echo '<a href=">';
-              echo the_field('link_review');
-              echo '" target="_blank" title="Ссылка на источник">';
               echo the_permalink();
+              echo '" target="_blank" title="Ссылка на источник">';
+              echo the_field('name_review');
               echo '</a>';
               echo '</div>';
           endwhile;
