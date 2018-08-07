@@ -1299,6 +1299,7 @@ section#seminars
 .reviews img 
 {
     border-radius: 50%;
+    width: 50px;
 }
 /******************************
 responsive area

@@ -94,7 +94,6 @@
     </div>
   </section>
   <!-- end of doctor section -->
-  <?php if(is_user_logged_in()){ ?>
   <section class="seminars text-center reviews_wrap" id="lectors">
     <div class="container">
       <div class="row">
@@ -133,7 +132,6 @@
     </div>
   </section>
   <!-- end of reviews section -->
-  <?php } ?>
   <section class="doctor seminar text-center" id="bc">
     <div class="container">
       <div class="row">
