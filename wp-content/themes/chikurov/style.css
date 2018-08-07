@@ -877,7 +877,7 @@ section#doctor
 }
 .seminar_item:nth-child(odd)
 {
-    background: #f5fcff;
+    background: #fff;
 }
 .seminar_item:first-child
 {
@@ -1274,6 +1274,10 @@ section#lectors
 input.wpcf7-form-control 
 {
     margin-top: 5px;
+}
+section#seminars 
+{
+    background: #f5fcff;
 }
 /******************************
 responsive area

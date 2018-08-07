@@ -94,6 +94,21 @@
     </div>
   </section>
   <!-- end of doctor section -->
+  <?php if(is_user_logged_in()){ ?>
+  <section class="seminars text-center reviews_wrap" id="lectors">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Отзывы</h2>
+        </div>
+        <div class="col-md-12 bc reviews">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of reviews section -->
+  <?php } ?>
   <section class="doctor seminar text-center" id="bc">
     <div class="container">
       <div class="row">
