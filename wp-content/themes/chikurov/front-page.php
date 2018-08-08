@@ -101,7 +101,7 @@
           <h2>Отзывы</h2>
           <h4>Каждый отзыв снабжен ссылкой на первоисточник. Кликнув на "читать далее" можно увидеть отзыв целиком.</h4>
         </div>
-        <div class="col-md-12 bc reviews">
+        <div class="col-md-12  bc reviews">
           <?php
           // The Query
           $query_reviews = new WP_Query( array( 'category_name' => 'otzyvy', 'posts_per_page' => '4' ) );
@@ -135,8 +135,8 @@
           endwhile;
           wp_reset_postdata();
           ?>
-          <div class="reviews_more"><a href="category/otzyvy">Читать все отзывы</a></div>
         </div>
+        <div class="col-md-12 reviews_more"><a href="/category/otzyvy">Читать все отзывы</a></div>
       </div>
     </div>
   </section>
