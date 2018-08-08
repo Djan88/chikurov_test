@@ -4,9 +4,12 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
+          <h2>Отзывы</h2>
+        </div>
+        <div class="col-md-12">
           <?php
           // The Query
-          $query_reviews = new WP_Query( array( 'category_name' => 'otzyvy', 'posts_per_page' => '4' ) );
+          $query_reviews = new WP_Query( array( 'category_name' => 'otzyvy') );
           $cur_month = 0;
           while ($query_reviews->have_posts()) : $query_reviews->the_post();
               echo '<div class="review col-md-3 col-xs-12">';
