@@ -135,6 +135,7 @@
           endwhile;
           wp_reset_postdata();
           ?>
+          <div class="reviews_more"><a href="category/otzyvy">Читать все отзывы</a></div>
         </div>
       </div>
     </div>

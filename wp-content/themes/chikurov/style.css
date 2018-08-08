@@ -1301,6 +1301,11 @@ section#seminars
     border-radius: 50%;
     width: 50px;
 }
+.reviews_more
+{
+    text-align: center;
+    
+}
 /******************************
 responsive area
 ********************************/
