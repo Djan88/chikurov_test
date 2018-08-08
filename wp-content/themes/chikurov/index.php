@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php if (is_categoy(9)) { ?>
+<?php if (is_category(9)) { ?>
   <section class="seminars text-center reviews_wrap" id="lectors">
     <div class="container">
       <div class="row">
