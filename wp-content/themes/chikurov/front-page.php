@@ -108,7 +108,7 @@
           $cur_month = 0;
           while ($query_reviews->have_posts()) : $query_reviews->the_post();
               echo '<div class="review col-md-3 col-sm-6 col-xs-12">';
-              echo '<div class="review_inner">'
+              echo '<div class="review_inner">';
               echo '<a href="';
               if (get_field('link_review')) {
                 echo the_field('link_review');
