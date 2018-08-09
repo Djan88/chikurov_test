@@ -136,6 +136,8 @@
           wp_reset_postdata();
           ?>
         </div>
+      </div>
+      <div class="row">
         <div class="col-md-12 reviews_more"><a href="/category/otzyvy">Читать все отзывы</a></div>
       </div>
     </div>
