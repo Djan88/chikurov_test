@@ -1293,7 +1293,7 @@ section#seminars
 .review img 
 {
     border-radius: 50%;
-    width: 50px;
+    width: 60px;
 }
 .reviews_more
 {
@@ -1305,6 +1305,7 @@ section#seminars
 {
     border: 1px solid #42b3e5;
     margin: 5px;
+    padding: 5px;
     border-radius: 6px;
     background: #f5fcff;
 }
