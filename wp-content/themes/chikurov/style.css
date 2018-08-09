@@ -1304,7 +1304,7 @@ section#seminars
 .review_inner
 {
     border: 1px solid #42b3e5;
-    padding: 5px;
+    margin: 5px;
     border-radius: 6px;
     background: #f5fcff;
 }
