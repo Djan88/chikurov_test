@@ -1284,7 +1284,7 @@ section#seminars
 .review
 {
     font-style: italic;
-    background: #f5fcff;
+    padding: 0;
 }
 .reviews h4
 {
@@ -1306,6 +1306,7 @@ section#seminars
     border: 1px solid #42b3e5;
     padding: 5px;
     border-radius: 6px;
+    background: #f5fcff;
 }
 /******************************
 responsive area
