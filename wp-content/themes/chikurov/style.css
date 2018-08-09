@@ -1285,10 +1285,6 @@ section#seminars
 {
     font-style: italic;
     background: #f5fcff;
-    border: 1px solid #42b3e5;
-    margin: 0.5%;
-    padding: 5px;
-    border-radius: 6px;
 }
 .reviews h4
 {
@@ -1304,6 +1300,12 @@ section#seminars
     text-align: center;
     font-size: 17px;
     padding-top: 5px;
+}
+.review_inner
+{
+    border: 1px solid #42b3e5;
+    padding: 5px;
+    border-radius: 6px;
 }
 /******************************
 responsive area
