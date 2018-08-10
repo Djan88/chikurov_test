@@ -19,6 +19,7 @@
       <div class="row">
         <div class="col-md-12"><h2>Преподаватели школы</h2></div>
         <div class="col-md-12">
+          <div class="school-lector col-md-3 col-xs-12"></div>
           <div class="school-lector col-md-3 col-xs-12">
             <a target="_blank" href="http://www.yuchikurov.info/members/irina_ivanova/">
               <img src="<?php bloginfo('template_url'); ?>/img/ivanova.jpg" alt="">
