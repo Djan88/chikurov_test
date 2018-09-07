@@ -19,8 +19,8 @@
       <div class="row">
         <div class="col-md-12"><h2>Преподаватели школы</h2></div>
         <div class="col-md-12">
-          <div class="school-lector col-md-1 col-xs-12" style="visibility: hidden;"></div>
-          <div class="school-lector col-md-3 col-xs-12">
+          <div class="school-lector col-md-3 col-xs-12" style="visibility: hidden;"></div>
+          <div class="school-lector col-md-2 col-xs-12">
             <a target="_blank" href="http://www.yuchikurov.info/members/irina_ivanova/">
               <img src="<?php bloginfo('template_url'); ?>/img/ivanova.jpg" alt="">
               <div class="lector_name">Ирина Иванова</div>
@@ -31,7 +31,7 @@
               <a href="mailto:drivanova524@gmail.com"><span class="glyphicon glyphicon-envelope"></span> drivanova524@gmail.com</a>
             </div>
           </div>
-          <div class="school-lector col-md-3 col-xs-12">
+          <div class="school-lector col-md-2 col-xs-12">
             <a target="_blank" href="http://www.yuchikurov.info/members/Bazilevs/">
               <img src="<?php bloginfo('template_url'); ?>/img/kiselev.jpg" alt="">
               <div class="lector_name">Василий Киселев</div>
@@ -42,7 +42,7 @@
               <a href="mailto:kv@bio-mehanika.ru"><span class="glyphicon glyphicon-envelope"></span> kv@bio-mehanika.ru</a>
             </div>
           </div>
-          <div class="school-lector col-md-3 col-xs-12">
+          <div class="school-lector col-md-2 col-xs-12">
             <a target="_blank" href="http://www.yuchikurov.info/members/zukule-elena/">
               <img src="<?php bloginfo('template_url'); ?>/img/zukule.jpeg" alt="">
               <div class="lector_name">Елена Зукуле</div>
