@@ -43,7 +43,7 @@
             </div>
           </div>
           <div class="school-lector col-md-3 col-xs-12">
-            <a target="_blank" href="http://www.yuchikurov.info/members/Bazilevs/">
+            <a target="_blank" href="http://www.yuchikurov.info/members/zukule-elena/">
               <img src="<?php bloginfo('template_url'); ?>/img/zukule.jpeg" alt="">
               <div class="lector_name">Елена Зукуле</div>
             </a>
