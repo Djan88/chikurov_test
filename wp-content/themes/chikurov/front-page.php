@@ -19,7 +19,7 @@
       <div class="row">
         <div class="col-md-12"><h2>Преподаватели школы</h2></div>
         <div class="col-md-12">
-          <div class="school-lector col-md-3 col-xs-12" style="visibility: hidden;"></div>
+          <div class="school-lector col-md-1 col-xs-12" style="visibility: hidden;"></div>
           <div class="school-lector col-md-3 col-xs-12">
             <a target="_blank" href="http://www.yuchikurov.info/members/irina_ivanova/">
               <img src="<?php bloginfo('template_url'); ?>/img/ivanova.jpg" alt="">
@@ -42,6 +42,17 @@
               <a href="mailto:kv@bio-mehanika.ru"><span class="glyphicon glyphicon-envelope"></span> kv@bio-mehanika.ru</a>
             </div>
           </div>
+          <div class="school-lector col-md-3 col-xs-12">
+            <a target="_blank" href="http://www.yuchikurov.info/members/Bazilevs/">
+              <img src="<?php bloginfo('template_url'); ?>/img/zukule.jpeg" alt="">
+              <div class="lector_name">Елена Зукуле</div>
+            </a>
+            <div class="lector_city">г. Рига (Латвия)</div>
+            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +(371)295-65-91</div>
+            <div class="lector_email">
+              <a href="mailto:zukule7@gmai.com"><span class="glyphicon glyphicon-envelope"></span> zukule7@gmai.com</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -55,6 +66,7 @@
           <button type="button" data-filter="msk" class="btn btn-warning btn_city_filter">Москва</button>
           <button type="button" data-filter="spb" class="btn btn-warning btn_city_filter">Санкт—Петербург</button>
           <button type="button" data-filter="kiev" class="btn btn-warning btn_city_filter">Киев</button>
+          <button type="button" data-filter="riga" class="btn btn-warning btn_city_filter">Рига</button>
         </div>
         <div class="col-md-12 seminar_wrap">
           <div class="row">
