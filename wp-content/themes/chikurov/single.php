@@ -171,7 +171,7 @@
               <?php if (get_field('order_closed')) { ?>
                 <div class="order_closed_text">
                   Свободные места на этот семинар исчерпаны.<br>
-                  Ознакомьтесь с <a href="/#seminars">расписанием</a> чтоб узнать когда состоится следующий семинар <?php the_title(); ?>
+                  Ознакомьтесь с <a href="/#seminars">расписанием</a> чтоб узнать когда состоится следующий семинар "<?php the_title(); ?>"
                 </div>
               <?php } else { ?>
                 <?php if ($autor == 'Юрий Чикуров') {?>
