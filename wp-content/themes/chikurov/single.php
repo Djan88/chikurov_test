@@ -180,6 +180,8 @@
                   <?php echo do_shortcode('[contact-form-7 id="170" title="Запись на семинар_Иванова"]'); ?>
                 <?php } else if ($autor == 'Василий Киселев') { ?>
                   <?php echo do_shortcode('[contact-form-7 id="632" title="Запись на семинар_Киселев"]'); ?>
+                <?php } else if ($autor == 'Елена Зукуле') { ?>
+                  <?php echo do_shortcode('[contact-form-7 id="1059" title="Запись на семинар_Зукуле"]'); ?>
                 <?php } ?>
               <?php } ?>
             </div>

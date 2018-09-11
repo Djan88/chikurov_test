@@ -97,6 +97,8 @@ if ($seminar_city == 'Москва') {
   $seminar_filter = 'seminar_item__spb';
 } else if ($seminar_city == 'Киев') {
   $seminar_filter = 'seminar_item__kiev';
+} else if ($seminar_city == 'Рига') {
+  $seminar_filter = 'seminar_item__riga';
 }
 
 $seminar_autor = get_field('autor');
