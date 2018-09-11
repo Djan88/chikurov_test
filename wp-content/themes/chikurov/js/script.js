@@ -36,12 +36,9 @@ jQuery(document).ready(function () {
     } else if (filter_param == 'kiev') {
       jQuery('.seminar_in').addClass('hidden');
       jQuery('.seminar_item__kiev').removeClass('hidden');
-    } else if (filter_param == 'ast') {
-      jQuery('.seminar_in').addClass('hidden');
-      jQuery('.seminar_item__ast').removeClass('hidden');
     } else if (filter_param == 'riga') {
       jQuery('.seminar_in').addClass('hidden');
-      jQuery('.seminar_item__ast').removeClass('hidden');
+      jQuery('.seminar_item__riga').removeClass('hidden');
     }
   });
   var popupStatus = false;
