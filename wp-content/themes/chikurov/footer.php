@@ -16,7 +16,7 @@
           <a href="/seminary">Семинары доктора Чикурова |</a>
           <a href="/video">Видео |</a>
           <a href="category/otzyvy">Отзывы |</a>
-          <a href="https://www.yuchikurov.info/members/admin/author_books/" target="_blank">Книги Доктора Чикурова</a>
+          <a href="/kniga" target="_blank">Книги Доктора Чикурова</a>
         </div>
       </div>
     </div>
