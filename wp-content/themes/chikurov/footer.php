@@ -51,7 +51,7 @@
                   <h4>"Биологическое центрирование. Практическое руководство"</h4>
                   <div class="clearfix">
                     <div class="col-md-4" style="text-align: center;">
-                      <img style="max-width: 50%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/themes/chikurov/img/oblojka.png" alt="">
+                      <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/themes/chikurov/img/oblojka.png" alt="">
                     </div>
                     <div class="col-md-8">
                       <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https://school-bcru.getcourse.ru/pl/lite/widget/script?id=24256"></script>
@@ -72,7 +72,28 @@
                   <h4>"Остеопатическое лечение внутрикостных дисфункций"</h4>
                   <div class="clearfix">
                     <div class="col-md-4" style="text-align: center;">
-                      <img style="max-width: 50%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/uploads/2018/09/1008800977.png" alt="">
+                      <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/uploads/2018/09/1008800977.png" alt="">
+                    </div>
+                    <div class="col-md-8">
+                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https://school-bcru.getcourse.ru/pl/lite/widget/script?id=24256"></script>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="modal fade" id="book_down_3" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
+      <div class="modal-dialog styled_form">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="videoCoursLabel">Получить книгу бесплатно</h4>
+              </div>
+              <div class="modal-body">
+                  <h4>"Мягкие мануальные техники"</h4>
+                  <div class="clearfix">
+                    <div class="col-md-4" style="text-align: center;">
+                      <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/uploads/2018/09/1003575676.png" alt="">
                     </div>
                     <div class="col-md-8">
                       <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https://school-bcru.getcourse.ru/pl/lite/widget/script?id=24256"></script>
