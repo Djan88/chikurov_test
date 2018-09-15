@@ -66,7 +66,7 @@
                       <li><a class="menu" href="http://school-bc.ru/" target="_blank">Онлайн школа</a></li>
                       <li><a class="menu" target="_blank" href="http://www.yuchikurov.info/reestr/">Реестр специалистов</a></li>
                       <li><a class="menu" target="_blank" href="http://www.yuchikurov.info/">Визардтерапия</a></li>
-                      <li><a class="menu" href="/kniga">Книга</a></li>
+                      <li><a class="menu" href="/kniga">Книги</a></li>
                     </ul>
                   </div><!-- /navbar-collapse -->
                 </div><!-- / .container-fluid -->
