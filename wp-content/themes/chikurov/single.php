@@ -175,10 +175,10 @@
                   Ознакомьтесь с <a href="/#seminars">расписанием</a> чтоб узнать когда состоится следующий семинар "<?php the_title(); ?>"
                 </div>
               <?php } else { ?>
-                <?php if ($autor == 'Юрий Чикуров') {?>
-                  <?php echo do_shortcode('[contact-form-7 id="4" title="Запись на семинар"]'); ?>
-                <?php } else if ($autor == 'Юрий Чикуров' && $city == 'Санкт-Петербург') { ?>
+                <?php if ($autor == 'Юрий Чикуров' && $city == 'Санкт-Петербург') {?>
                   <?php echo do_shortcode('[contact-form-7 id="1209" title="Запись на семинар_Илья"]'); ?>
+                <?php } else if ($autor == 'Юрий Чикуров') { ?>
+                  <?php echo do_shortcode('[contact-form-7 id="4" title="Запись на семинар"]'); ?>
                 <?php } else if ($autor == 'Ирина Иванова') { ?>
                   <?php echo do_shortcode('[contact-form-7 id="170" title="Запись на семинар_Иванова"]'); ?>
                 <?php } else if ($autor == 'Василий Киселев') { ?>
