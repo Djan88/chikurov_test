@@ -61,6 +61,7 @@
           </div>
       </div>
   </div>
+  <?php if (is_page('527')) { ?>
   <div class="modal fade" id="book_down_2" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
       <div class="modal-dialog styled_form">
           <div class="modal-content">
@@ -166,6 +167,7 @@
           </div>
       </div>
   </div>
+  <?php } ?>
   <div class="modal fade" id="lovushka_down" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
       <div class="modal-dialog styled_form">
           <div class="modal-content">
