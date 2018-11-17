@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - All in One SEO Pack - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-06-09 11:03:51+0000\n"
+"PO-Revision-Date: 2018-10-26 19:36:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,11 +11,103 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: Plugins - All in One SEO Pack - Stable (latest release)\n"
 
+#: aioseop_class.php:514
+msgid "SEO for Content Types:"
+msgstr "SEO для типов содержимого:"
+
+#: aioseop_class.php:1042
+msgid "Content Type Settings"
+msgstr "Настройки типов содержимого"
+
+#: aioseop_class.php:189
+msgid "Enable this if you want to use All in One SEO Pack with any Content Types on this site. Posts and Pages are enabled by default"
+msgstr "Включите это, если вы хотите использовать All in One SEO Pack для всех типов содержимого. Страницы и записи включены по умолчанию."
+
+#: modules/aioseop_robots.php:49
+msgid "Disallow"
+msgstr "Запретить"
+
+#: modules/aioseop_robots.php:533
+msgid "Modify Rule"
+msgstr "Изменить правило"
+
+#: modules/aioseop_sitemap.php:723
+msgid "view your XML sitemap"
+msgstr "посмотреть XML карту вашего сайта"
+
+#: modules/aioseop_sitemap.php:725
+msgid "Click here to %1$sview your RSS sitemap%2$s."
+msgstr "Нажмите здесь для %1$sпросмотра RSS карты сайта%2$s."
+
+#: inc/aioseop_functions.php:439
+msgid "Please provide absolute URLs (including http or https)."
+msgstr "Пожалуйста, укажите абсолютные URL (включая http или https)."
+
+#: modules/aioseop_robots.php:505
+msgid "Wild-card path cannot be overridden: %s"
+msgstr "Путь по маске не может быть переопределен: %s"
+
+#: modules/aioseop_robots.php:483
+msgid "Path cannot be overridden: %s"
+msgstr "Путь не может быть переопределен: %s"
+
+#: modules/aioseop_robots.php:476
+msgid "Rule cannot be overridden: %s"
+msgstr "Правило не может быть переопределено: %s"
+
+#: modules/aioseop_robots.php:462
+msgid "Identical rule exists: %s"
+msgstr "Идентичное правило существует: %s"
+
+#: modules/aioseop_robots.php:443
+msgid "Directory Path cannot be empty"
+msgstr "Путь каталога не может быть пустым"
+
+#: modules/aioseop_robots.php:440
+msgid "User Agent cannot be empty"
+msgstr "User Agent не может быть пустым"
+
+#: modules/aioseop_robots.php:183
+msgid "Unable to delete file"
+msgstr "Невозможно удалить файл"
+
+#: modules/aioseop_robots.php:178
+msgid "Unable to read file"
+msgstr "Невозможно прочесть файл"
+
+#: modules/aioseop_robots.php:125
+msgid "A physical file exists. This feature cannot be used."
+msgstr "Физический файл существует. Эта возможность не может быть использована."
+
+#: modules/aioseop_robots.php:123
+msgid "A physical file exists. Do you want to %simport and delete%s it, %sdelete%s it or continue using it?"
+msgstr "Физический файл существует. Хотите %sимпортировать и удалить%s его, %sудалить%s или продолжить использовать?"
+
+#: modules/aioseop_robots.php:75
+msgid "Configured Rules"
+msgstr "Настроенные правила"
+
+#: modules/aioseop_robots.php:49
+msgid "Allow"
+msgstr "Разрешить"
+
+#: modules/aioseop_robots.php:47
+msgid "Rule"
+msgstr "Правило"
+
+#: modules/aioseop_robots.php:34
+msgid "Use the rule builder below to add/delete rules."
+msgstr "Используйте конструктор правил ниже для добавления/удаления правил."
+
+#: modules/aioseop_feature_manager.php:51
+msgid "Edit your .htaccess file to fine-tune your site."
+msgstr "Отредактируйте файл .htaccess для тонкой настройки вашего сайта."
+
 #: modules/aioseop_sitemap.php:68
 msgid "URL to the page. This field accepts relative URLs or absolute URLs with the protocol specified."
 msgstr "URL страницы. В поле может быть указан как относительный адрес, так и абсолютный, с указанием протокола."
 
-#: modules/aioseop_sitemap.php:979
+#: modules/aioseop_sitemap.php:1000
 msgid "Renamed %1$s to %2$s."
 msgstr "Переименовано %1$s в %2$s."
 
@@ -23,31 +115,31 @@ msgstr "Переименовано %1$s в %2$s."
 msgid "Method %s doesn't exist"
 msgstr "Отсутствует метод %s"
 
-#: admin/aioseop_module_class.php:1209
+#: admin/aioseop_module_class.php:1207
 msgid "Failed to write file %s!\n"
 msgstr "Ошибка записи в файл %s!\n"
 
-#: admin/aioseop_module_class.php:1210
+#: admin/aioseop_module_class.php:1208
 msgid "File %s isn't writable!\n"
 msgstr "Файл %s недоступен на запись\n"
 
-#: admin/aioseop_module_class.php:1240
+#: admin/aioseop_module_class.php:1238
 msgid "Failed to delete file %s!\n"
 msgstr "Ошибка удаления файла %s!\n"
 
-#: admin/aioseop_module_class.php:1245 admin/aioseop_module_class.php:1273
+#: admin/aioseop_module_class.php:1243 admin/aioseop_module_class.php:1271
 msgid "File %s doesn't exist!\n"
 msgstr "Отсутствует файл %s!\n"
 
-#: admin/aioseop_module_class.php:1267
+#: admin/aioseop_module_class.php:1265
 msgid "Failed to rename file %s!\n"
 msgstr "Ошибка переименования файла %s!\n"
 
-#: admin/aioseop_module_class.php:1275
+#: admin/aioseop_module_class.php:1273
 msgid "File %s already exists!\n"
 msgstr "Файл %s уже существует!\n"
 
-#: inc/aioseop_functions.php:474
+#: inc/aioseop_functions.php:481
 msgid "All values are mandatory."
 msgstr "Все значения обязательны."
 
@@ -67,25 +159,25 @@ msgstr "Заметка: Для избежания проблем с вашей X
 msgid "%1$s Click here%2$s to make these recommended changes."
 msgstr "%1$s Нажмите здесь %2$s чтобы выполнить эти рекомендуемые изменения."
 
-#: modules/aioseop_sitemap.php:708
+#: modules/aioseop_sitemap.php:724
 msgid " Your sitemap has been created with content and images."
 msgstr "Карта сайта создана с ссылками на содержимое и изображения."
 
-#: inc/commonstrings.php:79
+#: inc/commonstrings.php:73
 msgid "Check this if you want to track interactions with the official Facebook and Twitter widgets with Google Analytics."
 msgstr "Отметьте, если вы хотите отслеживать взаимодействие с официальными виджетами Facebook и Twitter через Google Analytics."
 
-#: inc/commonstrings.php:78
+#: inc/commonstrings.php:72
 msgid "Check this if you want to track how far down a user scrolls a page with Google Analytics."
 msgstr "Отметьте, если вы хотите отслеживать насколько посетитель прокручивает страницу через Google Analytics. "
 
-#: inc/commonstrings.php:77
+#: inc/commonstrings.php:71
 msgid "Check this if you want to ensure consistency in URL paths reported to Google Analytics."
 msgstr "Отметьте, если вы хотите быть убеждены в целостности путей URL рапортуемых в Google Analytics."
 
 #. Translators: The term 'viewport' refers to the area of the page that is
 #. visible to the user, see https://www.w3schools.com/css/css_rwd_viewport.asp.
-#: inc/commonstrings.php:76
+#: inc/commonstrings.php:70
 msgid "Check this if you want to track when elements are visible within the viewport with Google Analytics."
 msgstr "Отметьте, если вы хотите отслеживать какие элементы будут видимы в просмотре через Google Analytics. "
 
@@ -94,59 +186,59 @@ msgstr "Отметьте, если вы хотите отслеживать ка
 #. changes 		have been applied if the browser window has been resized by the
 #. user, see
 #. https://github.com/googleanalytics/autotrack/blob/master/docs/plugins/media-query-tracker.md.
-#: inc/commonstrings.php:71
+#: inc/commonstrings.php:65
 msgid "Check this if you want to track media query matching and queries with Google Analytics."
 msgstr "Отметьте, если вы хотите отслеживать совпадения медиа запросов и запросы через Google Analytics. "
 
-#: inc/commonstrings.php:65
+#: inc/commonstrings.php:59
 msgid "Check this if you want to track how long pages are in visible state with Google Analytics."
 msgstr "Отметьте, если вы хотите отслеживать как долго страницы являются видимыми через Google Analytics. "
 
-#: inc/commonstrings.php:64
+#: inc/commonstrings.php:58
 msgid "Check this if you want to track URL changes for single pages with Google Analytics."
 msgstr "Отметьте, если вы хотите отслеживать изменения URL для одиночных страниц через Google Analytics. "
 
-#: inc/commonstrings.php:63
+#: inc/commonstrings.php:57
 msgid "Check this if you want to track events with Google Analytics."
 msgstr "Отметьте, если вы хотите отслеживать события через Google Analytics. "
 
-#: inc/commonstrings.php:62
+#: inc/commonstrings.php:56
 msgid "Check this if you want to track outbound forms with Google Analytics."
 msgstr "Отметьте, если вы хотите отслеживать исходящие формы через Google Analytics. "
 
-#: inc/commonstrings.php:61
+#: inc/commonstrings.php:55
 msgid "Ensure URL Consistency:"
 msgstr "Убедиться в целостности URL:"
 
-#: inc/commonstrings.php:60
+#: inc/commonstrings.php:54
 msgid "Track Facebook and Twitter:"
 msgstr "Отслеживание Facebook и Twitter:"
 
-#: inc/commonstrings.php:59
+#: inc/commonstrings.php:53
 msgid "Track Page Scrolling:"
 msgstr "Отслеживание прокрутки страниц:"
 
-#: inc/commonstrings.php:58
+#: inc/commonstrings.php:52
 msgid "Track Elements Visibility:"
 msgstr "Отслеживание видимости элементов:"
 
-#: inc/commonstrings.php:57
+#: inc/commonstrings.php:51
 msgid "Track Media Query:"
 msgstr "Отслеживание медиа запросов:"
 
-#: inc/commonstrings.php:56
+#: inc/commonstrings.php:50
 msgid "Track Page Visibility:"
 msgstr "Отслеживание видимости страниц:"
 
-#: inc/commonstrings.php:55
+#: inc/commonstrings.php:49
 msgid "Track URL Changes:"
 msgstr "Отслеживание изменений URL:"
 
-#: inc/commonstrings.php:54
+#: inc/commonstrings.php:48
 msgid "Track Events:"
 msgstr "Отслеживание событий:"
 
-#: inc/commonstrings.php:53
+#: inc/commonstrings.php:47
 msgid "Track Outbound Forms:"
 msgstr "Отслеживание исходящих форм:"
 
@@ -162,15 +254,15 @@ msgstr "%post_year% - Год публикации страницы/записи 
 msgid "%post_date% - The date the page/post was published (localized)"
 msgstr "%post_date% - Дата публикации страницы/записи (локализовано)"
 
-#: aioseop_class.php:135 aioseop_class.php:3203
+#: aioseop_class.php:135 aioseop_class.php:3235
 msgid "%post_month% - The month the post was published (localized)"
 msgstr "%post_month% - Месяц публикации записи (локализовано)"
 
-#: aioseop_class.php:134 aioseop_class.php:3202
+#: aioseop_class.php:134 aioseop_class.php:3234
 msgid "%post_year% - The year the post was published (localized)"
 msgstr "%post_year% - Год публикации записи (локализовано)"
 
-#: aioseop_class.php:133 aioseop_class.php:3201
+#: aioseop_class.php:133 aioseop_class.php:3233
 msgid "%post_date% - The date the post was published (localized)"
 msgstr "%post_date% - Дата публикации записи (локализовано)"
 
@@ -205,23 +297,23 @@ msgstr "Добавить социальные метаданные к вашем
 msgid "Select the Twitter Card type to use for this Page or Post, overriding the default setting."
 msgstr "Выберите тип Twitter Card для этой записи/страницы, переопределяя настройку по умолчанию."
 
-#: inc/commonstrings.php:52
+#: inc/commonstrings.php:46
 msgid "Your license has expired. Please %1$s click here %2$s to purchase a new one."
 msgstr "Ваша лицензия истекла. Пожалуйста, %1$s нажмите здесь %2$s чтобы приобрести новую."
 
-#: inc/commonstrings.php:49
+#: inc/commonstrings.php:43
 msgid "%s is almost ready."
 msgstr "%s почти готово."
 
-#: inc/commonstrings.php:50
+#: inc/commonstrings.php:44
 msgid "You must <a href=\"%s\">enter a valid License Key</a> for it to work."
 msgstr "Вам требуется <a href=\"%s\">ввести верный лицензионный ключ</a> для работы."
 
-#: inc/commonstrings.php:51
+#: inc/commonstrings.php:45
 msgid "There is a new version of %1$s available. Go to <a href='%2$s'>the plugins page</a> for details."
 msgstr "Доступна новая версия %1$s. Перейдите на <a href='%2$s'>страницу плагина</a> для детальной информации."
 
-#: admin/aioseop_module_class.php:2280
+#: admin/aioseop_module_class.php:2329
 msgid "Upload Image"
 msgstr "Загрузить изображение"
 
@@ -261,10 +353,10 @@ msgstr "Отметьте это и ваши мета-описания для в�
 msgid "%description% - This outputs the description you write for each page/post or the autogenerated description, if you have that option enabled. Auto-generated descriptions are generated from the Post Excerpt, or the first 160 characters of the post content if there is no Post Excerpt."
 msgstr "%description% - это выводит описание, которое вы указываете для каждой страницы/записи или автосгенерированное описание, если вы разрешили эту настройку. Автосгенерированные описания создаются из отрывка записи или первых 160 символов содержимого записи если у записи нет отрывка."
 
-#. #-#-#-#-#  all-in-one-seo-pack-code.pot (All In One SEO Pack 2.6.1) 
+#. #-#-#-#-#  all-in-one-seo-pack-code.pot (All In One SEO Pack 2.9.1) 
 #. #-#-#-#-#
 #. Plugin URI of the plugin/theme
-#. #-#-#-#-#  all-in-one-seo-pack-code.pot (All In One SEO Pack 2.6.1) 
+#. #-#-#-#-#  all-in-one-seo-pack-code.pot (All In One SEO Pack 2.9.1) 
 #. #-#-#-#-#
 #. Author URI of the plugin/theme
 msgid "https://semperplugins.com/all-in-one-seo-pack-pro-version/"
@@ -338,20 +430,20 @@ msgstr "Введите сюда ваш Facebook Admin ID. Можно ввест�
 msgid "Use Content For Autogenerated OG Descriptions"
 msgstr "Использовать содержание для авто-генерирования Open Graph описаний"
 
-#: admin/aioseop_module_class.php:2662
+#: admin/aioseop_module_class.php:2716
 msgid "Reset %s Settings to Defaults"
 msgstr "Сбросить %s настройки на настройки по умолчанию"
 
-#: admin/display/welcome-content.php:55
+#: admin/display/welcome-content.php:66
 msgid "Access to video tutorials about SEO with the Pro version"
 msgstr "Доступ к видео-урокам по SEO в Pro версии"
 
-#: aioseop_class.php:3068
+#: aioseop_class.php:3100
 msgid "Welcome to version %s. Thank you for running the latest and greatest All in One SEO Pack Pro ever! Please review your settings, as we're always adding new features for you!"
 msgstr "Добро пожаловать в версию %s. Спасибо вам за использование новейшей и самой лучшей версии All in One SEO Pack Pro! Пожалуйста, изучите настройки, так как мы постоянно добавляем новые функции для вас."
 
 #: aioseop_class.php:107 aioseop_class.php:117 aioseop_class.php:132
-#: aioseop_class.php:176 aioseop_class.php:3200
+#: aioseop_class.php:176 aioseop_class.php:3232
 msgid "%current_date% - The current date (localized)"
 msgstr "%current_date% - Текущая дата (локализованная)"
 
@@ -363,31 +455,31 @@ msgstr "Этот параметр автоматически генерируе�
 msgid "CLICK HERE"
 msgstr "Нажмите СЮДА"
 
-#: modules/aioseop_sitemap.php:1078
+#: modules/aioseop_sitemap.php:1099
 msgid "Removed empty file %s."
 msgstr "Удалён пустой файл %s."
 
-#: inc/commonstrings.php:46
+#: inc/commonstrings.php:40
 msgid "This displays an SEO News widget on the dashboard."
 msgstr "Это отображает виджет SEO-новостей в консоли."
 
-#: inc/commonstrings.php:43
+#: inc/commonstrings.php:37
 msgid "Show SEO News"
 msgstr "Отображать SEO-новости"
 
-#: modules/aioseop_sitemap.php:707
+#: modules/aioseop_sitemap.php:723
 msgid "Click here to %s."
 msgstr "Кликните сюда, чтобы %s."
 
-#: admin/display/dashboard_widget.php:28
+#: admin/display/dashboard_widget.php:26
 msgid "SEO News"
 msgstr "SEO-новости"
 
-#: admin/display/welcome-content.php:65
+#: admin/display/welcome-content.php:77
 msgid "Continue to the General Settings"
 msgstr "Продолжить в Общих настройках"
 
-#: modules/aioseop_sitemap.php:710
+#: modules/aioseop_sitemap.php:727
 msgid "Changes are automatically submitted to search engines."
 msgstr "Изменения автоматически отправлены поисковым системам."
 
@@ -411,43 +503,43 @@ msgstr "Добро пожаловать в All in One SEO Pack"
 msgid "Get Started"
 msgstr "Начнем"
 
-#: admin/display/welcome-content.php:24
+#: admin/display/welcome-content.php:25
 msgid "Beginners Guide for All in One SEO Pack"
 msgstr "Инструкция All in One SEO Pack для новичков"
 
-#: admin/display/welcome-content.php:30
+#: admin/display/welcome-content.php:34
 msgid "Beginners Guide for Social Meta module"
 msgstr "Инструкция по модулю Социальных мета для новичков"
 
-#: admin/display/welcome-content.php:27
+#: admin/display/welcome-content.php:30
 msgid "Beginners Guide for XML Sitemap module"
 msgstr "Инструкция по модулю XML-карты сайта для новичков"
 
-#: admin/display/welcome-content.php:33
+#: admin/display/welcome-content.php:38
 msgid "Tips for good on-page SEO"
 msgstr "Советы по SEO-продвижению"
 
-#: admin/display/welcome-content.php:37
+#: admin/display/welcome-content.php:43
 msgid "Quality guidelines for SEO titles and descriptions"
 msgstr "Рекомендации по качеству SEO заголовков и описаний"
 
-#: admin/display/welcome-content.php:40
+#: admin/display/welcome-content.php:47
 msgid "Submit an XML Sitemap to Google"
 msgstr "Отправить XML-карты сайта на рассмотрение Google"
 
-#: admin/display/welcome-content.php:43
+#: admin/display/welcome-content.php:51
 msgid "Set up Google Analytics"
 msgstr "Установки Google Analytics"
 
-#: admin/display/welcome-content.php:49
+#: admin/display/welcome-content.php:57
 msgid "Did You Know?"
 msgstr "Знаете ли вы?"
 
-#: admin/display/welcome-content.php:52
+#: admin/display/welcome-content.php:61
 msgid "We have complete documentation on every setting and feature"
 msgstr "Мы имеем полную документацию на каждый параметр и функцию"
 
-#: admin/display/welcome-content.php:58
+#: admin/display/welcome-content.php:70
 msgid "Control SEO on categories, tags and custom taxonomies with the Pro version"
 msgstr "Вы можете контролировать SEO в рубриках, метках и пользовательских таксономиях в версии Pro"
 
@@ -508,7 +600,7 @@ msgstr "Перевести"
 msgid "There are many ways you can help support All in One SEO Pack."
 msgstr "Существует много способов поддержать All in One SEO Pack."
 
-#: admin/display/credits-content.php:67
+#: admin/display/credits-content.php:103
 msgid "Translation contributors and translation editors"
 msgstr "Переводчики и редакторы переводов"
 
@@ -562,7 +654,7 @@ msgstr "Анализировать"
 msgid "Convert"
 msgstr "Конвертировать"
 
-#: aioseop_class.php:3085
+#: aioseop_class.php:3117
 msgid "New in 2.4: Improved support for taxonomies, Woocommerce and massive performance improvements under the hood! Please review your settings on each options page!"
 msgstr "Новое в 2.4: Улучшена поддержка таксономий, совместимость с WooCommerce и прочие улучшения производительности под капотом! Пожалуйста перепроверьте параметры на каждой из страниц настроек."
 
@@ -594,13 +686,13 @@ msgstr "Используйте выпадающий список ниже для
 msgid "Click \"Analyze\" for a list of SEO data that can be imported into All in One SEO Pack, along with the number of records that will be imported."
 msgstr "Кликните \"Анализировать\" для вывода списка всех SEO-данных, которые могут быть импортированы в All in One SEO Pack, вместе с количеством записей, доступных для импорта."
 
-#: admin/meta_import.php:154
-msgid "Some plugins and themes do not share similar data, or they store data in a non-standard way. If we cannot import this data, it will remain unchanged in your database. Any compatible SEO data will be displayed for you to review. If a post or page already has SEO data in All in One SEO Pack, we will not import data from another plugin/theme."
-msgstr "Некоторые плагины и темы не обеспечивают доступ к подобным данным, или они хранят их в нестандартном виде. Если мы не можем импортировать эти данные, они останутся неизменными в вашей базе данных. Любые совместимые SEO-данные будут отображены для вашего просмотра. Если запись или страница уже содержит SEO-данные в All in One SEO Pack, мы не будем импортировать данные из других плагинов/тем."
-
 #: admin/meta_import.php:158
 msgid "Click \"Convert\" to perform the import. After the import has completed, you will be alerted to how many records were imported, and how many records had to be ignored, based on the criteria above."
 msgstr "Кликните \"Конвертировать\" для выполнения импорта. После окончания процесса импорта, вы будете уведомлены о количестве импортированных записей, а также о том, сколько записей были проигнорированы в соответствии с критериями, выставленными выше."
+
+#: admin/meta_import.php:154
+msgid "Some plugins and themes do not share similar data, or they store data in a non-standard way. If we cannot import this data, it will remain unchanged in your database. Any compatible SEO data will be displayed for you to review. If a post or page already has SEO data in All in One SEO Pack, we will not import data from another plugin/theme."
+msgstr "Некоторые плагины и темы не обеспечивают доступ к подобным данным, или они хранят их в нестандартном виде. Если мы не можем импортировать эти данные, они останутся неизменными в вашей базе данных. Любые совместимые SEO-данные будут отображены для вашего просмотра. Если запись или страница уже содержит SEO-данные в All in One SEO Pack, мы не будем импортировать данные из других плагинов/тем."
 
 #: admin/meta_import.php:162
 msgid "Before performing an import, we strongly recommend that you make a backup of your site. We use and recommend %1$s BackupBuddy %2$s for backups."
@@ -656,19 +748,19 @@ msgstr "Найден плагин Yoast SEO. Хотите ли вы %1$sимпо
 msgid "Pro Version Only"
 msgstr "Только в Pro-версии"
 
-#: aioseop_class.php:3724
+#: aioseop_class.php:3791
 msgid "We've detected you're running WooCommerce."
 msgstr "Мы обнаружили, что вы используете WooCommerce."
 
-#: aioseop_class.php:3725
+#: aioseop_class.php:3792
 msgid "%1$s Upgrade%2$s to All in One SEO Pack Pro for increased SEO compatibility for your products."
 msgstr "%1$sОбновите%2$s All in One SEO Pack до Pro-версии для повышения SEO-совместимости ваших товаров."
 
 #. Description of the plugin/theme
-msgid "Out-of-the-box SEO for your WordPress blog. Features like XML Sitemaps, SEO for custom post types, SEO for blogs or business sites, SEO for ecommerce sites, and much more. More than 30 million downloads since 2007."
-msgstr "SEO из коробки для вашего сайта на WordPress. Такой функционал, как XML карта сайта, SEO для пользовательских типов публикаций, SEO для блогов и бизнес-сайтов, SEO для интернет-магазинов, и многое другое. Почти 30 миллионов загрузок с 2007 г."
+msgid "Out-of-the-box SEO for your WordPress blog. Features like XML Sitemaps, SEO for custom post types, SEO for blogs or business sites, SEO for ecommerce sites, and much more. More than 50 million downloads since 2007."
+msgstr "SEO из коробки для вашего сайта на WordPress. Такой функционал, как XML карта сайта, SEO для пользовательских типов публикаций, SEO для блогов и бизнес-сайтов, SEO для интернет-магазинов, и многое другое. Почти 50 миллионов загрузок с 2007 г."
 
-#: inc/commonstrings.php:40
+#: inc/commonstrings.php:34
 msgid "Manage Licenses"
 msgstr "Управление лицензиями"
 
@@ -698,60 +790,44 @@ msgstr "Блокировка вредных ботов, используя HTTP"
 msgid "Block Referral Spam using HTTP"
 msgstr "Блокировать реферальный спам, используя HTTP "
 
-#: inc/commonstrings.php:32
-msgid "Finished scanning posts"
-msgstr "Завершено сканирование записей"
-
-#: inc/commonstrings.php:36
+#: inc/commonstrings.php:30
 msgid "License Key is not set yet or invalid. "
 msgstr "Лицензионный ключ еще не установлен, либо недействителен"
 
 #. translators: Please mind the space at the beginning of the string.
-#: inc/commonstrings.php:38
+#: inc/commonstrings.php:32
 msgid " Need a license key?"
 msgstr "Нужен лицензионный ключ?"
 
-#: inc/commonstrings.php:39
+#: inc/commonstrings.php:33
 msgid "Notice: "
 msgstr "Заметка:"
 
-#: inc/commonstrings.php:35
+#: inc/commonstrings.php:29
 msgid "Purchase one now"
 msgstr "Сделать покупку сейчас"
 
-#: inc/commonstrings.php:29
-msgid "Scan"
-msgstr "Сканировать"
-
-#: inc/commonstrings.php:26
+#: inc/commonstrings.php:24
 msgid "If checked, only posts that have videos in them will be displayed on the sitemap."
 msgstr "Если выбрано, только записи с видео будут показаны в карте сайта."
 
-#: inc/commonstrings.php:27
+#: inc/commonstrings.php:25
 msgid "Enable this option to only allow access to your sitemap by site administrators and major search engines."
 msgstr "Включите эту опцию, чтобы обеспечить доступ к вашей карте сайта администраторам сайта и основным поисковым системам."
 
-#: inc/commonstrings.php:28
+#: inc/commonstrings.php:26
 msgid "You do not have access to this page; try logging in as an administrator."
 msgstr "У вас нет доступа к этой странице; попытайтесь авторизоваться как администратор."
-
-#: inc/commonstrings.php:25
-msgid "Press the Scan button to scan your posts for videos! Do this if video content from a post or posts is not showing up in your sitemap."
-msgstr "Нажмите кнопку Сканировать, чтобы найти в записях видео. Сделайте это, если видео контент не представлен в вашей карте сайта."
 
 #: inc/commonstrings.php:22
 msgid "Show Only Posts With Videos"
 msgstr "Показывать только записи с видео"
 
-#: inc/commonstrings.php:24
+#: inc/commonstrings.php:23
 msgid "Restrict Access to Video Sitemap"
 msgstr "Ограничить доступ к видео-карте сайта"
 
-#: inc/commonstrings.php:23
-msgid "Scan Posts For Videos"
-msgstr "Сканировать публикации для выявления видео"
-
-#: admin/display/menu.php:29 all_in_one_seo_pack.php:350
+#: admin/display/menu.php:40 all_in_one_seo_pack.php:350
 msgid "Upgrade to Pro"
 msgstr "Улучшить до Pro"
 
@@ -763,27 +839,27 @@ msgstr "Документацию к плагину"
 msgid "SEO Settings"
 msgstr "Настройки SEO"
 
-#: aioseop_class.php:3847
+#: aioseop_class.php:3939
 msgid "Debug String"
 msgstr "Отладка строки"
 
-#: aioseop_class.php:3245
+#: aioseop_class.php:3277
 msgid "%taxonomy_title% - The original title of the taxonomy"
 msgstr "%taxonomy_title% - оригинальное наименование таксономии"
 
-#: aioseop_class.php:3246
+#: aioseop_class.php:3278
 msgid "%taxonomy_description% - The description of the taxonomy"
 msgstr "%taxonomy_description% - описание таксономии"
 
-#: aioseop_class.php:3077
+#: aioseop_class.php:3109
 msgid "Thank you for running the latest and greatest All in One SEO Pack Pro ever! Please review your settings, as we're always adding new features for you!"
 msgstr "Спасибо за использование последнего и наилучшего All in One SEO Pack Pro! Пожалуйста, проверьте настройки, так как мы постоянно добавляем новые функции!"
 
-#: aioseop_class.php:4862 aioseop_class.php:4869
+#: aioseop_class.php:4983 aioseop_class.php:4990
 msgid "About"
 msgstr "Описание"
 
-#: aioseop_class.php:3231
+#: aioseop_class.php:3263
 msgid "Taxonomy Title Format:"
 msgstr "Формат заголовка таксономии:"
 
@@ -815,7 +891,7 @@ msgstr "Facebook App ID"
 msgid "Facebook Admin ID"
 msgstr "Facebook Admin ID"
 
-#: aioseop_class.php:3700
+#: aioseop_class.php:3767
 msgid "Warning: You're blocking access to search engines."
 msgstr "Внимание: Вы блокируете доступ к поисковым системам!"
 
@@ -823,15 +899,15 @@ msgstr "Внимание: Вы блокируете доступ к поиско
 msgid "Enter your Facebook App ID here. Information about how to get your Facebook App ID can be found at https://developers.facebook.com/docs/apps/register"
 msgstr "Введите свой Facebook App ID сюда. Информация о том, как получить ваш Facebook App ID может быть получена на https://developers.facebook.com/docs/apps/register"
 
-#: aioseop_class.php:3701
+#: aioseop_class.php:3768
 msgid "You can %1$s click here%2$s to go to your reading settings and toggle your blog visibility."
 msgstr "Вы можете %1$s нажать сюда%2$s, чтобы перейти к настройкам чтения и переключателю видимости сайта."
 
-#: modules/aioseop_sitemap.php:541
+#: modules/aioseop_sitemap.php:549
 msgid " Post Type"
 msgstr "Тип записи"
 
-#: modules/aioseop_sitemap.php:542
+#: modules/aioseop_sitemap.php:550
 msgid " Taxonomy"
 msgstr "Таксономия"
 
@@ -843,19 +919,19 @@ msgstr "Добавить URL"
 msgid "Additional Pages"
 msgstr "Дополнительные страницы"
 
-#: modules/aioseop_sitemap.php:534
+#: modules/aioseop_sitemap.php:542
 msgid "All Post Types"
 msgstr "Все типы записей"
 
-#: modules/aioseop_sitemap.php:535
+#: modules/aioseop_sitemap.php:543
 msgid "All Taxonomies"
 msgstr "Все таксономии"
 
-#: modules/aioseop_sitemap.php:983
+#: modules/aioseop_sitemap.php:1004
 msgid "Couldn't find file %s!"
 msgstr "Невозможно найти %s!"
 
-#: modules/aioseop_sitemap.php:975
+#: modules/aioseop_sitemap.php:996
 msgid "Couldn't rename file %s!"
 msgstr "Невозможно переименовать файл %s!"
 
@@ -863,11 +939,11 @@ msgstr "Невозможно переименовать файл %s!"
 msgid "Create Compressed Sitemap"
 msgstr "Создать сжатую версию карты сайта"
 
-#: modules/aioseop_sitemap.php:1117
+#: modules/aioseop_sitemap.php:1138
 msgid "Delete Conflicting Files"
 msgstr "Удалить конфликтующие файлы"
 
-#: modules/aioseop_sitemap.php:965
+#: modules/aioseop_sitemap.php:986
 msgid "Deleted %s."
 msgstr "Удалено %s."
 
@@ -875,7 +951,7 @@ msgstr "Удалено %s."
 msgid "Do Not Override"
 msgstr "Не переопределять"
 
-#: modules/aioseop_sitemap.php:717
+#: modules/aioseop_sitemap.php:734
 msgid "Dynamic sitemap generation does not appear to be using the correct rewrite rules; please disable any other sitemap plugins or functionality on your site and reset your permalinks."
 msgstr "Динамическая генерация карты сайта, похоже, использует неверные rewrite rules (правила перезаписи), пожалуйста, отключите все другие плагины и сбросьте настройки постоянных ссылок."
 
@@ -927,15 +1003,15 @@ msgstr "Дата последнего изменения страницы."
 msgid "Link From Virtual Robots.txt"
 msgstr "Ссылка на карту из виртуального robots.txt"
 
-#: modules/aioseop_sitemap.php:540
+#: modules/aioseop_sitemap.php:548
 msgid "Manually set the frequency for the "
 msgstr "Вручную установить частоту обновления для"
 
-#: modules/aioseop_sitemap.php:539
+#: modules/aioseop_sitemap.php:547
 msgid "Manually set the priority for the "
 msgstr "Вручную установить приоритет для"
 
-#: modules/aioseop_sitemap.php:532
+#: modules/aioseop_sitemap.php:540
 msgid "Media / Attachments"
 msgstr "Медиа / Вложения"
 
@@ -955,7 +1031,7 @@ msgstr "URL страницы"
 msgid "Post Types"
 msgstr "Типы записей"
 
-#: modules/aioseop_sitemap.php:1074
+#: modules/aioseop_sitemap.php:1095
 msgid "Potential conflict with unknown file %s."
 msgstr "Потенциальный конфликт с неизвестным файлом %s."
 
@@ -963,15 +1039,15 @@ msgstr "Потенциальный конфликт с неизвестным ф
 msgid "Priorities"
 msgstr "Приоритеты"
 
-#: modules/aioseop_sitemap.php:725
+#: modules/aioseop_sitemap.php:742
 msgid "Privacy Settings"
 msgstr "Настройки приватности"
 
-#: modules/aioseop_sitemap.php:723
+#: modules/aioseop_sitemap.php:740
 msgid "Reading Settings"
 msgstr "Настройки чтения"
 
-#: modules/aioseop_sitemap.php:1116
+#: modules/aioseop_sitemap.php:1137
 msgid "Rename Conflicting Files"
 msgstr "Переименовать конфликтующие файлы"
 
@@ -995,15 +1071,15 @@ msgstr "Частота обновления страницы."
 msgid "The priority of the page."
 msgstr "Приоритет страницы."
 
-#: modules/aioseop_sitemap.php:627
+#: modules/aioseop_sitemap.php:635
 msgid "Update Sitemap"
 msgstr "Обновить карту сайта"
 
-#: modules/aioseop_sitemap.php:948
+#: modules/aioseop_sitemap.php:969
 msgid "Warning: dynamic sitemap generation must have permalinks enabled."
 msgstr "Внимание: чтобы карта сайта была динамической, нужно включить постоянные ссылки."
 
-#: modules/aioseop_sitemap.php:727
+#: modules/aioseop_sitemap.php:744
 msgid "Warning: your privacy settings are configured to ask search engines to not index your site; you can change this under %s for your blog."
 msgstr "Внимание: настройки приватности заданы так, что поисковые системы не могут индексировать сайт, это можно изменить в настройках %s."
 
@@ -1015,11 +1091,11 @@ msgstr "архивные страницы"
 msgid "author pages"
 msgstr "страницы авторов"
 
-#: modules/aioseop_sitemap.php:1244
+#: modules/aioseop_sitemap.php:1270
 msgid "compressed"
 msgstr "сжатая"
 
-#: modules/aioseop_sitemap.php:1247
+#: modules/aioseop_sitemap.php:1273
 msgid "dynamic"
 msgstr "динамическая"
 
@@ -1039,7 +1115,7 @@ msgstr "записи"
 msgid "priority"
 msgstr "приоритет"
 
-#: modules/aioseop_sitemap.php:1242
+#: modules/aioseop_sitemap.php:1268
 msgid "static"
 msgstr "статическая"
 
@@ -1063,7 +1139,7 @@ msgstr "Ежедневно"
 msgid "Weekly"
 msgstr "Еженедельно"
 
-#: modules/aioseop_sitemap.php:420
+#: modules/aioseop_sitemap.php:428
 msgid "Once Weekly"
 msgstr "Один раз в неделю"
 
@@ -1083,17 +1159,13 @@ msgstr "Содержимое указанных рубрик будут искл
 msgid "Use page slugs or page IDs, seperated by commas, to exclude pages from the sitemap."
 msgstr "Используйте слаги или ID страниц, разделённые запятыми, для исключения страниц из карты сайта."
 
-#: modules/aioseop_sitemap.php:424
+#: modules/aioseop_sitemap.php:432
 msgid "Once Monthly"
 msgstr "Раз в месяц"
 
-#: modules/aioseop_sitemap.php:447
+#: modules/aioseop_sitemap.php:455
 msgid "Daily scheduled sitemap check has finished."
 msgstr "Запланированная ежедневная проверка карты сайта завершена."
-
-#: modules/aioseop_sitemap.php:707
-msgid "view your sitemap"
-msgstr "посмотреть карту сайта"
 
 #. Author of the plugin/theme
 msgid "Michael Torbert"
@@ -1103,11 +1175,11 @@ msgstr "Michael Torbert"
 msgid "Maximum Posts Per Sitemap Page"
 msgstr "Максимальное количество публикаций в карте сайта"
 
-#: modules/aioseop_sitemap.php:1416
+#: modules/aioseop_sitemap.php:1445
 msgid "Failed to notify %1$s about changes to your sitemap at %2$s, error code %3$s."
 msgstr "При уведомлении %1$s об изменениях в карте сайта %2$s произошла ошибка. Код ошибки: %3$s."
 
-#: modules/aioseop_sitemap.php:1419
+#: modules/aioseop_sitemap.php:1448
 msgid "Failed to notify %1$s about changes to your sitemap at %2$s, unable to access via wp_remote_get()."
 msgstr "При уведомлении %1$s об изменениях в карте сайта %2$s произошла ошибка. Невозможно получить доступ через wp_remote_get()."
 
@@ -1115,7 +1187,7 @@ msgstr "При уведомлении %1$s об изменениях в карт
 msgid "Manually set the %1$s of your %2$s."
 msgstr "Установите вручную %1$s ваших %2$s ."
 
-#: modules/aioseop_sitemap.php:1068
+#: modules/aioseop_sitemap.php:1089
 msgid "Warning: a static sitemap '%1$s' generated by All in One SEO Pack %2$s on %3$s already exists that may conflict with dynamic sitemap generation."
 msgstr "Внимание: статическая карта сайта '%1$s' , созданная All in One SEO Pack %2$s в %3$s уже существует (возможен конфликт с динамической картой сайта)."
 
@@ -1123,7 +1195,7 @@ msgstr "Внимание: статическая карта сайта '%1$s' , 
 msgid "Active Theme"
 msgstr "Активная тема"
 
-#: modules/aioseop_robots.php:60
+#: modules/aioseop_robots.php:62
 msgid "Add Rule"
 msgstr "Добавить правило"
 
@@ -1131,11 +1203,7 @@ msgstr "Добавить правило"
 msgid "All in One SEO Pack Pro Debug Info"
 msgstr "All in One SEO Pack Pro отладочная информация"
 
-#: modules/aioseop_robots.php:78
-msgid "Click the Optimize button below and All in One SEO Pack will analyze your Robots.txt file to make sure it complies with the standards for Robots.txt files.  The results will be displayed in a table below."
-msgstr "Нажмите кнопку Оптимизировать и All in One Seo Pack проанализирует Ваш Robots.txt, чтобы убедиться, что он соответствует стандартам для Robots.txt. Результаты будут отображены в таблице ниже."
-
-#: modules/aioseop_robots.php:130
+#: modules/aioseop_robots.php:98
 msgid "Create a Robots.txt File"
 msgstr "Создать Robots.txt"
 
@@ -1143,21 +1211,9 @@ msgstr "Создать Robots.txt"
 msgid "Create a compressed sitemap file in .xml.gz format."
 msgstr "Создать сжатый файл sitemap в формате .xml.gz."
 
-#: modules/aioseop_robots.php:299 modules/aioseop_robots.php:301
-msgid "Current File"
-msgstr "Текущий файл"
-
-#: modules/aioseop_robots.php:72
-msgid "Delete Robots.txt File"
-msgstr "Удалить Robots.txt"
-
-#: modules/aioseop_robots.php:20 modules/aioseop_robots.php:43
+#: modules/aioseop_robots.php:27 modules/aioseop_robots.php:54
 msgid "Directory Path"
 msgstr "Путь к каталогу"
-
-#: modules/aioseop_robots.php:91
-msgid "Disregard Changes"
-msgstr "Игнорировать изменения"
 
 #: modules/aioseop_performance.php:352
 msgid "E-mail debug information"
@@ -1175,10 +1231,6 @@ msgstr "Ошибка при отправке %s."
 msgid "Form submission error: verification check failed."
 msgstr "Ошибка: проверка провалена."
 
-#: modules/aioseop_robots.php:48
-msgid "Generate Robots.txt"
-msgstr "Генерировать Robots.txt"
-
 #: modules/aioseop_performance.php:258
 msgid "Home URL"
 msgstr "URL домашней страницы"
@@ -1191,25 +1243,9 @@ msgstr "Включить авторов архивов в файл sitemap."
 msgid "Include Date Archives in your sitemap."
 msgstr "Включить дату архивов в файл sitemap."
 
-#: modules/aioseop_robots.php:358
-msgid "Legend"
-msgstr "Легенда"
-
-#: modules/aioseop_robots.php:363
-msgid "More Information"
-msgstr "Больше информации"
-
 #: modules/aioseop_performance.php:261
 msgid "Multisite"
 msgstr "Мультисайт"
-
-#: modules/aioseop_robots.php:97
-msgid "Optimize"
-msgstr "Оптимизировать"
-
-#: modules/aioseop_robots.php:144
-msgid "Optimize your Robots.txt File"
-msgstr "Оптимизировать Robots.txt"
 
 #: modules/aioseop_performance.php:255
 msgid "PHP IPTC support"
@@ -1219,21 +1255,13 @@ msgstr "Поддержка PHP IPTC"
 msgid "PHP XML support"
 msgstr "Поддержка PHP XML"
 
-#: modules/aioseop_robots.php:299
-msgid "Proposed Changes"
-msgstr "Предлагаемые изменения"
-
-#: modules/aioseop_robots.php:18 modules/aioseop_robots.php:32
+#: modules/aioseop_robots.php:25
 msgid "Rule Type"
 msgstr "Тип правила"
 
 #: modules/aioseop_performance.php:335
 msgid "SFWD Debug Mail From Site %s."
 msgstr "SFWD отладочное сообщение с сайта %s."
-
-#: modules/aioseop_robots.php:66
-msgid "Save Robots.txt File"
-msgstr "Сохранить Robots.txt"
 
 #: modules/aioseop_performance.php:336
 msgid "Sent to %s."
@@ -1247,22 +1275,6 @@ msgstr "URL сайта"
 msgid "Submit"
 msgstr "Отправить"
 
-#: modules/aioseop_robots.php:361
-msgid "The red indicator means that the syntax is invalid for a robots.txt file."
-msgstr "Красный индикатор означает, что синтаксис является недопустимым для robots.txt."
-
-#: modules/aioseop_robots.php:360
-msgid "The yellow indicator means that a non-standard extension was recognized; not all crawlers may recognize it or interpret it the same way. The Allow and Sitemap directives are commonly used by Google and Yahoo."
-msgstr "Желтый индикатор означает, что нестандартное расширение распознано; не все сканеры могут распознать или интерпретировать его таким же образом. Директивы Allow и Sitemap обычно используются Google и Yahoo."
-
-#: modules/aioseop_robots.php:84
-msgid "Update Robots.txt File"
-msgstr "Обновить Robots.txt"
-
-#: modules/aioseop_robots.php:28
-msgid "Use the rule builder below to add rules to create a new Robots.txt file.  If you already have a Robots.txt file you should use the File Editor feature in All in One SEO Pack to edit it or you can delete your current Robots.txt file and start a new one with the rule builder below."
-msgstr "Использовать конструктор правил ниже, чтобы добавить правила для создания нового Robots.txt. Если у вас уже есть Robots.txt, следует использовать функцию Редактор файлов в All in One SEO Pack, чтобы отредактировать его или Вы можете удалить текущий Robots.txt и создать новый с помощью конструктора."
-
 #: modules/aioseop_performance.php:260
 msgid "WordPress DB Version"
 msgstr "Версия БД WordPress"
@@ -1271,19 +1283,15 @@ msgstr "Версия БД WordPress"
 msgid "WordPress Version"
 msgstr "Версия WordPress"
 
-#: modules/aioseop_robots.php:154
-msgid "Your Robots.txt file has been optimized.  Here are the results and recommendations.  Click the Update Robots.txt File button below to write these changes to your Robots.txt file.  Click the Disregard Changes button to ignore these recommendations and keep your current Robots.txt file."
-msgstr "Ваш Robots.txt файл оптимизирован. Вот результаты и рекомендации. Нажмите Обновить Robots.txt ниже, чтобы записать эти изменения в свой Robots.txt. Нажмите Игнорировать изменения, чтобы игнорировать эти рекомендации и сохранить текущий Robots.txt."
-
 #: modules/aioseop_performance.php:200
 msgid " MByte"
 msgstr "Мбайт"
 
-#: modules/aioseop_file_editor.php:60
+#: modules/aioseop_file_editor.php:49
 msgid ".htaccess"
 msgstr ".htaccess"
 
-#: modules/aioseop_file_editor.php:30
+#: modules/aioseop_file_editor.php:29
 msgid ".htaccess editor"
 msgstr "Редактор .htaccess"
 
@@ -1311,11 +1319,11 @@ msgstr "Расширенные настройки"
 msgid "Album"
 msgstr "Альбом"
 
-#: aioseop_class.php:4762
+#: aioseop_class.php:4883
 msgid "All in One SEO"
 msgstr "All in One SEO"
 
-#: admin/aioseop_module_class.php:2581
+#: admin/aioseop_module_class.php:2635
 msgid "All in One SEO Options Updated."
 msgstr "Настройки All in One SEO обновлены."
 
@@ -1395,7 +1403,7 @@ msgstr "Дело"
 msgid "Checking this box will use the Home Title and Home Description set in All in One SEO Pack, General Settings as the Open Graph title and description for your home page."
 msgstr "При отметке этого поля будет использоваться заголовок и описание домашней страницы, установленные в общих настройках All in One Seo Pack."
 
-#: modules/aioseop_opengraph.php:1549
+#: modules/aioseop_opengraph.php:1562
 msgid "Choose a default value that best describes the content of your post type."
 msgstr "Выбрать значение по умолчанию, которое лучше описывает содержание записи."
 
@@ -1403,11 +1411,11 @@ msgstr "Выбрать значение по умолчанию, которое 
 msgid "City"
 msgstr "Город"
 
-#: admin/aioseop_module_class.php:2346
+#: admin/aioseop_module_class.php:2395
 msgid "Click for Help!"
 msgstr "Нажмите для помощи!"
 
-#: admin/aioseop_module_class.php:1695
+#: admin/aioseop_module_class.php:1691
 msgid "Click here for documentation on this setting"
 msgstr "Нажмите сюда для получения документации по этой настройке"
 
@@ -1441,11 +1449,11 @@ msgstr "Пользовательское видео"
 msgid "Default "
 msgstr "По умолчанию"
 
-#: aioseop_class.php:3382
+#: aioseop_class.php:3443
 msgid "Default - nofollow"
 msgstr "По умолчанию - nofollow"
 
-#: aioseop_class.php:3374
+#: aioseop_class.php:3435
 msgid "Default - noindex"
 msgstr "По умолчанию - noindex"
 
@@ -1469,34 +1477,22 @@ msgstr "Директор"
 msgid "Drink"
 msgstr "Напиток"
 
-#: inc/aioseop_functions.php:583
+#: inc/aioseop_functions.php:591
 msgid "Duplicate %s Meta"
 msgstr "Дубликат мета %s"
 
 #: inc/aioseop_functions.php:264 inc/aioseop_functions.php:383
-#: inc/aioseop_functions.php:757
+#: inc/aioseop_functions.php:765
 msgid "Edit"
 msgstr "Изменить"
 
-#: modules/aioseop_file_editor.php:43 modules/aioseop_file_editor.php:70
+#: modules/aioseop_file_editor.php:33 modules/aioseop_file_editor.php:54
 msgid "Edit .htaccess"
 msgstr "Изменить .htaccess"
 
-#: modules/aioseop_file_editor.php:34
-msgid "Edit Robots.txt"
-msgstr "Изменить robots.txt"
-
-#: aioseop_class.php:4646 aioseop_class.php:4660
+#: aioseop_class.php:4766 aioseop_class.php:4780
 msgid "Edit SEO"
 msgstr "Править SEO"
-
-#: modules/aioseop_file_editor.php:65
-msgid "Edit robots.txt"
-msgstr "Изменить robots.txt"
-
-#: modules/aioseop_feature_manager.php:51
-msgid "Edit your robots.txt file and your .htaccess file to fine-tune your site."
-msgstr "Отредактируйте robots.txt и .htaccess для тонкой настройки Вашего сайта."
 
 #: modules/aioseop_opengraph.php:111
 msgid "Enter the Twitter username associated with your website here."
@@ -1530,7 +1526,7 @@ msgstr "Введите ширину Open Graph видео в пикселях (�
 msgid "Episode"
 msgstr "Эпизод"
 
-#: aioseop_class.php:3166
+#: aioseop_class.php:3198
 msgid "Everywhere Else"
 msgstr "Везде"
 
@@ -1550,7 +1546,7 @@ msgstr "Настройки экспорта"
 msgid "Exports and imports your All in One SEO Pack plugin settings."
 msgstr "Экспортируйте и импортируйте настройки All in One SEO Pack."
 
-#: inc/aioseop_functions.php:860
+#: inc/aioseop_functions.php:868
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -1594,7 +1590,7 @@ msgstr "Первое изображение в контенте"
 msgid "Food"
 msgstr "Еда"
 
-#: aioseop_class.php:3166
+#: aioseop_class.php:3198
 msgid "Front Page"
 msgstr "Главная страница"
 
@@ -1610,7 +1606,7 @@ msgstr "Сгенерируйте и проверьте Ваш robots.txt для 
 msgid "Getting started? Read the Beginners Guide"
 msgstr "Приступаете к работе? Прочитайте Руководство для начинающих"
 
-#: inc/aioseop_functions.php:851
+#: inc/aioseop_functions.php:859
 msgid "Google+"
 msgstr "Google+"
 
@@ -1618,9 +1614,9 @@ msgstr "Google+"
 msgid "Government"
 msgstr "Правительство"
 
-#: admin/aioseop_module_class.php:2074 admin/aioseop_module_class.php:2381
-#: admin/aioseop_module_class.php:2696 aioseop_class.php:4907
-#: aioseop_class.php:4927
+#: admin/aioseop_module_class.php:2101 admin/aioseop_module_class.php:2430
+#: admin/aioseop_module_class.php:2750 aioseop_class.php:5028
+#: aioseop_class.php:5048
 msgid "Help"
 msgstr "Помощь"
 
@@ -1669,7 +1665,7 @@ msgstr "Импорт & Экспорт"
 msgid "Insert time"
 msgstr "Задать время"
 
-#: aioseop_class.php:4855
+#: aioseop_class.php:4976
 msgid "Join Our Mailing List"
 msgstr "Подпишитесь на нашу рассылку"
 
@@ -1689,7 +1685,7 @@ msgstr "Ссылка на Facebook страницу, связанную с Ва�
 msgid "MYSQL Version"
 msgstr "Версия MYSQL"
 
-#: aioseop_class.php:4549
+#: aioseop_class.php:4669
 msgid "Main Settings"
 msgstr "Основные настройки"
 
@@ -1711,13 +1707,13 @@ msgstr "Музыкант"
 msgid "N/A"
 msgstr "Нет данных"
 
-#: inc/aioseop_functions.php:379 inc/aioseop_functions.php:753
+#: inc/aioseop_functions.php:379 inc/aioseop_functions.php:761
 #: modules/aioseop_performance.php:207 modules/aioseop_performance.php:212
 #: modules/aioseop_performance.php:217 modules/aioseop_performance.php:226
 msgid "No"
 msgstr "Нет"
 
-#: inc/aioseop_functions.php:592
+#: inc/aioseop_functions.php:600
 msgid "No duplicate meta tags found."
 msgstr "Дублей мета тегов не найдено."
 
@@ -1733,7 +1729,7 @@ msgstr "Некоммерческий"
 msgid "Not set"
 msgstr "Не установлено"
 
-#: modules/aioseop_opengraph.php:1542
+#: modules/aioseop_opengraph.php:1555
 msgid "Object Type"
 msgstr "Тип данных"
 
@@ -1753,7 +1749,7 @@ msgstr "Операционная система"
 msgid "Optimize performance related to SEO and check your system status."
 msgstr "Оптимизируйте производительность и проверьте статус системы (информация о сервере, WP, PHP и др.)."
 
-#: admin/aioseop_module_class.php:2572
+#: admin/aioseop_module_class.php:2626
 msgid "Options Reset."
 msgstr "Сброс настроек."
 
@@ -1787,7 +1783,7 @@ msgstr "PHP версия"
 msgid "Performance"
 msgstr "Производительность"
 
-#: inc/aioseop_functions.php:608
+#: inc/aioseop_functions.php:616
 msgid "Please refer to the document for each tool for help in using these to debug your social meta."
 msgstr "Пожалуйста, обращайтесь к документации по каждому инструменту для настройки и использования соц. мета."
 
@@ -1831,7 +1827,7 @@ msgstr "Увеличить лимит памяти"
 msgid "Read the All in One SEO Pack user guide"
 msgstr "Прочитать инструкцию All in One SEO Pack"
 
-#: aioseop_class.php:3290
+#: aioseop_class.php:3351
 msgid "Reset ALL Settings to Defaults"
 msgstr "Сбросить ВСЕ настройки по умолчанию"
 
@@ -1848,7 +1844,7 @@ msgstr "Сбросить модули"
 msgid "Restaurant"
 msgstr "Ресторан"
 
-#: aioseop_class.php:3067 aioseop_class.php:3084 aioseop_class.php:3102
+#: aioseop_class.php:3099 aioseop_class.php:3116 aioseop_class.php:3134
 msgid "Review Your Settings"
 msgstr "Просмотреть настройки"
 
@@ -1858,20 +1854,16 @@ msgstr "Ревизии"
 
 #. translators: the Robots.txt module allows users to provide instructions to
 #. web robots, e.g. search engine crawlers.
-#: modules/aioseop_feature_manager.php:45 modules/aioseop_robots.php:12
-#: modules/aioseop_robots.php:175
+#: modules/aioseop_feature_manager.php:45 modules/aioseop_robots.php:19
+#: modules/aioseop_robots.php:80
 msgid "Robots.txt"
 msgstr "Robots.txt"
 
-#: modules/aioseop_file_editor.php:29 modules/aioseop_robots.php:21
-msgid "Robots.txt editor"
-msgstr "Редактор robots.txt"
-
-#: inc/aioseop_functions.php:519
+#: inc/aioseop_functions.php:527
 msgid "Row %s not found; no rows were deleted."
 msgstr "Строка %s не найдена; ни одной строки не удалено."
 
-#: aioseop_class.php:4598
+#: aioseop_class.php:4718
 msgid "SEO"
 msgstr "SEO"
 
@@ -1899,7 +1891,7 @@ msgstr "Сохранить"
 msgid "Scan Header"
 msgstr "Сканировать заголовок"
 
-#: modules/aioseop_opengraph.php:893
+#: modules/aioseop_opengraph.php:897
 msgid "Scan Now"
 msgstr "Сканировать сейчас"
 
@@ -1907,7 +1899,7 @@ msgstr "Сканировать сейчас"
 msgid "Scan Social Meta"
 msgstr "Сканировать социальные мета"
 
-#: modules/aioseop_opengraph.php:894
+#: modules/aioseop_opengraph.php:898
 msgid "Scan your site for duplicate social meta tags."
 msgstr "Проверьте свой сайт на дубли социальных мета тегов."
 
@@ -1915,7 +1907,7 @@ msgstr "Проверьте свой сайт на дубли социальны�
 msgid "School"
 msgstr "Школа"
 
-#: admin/aioseop_module_class.php:2569 modules/aioseop_sitemap.php:953
+#: admin/aioseop_module_class.php:2623 modules/aioseop_sitemap.php:974
 msgid "Security Check - If you receive this in error, log out and back in to WordPress"
 msgstr "Ошибка системы безопасности. Выйдите из аккаунта WordPress и зайдите в него снова"
 
@@ -2014,7 +2006,7 @@ msgstr "Стандартно (кратко)"
 msgid "Summary Large Image"
 msgstr "Стандартно (большое изображение)"
 
-#: aioseop_class.php:4876
+#: aioseop_class.php:4997
 msgid "Support"
 msgstr "Поддержка"
 
@@ -2094,11 +2086,11 @@ msgstr "Этот параметр позволяет увеличить PHP вр
 msgid "This setting allows you to raise your PHP memory limit to a reasonable value. Note: WordPress core and other WordPress plugins may also change the value of the memory limit."
 msgstr "Этот параметр позволяет увеличить PHP лимит памяти. Примечание: ядро WordPress и другие плагины для WordPress могут также изменять значение лимита памяти."
 
-#: aioseop_class.php:3174
+#: aioseop_class.php:3206
 msgid "Title Format:"
 msgstr "Формат заголовка:"
 
-#: inc/aioseop_functions.php:857
+#: inc/aioseop_functions.php:865
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -2126,7 +2118,7 @@ msgstr "Доступ запрещен; перезагрузите страниц
 msgid "University"
 msgstr "Университет"
 
-#: modules/aioseop_file_editor.php:108
+#: modules/aioseop_file_editor.php:86
 msgid "Update .htaccess"
 msgstr "Обновить .htaccess"
 
@@ -2134,13 +2126,9 @@ msgstr "Обновить .htaccess"
 msgid "Update Features"
 msgstr "Обновить модули"
 
-#: admin/aioseop_module_class.php:2657
+#: admin/aioseop_module_class.php:2711
 msgid "Update Options"
 msgstr "Обновить настройки"
-
-#: modules/aioseop_file_editor.php:102
-msgid "Update robots.txt"
-msgstr "Обновить robots.txt"
 
 #: modules/aioseop_opengraph.php:219
 msgid "Use AIOSEO Title and Description"
@@ -2170,7 +2158,7 @@ msgstr "Использовать буферизацию вывода, чтобы
 msgid "Use the system default"
 msgstr "Использовать значения системы по умолчанию"
 
-#: aioseop_class.php:4869 aioseop_class.php:4876
+#: aioseop_class.php:4990 aioseop_class.php:4997
 msgid "Version"
 msgstr "Версия"
 
@@ -2194,11 +2182,11 @@ msgstr "Смотреть видео-уроки"
 msgid "Website"
 msgstr "Веб сайт"
 
-#: aioseop_class.php:3076 aioseop_class.php:3094
+#: aioseop_class.php:3108 aioseop_class.php:3126
 msgid "Welcome to Version %s!"
 msgstr "Добро пожаловать в версию %s!"
 
-#: inc/aioseop_functions.php:595
+#: inc/aioseop_functions.php:603
 msgid "What Does This Mean?"
 msgstr "Что это значит?"
 
@@ -2214,31 +2202,27 @@ msgstr "XML Карта сайта"
 msgid "Yes"
 msgstr "Да"
 
-#: aioseop_class.php:3383
+#: aioseop_class.php:3444
 msgid "follow"
 msgstr "follow"
 
-#: aioseop_class.php:3375
+#: aioseop_class.php:3436
 msgid "index"
 msgstr "index"
 
-#: aioseop_class.php:3384
+#: aioseop_class.php:3445
 msgid "nofollow"
 msgstr "nofollow"
 
-#: aioseop_class.php:3376
+#: aioseop_class.php:3437
 msgid "noindex"
 msgstr "noindex"
-
-#: modules/aioseop_file_editor.php:59
-msgid "robots.txt"
-msgstr "robots.txt"
 
 #: aioseop_class.php:1084
 msgid "Noindex Settings"
 msgstr "Настройки индексирования (noindex)"
 
-#: aioseop_class.php:3188
+#: aioseop_class.php:3220
 msgid "%post_title% - The original title of the post."
 msgstr "%post_title% - Оригинальный заголовок записи."
 
@@ -2247,7 +2231,7 @@ msgstr "%post_title% - Оригинальный заголовок записи.
 msgid "Settings export file for All in One SEO Pack"
 msgstr "Настройки экспорта файлов в All in One SEO Pack"
 
-#: aioseop_class.php:4607
+#: aioseop_class.php:4727
 msgid "Upgrade To Pro"
 msgstr "Улучшить до PRO"
 
@@ -2315,7 +2299,7 @@ msgstr "Запуск шорткодов, которые появляются в 
 msgid "This option lets you set a default width for your images, where unspecified."
 msgstr "Эта опция позволяет устанавливать ширину по умолчанию для изображений, где не указано."
 
-#: aioseop_class.php:3095
+#: aioseop_class.php:3127
 msgid "Thank you for running the latest and greatest All in One SEO Pack ever! Please review your settings, as we're always adding new features for you!"
 msgstr "Спасибо за использование последнего и наилучшего All in One SEO Pack. Пожалуйста, проверьте настройки, так как мы постоянно добавляем новые функции!"
 
@@ -2323,11 +2307,7 @@ msgstr "Спасибо за использование последнего и �
 msgid "Run Shortcodes In Description"
 msgstr "Использовать шорткоды в описании"
 
-#: aioseop_class.php:3103
-msgid "Thank you for running the latest and greatest All in One SEO Pack ever! New since 2.2: Control who accesses your site with the new Robots.txt Editor and File Editor modules!  Enable them from the Feature Manager.  Remember to review your settings, we have added some new ones!"
-msgstr "Спасибо за использование обновлённого и самого лучшего All in One SEO Pack. Нововведения в версии 2.2: Контроль доступа на сайт при помощи нового редактора Robots.txt и модулей редактора файлов. Подключите их в менеджере функционала. Не забудьте проверить ваши настройки, мы добавили новые функции!"
-
-#: modules/aioseop_opengraph.php:1735
+#: modules/aioseop_opengraph.php:1748
 msgid "Debug This Post"
 msgstr "Отладить эту публикацию"
 
@@ -2343,6 +2323,10 @@ msgstr "Нажмите эту кнопку для повторного извл�
 msgid "Are the social profile links for your website for a person or an organization?"
 msgstr "Ссылки, размещённые на вашем сайте, ведут на персональные или корпоративные профили в соцсетях?"
 
+#: aioseop_class.php:3135
+msgid "Thank you for running the latest and greatest All in One SEO Pack ever! New since 2.2: Control who accesses your site with the new Robots.txt Editor and File Editor modules!  Enable them from the Feature Manager.  Remember to review your settings, we have added some new ones!"
+msgstr "Спасибо за использование обновлённого и самого лучшего All in One SEO Pack. Нововведения в версии 2.2: Контроль доступа на сайт при помощи нового редактора Robots.txt и модулей редактора файлов. Подключите их в менеджере функционала. Не забудьте проверить ваши настройки, мы добавили новые функции!"
+
 #: modules/aioseop_opengraph.php:129
 msgid "Add URLs for your website's social profiles here (Facebook, Twitter, Google+, Instagram, LinkedIn), one per line."
 msgstr "Добавьте URL на социальные профили, ассоциированные с вашим сайтом, здесь (Facebook, Twitter, Google+, Instagram, LinkedIn), по одному в каждой строке."
@@ -2355,7 +2339,7 @@ msgstr "Добавьте имя персоны или название орга�
 msgid "Run Shortcodes In Title"
 msgstr "Включить шорткоды в заголовке"
 
-#: modules/aioseop_robots.php:19 modules/aioseop_robots.php:38
+#: modules/aioseop_robots.php:26 modules/aioseop_robots.php:41
 msgid "User Agent"
 msgstr "Пользовательский агент"
 
@@ -2383,11 +2367,11 @@ msgstr "Укажите архивы таксономий для вывода н�
 msgid "Places a link to your Sitemap.xml into your virtual Robots.txt file."
 msgstr "Разместить ссылку на файл Sitemap.xml в виртуальном robots.txt."
 
-#: inc/aioseop_functions.php:596
+#: inc/aioseop_functions.php:604
 msgid "All in One SEO Pack has detected that a plugin(s) or theme is also outputting social meta tags on your site. You can view this social meta in the source code of your site (check your browser help for instructions on how to view source code)."
 msgstr "All in One SEO Pack обнаружил другие плагины или темы, использующие социальные мета-теги. Увидеть эти теги можно в исходном коде страниц, используя браузер (читайте файлы справки по вашему браузеру чтобы узнать как увидеть исходный код)."
 
-#: inc/aioseop_functions.php:597
+#: inc/aioseop_functions.php:605
 msgid "You may prefer to use the social meta tags that are being output by the other plugin(s) or theme. If so, then you should deactivate this Social Meta feature in All in One SEO Pack Feature Manager."
 msgstr "Если вы хотите использовать социальные мета-теги, созданные другими плагинами или текущей темой оформления, отключите модуль Социальных мета-тегов в настройках плагина - Управление модулями."
 
@@ -2425,7 +2409,7 @@ msgstr "Выберите, для каких типов публикаций вы
 msgid "Select a valid All in One SEO Pack ini file and click 'Import' to import options from a previous state or install of All in One SEO Pack.<br /><a href='https://semperplugins.com/documentation/importer-exporter-module/' target='_blank'>Click here for documentation on this setting</a>"
 msgstr "Выберите действительный ini-файл All in One SEO Pack и кликните \"Импорт\" для импорта параметров предыдущего состояния или установки All in One SEO Pack.<br /><a href='https://semperplugins.com/documentation/importer-exporter-module/' target='_blank'>Кликните сюда для перехода к документации по этим настройкам</a>"
 
-#: inc/aioseop_functions.php:598
+#: inc/aioseop_functions.php:606
 msgid "You should avoid duplicate social meta tags. You can use these free tools from Facebook and Twitter to validate your social meta and check for errors:"
 msgstr "Следует избегать дублирования социальных мета-тегов. Чтобы убедиться в корректности социальных мета и отсутствии ошибок, используйте бесплатные инструменты от Facebook и Twitter:"
 
@@ -2442,11 +2426,11 @@ msgstr "Остановите плохое поведение ботов, зам�
 msgid "Select the default type of Twitter Card to display."
 msgstr "Выберите тип отображения Twitter card по умолчанию."
 
-#: aioseop_class.php:3286
+#: aioseop_class.php:3347
 msgid "Reset General Settings to Defaults"
 msgstr "Сбросить общие настройки по умолчанию"
 
-#: admin/aioseop_module_class.php:2307
+#: admin/aioseop_module_class.php:2356
 msgid " characters. Most search engines use a maximum of %1$s chars for the %2$s."
 msgstr " символов. Большинство поисковых систем видят лишь %1$s символов для %2$s."
 
@@ -2458,17 +2442,13 @@ msgstr " символов. Open Graph позволяет использоват�
 msgid "<b>Warning:</b> Line not matched: <b>\"%1$s\"</b>, On Line: <b>%2$s</b>"
 msgstr "<b>Внимание:</b> Строка не совпадает: <b>\"%1$s\"</b>, на строке: <b>%2$s</b>"
 
-#: aioseop_class.php:3192
+#: aioseop_class.php:3224
 msgid "%%tax_%1$s%% - This post's associated %2$s taxonomy title"
 msgstr "%%tax_%1$s%% - С этой записью связан %2$s заголовок таксономии"
 
-#: aioseop_class.php:3818
-msgid "Debug Warning: All in One SEO Pack meta data was included again from %s filter. Called %s times!"
-msgstr "Отладочное предупреждение: Метаданные All in One SEO Pack были повторно включены из фильтра %s. Количество вызовов: %s!"
-
-#: aioseop_class.php:185
-msgid "%404_title% - Additional 404 title input\""
-msgstr "%404_title% - Дополнительный заголовок страницы 404\""
+#: aioseop_class.php:3910
+msgid "Debug Warning: All in One SEO Pack meta data was included again from %1$s filter. Called %2$s times!"
+msgstr "Отладочное предупреждение: Метаданные All in One SEO Pack были повторно включены из фильтра %1$s. Количество вызовов: %2$s!"
 
 #: aioseop_class.php:188
 msgid "%page% - The page number"
@@ -2578,11 +2558,7 @@ msgstr "Отметьте, чтобы попросить поисковых ро�
 msgid "Check this if you want to track outbound links with Google Analytics."
 msgstr "Отметьте, если хотите, отслеживать исходящие ссылки с Google Analytics."
 
-#: aioseop_class.php:189
-msgid "Check this if you want to use All in One SEO Pack with any Custom Post Types on this site."
-msgstr "Отметьте, если Вы хотите использовать All in One Seo Pack с любыми пользовательскими типами записей на сайте."
-
-#: inc/commonstrings.php:47
+#: inc/commonstrings.php:41
 msgid "Check this to add All in One SEO Pack to the Admin Bar for easy access to your SEO settings."
 msgstr "Отметьте, чтобы добавить All in One Seo Pack в Админ бар для быстрого доступа к SEO параметрам."
 
@@ -2622,7 +2598,7 @@ msgstr "Отметьте, чтобы попросить поисковые си�
 msgid "Check this to ask search engines not to index the Search page. Useful for avoiding duplicate content."
 msgstr "Отметьте, чтобы попросить поисковые системы не индексировать страницу поиска. Полезно для избежания дублирования контента."
 
-#: inc/commonstrings.php:48
+#: inc/commonstrings.php:42
 msgid "Check this to move the All in One SEO Pack menu item to the top of your WordPress Dashboard menu."
 msgstr "Отметьте, чтобы переместить меню All in One Seo Pack в верхнюю часть общего Wordpress меню."
 
@@ -2649,10 +2625,6 @@ msgstr "Отметьте, чтобы использовать расширенн
 #: aioseop_class.php:980
 msgid "Custom Canonical URL"
 msgstr "Пользовательский канонический URL"
-
-#: aioseop_class.php:1042
-msgid "Custom Post Type Settings"
-msgstr "Настройки для пользовательских типов записей"
 
 #: aioseop_class.php:556
 msgid "Custom titles:"
@@ -2713,11 +2685,11 @@ msgstr "Показывать отслеживание рекламодателе
 msgid "Display Google Authorship:"
 msgstr "Отображать Google авторство:"
 
-#: inc/commonstrings.php:45
+#: inc/commonstrings.php:39
 msgid "Display Menu At The Top:"
 msgstr "Отображать меню в верхней панели:"
 
-#: inc/commonstrings.php:44
+#: inc/commonstrings.php:38
 msgid "Display Menu In Admin Bar:"
 msgstr "Отображать меню в админ панели:"
 
@@ -2764,10 +2736,6 @@ msgstr "Улучшенная ссылка авторства:"
 msgid "Enter your Google Analytics ID here to track visitor behavior on your site using Google Analytics."
 msgstr "Введите Ваш ID Google Analytics для отслеживания поведения посетителей на Вашем сайте с ее помощью."
 
-#: aioseop_class.php:198
-msgid "Enter your Google+ Profile URL here to add the rel=“author” tag to your site for Google authorship. It is recommended that the URL you enter here should be your personal Google+ profile.  Use the Advanced Authorship Options below if you want greater control over the use of authorship."
-msgstr "Введите URL Вашего Google+ профиль, чтобы добавить атрибут rel=“author” для Вашего сайта (для Google авторства). Рекомендуется, чтобы URL, который Вы вводите, был Вашим личным профилем Google+. Используйте расширенным настройки авторства ниже, если хотите иметь больший контроль над использованием авторства."
-
 #: aioseop_class.php:209
 msgid "Enter your domain name without the http:// to set your cookie domain."
 msgstr "Введите имя Вашего домена без http:// чтобы настроить cookie."
@@ -2775,6 +2743,10 @@ msgstr "Введите имя Вашего домена без http:// чтоб�
 #: aioseop_class.php:992
 msgid "Exclude From Sitemap"
 msgstr "Исключить из карты сайта"
+
+#: aioseop_class.php:198
+msgid "Enter your Google+ Profile URL here to add the rel=“author” tag to your site for Google authorship. It is recommended that the URL you enter here should be your personal Google+ profile.  Use the Advanced Authorship Options below if you want greater control over the use of authorship."
+msgstr "Введите URL Вашего Google+ профиль, чтобы добавить атрибут rel=“author” для Вашего сайта (для Google авторства). Рекомендуется, чтобы URL, который Вы вводите, был Вашим личным профилем Google+. Используйте расширенным настройки авторства ниже, если хотите иметь больший контроль над использованием авторства."
 
 #: aioseop_class.php:859
 msgid "Exclude Pages:"
@@ -2884,14 +2856,6 @@ msgstr "Перезаписывать заголовки:"
 msgid "Run Shortcodes In Autogenerated Descriptions:"
 msgstr "Использовать шорткоды в авто-генерируемых описаниях:"
 
-#: aioseop_class.php:514
-msgid "SEO for Custom Post Types:"
-msgstr "SEO для пользовательских типов записей:"
-
-#: aioseop_class.php:523
-msgid "SEO on only these post types:"
-msgstr "SEO только для этих типов записей:"
-
 #: aioseop_class.php:490
 msgid "Search Title Format:"
 msgstr "Формат заголовков страницы поиска:"
@@ -2920,7 +2884,7 @@ msgstr "Формат заголовков тегов:"
 msgid "The META description for this page. This will override any autogenerated descriptions."
 msgstr "Описание (description) для страницы. Это перезапишет любые автосгенерированные описания."
 
-#: aioseop_class.php:187 aioseop_class.php:3185 aioseop_class.php:3242
+#: aioseop_class.php:187 aioseop_class.php:3217 aioseop_class.php:3274
 msgid "The following macros are supported:"
 msgstr "Поддерживаемые макросы:"
 
@@ -3036,10 +3000,6 @@ msgstr "Использовать noindex для 404 страницы:"
 msgid "Use noindex for the Search page:"
 msgstr "Использовать noindex для страницы поиска:"
 
-#: aioseop_class.php:191
-msgid "Use these checkboxes to select which Post Types you want to use All in One SEO Pack with."
-msgstr "Используйте эти чекбоксы, чтобы выбрать, какие типы записей Вы хотите использовать с All in One Seo Pack."
-
 #: aioseop_class.php:210
 msgid "Use this option to enable tracking of multiple or additional domains."
 msgstr "Используйте эту опцию, чтобы включить отслеживание нескольких или дополнительных доменов."
@@ -3096,13 +3056,13 @@ msgstr "Генерировать динамически ключевые сло�
 msgid "The Google+ profile you enter here will appear on your homepage only as the rel=\\\"publisher\\\" tag. It is recommended that the URL you enter here should be the Google+ profile for your business."
 msgstr "Профиль Google+, который вы здесь введете, будет отображаться на вашей домашней странице только в качестве атрибутов rel=\\\"publisher\\\". Рекомендуется, чтобы URL, который здесь вводится, указывал на профиль Google+ для вашего бизнеса."
 
-#: aioseop_class.php:238
-msgid "Enter a comma separated list of pages here to be excluded by All in One SEO Pack.  This is helpful when using plugins which generate their own non-WordPress dynamic pages.  Ex: <em>/forum/, /contact/</em>  For instance, if you want to exclude the virtual pages generated by a forum plugin, all you have to do is add forum or /forum or /forum/ or and any URL with the word \\\"forum\\\" in it, such as http://mysite.com/forum or http://mysite.com/forum/someforumpage here and it will be excluded from All in One SEO Pack."
-msgstr "Введите через запятую список страниц, которые будут исключены из All in One Seo Pack. Это полезно при использовании плагинов, которые генерируют свои собственные не-WordPress динамические страницы. Например: <em>/forum/, /contact/</em>. Если вы хотите исключить виртуальные страницы, созданные при помощи форумного плагина, все что нужно сделать, это добавить forum или /forum или /forum/ или любой URL со словом \"forum\" в нем (например: http://mysite.com/forum или http://mysite.com/forum/someforumpage) и он будет исключен из All In One Seo Pack."
-
 #: aioseop_class.php:202
 msgid "This option allows you to control whether rel=\\\"publisher\\\" is displayed on the homepage of your site. Google recommends using this if the site is a business website."
 msgstr "Этот параметр позволяет указать, должен ли атрибут rel=\\\"publisher\\\" присутствовать на главной странице сайта. Google рекомендует использовать это, если данный сайт является коммерческим."
+
+#: aioseop_class.php:238
+msgid "Enter a comma separated list of pages here to be excluded by All in One SEO Pack.  This is helpful when using plugins which generate their own non-WordPress dynamic pages.  Ex: <em>/forum/, /contact/</em>  For instance, if you want to exclude the virtual pages generated by a forum plugin, all you have to do is add forum or /forum or /forum/ or and any URL with the word \\\"forum\\\" in it, such as http://mysite.com/forum or http://mysite.com/forum/someforumpage here and it will be excluded from All in One SEO Pack."
+msgstr "Введите через запятую список страниц, которые будут исключены из All in One Seo Pack. Это полезно при использовании плагинов, которые генерируют свои собственные не-WordPress динамические страницы. Например: <em>/forum/, /contact/</em>. Если вы хотите исключить виртуальные страницы, созданные при помощи форумного плагина, все что нужно сделать, это добавить forum или /forum или /forum/ или любой URL со словом \"forum\" в нем (например: http://mysite.com/forum или http://mysite.com/forum/someforumpage) и он будет исключен из All In One Seo Pack."
 
 #: aioseop_class.php:201
 msgid "This option allows you to control which types of pages you want to display rel=\\\"author\\\" on for Google authorship. The options include the Front Page (the homepage of your site), Posts, Pages, and any Custom Post Types. The Everywhere Else option includes 404, search, categories, tags, custom taxonomies, date archives, author archives and any other page template."
@@ -3128,6 +3088,18 @@ msgstr "Доп. заголовки главной страницы (блог):"
 msgid "Enable Custom Canonical URLs:"
 msgstr "Включить пользовательские канонические URL:"
 
+#: aioseop_class.php:185
+msgid "%404_title% - Additional 404 title input"
+msgstr "%404_title% - Дополнительный ввод заголовка 404"
+
+#: aioseop_class.php:523
+msgid "SEO on only these Content Types:"
+msgstr "SEO только для этих типов содержимого:"
+
+#: aioseop_class.php:191
+msgid "Use these checkboxes to select which Content Types you want to use All in One SEO Pack with."
+msgstr "Используйте эти чекбоксы, чтобы выбрать, какие типы содержимого Вы хотите использовать с All in One Seo Pack."
+
 #: aioseop_class.php:169
 msgid "%search% - What was searched for"
 msgstr "%search% - Поисковый запрос"
@@ -3148,15 +3120,15 @@ msgstr "%wp_title% - Заголовок, присвоенный WordPress, на�
 msgid "%category_title% - The (main) category of the post"
 msgstr "%category_title% - Рубрика записи (основная)"
 
-#: aioseop_class.php:129 aioseop_class.php:3197
+#: aioseop_class.php:129 aioseop_class.php:3229
 msgid "%post_author_nicename% - This post's author' nicename"
 msgstr "%post_author_nicename% - Ник автора записи"
 
-#: aioseop_class.php:130 aioseop_class.php:3198
+#: aioseop_class.php:130 aioseop_class.php:3230
 msgid "%post_author_firstname% - This post's author' first name (capitalized)"
 msgstr "%post_author_firstname% - Имя автора записи (с прописной)"
 
-#: aioseop_class.php:131 aioseop_class.php:3199
+#: aioseop_class.php:131 aioseop_class.php:3231
 msgid "%post_author_lastname% - This post's author' last name (capitalized)"
 msgstr "%post_author_lastname% - Фамилия автора записи (с прописной)"
 
@@ -3220,12 +3192,12 @@ msgstr "%tag% - Название метки"
 msgid "This controls the format of the title tag for the Search page.<br />The following macros are supported:"
 msgstr "Это управляет форматом тега title для страницы поиска.<бр />Следующие макросы поддерживаются:"
 
-#: aioseop_class.php:128 aioseop_class.php:3196
+#: aioseop_class.php:128 aioseop_class.php:3228
 msgid "%post_author_login% - This post's author' login"
 msgstr "%page_author_login% - Логин автора записи"
 
 #: aioseop_class.php:127
-msgid "%1$category% - Alias for %2$category_title%"
+msgid "%category% - Alias for %category_title%"
 msgstr "%1$category% - Синоним для %2$category_title%"
 
 #: aioseop_class.php:104 aioseop_class.php:114
@@ -3255,8 +3227,8 @@ msgstr "%post_title% - Заголовок записи (по умолчанию)
 #: aioseop_class.php:101 aioseop_class.php:111 aioseop_class.php:124
 #: aioseop_class.php:139 aioseop_class.php:145 aioseop_class.php:150
 #: aioseop_class.php:158 aioseop_class.php:163 aioseop_class.php:168
-#: aioseop_class.php:172 aioseop_class.php:182 aioseop_class.php:3187
-#: aioseop_class.php:3244
+#: aioseop_class.php:172 aioseop_class.php:182 aioseop_class.php:3219
+#: aioseop_class.php:3276
 msgid "%blog_description% - Your blog description"
 msgstr "%blog_description% - Описание Вашего блога"
 
@@ -3299,8 +3271,8 @@ msgstr "Обратите внимание, что это все о теге titl
 #: aioseop_class.php:100 aioseop_class.php:110 aioseop_class.php:123
 #: aioseop_class.php:138 aioseop_class.php:144 aioseop_class.php:149
 #: aioseop_class.php:157 aioseop_class.php:162 aioseop_class.php:167
-#: aioseop_class.php:171 aioseop_class.php:181 aioseop_class.php:3186
-#: aioseop_class.php:3243
+#: aioseop_class.php:171 aioseop_class.php:181 aioseop_class.php:3218
+#: aioseop_class.php:3275
 msgid "%blog_title% - Your blog title"
 msgstr "%blog_title% - Заголовок блога"
 
