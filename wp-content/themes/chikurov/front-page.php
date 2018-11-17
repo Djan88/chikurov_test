@@ -50,7 +50,7 @@
             <div class="lector_city">г. Рига (Латвия)</div>
             <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +(371)295-65-91</div>
             <div class="lector_email">
-              <a href="mailto:zukule7@gmai.com"><span class="glyphicon glyphicon-envelope"></span> zukule7@gmai.com</a>
+              <a href="mailto:zukule7@gmail.com"><span class="glyphicon glyphicon-envelope"></span> zukule7@gmail.com</a>
             </div>
           </div>
         </div>
