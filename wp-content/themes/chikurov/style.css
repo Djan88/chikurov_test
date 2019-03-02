@@ -1316,7 +1316,7 @@ section#seminars
 .seminar_acent
 {
     color: #fce89a;
-    background: #1d355d;
+    background: #1d355d!important;
 }
 .seminar_acent a
 {
