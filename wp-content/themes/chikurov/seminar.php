@@ -117,6 +117,9 @@ if ($cur_month != $seminar_start_months) {
 }
 echo '<div class="seminar_item seminar_in ';
 echo $seminar_filter;
+if (get_field('seminar_acent')) {
+  echo ' seminar_acent';
+}
 echo ' col-md-12"';
 echo 'data-start="';
 echo $seminar_start;

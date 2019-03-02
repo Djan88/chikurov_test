@@ -1313,6 +1313,16 @@ section#seminars
     border-radius: 6px;
     background: #f5fcff;
 }
+.seminar_acent
+{
+    color: #fce89a;
+    background: #1d355d;
+}
+.seminar_acent a
+{
+    color: #fff;
+    text-decoration: underline;
+}
 /******************************
 responsive area
 ********************************/
