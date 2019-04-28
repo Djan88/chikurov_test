@@ -186,4 +186,23 @@
       </div>
     </div>
   </section>
+  <!-- end of reviews section -->
+  <section class="doctor seminar text-center" id="bc">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Магазин товаров БЦ</h2>
+        </div>
+        <div class="col-md-12 bc">
+          <img class="img-responsive pull-left content_img colorbox-147" src="/wp-content/themes/chikurov/img/shop-bc.png" alt="">
+          <p>Интернет-магазин <a href="https://shop-bc.com">shop-bc.com</a> – инструменты для тех, то занимается по методике "Биологическое центрирование"</p>
+          <p>Мы рады предложить вам недорогие, но качественные товары с подробными описаниями, характеристиками и фотографиями. У нас Вы можете купить замечательные товары.</p>
+          <p>Продажа небольшого ассортимента разнообразных товаров – основная специализация нашего интернет-магазина. Мы доставим ваш заказ, осуществим подробную консультацию по товарам и поможем с выбором.</p>
+          <p>Магазин <a href="https://shop-bc.com">shop-bc.com</a> предлагает Вам купить книги и многое другое с доставкой! Все виды современных товаров от эконом класса до более дорогих представлены в нашем каталоге.</p>
+          <!-- <a target="_blank" href="http://www.yuchikurov.info/biologicheskoe-centrirovanie/" class="btn btn-primary btn-lg">Читать книгу</a> -->
+          <a target="_blank" href="https://shop-bc.com" class="btn btn-primary btn-lg down_book" data-toggle="modal" data-target="#book_down">shop-bc.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
 <?php get_footer(); ?>
