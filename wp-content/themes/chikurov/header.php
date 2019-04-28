@@ -67,6 +67,7 @@
                       <li><a class="menu" target="_blank" href="http://www.yuchikurov.info/reestr/">Реестр специалистов</a></li>
                       <li><a class="menu" target="_blank" href="http://www.yuchikurov.info/">Визардтерапия</a></li>
                       <li><a class="menu" href="/kniga">Книги</a></li>
+                      <li><a target="_blank" class="menu" href="https://shop-bc.com/">Магазин товаров бц</a></li>
                     </ul>
                   </div><!-- /navbar-collapse -->
                 </div><!-- / .container-fluid -->
