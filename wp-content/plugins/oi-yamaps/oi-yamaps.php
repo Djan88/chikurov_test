@@ -2,9 +2,9 @@
 /**
  * Plugin Name: Oi Yandex.Maps for WordPress
  * Plugin URI: https://oiplug.com/plugin/oi-yandex-maps-for-wordpress/
- * Description: The plugin allows you to use Yandex.Maps on your site pages and put the placemarks on the map. Without an API key. <strong>Don't forget to reactivate the plugin!</strong>
+ * Description: The plugin allows you to put placemarks on the Yandex.Maps. 
  * Author: Alexei Isaenko
- * Version: 3.2.0
+ * Version: 3.2.7
  * Author URI: https://oiplug.com/members/isaenkoalexei
  * Text Domain: oi-yamaps
  * Domain Path: /language
@@ -14,67 +14,102 @@
 
 namespace oiyamaps;
 
-/**
- * Function returns path to the current plugin
- *
- * @return string
- */
-function plugin_path() {
-	return plugin_dir_path( __FILE__ );
-}
+// init plugin data
+Plugin::init();
 
 /**
- * Function returns url to the current plugin
+ * Class contains plugin information.
  *
- * @return string
+ * Class Plugin
+ * @package oiyamaps
  */
-function plugin_url() {
-	return plugin_dir_url( __FILE__ );
+class Plugin {
+	public static $data = array();
+
+	private static function get_table_prefix() {
+		global $wpdb;
+
+		return $wpdb->prefix . __NAMESPACE__ . '_';
+	}
+
+	public static function init() {
+
+		// current plugin directory
+		self::$data['table_prefix'] = self::get_table_prefix();
+
+		// current plugin directory
+		self::$data['path_dir'] = plugin_dir_path( __FILE__ );
+
+		// current plugin slug
+		self::$data['slug'] = plugin_basename( self::$data['path_dir'] );
+
+		// full path to current plugin
+		self::$data['path'] = self::$data['path_dir'] . self::$data['slug'] . '.php';
+
+		// current plugin url directory
+		self::$data['url'] = plugin_dir_url( __FILE__ );
+
+		// current plugin 8kiB data
+		$file_data  = \get_file_data( self::$data['path'], array(
+			'version'     => 'Version',
+			'name'        => 'Plugin Name',
+			'link'        => 'Plugin URI',
+			'description' => 'Description',
+			'author'      => 'Author',
+			'author_uri'  => 'Author URI',
+			'domain'      => 'Text Domain',
+			'domain_path' => 'Domain Path',
+			'github_uri'  => 'GitHub Plugin URI',
+		) );
+		self::$data = array_merge( self::$data, $file_data );
+	}
 }
 
-/**
- * Function returns name of current plugin directory
- *
- * @return string
- */
-function plugin_name() {
-	return plugin_basename( plugin_path() );
+function is_json( $data ) {
+	json_decode( $data, true );
+
+	return json_last_error() == JSON_ERROR_NONE;
 }
 
-require_once plugin_path() . '/include/init.php';
+require_once Plugin::$data['path_dir'] . 'include/upgrade.php';
+require_once Plugin::$data['path_dir'] . 'include/create-tables.php';
+require_once Plugin::$data['path_dir'] . 'include/address-cache.php';
+require_once Plugin::$data['path_dir'] . 'include/init.php';
 if ( ! function_exists( 'oinput_form' ) ) {
-	require_once plugin_path() . 'include/oi-nput.php';
+	require_once Plugin::$data['path_dir'] . 'include/oi-nput.php';
 }
 if ( function_exists( 'oinput_form' ) ) {
-	require_once plugin_path() . '/include/templates.php';
-	require_once plugin_path() . '/include/console.php';
-	require_once plugin_path() . '/include/options.php';
+	require_once Plugin::$data['path_dir'] . 'include/templates.php';
+	require_once Plugin::$data['path_dir'] . 'include/console.php';
+	require_once Plugin::$data['path_dir'] . 'include/options.php';
 }
-//require_once "include/tinymce/shortcode.php";
+require_once Plugin::$data['path_dir'] . 'include/ajax.php';
+//require_once Plugin::$data['path_dir'] . 'include/rest-api.php';
 
 
 /**
  * set default variables on plugin activation
  */
 function activation() {
-	$options = get_option( prefix() . 'options' );
+	create_tables();
+	$options = get_option( __NAMESPACE__ . '_options' );
 	// if we don't have any settengs
 	if ( empty( $options ) ) {
-		update_option( prefix() . 'options', oi_yamaps_defaults() );
+		update_option( __NAMESPACE__ . '_options', oi_yamaps_defaults() );
 	}
-
-	//  deactivate_plugins( array( '/oi-yamaps/oi-yamaps.php', ) );
 }
 
 register_activation_hook( __FILE__, __NAMESPACE__ . '\activation' );
 
 
-// localization
-function oi_yamaps() {
-	load_plugin_textdomain( 'oi-yamaps', false, plugin_basename( dirname( __FILE__ ) ) . '/language' );
+/**
+ * Localization function
+ */
+function localization() {
+	load_plugin_textdomain( Plugin::$data['domain'], false, Plugin::$data['slug'] . '/language' );
 }
 
-add_action( 'init', __NAMESPACE__ . '\oi_yamaps' );
+add_action( 'init', __NAMESPACE__ . '\localization' );
 
 /**
  * List of some names of API gists
@@ -273,16 +308,20 @@ function curl_get_contents( $url ) {
  */
 function oiyamap_geocode( $place ) {
 
+	//$place = mb_strtolower( $place );
+
 	// set cash key
 	$key     = md5( $place );
 	$content = '';
 
 	// if there is no data with that key
-	if ( WP_DEBUG == true || ! ( $content = wp_cache_get( $key, 'oi-yamaps' ) ) ) {
+	if ( /*WP_DEBUG == true ||*/ ! ( $content = get_address_cache( $key ) ) ) {
 
 		$place = urlencode( $place );
 
-		$url = "https://geocode-maps.yandex.ru/1.x/?geocode=" . $place . '&format=json';
+		$options = get_option( __NAMESPACE__ . '_options' );
+
+		$url = "https://geocode-maps.yandex.ru/1.x/?geocode=" . $place . '&apikey=' . $options['apikey'] . '&format=json';
 
 		// get data by GET method
 		$content = wp_remote_get( $url, apply_filters( 'oiyamaps_wp_remote_get_args', array() ) );
@@ -309,9 +348,12 @@ function oiyamap_geocode( $place ) {
 				}
 			}
 		}
-		$content = json_decode( $content, true );
 
-		wp_cache_set( $key, $content, 'oi-yamaps', HOUR_IN_SECONDS * 24 );
+		if ( is_json( $content ) ) {
+			$content = json_decode( $content, true );
+		}
+
+		set_address_cache( $key, $content );
 	}
 
 	return $content;
@@ -328,19 +370,17 @@ function oiyamap_geocode( $place ) {
  * @return array
  */
 function get_place( $place = null ) {
-	$address     = '';
-	$coordinates = '';
-	$flag        = true;
 
-	// address was given
-	$is_coordinates = false;
-
-	if ( ! empty( $_POST['place'] ) ) {
-		$place = $_POST['place'];
-		$flag  = false;
+	// checking for rest api
+	if ( ! is_string( $place ) ) {
+		$place = $place['place'];
 	}
 
 	if ( ! empty( $place ) ) {
+
+		// address was given
+		$is_coordinates = false;
+
 		$coordinates = explode( ',', $place );
 		if ( sizeof( $coordinates ) == 2 && is_numeric( trim( $coordinates[0] ) ) && is_numeric( trim( $coordinates[1] ) ) ) {
 			$coordinates = array_map( 'trim', $coordinates );
@@ -365,18 +405,13 @@ function get_place( $place = null ) {
 			// set coordinates by format: lon, len
 			$coordinates = implode( ',', array_reverse( explode( ' ', trim( $coordinates ) ) ) );
 		}
+		$result = array( $address, $coordinates, $is_coordinates );
+
+		return $result;
 	}
 
-	$result = array($address, $coordinates, $is_coordinates);
-
-	if ( $flag == false ) {
-		wp_send_json( $result );
-	}
-
-	return $result;
+	return array();
 }
-
-add_action( 'wp_ajax_' . 'oiyamaps_get_place', __NAMESPACE__ . '\get_place' );
 
 /**
  * Returns an associated array where lowercase key has original value.
@@ -543,7 +578,7 @@ function map_options_add( $atts ) {
  */
 function showyamap( $atts, $content = null ) {
 
-	$options = get_option( prefix() . 'options' );
+	$options = get_option( __NAMESPACE__ . '_options' );
 
 	// get attributes from options
 	$option = wp_parse_args( $options, oi_yamaps_defaults() );
@@ -762,9 +797,10 @@ function showyamap( $atts, $content = null ) {
 		// set new id
 		Ya_map_connected::$id ++;
 		// if no maps on a page...
-		if ( $id == 0 ) {
+		if ( empty( $id ) ) {
+			$apikey = ! empty( $atts['apikey'] ) ? '&apikey=' . $atts['apikey'] : '';
 			// ...and show the map
-			$out = '<script type="text/javascript" src="https://api-maps.yandex.ru/2.1/?lang=' . $atts['lang'] . '"></script>' .
+			$out = '<script type="text/javascript" src="https://api-maps.yandex.ru/2.1/?lang=' . $atts['lang'] . $apikey . '"></script>' .
 			       '<style>.YMaps {position: relative;} .YMaps .oi_yamaps_author_link {position: absolute;bottom: 9px; right:330px; z-index: 999;padding:0;display: table!important;line-height:12px;text-decoration:underline!important;white-space: nowrap!important;font-family: Verdana,serif!important;font-size: 10px!important;padding-left: 2px!important;color: #000!important;background-color: rgba(255, 255, 255, 0.7)!important;border:none;}</style>' .
 			       "\n" . $out;
 		} else {
@@ -906,10 +942,10 @@ function placemark_code( $atts ) {
 	}
 
 	// replace braces with triangular brackets
-	$content_tags = array('header', 'body', 'footer',);
+	$content_tags = array( 'header', 'body', 'footer', );
 	foreach ( $content_tags as $tag ) {
 		if ( ! empty( $atts[ $tag ] ) ) {
-			$atts[ $tag ] = str_replace( array('{', '}',), array('<', '>',), $atts[ $tag ] );
+			$atts[ $tag ] = str_replace( array( '{', '}', ), array( '<', '>', ), $atts[ $tag ] );
 		}
 	}
 
@@ -1079,4 +1115,23 @@ function multiselect( $atts ) {
 	return $out;
 }
 
+/*-----------*/
+
+
+function register_mce_buttons( $buttons ) {
+
+	$buttons[] = __NAMESPACE__;
+
+	return $buttons;
+}
+
+
+//add_filter( "mce_buttons", "register_buttons_editor" );
+
+function shortcode_mce_template() {
+	include_once dirname( __FILE__ ) . '/templates/tiny-mce-block.php';
+}
+
+add_filter( 'mce_external_plugins', __NAMESPACE__ . '\shortcode_mce_template' );
+// ыва
 // eof

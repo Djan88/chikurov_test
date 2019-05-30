@@ -12,8 +12,10 @@ namespace oiyamaps;
  * Enqueue script and styles to console
  */
 function console_enqueue_script() {
-	wp_enqueue_script( 'oi_yamaps_admin', plugin_url() . 'js/admin.js', array( 'jquery' ), null, true );
-	$options = get_option( prefix() . 'options' );
+	// load all media sources for using in admin.js
+	wp_enqueue_media();
+	wp_enqueue_script( 'oi_yamaps_admin', Plugin::$data['url'] . 'js/admin.js', array( 'jquery' ), null, true );
+	$options = get_option( __NAMESPACE__.'_options' );
 	// todo: удалить след. строку и обновить настройки
 	//$options = oi_yamaps_defaults();
 	wp_localize_script( 'oi_yamaps_admin', 'oiyamaps', array(
@@ -25,7 +27,7 @@ function console_enqueue_script() {
 			'have_to_fillin' => __( 'Field cannot be empty', 'oi-yamaps' ),
 		),
 	) );
-	wp_enqueue_style( 'custom_wp_admin_css', plugin_url() . 'css/style.css' );
+	wp_enqueue_style( 'custom_wp_admin_css', Plugin::$data['url'] . 'css/style.css' );
 }
 
 add_action( 'admin_enqueue_scripts', __NAMESPACE__ . '\console_enqueue_script' );
@@ -47,7 +49,7 @@ function get_icons() {
 	}
 
 	list( $images, $names ) = $matches;
-
+	$items = array();
 	foreach ( $images as $i => $image ) {
 		$items[] = '<li class="oiyamaps-icons__item" style="background-image: url(' . $image . ');" data-name="' . $names[ $i ] . '"></li>';
 	}
@@ -57,7 +59,6 @@ function get_icons() {
 }
 
 function get_edit_form() {
-	$defaults = oi_yamaps_defaults();
 
 	$fields = array(
 		'placemark' => array(
@@ -219,7 +220,7 @@ function get_edit_form() {
 		),
 	);
 
-	$options = wp_parse_args( get_option( prefix() . 'options' ), oi_yamaps_defaults() );
+	$options = wp_parse_args( get_option( __NAMESPACE__.'_options' ), oi_yamaps_defaults() );
 
 	$template = '<div class="oiyamaps-form__group">'
 	            . '%label%'
