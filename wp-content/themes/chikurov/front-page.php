@@ -87,12 +87,12 @@
                 'category_name' => 'seminary',
                 'order' => 'ASC',
                 'orderby' => 'meta_value',
-                'meta_key' => 'seminar_start',
+                'meta_key' => 'seminar_end',
                 'meta_query' => array(
                     array(
-                        'key' => 'seminar_start',
+                        'key' => 'seminar_end',
                         'value' => date('Y-m-d'),
-                        'compare' => '>=',
+                        'compare' => '>',
                         'type' => 'DATE'
                     )
                 )
