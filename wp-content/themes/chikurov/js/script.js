@@ -21,8 +21,10 @@ jQuery(document).ready(function () {
     }
   };
   console.log(jQuery('.online_school_text').css('height'));
-  jQuery('.online_school_logo').css('height', jQuery('.online_school_text').css('height'));
-  jQuery('.online_school').css('height', jQuery('.online_school_text').css('height')/2+'px');
+  var online_block_h = jQuery('.online_school_text').css('height')
+  jQuery('.online_school_logo').css('height', online_block_h);
+  jQuery('.online_school').css('height', online_block_h/2+'px');
+  jQuery('.online_school').css('marginTop', online_block_h/2+'px');
   // Фильтрация по городам
   jQuery('.btn_city_filter').on('click', function(event) {
     jQuery('.btn_city_filter').removeClass('active');
