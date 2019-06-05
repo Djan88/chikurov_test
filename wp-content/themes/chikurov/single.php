@@ -136,7 +136,11 @@
                   <span class="fa fa-pencil-square-o"></span> Запись открыта
                 </div>
                 <span class="pull-right">
-                  <a href="#order" class="pull-right seminar_order btn btn-primary">Записаться</a>
+                  <?php if (get_field('seminar_online')) { ?>
+                    <a target="_blank"> href="<?php the_field('online_link'); ?>" class="pull-right seminar_order btn btn-primary">Перейти на сайт "Онлайн Школы"</a>
+                  <?php } else { ?>
+                    <a href="#order" class="pull-right seminar_order btn btn-primary">Записаться</a>
+                  <?php } ?>
                 </span>
               </div>
             <?php } ?>
