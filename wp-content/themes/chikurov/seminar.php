@@ -120,7 +120,7 @@ echo $seminar_filter;
 if (get_field('seminar_acent')) {
   echo ' seminar_acent';
 }
-if (get_field('online')) {
+if (get_field('seminar_online')) {
   echo ' seminar_online';
 }
 echo ' col-md-12"';
@@ -149,7 +149,7 @@ echo '<div class="on_wide">';
 echo ' | ';
 echo '</div>';
 echo '<div class="seminar_date">';
-if (get_field('online')) {
+if (get_field('seminar_online')) {
   echo ' <span class="fa fa-globe"></span> ';
   echo '<span class="seminar_online_title">ОНЛАЙН КУРС</span>';
 } else {
@@ -159,7 +159,7 @@ if (get_field('online')) {
   echo '</span>';
 }
 echo ' | ';
-if (get_field('online')) {
+if (get_field('seminar_online')) {
   echo ' <span class="fa fa-user"></span>Автор: ';
 } else {
   echo ' <span class="fa fa-user"></span>Читает: ';
