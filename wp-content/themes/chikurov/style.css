@@ -1322,6 +1322,16 @@ section#seminars
 {
     color: #72b8ff;
 }
+a.online_school 
+{
+    display: block;
+    padding: 10px;
+    border-left: 1px solid #42b3e5;
+}
+a.online_school img 
+{
+    max-width: 100%;
+}
 /*.seminar_acent a
 {
     color: #fff;
