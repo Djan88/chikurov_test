@@ -1375,6 +1375,9 @@ a.online_school img
     border: 1px solid #42b3e5;
     border-radius: 6px;
     min-height: 115px;
+}
+.online .col-md-4
+{
     position: relative;
 }
 .online .col-md-4:after
