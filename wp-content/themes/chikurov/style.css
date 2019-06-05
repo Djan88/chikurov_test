@@ -1410,7 +1410,7 @@ a.online_school img
 }
 .order_online_bottom
 {
-    text-align: center;
+    text-align: center!important;
 }
 .online_heading h3, .online_heading h4 
 {
