@@ -1390,6 +1390,10 @@ a.online_school img
     position: absolute;
     border-right: 1px solid #42b3e5;
 }
+.online .col-md-4:last-child:after
+{
+    border-color: transparent; 
+}
 .online_body
 {
     font-size: 17px;
