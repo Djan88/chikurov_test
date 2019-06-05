@@ -1323,7 +1323,14 @@ section#seminars
     color: #fff;
     text-decoration: underline;
 }
-
+.seminar_online_title, .seminar_online a
+{
+    color: #ffffff;
+}
+.seminar_online
+{
+    background: #72b8ff
+}
 /******************************
 responsive area
 ********************************/
