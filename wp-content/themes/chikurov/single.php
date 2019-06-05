@@ -202,10 +202,10 @@
                 </div>
               <?php } else { ?>
                 <?php if (get_field('seminar_online')) { ?>
-                  <div class="col-md-8">
+                  <div class="col-md-6">
                     
                   </div>
-                  <div class="col-md-4"><a class="online_school" target="_blank" href="https://school-bc.ru/#"><img src="<?php bloginfo('template_url'); ?>/img/logo_online_.png" alt="online school"></a></div>
+                  <div class="col-md-6"><a class="online_school" target="_blank" href="https://school-bc.ru/#"><img src="<?php bloginfo('template_url'); ?>/img/logo_online_.png" alt="online school"></a></div>
                 <?php } else { ?>
                   <?php if ($autor == 'Юрий Чикуров' && $city == 'Санкт-Петербург') {?>
                     <?php echo do_shortcode('[contact-form-7 id="1209" title="Запись на семинар_Илья"]'); ?>
