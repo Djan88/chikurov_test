@@ -59,5 +59,6 @@ jQuery(document).ready(function () {
     })
     localStorage.setItem('popupStatus', true);
   }
-  setTimeout(jQuery('.online_school_logo').css('height', jQuery('.online_school_text').css('height')), 2000);
+  console.log(jQuery('.online_school_text').css('height'));
+  jQuery('.online_school_logo').css('height', jQuery('.online_school_text').css('height'));
 });
