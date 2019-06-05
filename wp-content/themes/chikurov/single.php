@@ -137,7 +137,7 @@
                 </div>
                 <span class="pull-right">
                   <?php if (get_field('seminar_online')) { ?>
-                    <a target="_blank"> href="<?php the_field('online_link'); ?>" class="pull-right seminar_order btn btn-primary">Перейти на сайт "Онлайн Школы"</a>
+                    <a target="_blank" href="<?php the_field('online_link'); ?>" class="pull-right seminar_order btn btn-primary">Перейти на сайт "Онлайн Школы"</a>
                   <?php } else { ?>
                     <a href="#order" class="pull-right seminar_order btn btn-primary">Записаться</a>
                   <?php } ?>
