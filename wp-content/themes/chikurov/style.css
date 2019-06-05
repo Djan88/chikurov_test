@@ -1408,6 +1408,10 @@ a.online_school img
 {
     font-weight: bold;
 }
+.order_online_bottom
+{
+    text-align: center;
+}
 .online_heading h3, .online_heading h4 
 {
     text-align: center;
