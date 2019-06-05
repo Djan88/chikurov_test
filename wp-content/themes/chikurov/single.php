@@ -107,9 +107,19 @@
             </div>
             <div class="seminar_params clearfix">
               <div class="pull-left">
-                <span class="fa fa-map-marker"></span> Место проведения:
+                <?php if (get_field('seminar_online')) { ?>
+                  <span class="fa fa-globe"></span> Онлайн курс
+                <?php } else { ?>
+                  <span class="fa fa-map-marker"></span> Место проведения:
+                <?php } ?>
               </div>
-              <span class="pull-right"><span class="place_info"> <?php the_field('city'); ?>, <?php the_field('adres'); ?></span></span>
+              <span class="pull-right">
+                <?php if (get_field('seminar_online')) { ?>
+                  <span class="place_info">ОНЛАЙН "ШКОЛА ДОКТОРА ЧИКУРОВА"</span>
+                <?php } else { ?>
+                  <span class="place_info"> <?php the_field('city'); ?>, <?php the_field('adres'); ?></span>
+                <?php } ?>
+              </span>
             </div>
             <?php if (get_field('order_closed')) { ?>
               <div class="seminar_params clearfix">
