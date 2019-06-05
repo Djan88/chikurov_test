@@ -1330,11 +1330,24 @@ a.online_school
 {
     display: block;
     padding: 10px;
-    border-left: 1px solid #42b3e5;
+    /*border-left: 1px solid #42b3e5;*/
 }
 a.online_school img 
 {
     max-width: 100%;
+}
+.online_school_text
+{
+    border-right: 1px solid #42b3e5;
+}
+.order_seminar .online_school_text p:after
+{
+    content: '';
+    display: block;
+    width: 60%;
+    margin: auto;
+    border-bottom: 1px solid #42b3e5;
+    margin-bottom: 5px;
 }
 /*.seminar_acent a
 {
