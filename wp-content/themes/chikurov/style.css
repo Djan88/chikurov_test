@@ -1371,7 +1371,7 @@ a.online_school img
 .online
 {
     padding: 10px;
-    background: #ddeff7;
+    /*background: #ddeff7;*/
     border: 1px solid #42b3e5;
     border-radius: 6px;
     min-height: 115px;
