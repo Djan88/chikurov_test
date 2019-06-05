@@ -1368,6 +1368,22 @@ a.online_school img
     border-bottom: 1px solid #42b3e5;
     padding-bottom: 15px;
 }
+.online .col-md-4
+{
+    padding: 10px;
+    background: #ddeff7;
+    border: 1px solid #42b3e5;
+    border-radius: 6px;
+    min-height: 115px;
+}
+.online_body
+{
+    font-size: 17px;
+}
+.online_heading h3, .online_heading h4 
+{
+    text-align: center;
+}
 /*.seminar_acent a
 {
     color: #fff;
