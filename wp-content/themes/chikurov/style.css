@@ -1349,24 +1349,24 @@ a.online_school img
     width: 60%;
     margin: auto;
     border-bottom: 1px solid #42b3e5;
-    margin-bottom: 5px;
+    padding-bottom: 15px;
 }
 .order_seminar .online_school_text p:last-child:after
 {
     border-color: transparent;
 }
-#order_online
+.order_online
 {
     padding-bottom: 10px;
 }
-#order_online:after
+.order_online:after
 {
     content: '';
     display: block;
     width: 60%;
     margin: auto;
     border-bottom: 1px solid #42b3e5;
-    margin-bottom: 5px;
+    padding-bottom: 15px;
 }
 /*.seminar_acent a
 {
