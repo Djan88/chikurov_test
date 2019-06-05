@@ -1318,7 +1318,11 @@ section#seminars
     color: #fce89a;
     background: #1d355d!important;
 }
-.seminar_acent a
+.seminar_online_title
+{
+    color: #72b8ff;
+}
+/*.seminar_acent a
 {
     color: #fff;
     text-decoration: underline;
@@ -1330,7 +1334,7 @@ section#seminars
 .seminar_online
 {
     background: #72b8ff
-}
+}*/
 /******************************
 responsive area
 ********************************/
