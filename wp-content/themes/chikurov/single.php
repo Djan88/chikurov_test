@@ -137,7 +137,7 @@
                 </div>
                 <span class="pull-right">
                   <?php if (get_field('seminar_online')) { ?>
-                    <a target="_blank" href="<?php the_field('online_link'); ?>" class="pull-right seminar_order btn btn-primary">Перейти на сайт "Онлайн Школы"</a>
+                    <a target="_blank" href="<?php the_field('online_link'); ?>" class="pull-right seminar_order btn btn-primary">Страница курса на сайте "Онлайн Школы"</a>
                   <?php } else { ?>
                     <a href="#order" class="pull-right seminar_order btn btn-primary">Записаться</a>
                   <?php } ?>
@@ -148,13 +148,21 @@
           <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
             <div class="seminar_params clearfix">
               <div class="pull-left">
-                <span class="fa fa-user"></span> Читает:
+                <?php if (get_field('seminar_online')) { ?>
+                  <span class="fa fa-user"></span> Автор:
+                <?php } else { ?>
+                  <span class="fa fa-user"></span> Читает:
+                <?php } ?>
               </div> 
               <div class="pull-right"><?php the_field('autor'); ?></div>
             </div>
             <div class="seminar_params clearfix">
               <div class="pull-left">
-                <span class="fa fa-phone"></span> Записаться по телефону:
+                <?php if (get_field('seminar_online')) { ?>
+                  <span class="fa fa-phone"></span> Задать вопрос по телефону:
+                <?php } else { ?>
+                  <span class="fa fa-phone"></span> Записаться по телефону:
+                <?php } ?>
               </div>
               <span class="pull-right phone_info"><?php the_field('phone'); ?></span>
             </div>
@@ -181,7 +189,11 @@
             <?php } ?>
           </div>
           <div class="col-md-12 order_seminar">
-            <h4 class="content_center" id="order">Записаться на семинар</h4>
+            <?php if (get_field('seminar_online')) { ?>
+              <h4 class="content_center" id="order">Что такое "Онлайн Курс"?</h4>
+            <?php } else { ?>
+              <h4 class="content_center" id="order">Записаться на семинар</h4>
+            <?php } ?>
             <div class="row">
               <?php if (get_field('order_closed')) { ?>
                 <div class="order_closed_text">
