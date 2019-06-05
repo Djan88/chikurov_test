@@ -1398,6 +1398,16 @@ a.online_school img
 {
     font-size: 17px;
 }
+.online_heading
+{
+    background: #ddeff7;
+    border: 1px solid #42b3e5;
+    border-radius: 6px;
+}
+.online_body_heading
+{
+    font-weight: bold;
+}
 .online_heading h3, .online_heading h4 
 {
     text-align: center;
