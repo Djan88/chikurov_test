@@ -120,6 +120,9 @@ echo $seminar_filter;
 if (get_field('seminar_acent')) {
   echo ' seminar_acent';
 }
+if (get_field('online')) {
+  echo ' seminar_online';
+}
 echo ' col-md-12"';
 echo 'data-start="';
 echo $seminar_start;
@@ -146,12 +149,21 @@ echo '<div class="on_wide">';
 echo ' | ';
 echo '</div>';
 echo '<div class="seminar_date">';
-echo ' <span class="fa fa-map-marker"></span>Город: ';
-echo '<span class="seminar_city_name">';
-echo $seminar_city;
-echo '</span>';
+if (get_field('online')) {
+  echo ' <span class="fa fa-globe"></span> ';
+  echo '<span class="seminar_online_title">ОНЛАЙН КУРС</span>';
+} else {
+  echo ' <span class="fa fa-map-marker"></span>Город: ';
+  echo '<span class="seminar_city_name">';
+  echo $seminar_city;
+  echo '</span>';
+}
 echo ' | ';
-echo ' <span class="fa fa-user"></span>Читает: ';
+if (get_field('online')) {
+  echo ' <span class="fa fa-user"></span>Автор: ';
+} else {
+  echo ' <span class="fa fa-user"></span>Читает: ';
+}
 echo $seminar_autor;
 echo '</div>';
 echo '<div class="on_wide">';
