@@ -1384,11 +1384,10 @@ a.online_school img
 {
     content: '';
     display: block;
-    top: 50%;
-    bottom: 50%;
+    top: 0;
     right: 0;
+    height: 100%;
     position: absolute;
-    height: : 60%;
     border-right: 1px solid #42b3e5;
 }
 .online_body
