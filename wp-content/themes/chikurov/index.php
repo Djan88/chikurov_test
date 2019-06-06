@@ -74,7 +74,7 @@
                   'category_name' => 'seminary',
                   'order' => 'ASC',
                   'orderby' => 'meta_value',
-                  'meta_key' => 'seminar_end',
+                  'meta_key' => 'seminar_start',
                   'meta_query' => array(
                       array(
                           'key' => 'seminar_end',
@@ -89,7 +89,7 @@
                   'category_name' => 'seminary-masterov',
                   'order' => 'ASC',
                   'orderby' => 'meta_value',
-                  'meta_key' => 'seminar_end',
+                  'meta_key' => 'seminar_start',
                   'meta_query' => array(
                       array(
                           'key' => 'seminar_end',
