@@ -1390,6 +1390,26 @@ a.online_school img
     position: absolute;
     border-right: 1px solid #42b3e5;
 }
+.online .col-md-6:after
+{
+    content: '';
+    display: block;
+    top: 0;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    border-right: 1px solid #42b3e5;
+}
+.online .col-md-6:before
+{
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    position: absolute;
+    border-left: 1px solid #42b3e5;
+}
 .online .col-md-4:last-child:after
 {
     border-color: transparent; 
