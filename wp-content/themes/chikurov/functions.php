@@ -1,4 +1,13 @@
 <?php add_theme_support('post-thumbnails'); ?>
+
+<?php
+//fix for cookie error while login.
+setcookie(TEST_COOKIE, 'WP Cookie check', 0, COOKIEPATH, COOKIE_DOMAIN); 
+if ( SITECOOKIEPATH != COOKIEPATH ) 
+setcookie(TEST_COOKIE, 'WP Cookie check', 0, SITECOOKIEPATH, COOKIE_DOMAIN);
+?>
+
+
 <?php
     if (function_exists('add_theme_support')) {
      add_theme_support('menus');
