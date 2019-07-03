@@ -8,7 +8,7 @@
   <title><?php the_title(); ?></title>
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
   <link rel="icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico">
   <!--[if lt IE 9]>
