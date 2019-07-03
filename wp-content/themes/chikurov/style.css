@@ -1781,6 +1781,10 @@ responsive area
 /* XS Portrait */
 
 @media (max-width: 479px) {
+    .doctor p, .seminar_content
+    {
+        text-align: left;
+    }
     .seminar_order
     {
         float: none!important;
