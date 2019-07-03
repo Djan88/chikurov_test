@@ -200,7 +200,7 @@
           <p>Продажа небольшого ассортимента разнообразных товаров – основная специализация нашего интернет-магазина. Мы доставим ваш заказ, осуществим подробную консультацию по товарам и поможем с выбором.</p>
           <p>Магазин <a href="https://shop-bc.com">shop-bc.com</a> предлагает Вам купить книги и многое другое с доставкой! Все виды современных товаров от эконом класса до более дорогих представлены в нашем каталоге.</p>
           <!-- <a target="_blank" href="http://www.yuchikurov.info/biologicheskoe-centrirovanie/" class="btn btn-primary btn-lg">Читать книгу</a> -->
-          <a target="_blank" href="https://shop-bc.com" class="btn btn-primary btn-lg down_book" data-toggle="modal" data-target="#book_down">shop-bc.com</a>
+          <a target="_blank" href="https://shop-bc.com" class="btn btn-primary btn-lg">shop-bc.com</a>
         </div>
       </div>
     </div>
