@@ -83,8 +83,7 @@ Tags: simple
 body {
     margin: 0;
     padding: 0;
-    /*font-family: 'Roboto', sans-serif;*/
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 li {
     list-style: none;
@@ -276,8 +275,10 @@ li a.active {
     font-size: 18px;
     color: #000;
     margin-bottom: 15px;
+    font-weight: 600;
     text-align: left;
-    font-style: italic;
+    /*font-style: italic;*/
+    font-family: 'Montserrat', sans-serif;
 }
 .about-img img {
     width: 100%;
@@ -752,9 +753,10 @@ body,
 }
 .doctor p, .seminar_content
 {
-    font-size: 16px;
+    font-size: 17px;
     text-align: justify;
-    font-style: italic;
+    /*font-style: italic;*/
+    font-family: 'Montserrat', sans-serif;
 }
 .seminar_content div 
 {
