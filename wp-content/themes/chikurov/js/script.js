@@ -1,4 +1,12 @@
 jQuery(document).ready(function () {
+  
+  var $page = jQuery('html, body');
+  jQuery('a[href*="#"]').click(function() {
+      $page.animate({
+          scrollTop: jQuery(jQuery.attr(this, 'href')).offset().top
+      }, 600);
+      return false;
+  });
   console.log('status');
   jQuery('.seminar_title').val(jQuery('.title_info').text());
   jQuery('.seminar_url').val(jQuery('.page_url').text());
