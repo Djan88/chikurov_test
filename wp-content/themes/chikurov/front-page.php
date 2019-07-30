@@ -64,6 +64,17 @@
               <a href="mailto:7929822@mail.ru"><span class="glyphicon glyphicon-envelope"></span> 7929822@mail.ru</a>
             </div>
           </div>
+          <div class="school-lector col-md-2 col-xs-12">
+            <a target="_blank" href="http://www.yuchikurov.info/members/salehova_marina/">
+              <img src="<?php bloginfo('template_url'); ?>/img/istomin.jpg" alt="">
+              <div class="lector_name">Никита Истомин</div>
+            </a>
+            <div class="lector_city">г.Санкт-Петербург</div>
+            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(921)379-13-31</div>
+            <div class="lector_email">
+              <a href="mailto:7929822@mail.ru"><span class="glyphicon glyphicon-envelope"></span> nhiller@yandex.ru</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
