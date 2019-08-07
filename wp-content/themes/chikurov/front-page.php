@@ -48,7 +48,7 @@
               <div class="lector_name">Елена Зукуле</div>
             </a>
             <div class="lector_city">г.Рига (Латвия)</div>
-            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +(371)295-65-91</div>
+            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +(371)295-65-911</div>
             <div class="lector_email">
               <a href="mailto:zukule7@gmail.com"><span class="glyphicon glyphicon-envelope"></span> zukule7@gmail.com</a>
             </div>
