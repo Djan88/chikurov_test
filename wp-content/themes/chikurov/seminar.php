@@ -164,7 +164,7 @@ if (get_field('seminar_online')) {
 } else {
   echo ' <span class="fa fa-user"></span>Читает: ';
 }
-echo $seminar_autor;
+the_field('autor');
 echo '</div>';
 echo '<div class="on_wide">';
 echo ' | ';
