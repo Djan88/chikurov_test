@@ -79,7 +79,7 @@
                       array(
                           'key' => 'seminar_end',
                           'value' => date('Y-m-d'),
-                          'compare' => '>',
+                          'compare' => '>=',
                           'type' => 'DATE'
                       )
                   )
