@@ -183,11 +183,7 @@
             edit_post_link(__('Edit This'));
             ?>
             <?php $autor = get_field('autor'); ?>
-            <?php 
-              if (array_pop($autor) != NULL) {
-                $autor = array_pop($autor);
-              }
-            ?>
+            
             <?php $city = get_field('city');?>
             <?php if ($autor == 'Юрий Чикуров' && get_field('seminar_online')) {?>
               <h4 class="order_online_bottom">Подать заявку на участие Вы можете со <a target="_blank" href="<?php the_field('online_link'); ?>">страницы курса на сайте "Онлайн Школы"</a></h4>
@@ -199,7 +195,7 @@
               <h4 class="content_center order_online" id="order">Что такое Онлайн "Школа Доктора Чикурова"?</h4>
             <?php } else { ?>
               <h4 class="content_center" id="order">Записаться на семинар</h4>
-              <div><?php echo $autor; ?></div>
+              <div><?php echo array_pop($autor); ?></div>
             <?php } ?>
             <div class="row">
               <?php if (get_field('order_closed')) { ?>
