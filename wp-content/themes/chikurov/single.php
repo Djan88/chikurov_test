@@ -185,7 +185,7 @@
             <?php $autor = get_field('autor'); ?>
             <?php 
               if (is_array($autor)) {
-                $autor = array_pop($autor);
+                $autor = array_shift($autor);
               }
             ?>
             <?php $city = get_field('city');?>
