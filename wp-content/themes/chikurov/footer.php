@@ -97,7 +97,7 @@
                       <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/uploads/2018/09/1003575676.png" alt="">
                     </div>
                     <div class="col-md-8">
-                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https://https://school-bc.ru/pl/lite/widget/script?id=24256"></script>
+                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https://school-bc.ru/pl/lite/widget/script?id=24256"></script>
                     </div>
                   </div>
               </div>
@@ -118,7 +118,7 @@
                       <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/uploads/2018/09/1002164298.png" alt="">
                     </div>
                     <div class="col-md-8">
-                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https://https://school-bc.ru/pl/lite/widget/script?id=24256"></script>
+                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="httpsl-bc.ru/pl/lite/widget/script?id=24256"></script>
                     </div>
                   </div>
               </div>
@@ -139,7 +139,7 @@
                       <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/uploads/2018/09/1000794416.png" alt="">
                     </div>
                     <div class="col-md-8">
-                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https://https://school-bc.ru/pl/lite/widget/script?id=24256"></script>
+                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https:-bc.ru/pl/lite/widget/script?id=24256"></script>
                     </div>
                   </div>
               </div>
@@ -160,7 +160,7 @@
                       <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/uploads/2018/09/8734-thickbox_default.jpg" alt="">
                     </div>
                     <div class="col-md-8">
-                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https://https://school-bc.ru/pl/lite/widget/script?id=24256"></script>
+                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="httpsl-bc.ru/pl/lite/widget/script?id=24256"></script>
                     </div>
                   </div>
               </div>
@@ -179,10 +179,10 @@
                   <?php //echo do_shortcode('[contact-form-7 id="449" title="Купить ловушку"]')?>
                   <div class="clearfix">
                     <div class="col-md-4" style="text-align: center;">
-                    <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="https://chikurov.com/wp-content/uploads/2018/03/IMG_3817-167x300.jpg" alt="">
+                    <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="httpsrov.com/wp-content/uploads/2018/03/IMG_3817-167x300.jpg" alt="">
                     </div>
                     <div class="col-md-8">
-                      <script id="b85b70eafb20cae19a3f8910bfeaf0f331d89c4d" src="https://https://school-bc.ru/pl/lite/widget/script?id=24443"></script>
+                      <script id="b85b70eafb20cae19a3f8910bfeaf0f331d89c4d" src="https://school-bc.ru/pl/lite/widget/script?id=24443"></script>
                     </div>
                   </div>
               </div>
