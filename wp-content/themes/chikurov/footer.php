@@ -66,7 +66,7 @@
           <div class="modal-content">
               <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                  <h4 class="modal-title" id="videoCoursLabel">Download book for free</h4>
+                  <h4 class="modal-title" id="videoCoursLabel">Download the book for free</h4>
               </div>
               <div class="modal-body">
                   <h4>"Practical Psychosomatics (Практическая Писхосоматика)"</h4>
@@ -75,7 +75,7 @@
                       <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/themes/chikurov/img/pp_.png" alt="">
                     </div>
                     <div class="col-md-8">
-                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https://school-bc.ru/pl/lite/widget/script?id=24256"></script>
+                      <script id="2de8da5d11141991a4cd0b64ffe0927d263aff0e" src="https://school-bc.ru/pl/lite/widget/script?id=112752"></script>
                     </div>
                   </div>
               </div>
