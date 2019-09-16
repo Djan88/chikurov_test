@@ -233,6 +233,8 @@
                     <?php echo do_shortcode('[contact-form-7 id="2711" title="Запись на семинар_Салехова"]'); ?>
                   <?php } else if ($autor == 'Никита Истомин' && $city == 'Москва') { ?>
                     <?php echo do_shortcode('[contact-form-7 id="3818" title="Запись на семинар_Истомин_Москва"]'); ?>
+                  <?php } else if ($autor == 'Никита Истомин' && $city == 'Санкт-Петербург') { ?>
+                    <?php echo do_shortcode('[contact-form-7 id="4131" title="Запись на семинар_Истомин_Питер"]'); ?>
                   <?php } else if ($autor == 'Никита Истомин') { ?>
                     <?php echo do_shortcode('[contact-form-7 id="3765" title="Запись на семинар_Истомин"]'); ?>
                   <?php } ?>
