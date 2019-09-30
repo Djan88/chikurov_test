@@ -72,4 +72,8 @@ jQuery(document).ready(function () {
     })
     localStorage.setItem('popupStatus', true);
   }
+  jQuery('#myTab a').click(function (e) {
+    e.preventDefault();
+    jQuery(this).tab('show');
+  })
 });
