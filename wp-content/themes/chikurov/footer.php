@@ -213,7 +213,7 @@
   </div>
   <div class="modal fade" id="order_session" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
       <div class="modal-dialog modal-sm">
-          <div class="modal-content">
+          <div class="modal-content styled_form_alt">
               <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                   <h4 class="modal-title" id="videoCoursLabel">Терапевтическая сессия</h4>
