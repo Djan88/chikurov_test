@@ -1439,6 +1439,23 @@ a.online_school img
 {
     text-align: center;
 }
+.full_w_img
+{
+    max-width: 100%;
+    height: auto;
+}
+ul#myTab 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.myTab_content
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    padding: 15px;
+}
 /*.seminar_acent a
 {
     color: #fff;
