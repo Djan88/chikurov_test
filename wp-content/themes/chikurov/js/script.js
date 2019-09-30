@@ -76,4 +76,7 @@ jQuery(document).ready(function () {
     e.preventDefault();
     jQuery(this).tab('show');
   })
+  jQuery('.btn_session').on('click', function(event) {
+    jQuery('.session_type').val(jQuery(this).data('session_type'))
+  });
 });
