@@ -1443,6 +1443,7 @@ a.online_school img
 {
     max-width: 100%;
     height: auto;
+    margin: 15px 0;
 }
 ul#myTab 
 {
@@ -1471,6 +1472,9 @@ ul#myTab
     border: 1px solid #42b3e5;
     border-radius: 6px;
     padding: 5px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 10px!important;
 }
 /*.seminar_acent a
 {
