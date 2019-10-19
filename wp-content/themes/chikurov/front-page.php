@@ -39,7 +39,7 @@
             <div class="lector_city">г.Санкт-Петербург</div>
             <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(911)210-48-99</div>
             <div class="lector_email">
-              <a href="mailto:kv@bio-mehanika.ru"><span class="glyphicon glyphicon-envelope"></span> kv@bio-mehanika.ru</a>
+              <a href="mailto:npobm@yandex.ru"><span class="glyphicon glyphicon-envelope"></span> npobm@yandex.ru</a>
             </div>
           </div>
           <div class="school-lector col-md-2 col-xs-12">
