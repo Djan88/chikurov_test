@@ -1210,9 +1210,14 @@ section#lectors
     border-radius: 6px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin: 0 5px 0 0;
+    margin: 0;
     font-size: 15px;
     line-height: 1.5;
+    border-right: none;
+}
+.school-lector:last-child
+{
+    border-right: 1px solid #42b3e5;
 }
 .school-lector img 
 {
@@ -1617,6 +1622,10 @@ responsive area
         margin: auto;
         margin-top: 15px;
     }
+    .school-lector 
+    {
+        border: 1px solid #42b3e5;
+    }
 }
 
 /* xs */
@@ -1749,6 +1758,10 @@ responsive area
     {
         text-align: center;
     }
+    .school-lector 
+    {
+        border: 1px solid #42b3e5;
+    }
 }
 @media (max-width: 670px) {
     .on_wide
@@ -1812,6 +1825,10 @@ responsive area
     {
         font-size: 20px;
         display: block;
+    }
+    .school-lector 
+    {
+        border: 1px solid #42b3e5;
     }
 }
 
@@ -1992,10 +2009,18 @@ responsive area
         margin: auto;
         margin-top: 15px;
     }
+    .school-lector 
+    {
+        border: 1px solid #42b3e5;
+    }
 }
 @media (max-width: 420px) {
     .navbar-default .navbar-nav>li>a {
         font-size: 10px;
         padding: 5px;
+    }
+    .school-lector 
+    {
+        border: 1px solid #42b3e5;
     }
 }
