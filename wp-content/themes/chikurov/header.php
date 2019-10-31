@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
   <link rel="icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico">
+  <meta name="yandex-verification" content="b49724cdf441409a" />
   <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
