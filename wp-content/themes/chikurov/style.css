@@ -1523,6 +1523,10 @@ ul#myTab
 {
     color: #fff;
 }
+.submenu_wrap li a:hover
+{
+    color: #737373;
+}
 /*.seminar_acent a
 {
     color: #fff;
