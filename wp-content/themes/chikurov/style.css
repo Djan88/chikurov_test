@@ -1509,12 +1509,13 @@ ul#myTab
     display: block;
     padding: 0;
 }
-.submenu_wrap a
+.submenu_wrap li
 {
-    font-size: 16px;
+    font-size: 14px;
     color: #737373;
-    padding: 14px 7px;
+    padding: 5px 7px;
     font-weight: bold;
+    border-bottom: 1px solid #42b3e5;
 }
 /*.seminar_acent a
 {
