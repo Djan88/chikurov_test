@@ -1614,10 +1614,6 @@ responsive area
         top: 0;
         max-width: 100px;
     }
-    .navbar-default .navbar-nav>li>a {
-        font-size: 16px;
-        padding: 5px;
-    }
     .container-fluid, .navbar-collapse, .main-menu
     {
         padding: 0;
