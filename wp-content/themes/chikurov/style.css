@@ -1495,11 +1495,13 @@ ul#myTab
     padding: 14px 7px;
     font-weight: bold;
     position: relative;
+    cursor: pointer;
 }
 .dropdown_menu .submenu_wrap
 {
     display: none;
     position: absolute;
+    background: #fff;
 }
 .dropdown_menu:hover .submenu_wrap
 {
