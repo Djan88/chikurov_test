@@ -96,6 +96,7 @@
                           <li><a class="submenu" target="_blank" href="https://tarotmachine.ru/">Tarot Machine</a></li>
                           <li><a class="submenu" target="_blank" href="https://deviatochka.ru/">Игра Девяточка</a></li>
                           <li><a class="submenu" target="_blank" href="http://marakata.ru/">Marakata</a></li>
+                          <li><a class="submenu" target="_blank" href="http://braincleaner.ru/">Brain Cleaner</a></li>
                           <li><a class="submenu" target="_blank" href="https://school-bc.ru/wizardtherapy">Wizard Therapy</a></li>
                         </ul>
                       </li>
