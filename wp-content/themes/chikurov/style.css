@@ -1502,11 +1502,19 @@ ul#myTab
     display: none;
     position: absolute;
     background: #fff;
+    z-index: 999;
 }
 .dropdown_menu:hover .submenu_wrap
 {
     display: block;
     padding: 0;
+}
+.submenu_wrap a
+{
+    font-size: 16px;
+    color: #737373;
+    padding: 14px 7px;
+    font-weight: bold;
 }
 /*.seminar_acent a
 {
