@@ -1951,7 +1951,7 @@ responsive area
         margin-top: -7px;
         /*right: 10%;*/
     }
-    .navbar-default .navbar-nav>li>a {
+    .navbar-default .navbar-nav>li>a, .dropdown_menu {
         font-size: 18px;
         /* text-align: left; */
         padding: 7px 0;
@@ -2060,7 +2060,7 @@ responsive area
     }
 }
 @media (max-width: 420px) {
-    .navbar-default .navbar-nav>li>a {
+    .navbar-default .navbar-nav>li>a, .dropdown_menu {
         font-size: 10px;
         padding: 5px;
     }
