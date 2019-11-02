@@ -1745,7 +1745,11 @@ responsive area
         margin: auto;
         margin-top: 15px;
     }
-    .navbar-default .navbar-nav>li>a 
+    .dropdown_menu
+    {
+        text-align: center;
+    }
+    .navbar-default .navbar-nav>li>a, .dropdown_menu
     {
         font-size: 18px;
         padding: 7px 0;
