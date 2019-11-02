@@ -88,7 +88,17 @@
                       <!-- <li><a class="menu" href="#about">Биологическое центрирование</a></li> -->
                       <li><a class="menu" href="http://school-bc.ru/" target="_blank">Онлайн школа</a></li>
                       <li><a class="menu" target="_blank" href="http://www.yuchikurov.info/reestr/">Реестр специалистов</a></li>
-                      <li><a class="menu" target="_blank" href="http://www.yuchikurov.info/">Визардтерапия</a></li>
+                      <li class="dropdown_menu">Визардтерапия
+                        <ul>
+                          <li><a class="submenu" target="_blank" href="https://wizardmachine.ru/">Wizard Machine</a></li>
+                          <li><a class="submenu" target="_blank" href="https://wizardduos.ru/">Wizard Duos</a></li>
+                          <li><a class="submenu" target="_blank" href="https://wizard-lovushka.ru/">Wizard Ловушка</a></li>
+                          <li><a class="submenu" target="_blank" href="https://tarotmachine.ru/">Tarot Machine</a></li>
+                          <li><a class="submenu" target="_blank" href="https://deviatochka.ru/">Игра Девяточка</a></li>
+                          <li><a class="submenu" target="_blank" href="http://marakata.ru/">Marakata</a></li>
+                          <li><a class="submenu" target="_blank" href="https://school-bc.ru/wizardtherapy">Wizard Therapy</a></li>
+                        </ul>
+                      </li>
                       <li><a class="menu" href="/kniga">Книги</a></li>
                       <li><a target="_blank" class="menu" href="https://shop-bc.com/">Магазин товаров бц</a></li>
                     </ul>
