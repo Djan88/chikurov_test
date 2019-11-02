@@ -89,7 +89,7 @@
                       <li><a class="menu" href="http://school-bc.ru/" target="_blank">Онлайн школа</a></li>
                       <li><a class="menu" target="_blank" href="http://www.yuchikurov.info/reestr/">Реестр специалистов</a></li>
                       <li class="dropdown_menu">Визардтерапия
-                        <ul>
+                        <ul class="submenu_wrap">
                           <li><a class="submenu" target="_blank" href="https://wizardmachine.ru/">Wizard Machine</a></li>
                           <li><a class="submenu" target="_blank" href="https://wizardduos.ru/">Wizard Duos</a></li>
                           <li><a class="submenu" target="_blank" href="https://wizard-lovushka.ru/">Wizard Ловушка</a></li>

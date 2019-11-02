@@ -1481,6 +1481,31 @@ ul#myTab
     font-size: 15px;
     margin-top: 10px!important;
 }
+.dropdown_menu
+{
+    text-align: left;
+    font-size: 16px;
+    color: #737373;
+    text-transform: uppercase;
+    transition: all .7s ease 0s;
+    -webkit-transition: all .7s ease 0s;
+    -moz-transition: all .7s ease 0s;
+    -o-transition: all .7s ease 0s;
+    -ms-transition: all .7s ease 0s;
+    padding: 14px 7px;
+    font-weight: bold;
+    position: relative;
+}
+.dropdown_menu .submenu_wrap
+{
+    display: none;
+    position: absolute;
+}
+.dropdown_menu:hover .submenu_wrap
+{
+    display: block;
+    padding: 0;
+}
 /*.seminar_acent a
 {
     color: #fff;
