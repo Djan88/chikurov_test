@@ -140,7 +140,7 @@
                       <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/uploads/2018/09/1002164298.png" alt="">
                     </div>
                     <div class="col-md-8">
-                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="httpsl-bc.ru/pl/lite/widget/script?id=24256"></script>
+                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https://school-bc.ru/pl/lite/widget/script?id=24256"></script>
                     </div>
                   </div>
               </div>
@@ -161,7 +161,7 @@
                       <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/uploads/2018/09/1000794416.png" alt="">
                     </div>
                     <div class="col-md-8">
-                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https:-bc.ru/pl/lite/widget/script?id=24256"></script>
+                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https://school-bc.ru/pl/lite/widget/script?id=24256"></script>
                     </div>
                   </div>
               </div>
@@ -182,7 +182,7 @@
                       <img style="max-width: 100%;" class="img-responsive pull-left content_img colorbox-147" src="/wp-content/uploads/2018/09/8734-thickbox_default.jpg" alt="">
                     </div>
                     <div class="col-md-8">
-                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="httpsl-bc.ru/pl/lite/widget/script?id=24256"></script>
+                      <script id="8ef7af9574fa734129cd56c349d840febd4766c2" src="https://school-bc.ru/pl/lite/widget/script?id=24256"></script>
                     </div>
                   </div>
               </div>
