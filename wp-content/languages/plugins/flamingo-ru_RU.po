@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Flamingo - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-09-04 16:48:43+0000\n"
+"PO-Revision-Date: 2019-07-02 13:09:49+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,8 +11,26 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: Plugins - Flamingo - Stable (latest release)\n"
 
+#. translators: %s: WordPress user name
+#: includes/class-inbound-message.php:342
+msgid "%s has marked this message as spam."
+msgstr "%s отметил это сообщение как спам."
+
+#: includes/class-inbound-message.php:331
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#. translators: %s: reason why this message is regarded as spam
+#: admin/includes/meta-boxes.php:145
+msgid "Spam log: %s"
+msgstr "Спам: %s"
+
+#: admin/admin.php:705
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
 #. translators: date format, see https://php.net/date
-#: includes/class-inbound-message.php:161
+#: includes/class-inbound-message.php:162
 msgid "M j, Y @ H:i"
 msgstr "j M Y @ H:i"
 
@@ -24,7 +42,7 @@ msgstr "Входящие сообщения Flamingo: Вы не можете у�
 msgid "Flamingo Address Book: You are not allowed to delete contact data."
 msgstr "Адресная книга Flamingo: Вы не можете удалять контактные данные."
 
-#: admin/includes/meta-boxes.php:170
+#: admin/includes/meta-boxes.php:196
 msgid "Update"
 msgstr "Обновить"
 
@@ -37,7 +55,7 @@ msgstr "Отправлено: %s"
 msgid "Inbound message status"
 msgstr "Статус входящего сообщения"
 
-#: admin/includes/class-inbound-messages-list-table.php:292
+#: admin/includes/class-inbound-messages-list-table.php:336
 msgid "View"
 msgstr "Посмотреть"
 
@@ -49,15 +67,15 @@ msgstr "Согласие"
 msgid "Status"
 msgstr "Статус"
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid "A trustworthy message storage plugin for Contact Form 7."
 msgstr "Достойный плагин для хранения сообщений Contact Form 7."
 
-#: admin/admin.php:705
+#: admin/admin.php:710
 msgid "Meta"
 msgstr "Мета"
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "Takayuki Miyoshi"
 msgstr "Takayuki Miyoshi"
 
@@ -69,20 +87,20 @@ msgstr "Исходящее сообщение Flamingo"
 msgid "Flamingo Outbound Messages"
 msgstr "Исходящие сообщения Flamingo"
 
-#: includes/class-inbound-message.php:201
+#: includes/class-inbound-message.php:204
 #: includes/class-outbound-message.php:98
 msgid "(No Title)"
 msgstr "(Без названия)"
 
-#: includes/class-inbound-message.php:45
+#: includes/class-inbound-message.php:47
 msgid "Flamingo Inbound Message Channel"
 msgstr "Flamingo канал входящих сообщений"
 
-#: includes/class-inbound-message.php:44
+#: includes/class-inbound-message.php:46
 msgid "Flamingo Inbound Message Channels"
 msgstr "Flamingo каналы входящих сообщений"
 
-#: includes/class-inbound-message.php:28
+#: includes/class-inbound-message.php:30
 msgid "Flamingo Inbound Message"
 msgstr "Flamingo входящие сообщения"
 
@@ -102,11 +120,11 @@ msgstr "Flamingo контакты"
 msgid "Flamingo Contacts"
 msgstr "Flamingo контакты"
 
-#: admin/includes/meta-boxes.php:315
+#: admin/includes/meta-boxes.php:358
 msgid "Send Message"
 msgstr "Отправить сообщение"
 
-#: admin/includes/meta-boxes.php:273
+#: admin/includes/meta-boxes.php:316
 msgid "Save Draft"
 msgstr "Сохранить черновик"
 
@@ -134,49 +152,50 @@ msgstr ""
 "Вы собираетесь удалить контакт '%s'\n"
 " Нажмите 'Отмена', чтобы прервать или 'OK' для удаления."
 
-#: admin/includes/class-inbound-messages-list-table.php:312
-#: admin/includes/meta-boxes.php:119 includes/class-inbound-message.php:35
+#: includes/class-inbound-message.php:37
+#: admin/includes/class-inbound-messages-list-table.php:374
+#: admin/includes/meta-boxes.php:119
 msgid "Spam"
 msgstr "Спам"
 
-#: admin/includes/class-inbound-messages-list-table.php:253
-#: admin/includes/class-outbound-messages-list-table.php:177
+#: admin/includes/class-inbound-messages-list-table.php:267
+#: admin/includes/class-outbound-messages-list-table.php:176
 msgid "Empty Trash"
 msgstr "Очистить корзину"
 
-#: admin/includes/class-inbound-messages-list-table.php:234
+#: admin/includes/class-inbound-messages-list-table.php:247
 msgid "View all channels"
 msgstr "Просмотреть все каналы"
 
-#: admin/includes/class-inbound-messages-list-table.php:200
+#: admin/includes/class-inbound-messages-list-table.php:210
 msgid "Mark as Spam"
 msgstr "Пометить как спам"
 
-#: admin/includes/class-inbound-messages-list-table.php:198
-#: admin/includes/class-inbound-messages-list-table.php:302
+#: admin/includes/class-inbound-messages-list-table.php:208
+#: admin/includes/class-inbound-messages-list-table.php:355
 #: admin/includes/meta-boxes.php:120
 msgid "Not Spam"
 msgstr "Не спам"
 
-#: admin/includes/class-inbound-messages-list-table.php:194
-#: admin/includes/class-outbound-messages-list-table.php:159
-#: admin/includes/meta-boxes.php:146 admin/includes/meta-boxes.php:295
+#: admin/includes/class-inbound-messages-list-table.php:204
+#: admin/includes/class-outbound-messages-list-table.php:157
+#: admin/includes/meta-boxes.php:172 admin/includes/meta-boxes.php:338
 msgid "Move to Trash"
 msgstr "Переместить в корзину"
 
-#: admin/includes/class-inbound-messages-list-table.php:192
-#: admin/includes/class-outbound-messages-list-table.php:157
-#: admin/includes/meta-boxes.php:144 admin/includes/meta-boxes.php:293
+#: admin/includes/class-inbound-messages-list-table.php:202
+#: admin/includes/class-outbound-messages-list-table.php:155
+#: admin/includes/meta-boxes.php:170 admin/includes/meta-boxes.php:336
 msgid "Delete Permanently"
 msgstr "Удалять навсегда"
 
-#: admin/includes/class-inbound-messages-list-table.php:188
-#: admin/includes/class-outbound-messages-list-table.php:153
+#: admin/includes/class-inbound-messages-list-table.php:198
+#: admin/includes/class-outbound-messages-list-table.php:151
 msgid "Restore"
 msgstr "Восстановить"
 
-#: admin/includes/class-inbound-messages-list-table.php:152
-#: admin/includes/class-outbound-messages-list-table.php:117
+#: admin/includes/class-inbound-messages-list-table.php:160
+#: admin/includes/class-outbound-messages-list-table.php:115
 msgctxt "posts"
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
@@ -184,7 +203,7 @@ msgstr[0] "Корзина <span class=\"count\">(%s)</span>"
 msgstr[1] "Корзина <span class=\"count\">(%s)</span>"
 msgstr[2] "Корзина <span class=\"count\">(%s)</span>"
 
-#: admin/includes/class-inbound-messages-list-table.php:127
+#: admin/includes/class-inbound-messages-list-table.php:131
 msgctxt "posts"
 msgid "Spam <span class=\"count\">(%s)</span>"
 msgid_plural "Spam <span class=\"count\">(%s)</span>"
@@ -192,8 +211,8 @@ msgstr[0] "Спам <span class=\"count\">(%s)</span>"
 msgstr[1] "Спам <span class=\"count\">(%s)</span>"
 msgstr[2] "Спам <span class=\"count\">(%s)</span>"
 
-#: admin/includes/class-inbound-messages-list-table.php:111
-#: admin/includes/class-outbound-messages-list-table.php:98
+#: admin/includes/class-inbound-messages-list-table.php:112
+#: admin/includes/class-outbound-messages-list-table.php:96
 msgctxt "posts"
 msgid "Inbox <span class=\"count\">(%s)</span>"
 msgid_plural "Inbox <span class=\"count\">(%s)</span>"
@@ -205,70 +224,70 @@ msgstr[2] "Входящих <span class=\"count\">(%s)</span>"
 msgid "Channel"
 msgstr "Канал"
 
-#: admin/includes/class-contacts-list-table.php:302
-#: admin/includes/class-inbound-messages-list-table.php:402
-#: admin/includes/class-outbound-messages-list-table.php:251
+#: admin/includes/class-inbound-messages-list-table.php:455
+#: admin/includes/class-outbound-messages-list-table.php:250
+#: admin/includes/class-contacts-list-table.php:339
 msgid "Y/m/d"
 msgstr "d.m.Y"
 
-#: admin/includes/class-contacts-list-table.php:300
-#: admin/includes/class-inbound-messages-list-table.php:400
-#: admin/includes/class-outbound-messages-list-table.php:249
+#: admin/includes/class-inbound-messages-list-table.php:453
+#: admin/includes/class-outbound-messages-list-table.php:248
+#: admin/includes/class-contacts-list-table.php:337
 msgid "%s ago"
 msgstr "%s назад"
 
-#: admin/includes/class-contacts-list-table.php:293
-#: admin/includes/class-inbound-messages-list-table.php:393
-#: admin/includes/class-outbound-messages-list-table.php:242
 #: includes/class-outbound-message.php:86
+#: admin/includes/class-inbound-messages-list-table.php:446
+#: admin/includes/class-outbound-messages-list-table.php:241
+#: admin/includes/class-contacts-list-table.php:329
 msgid "Y/m/d g:i:s A"
 msgstr "d.m.Y H:i:s"
 
 #. translators: 1: contact channel name, 2: contact count
-#: admin/includes/class-contacts-list-table.php:270
+#: admin/includes/class-contacts-list-table.php:306
 msgctxt "contact history"
 msgid "%1$s (%2$d)"
 msgstr "%1$s (%2$d)"
 
-#: admin/includes/class-contacts-list-table.php:241
+#: admin/includes/class-contacts-list-table.php:271
 msgid "Comment (%d)"
 msgstr "Комментарий (%d)"
 
-#: admin/includes/class-contacts-list-table.php:227
+#: admin/includes/class-contacts-list-table.php:252
 msgid "User"
 msgstr "Пользователь"
 
-#: admin/includes/class-contacts-list-table.php:187
+#: admin/includes/class-contacts-list-table.php:209
 msgid "No Tags"
 msgstr "Тэги отсутствуют"
 
-#: admin/includes/class-contacts-list-table.php:171
-#: admin/includes/class-inbound-messages-list-table.php:318
-#: admin/includes/class-outbound-messages-list-table.php:221
+#: admin/includes/class-inbound-messages-list-table.php:306
+#: admin/includes/class-outbound-messages-list-table.php:220
+#: admin/includes/class-contacts-list-table.php:164
 msgid "Edit &#8220;%s&#8221;"
 msgstr "Редактировать &#8220;%s&#8221;"
 
-#: admin/includes/class-contacts-list-table.php:165
-#: admin/includes/class-outbound-messages-list-table.php:215
+#: admin/includes/class-outbound-messages-list-table.php:214
+#: admin/includes/class-contacts-list-table.php:196
 msgid "Edit"
 msgstr "Редактировать"
 
-#: admin/includes/class-contacts-list-table.php:132
-#: admin/includes/class-inbound-messages-list-table.php:247
+#: admin/includes/class-inbound-messages-list-table.php:260
+#: admin/includes/class-contacts-list-table.php:130
 msgid "Export"
 msgstr "Экспорт"
 
-#: admin/includes/class-contacts-list-table.php:129
-#: admin/includes/class-inbound-messages-list-table.php:243
-#: admin/includes/class-outbound-messages-list-table.php:172
+#: admin/includes/class-inbound-messages-list-table.php:256
+#: admin/includes/class-outbound-messages-list-table.php:170
+#: admin/includes/class-contacts-list-table.php:127
 msgid "Filter"
 msgstr "Фильтровать"
 
-#: admin/includes/class-contacts-list-table.php:122
+#: admin/includes/class-contacts-list-table.php:120
 msgid "View all tags"
 msgstr "Смотреть все тэги"
 
-#: admin/includes/class-contacts-list-table.php:96
+#: admin/includes/class-contacts-list-table.php:94
 #: admin/includes/meta-boxes.php:11
 msgid "Delete"
 msgstr "Удалить"
@@ -297,15 +316,17 @@ msgstr "Исходящее сообщение"
 msgid "Compose a Message"
 msgstr "Составить сообщение"
 
-#: admin/edit-inbound-form.php:41 admin/edit-outbound-form.php:50
+#: admin/edit-inbound-form.php:41
 #: admin/includes/class-inbound-messages-list-table.php:16
 #: admin/includes/class-outbound-messages-list-table.php:15
+#: admin/edit-outbound-form.php:50
 msgid "From"
 msgstr "От"
 
-#: admin/edit-inbound-form.php:36 admin/edit-outbound-form.php:55
+#: admin/edit-inbound-form.php:36
 #: admin/includes/class-inbound-messages-list-table.php:15
 #: admin/includes/class-outbound-messages-list-table.php:14
+#: admin/edit-outbound-form.php:55
 msgid "Subject"
 msgstr "Тема"
 
@@ -321,19 +342,19 @@ msgstr "Введите email здесь"
 msgid "Edit Contact"
 msgstr "Редактировать контакт"
 
-#: admin/admin.php:855
+#: admin/admin.php:860
 msgid "Outbound Messages"
 msgstr "Исходящие сообщения"
 
-#: admin/admin.php:823
+#: admin/admin.php:828
 msgid "Send"
 msgstr "Отправить"
 
-#: admin/admin.php:757 admin/admin.php:874
+#: admin/admin.php:762 admin/admin.php:879
 msgid "Search Messages"
 msgstr "Поиск сообщений"
 
-#: admin/admin.php:719 admin/admin.php:836
+#: admin/admin.php:724 admin/admin.php:841
 msgid "Messages"
 msgstr "Сообщения"
 
@@ -341,8 +362,8 @@ msgstr "Сообщения"
 msgid "Fields"
 msgstr "Поля"
 
-#: admin/admin.php:651 admin/includes/class-inbound-messages-list-table.php:18
-#: admin/includes/class-outbound-messages-list-table.php:16
+#: admin/includes/class-inbound-messages-list-table.php:18
+#: admin/includes/class-outbound-messages-list-table.php:16 admin/admin.php:651
 msgid "Date"
 msgstr "Дата"
 
@@ -374,7 +395,7 @@ msgstr "Вы не можете переместить этот элемент в
 msgid "Search Contacts"
 msgstr "Поиск контактов"
 
-#: admin/admin.php:329 admin/admin.php:744 admin/admin.php:861
+#: admin/admin.php:329 admin/admin.php:749 admin/admin.php:866
 msgid "Search results for &#8220;%s&#8221;"
 msgstr "Результаты поиска &#8220;%s&#8221;"
 
@@ -382,31 +403,31 @@ msgstr "Результаты поиска &#8220;%s&#8221;"
 msgid "Contacts"
 msgstr "Контакты"
 
-#: admin/admin.php:289 admin/includes/class-contacts-list-table.php:13
+#: admin/includes/class-contacts-list-table.php:13 admin/admin.php:289
 msgid "Name"
 msgstr "Имя"
 
-#: admin/admin.php:286 admin/includes/class-contacts-list-table.php:14
+#: admin/includes/class-contacts-list-table.php:14 admin/admin.php:286
 msgid "Tags"
 msgstr "Тэги"
 
-#: admin/admin.php:283 admin/includes/meta-boxes.php:268
+#: admin/includes/meta-boxes.php:311 admin/admin.php:283
 msgid "Save"
 msgstr "Сохранить"
 
-#: admin/admin.php:207 admin/includes/meta-boxes.php:196
+#: admin/includes/meta-boxes.php:222 admin/admin.php:207
 msgid "Last name"
 msgstr "Фамилия"
 
-#: admin/admin.php:206 admin/includes/meta-boxes.php:191
+#: admin/includes/meta-boxes.php:217 admin/admin.php:206
 msgid "First name"
 msgstr "Имя"
 
-#: admin/admin.php:205 admin/includes/meta-boxes.php:186
+#: admin/includes/meta-boxes.php:212 admin/admin.php:205
 msgid "Full name"
 msgstr "Полное имя"
 
-#: admin/admin.php:204 admin/includes/class-contacts-list-table.php:12
+#: admin/includes/class-contacts-list-table.php:12 admin/admin.php:204
 msgid "Email"
 msgstr "Email"
 
@@ -419,7 +440,7 @@ msgid "You are not allowed to delete this item."
 msgstr "Вы не можете удалить этот элемент."
 
 #: admin/admin.php:127 admin/admin.php:280 admin/admin.php:372
-#: admin/admin.php:686 admin/admin.php:800
+#: admin/admin.php:686 admin/admin.php:805
 msgid "You are not allowed to edit this item."
 msgstr "Вы не можете редактировать этот элемент."
 
@@ -455,12 +476,12 @@ msgstr "Контакт удален."
 msgid "Contact updated."
 msgstr "Контакт обновлен."
 
-#: admin/admin.php:30 admin/admin.php:738
+#: admin/admin.php:30 admin/admin.php:743
 msgid "Inbound Messages"
 msgstr "Входящие сообщения"
 
-#: admin/admin.php:29 admin/includes/privacy.php:13
-#: includes/class-inbound-message.php:27
+#: includes/class-inbound-message.php:29 admin/includes/privacy.php:13
+#: admin/admin.php:29
 msgid "Flamingo Inbound Messages"
 msgstr "Входящие сообщения"
 
@@ -468,13 +489,12 @@ msgstr "Входящие сообщения"
 msgid "Address Book"
 msgstr "Адресная книга"
 
-#. #-#-#-#-#  flamingo-code.pot (Flamingo 1.9)  #-#-#-#-#
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 #: admin/admin.php:15
 msgid "Flamingo"
 msgstr "Flamingo"
 
-#: admin/admin.php:14 admin/admin.php:21 admin/admin.php:323
-#: admin/includes/privacy.php:9
+#: admin/includes/privacy.php:9 admin/admin.php:14 admin/admin.php:21
+#: admin/admin.php:323
 msgid "Flamingo Address Book"
 msgstr "Адресная книга Flamingo"
