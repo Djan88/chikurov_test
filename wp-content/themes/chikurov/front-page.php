@@ -107,11 +107,21 @@
       <div class="row">
         <div class="col-md-12"><h2>Расписание семинаров</h2></div>
         <div class="cyties col-md-12">
-          <button type="button" data-filter="all" class="btn btn-warning btn_city_filter active">Все города</button>
-          <button type="button" data-filter="msk" class="btn btn-warning btn_city_filter">Москва</button>
-          <button type="button" data-filter="spb" class="btn btn-warning btn_city_filter">Санкт—Петербург</button>
-          <button type="button" data-filter="kiev" class="btn btn-warning btn_city_filter">Киев</button>
-          <button type="button" data-filter="riga" class="btn btn-warning btn_city_filter">Рига</button>
+          <button type="button" data-filter_s="all" class="btn btn-warning btn_seminar_filter active">Все семинары</button>
+          <button type="button" data-filter_s="msk" class="btn btn-warning btn_seminar_filter">Москва</button>
+          <button type="button" data-filter_s="spb" class="btn btn-warning btn_seminar_filter">Санкт—Петербург</button>
+          <button type="button" data-filter_s="kiev" class="btn btn-warning btn_seminar_filter">Киев</button>
+          <button type="button" data-filter_s="riga" class="btn btn-warning btn_seminar_filter">Рига</button>
+        </div>
+        <div class="autors col-md-12">
+          <button type="button" data-filter_s="ch" class="btn btn-warning btn_seminar_filter">Юрий Чикуров</button>
+          <button type="button" data-filter_s="iv" class="btn btn-warning btn_seminar_filter">Ирина Иванова</button>
+          <button type="button" data-filter_s="ks" class="btn btn-warning btn_seminar_filter">Василий Киселев</button>
+          <button type="button" data-filter_s="zk" class="btn btn-warning btn_seminar_filter">Елена Зукуле</button>
+          <button type="button" data-filter_s="sh" class="btn btn-warning btn_seminar_filter">Марина Салехова</button>
+          <button type="button" data-filter_s="is" class="btn btn-warning btn_seminar_filter">Никита Истомин</button>
+          <button type="button" data-filter_s="st" class="btn btn-warning btn_seminar_filter">Сергей Стеканов</button>
+          <button type="button" data-filter_s="pl" class="btn btn-warning btn_seminar_filter">Олег Плотников</button>
         </div>
         <div class="col-md-12 seminar_wrap">
           <div class="row">

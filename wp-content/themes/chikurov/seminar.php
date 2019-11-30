@@ -102,6 +102,24 @@ if ($seminar_city == 'Москва') {
 }
 
 $seminar_autor = get_field('autor');
+if ($seminar_autor == 'Юрий Чикуров') {
+  $seminar_filter_a = 'seminar_item__ch';
+} else if ($seminar_autor == 'Ирина Иванова') {
+  $seminar_filter_a = 'seminar_item__iv';
+} else if ($seminar_autor == 'Василий Киселев') {
+  $seminar_filter_a = 'seminar_item__ks';
+} else if ($seminar_autor == 'Елена Зукуле') {
+  $seminar_filter_a = 'seminar_item__zk';
+} else if ($seminar_autor == 'Марина Салехова') {
+  $seminar_filter_a = 'seminar_item__sh';
+} else if ($seminar_autor == 'Никита Истомин') {
+  $seminar_filter_a = 'seminar_item__is';
+} else if ($seminar_autor == 'Сергей Стеканов') {
+  $seminar_filter_a = 'seminar_item__st';
+} else if ($seminar_autor == 'Олег Плотников') {
+  $seminar_filter_a = 'seminar_item__pl';
+}
+
 global $cur_month;
 if ($cur_month != $seminar_start_months) {
   echo '<div class="seminar_item col-md-12 seminar_heading_wrap seminar_heading_wrap_';
@@ -117,6 +135,8 @@ if ($cur_month != $seminar_start_months) {
 }
 echo '<div class="seminar_item seminar_in ';
 echo $seminar_filter;
+echo ' ';
+echo $seminar_filter_a;
 if (get_field('seminar_acent')) {
   echo ' seminar_acent';
 }
