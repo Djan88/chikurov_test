@@ -102,6 +102,9 @@ if ($seminar_city == 'Москва') {
 }
 
 $seminar_autor = get_field('autor');
+if (is_array($seminar_autor)) {
+  $seminar_autor = array_shift($seminar_autor);
+}
 if ($seminar_autor == 'Юрий Чикуров') {
   $seminar_filter_a = 'seminar_item__ch';
 } else if ($seminar_autor == 'Ирина Иванова') {
@@ -134,9 +137,9 @@ if ($cur_month != $seminar_start_months) {
   echo "</div>";
 }
 echo '<div class="seminar_item seminar_in ';
-echo $seminar_filter_a;
-echo ' ';
 echo $seminar_filter;
+echo ' ';
+echo $seminar_filter_a;
 if (get_field('seminar_acent')) {
   echo ' seminar_acent';
 }

@@ -7,7 +7,7 @@ jQuery(document).ready(function () {
       }, 600);
       return false;
   });
-  console.log('status');
+  // console.log('status');
   jQuery('.seminar_title').val(jQuery('.title_info').text());
   jQuery('.seminar_url').val(jQuery('.page_url').text());
   jQuery('.seminar_date').val(jQuery('.date_info').text());
@@ -16,8 +16,8 @@ jQuery(document).ready(function () {
   jQuery('.seminar_price').val(jQuery('.price_info').text());
   jQuery('.seminar_email').val(jQuery('.email_info').text());
   jQuery('.seminar_phone').val(jQuery('.phone_info').text());
-  console.log(jQuery('.page_title').text());
-  console.log(jQuery('.page_url').text());
+  // console.log(jQuery('.page_title').text());
+  // console.log(jQuery('.page_url').text());
   jQuery('.speed_closed').popover({
     delay: {hide: 2000 }
   })
