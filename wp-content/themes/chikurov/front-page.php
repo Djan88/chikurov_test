@@ -113,13 +113,11 @@
           <button type="button" data-filter_s="kiev" class="btn btn-warning btn_seminar_filter">Киев</button>
           <button type="button" data-filter_s="riga" class="btn btn-warning btn_seminar_filter">Рига</button>
         </div>
-        <div class="cyties col-md-12">
+        <div class="autors col-md-12">
           <button type="button" data-filter_s="ch" class="btn btn-warning btn_seminar_filter">Юрий Чикуров</button>
           <button type="button" data-filter_s="iv" class="btn btn-warning btn_seminar_filter">Ирина Иванова</button>
           <button type="button" data-filter_s="ks" class="btn btn-warning btn_seminar_filter">Василий Киселев</button>
           <button type="button" data-filter_s="zk" class="btn btn-warning btn_seminar_filter">Елена Зукуле</button>
-        </div>
-        <div class="autors col-md-12">
           <button type="button" data-filter_s="sh" class="btn btn-warning btn_seminar_filter">Марина Салехова</button>
           <button type="button" data-filter_s="is" class="btn btn-warning btn_seminar_filter">Никита Истомин</button>
           <button type="button" data-filter_s="st" class="btn btn-warning btn_seminar_filter">Сергей Стеканов</button>
