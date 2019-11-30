@@ -108,11 +108,11 @@
         <div class="col-md-12"><h2>Расписание семинаров</h2></div>
         <div class="cyties col-md-12">
           <button type="button" data-filter_s="all" class="btn btn-success btn_seminar_filter active">Все семинары</button>
-          <button type="button" data-filter_s="online" class="btn btn-info btn_seminar_filter">Онлайн школа</button>
           <button type="button" data-filter_s="msk" class="btn btn-warning btn_seminar_filter">Москва</button>
           <button type="button" data-filter_s="spb" class="btn btn-warning btn_seminar_filter">Санкт—Петербург</button>
           <button type="button" data-filter_s="kiev" class="btn btn-warning btn_seminar_filter">Киев</button>
           <button type="button" data-filter_s="riga" class="btn btn-warning btn_seminar_filter">Рига</button>
+          <button type="button" data-filter_s="online" class="btn btn-info btn_seminar_filter">Онлайн школа</button>
         </div>
         <div class="autors col-md-12">
           <button type="button" data-filter_s="ch" class="btn btn-warning btn_seminar_filter">Юрий Чикуров</button>
