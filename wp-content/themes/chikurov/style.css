@@ -1210,10 +1210,12 @@ section#lectors
     border-radius: 6px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin: 0;
+    margin: 5px;
     font-size: 15px;
     line-height: 1.5;
     border-right: none;
+    display: inline-block;
+    float: none;
 }
 .school-lector:last-child
 {

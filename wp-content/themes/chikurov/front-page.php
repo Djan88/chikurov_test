@@ -19,7 +19,7 @@
       <div class="row">
         <div class="col-md-12"><h2>Преподаватели школы</h2></div>
         <div class="col-md-12">
-          <div class="school-lector col-md-2 col-xs-6">
+          <div class="school-lector col-md-2 col-xs-5">
             <a target="_blank" href="http://www.yuchikurov.info/members/irina_ivanova/">
               <img src="<?php bloginfo('template_url'); ?>/img/ivanova.jpg" alt="">
               <div class="lector_name">Ирина Иванова</div>
@@ -30,7 +30,7 @@
               <a href="mailto:drivanova524@gmail.com"><span class="glyphicon glyphicon-envelope"></span> drivanova524@gmail.com</a>
             </div>
           </div>
-          <div class="school-lector col-md-2 col-xs-6">
+          <div class="school-lector col-md-2 col-xs-5">
             <a target="_blank" href="http://www.yuchikurov.info/members/Bazilevs/">
               <img src="<?php bloginfo('template_url'); ?>/img/kiselev.jpg" alt="">
               <div class="lector_name">Василий Киселев</div>
@@ -41,7 +41,7 @@
               <a href="mailto:npobm@yandex.ru"><span class="glyphicon glyphicon-envelope"></span> npobm@yandex.ru</a>
             </div>
           </div>
-          <div class="school-lector col-md-2 col-xs-6">
+          <div class="school-lector col-md-2 col-xs-5">
             <a target="_blank" href="http://www.yuchikurov.info/members/zukule-elena/">
               <img src="<?php bloginfo('template_url'); ?>/img/zukule.jpeg" alt="">
               <div class="lector_name">Елена Зукуле</div>
@@ -54,7 +54,7 @@
           </div>
         </div>
         <div class="col-md-12">
-          <div class="school-lector col-md-2 col-xs-6">
+          <div class="school-lector col-md-2 col-xs-5">
             <a target="_blank" href="http://www.yuchikurov.info/members/salehova_marina/">
               <img src="<?php bloginfo('template_url'); ?>/img/salechova.jpg" alt="">
               <div class="lector_name">Марина Салехова</div>
@@ -65,7 +65,7 @@
               <a href="mailto:7929822@mail.ru"><span class="glyphicon glyphicon-envelope"></span> 7929822@mail.ru</a>
             </div>
           </div>
-          <div class="school-lector col-md-2 col-xs-6">
+          <div class="school-lector col-md-2 col-xs-5">
             <a target="_blank" href="http://www.yuchikurov.info/members/nhiller/">
               <img src="<?php bloginfo('template_url'); ?>/img/istomin.jpg" alt="">
               <div class="lector_name">Никита Истомин</div>
@@ -76,7 +76,7 @@
               <a href="mailto:7929822@mail.ru"><span class="glyphicon glyphicon-envelope"></span> nhiller@yandex.ru</a>
             </div>
           </div>
-          <div class="school-lector col-md-2 col-xs-6">
+          <div class="school-lector col-md-2 col-xs-5">
             <a target="_blank" href="http://www.yuchikurov.info/members/e1e7e/">
               <img src="<?php bloginfo('template_url'); ?>/img/stekanov.png" alt="">
               <div class="lector_name">Сергей Стеканов</div>
@@ -87,8 +87,8 @@
               <a href="mailto:e1e7e@list.ru"><span class="glyphicon glyphicon-envelope"></span> e1e7e@list.ru</a>
             </div>
           </div>
-          <div class="school-lector col-md-2 col-xs-6">
-            <a target="_blank" href="http://www.yuchikurov.info/members/e1e7e/">
+          <div class="school-lector col-md-2 col-xs-5">
+            <a target="_blank" href="http://www.yuchikurov.info/">
               <img src="<?php bloginfo('template_url'); ?>/img/plotnikov.jpg" alt="">
               <div class="lector_name">Олег Плотников</div>
             </a>

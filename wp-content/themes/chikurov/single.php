@@ -239,6 +239,8 @@
                     <?php echo do_shortcode('[contact-form-7 id="3765" title="Запись на семинар_Истомин"]'); ?>
                   <?php } else if ($autor == 'Сергей Стеканов' && $city == 'Москва') { ?>
                     <?php echo do_shortcode('[contact-form-7 id="4642" title="Запись на семинар_Стеканов_Москва"]'); ?>
+                  <?php } else if ($autor == 'Олег Плотников' && $city == 'Москва') { ?>
+                    <?php echo do_shortcode('[contact-form-7 id="4918" title="Запись на семинар_Плотников_Москва"]'); ?>
                   <?php } ?>
                 <?php } ?>
               <?php } ?>
