@@ -88,7 +88,7 @@
             </div>
           </div>
           <div class="school-lector col-md-2 col-xs-5">
-            <a target="_blank" href="http://www.yuchikurov.info/">
+            <a target="_blank" href="http://www.yuchikurov.info/members/plotnikov/">
               <img src="<?php bloginfo('template_url'); ?>/img/plotnikov.jpg" alt="">
               <div class="lector_name">Олег Плотников</div>
             </a>
