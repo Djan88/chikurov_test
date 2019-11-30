@@ -56,8 +56,8 @@ jQuery(document).ready(function () {
   //   }
   // });
 
-  jQuery('.btn_siminar_filter').on('click', function(event) {
-    jQuery('.btn_siminar_filter').removeClass('active');
+  jQuery('.btn_seminar_filter').on('click', function(event) {
+    jQuery('.btn_seminar_filter').removeClass('active');
     jQuery(this).addClass('active');
     var filter_param = jQuery(this).data('filter_s');
 
