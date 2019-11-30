@@ -107,7 +107,7 @@
       <div class="row">
         <div class="col-md-12"><h2>Расписание семинаров</h2></div>
         <div class="cyties col-md-12">
-          <button type="button" data-filter_s="all" class="btn btn-warning btn_seminar_filter active">Все семинары</button>
+          <button type="button" data-filter_s="all" class="btn btn-success btn_seminar_filter active">Все семинары</button>
           <button type="button" data-filter_s="msk" class="btn btn-warning btn_seminar_filter">Москва</button>
           <button type="button" data-filter_s="spb" class="btn btn-warning btn_seminar_filter">Санкт—Петербург</button>
           <button type="button" data-filter_s="kiev" class="btn btn-warning btn_seminar_filter">Киев</button>

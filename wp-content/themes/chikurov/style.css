@@ -914,6 +914,10 @@ section#doctor
 }
 .cyties
 {
+    margin-bottom: 10px;
+}
+.autors
+{
     margin-bottom: 20px;
 }
 .seminar_adress 
@@ -924,6 +928,10 @@ section#doctor
 .btn_seminar_filter
 {
     margin-top: 3px;
+}
+.btn_seminar_filter: active
+{
+    outline: none;
 }
 .seminar_time .fa
 {
