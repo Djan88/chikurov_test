@@ -262,7 +262,7 @@
             //   jQuery('.seminar_in').addClass('hidden');
             //   jQuery('.seminar_item__ast').removeClass('hidden');
             // }
-            var filter_param = jQuery(this).data('filter_s');
+            var filter_param = jQuery('.btn_seminar_filter.active').data('filter_s');
 
             if (filter_param == 'all') {
               jQuery('.seminar_in').removeClass('hidden');
