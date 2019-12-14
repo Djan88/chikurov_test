@@ -52,6 +52,30 @@
               <a href="mailto:zukule7@gmail.com"><span class="glyphicon glyphicon-envelope"></span> zukule7@gmail.com</a>
             </div>
           </div>
+        </div>
+        <div class="col-md-12">
+          <!-- <div class="school-lector col-md-2 col-sm-5 col-xs-12">
+            <a target="_blank" href="http://www.yuchikurov.info/members/nhiller/">
+              <img src="<?php// bloginfo('template_url'); ?>/img/istomin.jpg" alt="">
+              <div class="lector_name">Никита Истомин</div>
+            </a>
+            <div class="lector_city">г.Москва</div>
+            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(921)379-13-31</div>
+            <div class="lector_email">
+              <a href="mailto:7929822@mail.ru"><span class="glyphicon glyphicon-envelope"></span> nhiller@yandex.ru</a>
+            </div>
+          </div> -->
+          <!-- <div class="school-lector col-md-2 col-sm-5 col-xs-12">
+            <a target="_blank" href="http://www.yuchikurov.info/members/e1e7e/">
+              <img src="<?php// bloginfo('template_url'); ?>/img/stekanov.png" alt="">
+              <div class="lector_name">Сергей Стеканов</div>
+            </a>
+            <div class="lector_city">г.Москва</div>
+            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(909)656-48-47</div>
+            <div class="lector_email">
+              <a href="mailto:e1e7e@list.ru"><span class="glyphicon glyphicon-envelope"></span> e1e7e@list.ru</a>
+            </div>
+          </div> -->
           <div class="school-lector col-md-2 col-sm-5 col-xs-12">
             <a target="_blank" href="http://www.yuchikurov.info/members/salehova_marina/">
               <img src="<?php bloginfo('template_url'); ?>/img/salechova.jpg" alt="">
@@ -85,30 +109,6 @@
               <a href="mailto:63-galina@mail.ru"><span class="glyphicon glyphicon-envelope"></span> 63-galina@mail.ru</a>
             </div>
           </div>
-        </div>
-        <div class="col-md-12">
-          <!-- <div class="school-lector col-md-2 col-sm-5 col-xs-12">
-            <a target="_blank" href="http://www.yuchikurov.info/members/nhiller/">
-              <img src="<?php// bloginfo('template_url'); ?>/img/istomin.jpg" alt="">
-              <div class="lector_name">Никита Истомин</div>
-            </a>
-            <div class="lector_city">г.Москва</div>
-            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(921)379-13-31</div>
-            <div class="lector_email">
-              <a href="mailto:7929822@mail.ru"><span class="glyphicon glyphicon-envelope"></span> nhiller@yandex.ru</a>
-            </div>
-          </div> -->
-          <!-- <div class="school-lector col-md-2 col-sm-5 col-xs-12">
-            <a target="_blank" href="http://www.yuchikurov.info/members/e1e7e/">
-              <img src="<?php// bloginfo('template_url'); ?>/img/stekanov.png" alt="">
-              <div class="lector_name">Сергей Стеканов</div>
-            </a>
-            <div class="lector_city">г.Москва</div>
-            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(909)656-48-47</div>
-            <div class="lector_email">
-              <a href="mailto:e1e7e@list.ru"><span class="glyphicon glyphicon-envelope"></span> e1e7e@list.ru</a>
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
