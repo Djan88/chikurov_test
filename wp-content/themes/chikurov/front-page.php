@@ -125,7 +125,7 @@
           <button type="button" data-filter_s="riga" class="btn btn-warning btn_seminar_filter">Рига</button>
           <button type="button" data-filter_s="online" class="btn btn-info btn_seminar_filter">Онлайн школа</button>
         </div>
-        <div class="autors col-md-12">
+        <div class="cyties col-md-12">
           <button type="button" data-filter_s="ch" class="btn btn-warning btn_seminar_filter">Юрий Чикуров</button>
           <button type="button" data-filter_s="iv" class="btn btn-warning btn_seminar_filter">Ирина Иванова</button>
           <button type="button" data-filter_s="ks" class="btn btn-warning btn_seminar_filter">Василий Киселев</button>

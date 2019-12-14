@@ -99,6 +99,9 @@ jQuery(document).ready(function () {
     } else if (filter_param == 'pl') {
       jQuery('.seminar_in').addClass('hidden');
       jQuery('.seminar_item__pl').removeClass('hidden');
+    } else if (filter_param == 'ms') {
+      jQuery('.seminar_in').addClass('hidden');
+      jQuery('.seminar_item__ms').removeClass('hidden');
     } else if (filter_param == 'online') {
       jQuery('.seminar_in').addClass('hidden');
       jQuery('.seminar_item__online').removeClass('hidden');
