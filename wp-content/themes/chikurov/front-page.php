@@ -63,30 +63,6 @@
               <a href="mailto:7929822@mail.ru"><span class="glyphicon glyphicon-envelope"></span> 7929822@mail.ru</a>
             </div>
           </div>
-        </div>
-        <div class="col-md-12">
-          <div class="school-lector col-md-2 col-sm-5 col-xs-12">
-            <a target="_blank" href="http://www.yuchikurov.info/members/nhiller/">
-              <img src="<?php bloginfo('template_url'); ?>/img/istomin.jpg" alt="">
-              <div class="lector_name">Никита Истомин</div>
-            </a>
-            <div class="lector_city">г.Москва</div>
-            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(921)379-13-31</div>
-            <div class="lector_email">
-              <a href="mailto:7929822@mail.ru"><span class="glyphicon glyphicon-envelope"></span> nhiller@yandex.ru</a>
-            </div>
-          </div>
-          <div class="school-lector col-md-2 col-sm-5 col-xs-12">
-            <a target="_blank" href="http://www.yuchikurov.info/members/e1e7e/">
-              <img src="<?php bloginfo('template_url'); ?>/img/stekanov.png" alt="">
-              <div class="lector_name">Сергей Стеканов</div>
-            </a>
-            <div class="lector_city">г.Москва</div>
-            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(909)656-48-47</div>
-            <div class="lector_email">
-              <a href="mailto:e1e7e@list.ru"><span class="glyphicon glyphicon-envelope"></span> e1e7e@list.ru</a>
-            </div>
-          </div>
           <div class="school-lector col-md-2 col-sm-5 col-xs-12">
             <a target="_blank" href="http://www.yuchikurov.info/members/plotnikov/">
               <img src="<?php bloginfo('template_url'); ?>/img/plotnikov.jpg" alt="">
@@ -110,6 +86,30 @@
             </div>
           </div>
         </div>
+        <div class="col-md-12">
+          <!-- <div class="school-lector col-md-2 col-sm-5 col-xs-12">
+            <a target="_blank" href="http://www.yuchikurov.info/members/nhiller/">
+              <img src="<?php// bloginfo('template_url'); ?>/img/istomin.jpg" alt="">
+              <div class="lector_name">Никита Истомин</div>
+            </a>
+            <div class="lector_city">г.Москва</div>
+            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(921)379-13-31</div>
+            <div class="lector_email">
+              <a href="mailto:7929822@mail.ru"><span class="glyphicon glyphicon-envelope"></span> nhiller@yandex.ru</a>
+            </div>
+          </div> -->
+          <!-- <div class="school-lector col-md-2 col-sm-5 col-xs-12">
+            <a target="_blank" href="http://www.yuchikurov.info/members/e1e7e/">
+              <img src="<?php// bloginfo('template_url'); ?>/img/stekanov.png" alt="">
+              <div class="lector_name">Сергей Стеканов</div>
+            </a>
+            <div class="lector_city">г.Москва</div>
+            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(909)656-48-47</div>
+            <div class="lector_email">
+              <a href="mailto:e1e7e@list.ru"><span class="glyphicon glyphicon-envelope"></span> e1e7e@list.ru</a>
+            </div>
+          </div> -->
+        </div>
       </div>
     </div>
   </section>
@@ -125,18 +125,19 @@
           <button type="button" data-filter_s="riga" class="btn btn-warning btn_seminar_filter">Рига</button>
           <button type="button" data-filter_s="online" class="btn btn-info btn_seminar_filter">Онлайн школа</button>
         </div>
-        <div class="cyties col-md-12">
+        <div class="autors col-md-12">
           <button type="button" data-filter_s="ch" class="btn btn-warning btn_seminar_filter">Юрий Чикуров</button>
           <button type="button" data-filter_s="iv" class="btn btn-warning btn_seminar_filter">Ирина Иванова</button>
           <button type="button" data-filter_s="ks" class="btn btn-warning btn_seminar_filter">Василий Киселев</button>
           <button type="button" data-filter_s="zk" class="btn btn-warning btn_seminar_filter">Елена Зукуле</button>
           <button type="button" data-filter_s="sh" class="btn btn-warning btn_seminar_filter">Марина Салехова</button>
-        </div>
-        <div class="autors col-md-12">
-          <button type="button" data-filter_s="is" class="btn btn-warning btn_seminar_filter">Никита Истомин</button>
-          <button type="button" data-filter_s="st" class="btn btn-warning btn_seminar_filter">Сергей Стеканов</button>
           <button type="button" data-filter_s="pl" class="btn btn-warning btn_seminar_filter">Олег Плотников</button>
           <button type="button" data-filter_s="ms" class="btn btn-warning btn_seminar_filter">Галина Москаленко</button>
+        </div>
+        <div class="autors col-md-12">
+          <!-- <button type="button" data-filter_s="is" class="btn btn-warning btn_seminar_filter">Никита Истомин</button> -->
+          <!-- <button type="button" data-filter_s="st" class="btn btn-warning btn_seminar_filter">Сергей Стеканов</button> -->
+          
         </div>
         <div class="col-md-12 seminar_wrap">
           <div class="row">
