@@ -1550,7 +1550,7 @@ ul#myTab
 }
 .chat-response::before
 {
-    background-image: url(/img/bc_xs.png);
+    background-image: url(img/bc_xs.png);
 }
 /*.seminar_acent a
 {
