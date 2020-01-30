@@ -80,18 +80,29 @@ const chat = {
         ]
     },
     4: {
-        text: 'Awesome. This chat is still in development. Happy coding!',
+        text: 'Если еще не читали, рекомендуем прочесть книгу Юрия Валентиновича "Биологическое Центрирование". Скачать электронную версию можно совершенно бесплатно.',
+        next: 6
     },
     5: {
         text: 'Aah, you\'re missing out!',
-        next: 6
+        
     },
     6: {
-        text: 'You should check it out on GitHub',
+        text: 'Ссылка на эту, а так же другие книги Доктора Чикурова ниже. Успехов!',
         options: [
             {
-                text: "Go to GitHub",
-                url: "https://github.com/peekobot/peekobot"
+                text: "Книги Доктора Чикурова",
+                url: "https://chikurov.com/kniga/"
+            }
+        ],
+        next: 7
+    },
+    7: {
+        text: 'Если возникнут вопросы Вы всегда можете задать их администратору. тел: +7 (495) 135-25-48',
+        options: [
+            {
+                text: "info@chikurov.com",
+                url: "mailto:info@chikurov.com"
             }
         ]
     }
