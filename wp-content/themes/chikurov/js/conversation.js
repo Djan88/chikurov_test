@@ -50,27 +50,31 @@
  */
 const chat = {
     1: {
-        text: 'Hi! Welcome to Peekobot.',
+        text: 'Приветствуем Вас на сайте "Школы Доктора Чикурова!"',
+        next: 2
+    },
+    2: {
+        text: 'Я - электронный помощник! Вы впервые тут?',
         options: [
             {
-                text: '👋',
-                next: 2
+                text: "Да!",
+                next: 3
+            },
+            {
+                text: "Нет!",
+                next: 4
             }
         ]
     },
-    2: {
-        text: 'Peekobot is a really simple, choice-driven chatbot framework made in less than 100 lines of vanilla JavaScript',
-        next: 3
-    },
     3: {
-        text: 'But you probably knew that anyway.',
+        text: 'Я помогу Вам освоиться и могу ответить на ряд популярных вопросов',
         options: [
             {
-                text: "Yes, I did!",
+                text: "Хорошо, спасибо!",
                 next: 4
             },
             {
-                text: "Nope, this is news.",
+                text: "Не нужно. Мне все ясно.",
                 next: 5
             }
         ]
