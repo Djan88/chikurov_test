@@ -1537,6 +1537,15 @@ ul#myTab
 {
     color: #737373;
 }
+
+/*chatbot*/
+#peekobot-container 
+{
+    width: 300px;
+    position: fixed;
+    right: 0;
+    bottom: 80px;
+}
 /*.seminar_acent a
 {
     color: #fff;
