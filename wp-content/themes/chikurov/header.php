@@ -16,7 +16,7 @@
       --peekobot-avatar: url();
     }
   </style>
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/peekobot.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/peekobot.css">
   <?php } ?>
   
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
