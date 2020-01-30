@@ -1552,6 +1552,10 @@ ul#myTab
 {
     background-image: url(img/bc_xs.png);
 }
+.choice
+{
+    font-size: 1.1rem;
+}
 /*.seminar_acent a
 {
     color: #fff;
