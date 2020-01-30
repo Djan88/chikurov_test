@@ -12,7 +12,7 @@
   <?php if(current_user_can('administrator')){ ?>
     <style>
     :root {
-      --peekobot-height: 80vh;
+      --peekobot-height: 60vh;
       --peekobot-avatar: url();
     }
   </style>

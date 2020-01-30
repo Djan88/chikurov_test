@@ -1543,8 +1543,9 @@ ul#myTab
 {
     width: 300px;
     position: fixed;
-    right: 0;
-    bottom: 80px;
+    right: 5px;
+    bottom: 5px;
+    z-index: 999;
     background: #fff;
 }
 /*.seminar_acent a
