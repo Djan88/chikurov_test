@@ -1545,6 +1545,7 @@ ul#myTab
     position: fixed;
     right: 0;
     bottom: 80px;
+    background: #fff;
 }
 /*.seminar_acent a
 {
