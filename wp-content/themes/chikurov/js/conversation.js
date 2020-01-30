@@ -89,17 +89,15 @@ const chat = {
     },
     6: {
         text: 'Ссылка на эту, а так же другие книги Доктора Чикурова ниже. Успехов!',
-        next: 7,
-        options: [
-            {
-                text: "Книги Доктора Чикурова",
-                url: "https://chikurov.com/kniga/"
-            }
-        ]
+        next: 7
     },
     7: {
         text: 'Если возникнут вопросы Вы всегда можете задать их администратору. тел: +7 (495) 135-25-48',
         options: [
+            {
+                text: "Книги Доктора Чикурова",
+                url: "https://chikurov.com/kniga/"
+            },
             {
                 text: "info@chikurov.com",
                 url: "mailto:info@chikurov.com"
