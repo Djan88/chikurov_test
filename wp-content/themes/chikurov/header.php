@@ -9,6 +9,16 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+  <?php if(current_user_can('administrator')){ ?>
+    <style>
+    :root {
+      --peekobot-height: 80vh;
+      --peekobot-avatar: url();
+    }
+  </style>
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/peekobot.css">
+  <?php } ?>
+  
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
   <link rel="icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico">
   <meta name="yandex-verification" content="b49724cdf441409a" />
