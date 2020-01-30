@@ -92,9 +92,9 @@ const chat = {
         options: [
             {
                 text: "Книги Доктора Чикурова",
-                url: "https://chikurov.com/kniga/"
-            },
-            next: 7
+                url: "https://chikurov.com/kniga/",
+                next: 7
+            }
         ]
     },
     7: {
