@@ -89,11 +89,11 @@ const chat = {
     },
     6: {
         text: 'Ссылка на эту, а так же другие книги Доктора Чикурова ниже. Успехов!',
+        next: 7,
         options: [
             {
                 text: "Книги Доктора Чикурова",
-                url: "https://chikurov.com/kniga/",
-                next: 7
+                url: "https://chikurov.com/kniga/"
             }
         ]
     },
