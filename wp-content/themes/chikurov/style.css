@@ -1556,6 +1556,10 @@ ul#myTab
 {
     font-size: 1.1rem;
 }
+.your-comment-wrap
+{
+    display: none;
+}
 /*.seminar_acent a
 {
     color: #fff;
