@@ -1575,6 +1575,15 @@ ul#myTab
     right: 5px;
     cursor: pointer;
 }
+.pekobot_open 
+{
+    position: absolute;
+    font-size: 20px;
+    top: -3px;
+    left: : -25px;
+    background: #fff;
+    cursor: pointer;
+}
 .pekobot_close:hover 
 {
     color: #42b3e5;

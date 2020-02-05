@@ -14,6 +14,11 @@ jQuery(document).ready(function () {
       jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
     }
   });
+  jQuery('.pekobot_open').on('click', function(event) {
+    if (jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
+      jQuery('.peekobot_wrap').removeClass('peekobot_wrap-closed');
+    }
+  });
 
 
   // console.log('status');
