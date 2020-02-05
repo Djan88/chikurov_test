@@ -12,11 +12,13 @@ jQuery(document).ready(function () {
   jQuery('.pekobot_close').on('click', function(event) {
     if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
       jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
+      jQuery('.pekobot_open').removeClass('hidden');
     }
   });
   jQuery('.pekobot_open').on('click', function(event) {
     if (jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
       jQuery('.peekobot_wrap').removeClass('peekobot_wrap-closed');
+      jQuery(this).addClass('hidden');
     }
   });
 
