@@ -7,6 +7,15 @@ jQuery(document).ready(function () {
       }, 600);
       return false;
   });
+
+  //peekobot open/close
+  jQuery('.pekobot_close').on('click', function(event) {
+    if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-close')) {
+      jQuery('.peekobot_wrap').addClass('peekobot_wrap-close');
+    }
+  });
+
+
   // console.log('status');
   jQuery('.seminar_title').val(jQuery('.title_info').text());
   jQuery('.seminar_url').val(jQuery('.page_url').text());
