@@ -10,8 +10,8 @@ jQuery(document).ready(function () {
 
   //peekobot open/close
   jQuery('.pekobot_close').on('click', function(event) {
-    if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-close')) {
-      jQuery('.peekobot_wrap').addClass('peekobot_wrap-close');
+    if (jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
+      jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
     }
   });
 
