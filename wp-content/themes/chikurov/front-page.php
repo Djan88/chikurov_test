@@ -263,9 +263,13 @@
           <a target="_blank" href="https://shop-bc.com" class="btn btn-primary btn-lg">shop-bc.com</a>
         </div>
         <?php if(current_user_can('administrator')){ ?>
-          <div id="peekobot-container">
-            <div class="peekobot_paranja"><div class="pekobot_close"><i class="fas fa-times"></i></div></div>
-            <div id="peekobot"></div>
+          <div class="peekobot_wrap">
+            <div class="peekobot_paranja">
+              <div class="pekobot_close"><i class="fa fa-times"></i></div>
+            </div>
+            <div id="peekobot-container">
+              <div id="peekobot"></div>
+            </div>
           </div>
         <?php } ?>
       </div>
