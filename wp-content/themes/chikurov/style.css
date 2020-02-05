@@ -1591,6 +1591,14 @@ ul#myTab
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
 }
+.chat-response 
+{
+    font-size: 15px;
+}
+.choice 
+{
+    font-size: 13px;
+}
 .pekobot_close:hover 
 {
     color: #42b3e5;
@@ -1965,6 +1973,7 @@ responsive area
     {
         border: 1px solid #42b3e5;
     }
+
 }
 
 /* XS Portrait */
@@ -2148,6 +2157,10 @@ responsive area
     {
         border: 1px solid #42b3e5;
     }
+    .peekobot_wrap
+    {
+        width: 250px;
+    }
 }
 @media (max-width: 420px) {
     .navbar-default .navbar-nav>li>a, .dropdown_menu {
@@ -2157,5 +2170,9 @@ responsive area
     .school-lector 
     {
         border: 1px solid #42b3e5;
+    }
+    .peekobot_wrap
+    {
+        width: 250px;
     }
 }
