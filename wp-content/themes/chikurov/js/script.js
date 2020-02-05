@@ -16,7 +16,6 @@ jQuery(document).ready(function () {
     }
   });
   jQuery('.peekobot_wrap').on('click', function(event) {
-    console.log(event.target.attributes['data-next'].value);
     if (event.target.attributes['data-next'].value == '100') {
       if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
         jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
