@@ -266,7 +266,7 @@
           <div class="peekobot_wrap">
             <div class="peekobot_paranja">
               <div class="pekobot_close"><i class="fa fa-times"></i></div>
-              <div class="pekobot_open"><i class="fa fa-comment-dots"></i></i></div>
+              <div class="pekobot_open hidden"><i class="fa fa-comment"></i></i></div>
             </div>
             <div id="peekobot-container">
               <div id="peekobot"></div>
