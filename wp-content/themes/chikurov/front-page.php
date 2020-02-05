@@ -264,6 +264,7 @@
         </div>
         <?php if(current_user_can('administrator')){ ?>
           <div id="peekobot-container">
+            <div class="peekobot_paranja"><div class="pekobot_close"><i class="fas fa-times"></i></div></div>
             <div id="peekobot"></div>
           </div>
         <?php } ?>
