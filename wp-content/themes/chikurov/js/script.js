@@ -15,7 +15,7 @@ jQuery(document).ready(function () {
       jQuery('.pekobot_open').removeClass('hidden');
     }
   });
-  jQuery('.body').on('click', '.choice[data-next="100"]', function(event) {
+  jQuery('.body').on('click', '.choice[dataNext="100"]', function(event) {
     console.log(test);
     if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
       jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
