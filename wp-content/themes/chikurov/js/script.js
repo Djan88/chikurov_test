@@ -17,12 +17,12 @@ jQuery(document).ready(function () {
   });
   jQuery('body').on('click', function(event) {
     console.log(event.target.attributes['data-next']);
-    // if (event.target.attr('data-next') == '100') {
-    //   if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
-    //     jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
-    //     jQuery('.pekobot_open').removeClass('hidden');
-    //   }
-    // }
+    if (event.target.attributes['data-next'] == '100') {
+      if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
+        jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
+        jQuery('.pekobot_open').removeClass('hidden');
+      }
+    }
   });
   jQuery('.pekobot_open').on('click', function(event) {
     if (jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
