@@ -1547,7 +1547,7 @@ ul#myTab
     bottom: 5px;
     z-index: 999;
     background: #fff;
-    transition: right .5s ease;
+    transition: right .5s cubic-bezier(.96,-0.48,.63,.99);
 }
 .peekobot_wrap-closed
 {
