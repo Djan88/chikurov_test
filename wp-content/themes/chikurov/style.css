@@ -1595,10 +1595,6 @@ ul#myTab
 {
     font-size: 15px;
 }
-.choice 
-{
-    font-size: 13px;
-}
 .pekobot_close:hover 
 {
     color: #42b3e5;
@@ -1609,7 +1605,7 @@ ul#myTab
 }
 .choice
 {
-    font-size: 1.1rem;
+    font-size: 13px;
 }
 .your-comment-wrap
 {
