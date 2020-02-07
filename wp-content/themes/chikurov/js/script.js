@@ -24,7 +24,7 @@ jQuery(document).ready(function () {
     } else if (event.target.attributes['data-next'].value == '5') {
       jQuery([document.documentElement, document.body]).animate({
           scrollTop: jQuery("#seminars").offset().top
-      }, 2000);
+      }, 1000);
       jQuery('.btn_seminar_filter').removeClass('active');
       jQuery(jQuery('.btn_seminar_filter[data-filter_s="ch"]')).addClass('active');
       jQuery('.seminar_in').addClass('hidden');
