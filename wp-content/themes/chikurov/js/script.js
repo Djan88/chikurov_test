@@ -21,10 +21,14 @@ jQuery(document).ready(function () {
         jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
         jQuery('.pekobot_open').removeClass('hidden');
       }
-    } else if (true) {
+    } else if (event.target.attributes['data-next'].value == '5') {
       jQuery([document.documentElement, document.body]).animate({
           scrollTop: jQuery("#seminars").offset().top
       }, 2000);
+      jQuery('.btn_seminar_filter').removeClass('active');
+      jQuery(jQuery('.btn_seminar_filter[data-filter_s="ch"]')).addClass('active');
+      jQuery('.seminar_in').addClass('hidden');
+      jQuery('.seminar_item__ch').removeClass('hidden');
     }
   });
   jQuery('.pekobot_open').on('click', function(event) {
