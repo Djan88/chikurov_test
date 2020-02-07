@@ -29,6 +29,13 @@ jQuery(document).ready(function () {
       jQuery(jQuery('.btn_seminar_filter[data-filter_s="ch"]')).addClass('active');
       jQuery('.seminar_in').addClass('hidden');
       jQuery('.seminar_item__ch').removeClass('hidden');
+    } else if (event.target.href.value == '/#seminars') {
+      jQuery([document.documentElement, document.body]).animate({
+          scrollTop: jQuery("#seminars").offset().top
+      }, 1000);
+      jQuery('.btn_seminar_filter').removeClass('active');
+      jQuery(jQuery('.btn_seminar_filter[data-filter_s="all"]')).addClass('active');
+      jQuery('.seminar_in').removeClass('hidden');
     }
   });
   jQuery('.pekobot_open').on('click', function(event) {
