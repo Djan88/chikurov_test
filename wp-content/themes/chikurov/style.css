@@ -1552,6 +1552,7 @@ ul#myTab
 .peekobot_wrap-closed
 {
     right: -400px;
+    transition: right 1s cubic-bezier(.98,.01,.18,1.37);
 }
 #peekobot-container
 {

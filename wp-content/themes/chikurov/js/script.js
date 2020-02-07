@@ -21,6 +21,10 @@ jQuery(document).ready(function () {
         jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
         jQuery('.pekobot_open').removeClass('hidden');
       }
+    } else if (true) {
+      jQuery([document.documentElement, document.body]).animate({
+          scrollTop: jQuery("#seminars").offset().top
+      }, 2000);
     }
   });
   jQuery('.pekobot_open').on('click', function(event) {
