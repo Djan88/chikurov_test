@@ -29,7 +29,7 @@ jQuery(document).ready(function () {
       jQuery(jQuery('.btn_seminar_filter[data-filter_s="ch"]')).addClass('active');
       jQuery('.seminar_in').addClass('hidden');
       jQuery('.seminar_item__ch').removeClass('hidden');
-    } else if (event.target.attributes['href'].value == '/#seminars') {
+    } else if (event.target.attributes['data-next'].value == '31') {
       jQuery([document.documentElement, document.body]).animate({
           scrollTop: jQuery("#seminars").offset().top
       }, 1000);
