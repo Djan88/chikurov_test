@@ -1,18 +1,33 @@
 jQuery(document).ready(function () {
   
-  var $page = jQuery('html, body');
+  var $page = jQuery('html, body'),
+      supportsStorage = function(){
+          try {
+              return 'localStorage' in window && window['localStorage'] !== null;
+          } catch (e) {
+              return false;
+          }
+      };
   jQuery('a[href*="#"]').click(function() {
       $page.animate({
           scrollTop: jQuery(jQuery.attr(this, 'href')).offset().top
       }, 600);
       return false;
   });
+  if (supportsStorage) {
+    var peekobot_status = localStorage.getItem('peekobot_status');
+    if (!peekobot_status || peekobot_status == true) {
+      jQuery('.peekobot_wrap').removeClass('peekobot_wrap-closed');
+      jQuery(this).addClass('hidden');
+    }
+  }
 
   //peekobot open/close
   jQuery('.pekobot_close').on('click', function(event) {
     if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
       jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
       jQuery('.pekobot_open').removeClass('hidden');
+      localStorage.setItem('peekobot_status', false);
     }
   });
   jQuery('.peekobot_wrap').on('click', function(event) {
@@ -20,6 +35,7 @@ jQuery(document).ready(function () {
       if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
         jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
         jQuery('.pekobot_open').removeClass('hidden');
+        localStorage.setItem('peekobot_status', false);
       }
     } else if (event.target.attributes['data-next'].value == '5') {
       jQuery([document.documentElement, document.body]).animate({
@@ -42,6 +58,7 @@ jQuery(document).ready(function () {
     if (jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
       jQuery('.peekobot_wrap').removeClass('peekobot_wrap-closed');
       jQuery(this).addClass('hidden');
+      localStorage.setItem('peekobot_status', true);
     }
   });
 
