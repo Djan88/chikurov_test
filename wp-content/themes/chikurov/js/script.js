@@ -119,7 +119,7 @@ jQuery(document).ready(function () {
   if(supportsStorage && localStorage.getItem('popupStatus')){
     popupStatus = localStorage.getItem('popupStatus');
     var peekobot_status = localStorage.getItem('peekobot_status');
-    if (!peekobot_status || peekobot_status == true) {
+    if (!peekobot_status || peekobot_status == false) {
       jQuery('.peekobot_wrap').removeClass('peekobot_wrap-closed');
       jQuery(jQuery('.pekobot_open')).addClass('hidden');
     }
