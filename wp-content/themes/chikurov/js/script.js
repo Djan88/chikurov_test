@@ -1,26 +1,12 @@
 jQuery(document).ready(function () {
   
-  var $page = jQuery('html, body'),
-      supportsStorage = function(){
-          try {
-              return 'localStorage' in window && window['localStorage'] !== null;
-          } catch (e) {
-              return false;
-          }
-      };
+  var $page = jQuery('html, body');
   jQuery('a[href*="#"]').click(function() {
       $page.animate({
           scrollTop: jQuery(jQuery.attr(this, 'href')).offset().top
       }, 600);
       return false;
   });
-  if (supportsStorage) {
-    var peekobot_status = localStorage.getItem('peekobot_status');
-    if (!peekobot_status || peekobot_status == true) {
-      jQuery('.peekobot_wrap').removeClass('peekobot_wrap-closed');
-      jQuery(this).addClass('hidden');
-    }
-  }
 
   // console.log('status');
   jQuery('.seminar_title').val(jQuery('.title_info').text());
@@ -132,6 +118,11 @@ jQuery(document).ready(function () {
   //Получение данных из локального хранилища
   if(supportsStorage && localStorage.getItem('popupStatus')){
     popupStatus = localStorage.getItem('popupStatus');
+    var peekobot_status = localStorage.getItem('peekobot_status');
+    if (!peekobot_status || peekobot_status == true) {
+      jQuery('.peekobot_wrap').removeClass('peekobot_wrap-closed');
+      jQuery(jQuery('.pekobot_open')).addClass('hidden');
+    }
   }
   if (popupStatus == false) {
     setTimeout(openPopup, 5000);
@@ -147,7 +138,7 @@ jQuery(document).ready(function () {
   jQuery('.btn_session').on('click', function(event) {
     jQuery('.session_type').val(jQuery(this).data('session_type'))
   });
-  
+
   //peekobot open/close
   jQuery('.pekobot_close').on('click', function(event) {
     if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
