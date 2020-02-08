@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --peekobot-height: 70vh;
+      --peekobot-height: 80vh;
       --peekobot-avatar: url();
     }
   </style>
