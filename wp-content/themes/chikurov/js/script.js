@@ -119,7 +119,7 @@ jQuery(document).ready(function () {
   if(supportsStorage && localStorage.getItem('popupStatus')){
     popupStatus = localStorage.getItem('popupStatus');
     var peekobot_status = localStorage.getItem('peekobot_status');
-    if (peekobot_status != true) {
+    if (peekobot_status != 'close') {
       jQuery('.peekobot_wrap').removeClass('peekobot_wrap-closed');
       jQuery(jQuery('.pekobot_open')).addClass('hidden');
     }
@@ -144,14 +144,14 @@ jQuery(document).ready(function () {
     if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
       jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
       jQuery('.pekobot_open').removeClass('hidden');
-      localStorage.setItem('peekobot_status', false);
+      localStorage.setItem('peekobot_status', 'open');
     }
   });
   jQuery('.pekobot_open').on('click', function(event) {
     if (jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
       jQuery('.peekobot_wrap').removeClass('peekobot_wrap-closed');
       jQuery(this).addClass('hidden');
-      localStorage.setItem('peekobot_status', true);
+      localStorage.setItem('peekobot_status', 'close');
     }
   });
   jQuery('.peekobot_wrap').on('click', function(event) {
@@ -159,7 +159,7 @@ jQuery(document).ready(function () {
       if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
         jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
         jQuery('.pekobot_open').removeClass('hidden');
-        localStorage.setItem('peekobot_status', false);
+        localStorage.setItem('peekobot_status', 'open');
       }
     } else if (event.target.attributes['data-next'].value == '5') {
       jQuery([document.documentElement, document.body]).animate({
