@@ -2158,6 +2158,11 @@ responsive area
     {
         width: 250px;
     }
+    .peekobot_wrap-closed
+    {
+        right: -250px;
+        transition: right 1s cubic-bezier(.98,.01,.18,1.37);
+    }
 }
 @media (max-width: 420px) {
     .navbar-default .navbar-nav>li>a, .dropdown_menu {
@@ -2171,5 +2176,10 @@ responsive area
     .peekobot_wrap
     {
         width: 250px;
+    }
+    .peekobot_wrap-closed
+    {
+        right: -250px;
+        transition: right 1s cubic-bezier(.98,.01,.18,1.37);
     }
 }
