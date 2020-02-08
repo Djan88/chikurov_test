@@ -22,47 +22,6 @@ jQuery(document).ready(function () {
     }
   }
 
-  //peekobot open/close
-  jQuery('.pekobot_close').on('click', function(event) {
-    if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
-      jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
-      jQuery('.pekobot_open').removeClass('hidden');
-      localStorage.setItem('peekobot_status', false);
-    }
-  });
-  jQuery('.peekobot_wrap').on('click', '.choice', function(event) {
-    if (event.target.attributes['data-next'].value == '100') {
-      if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
-        jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
-        jQuery('.pekobot_open').removeClass('hidden');
-        localStorage.setItem('peekobot_status', false);
-      }
-    } else if (event.target.attributes['data-next'].value == '5') {
-      jQuery([document.documentElement, document.body]).animate({
-          scrollTop: jQuery("#seminars").offset().top
-      }, 1000);
-      jQuery('.btn_seminar_filter').removeClass('active');
-      jQuery(jQuery('.btn_seminar_filter[data-filter_s="ch"]')).addClass('active');
-      jQuery('.seminar_in').addClass('hidden');
-      jQuery('.seminar_item__ch').removeClass('hidden');
-    } else if (event.target.attributes['data-next'].value == '31') {
-      jQuery([document.documentElement, document.body]).animate({
-          scrollTop: jQuery("#seminars").offset().top
-      }, 1000);
-      jQuery('.btn_seminar_filter').removeClass('active');
-      jQuery(jQuery('.btn_seminar_filter[data-filter_s="all"]')).addClass('active');
-      jQuery('.seminar_in').removeClass('hidden');
-    }
-  });
-  jQuery('.pekobot_open').on('click', function(event) {
-    if (jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
-      jQuery('.peekobot_wrap').removeClass('peekobot_wrap-closed');
-      jQuery(this).addClass('hidden');
-      localStorage.setItem('peekobot_status', true);
-    }
-  });
-
-
   // console.log('status');
   jQuery('.seminar_title').val(jQuery('.title_info').text());
   jQuery('.seminar_url').val(jQuery('.page_url').text());
@@ -187,5 +146,45 @@ jQuery(document).ready(function () {
   })
   jQuery('.btn_session').on('click', function(event) {
     jQuery('.session_type').val(jQuery(this).data('session_type'))
+  });
+  
+  //peekobot open/close
+  jQuery('.pekobot_close').on('click', function(event) {
+    if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
+      jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
+      jQuery('.pekobot_open').removeClass('hidden');
+      localStorage.setItem('peekobot_status', false);
+    }
+  });
+  jQuery('.pekobot_open').on('click', function(event) {
+    if (jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
+      jQuery('.peekobot_wrap').removeClass('peekobot_wrap-closed');
+      jQuery(this).addClass('hidden');
+      localStorage.setItem('peekobot_status', true);
+    }
+  });
+  jQuery('.peekobot_wrap').on('click', function(event) {
+    if (event.target.attributes['data-next'].value == '100') {
+      if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
+        jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
+        jQuery('.pekobot_open').removeClass('hidden');
+        localStorage.setItem('peekobot_status', false);
+      }
+    } else if (event.target.attributes['data-next'].value == '5') {
+      jQuery([document.documentElement, document.body]).animate({
+          scrollTop: jQuery("#seminars").offset().top
+      }, 1000);
+      jQuery('.btn_seminar_filter').removeClass('active');
+      jQuery(jQuery('.btn_seminar_filter[data-filter_s="ch"]')).addClass('active');
+      jQuery('.seminar_in').addClass('hidden');
+      jQuery('.seminar_item__ch').removeClass('hidden');
+    } else if (event.target.attributes['data-next'].value == '31') {
+      jQuery([document.documentElement, document.body]).animate({
+          scrollTop: jQuery("#seminars").offset().top
+      }, 1000);
+      jQuery('.btn_seminar_filter').removeClass('active');
+      jQuery(jQuery('.btn_seminar_filter[data-filter_s="all"]')).addClass('active');
+      jQuery('.seminar_in').removeClass('hidden');
+    }
   });
 });
