@@ -30,7 +30,7 @@ jQuery(document).ready(function () {
       localStorage.setItem('peekobot_status', false);
     }
   });
-  jQuery('.peekobot_wrap').on('click', function(event) {
+  jQuery('.peekobot_wrap').on('click', '.choice', function(event) {
     if (event.target.attributes['data-next'].value == '100') {
       if (!jQuery('.peekobot_wrap').hasClass('peekobot_wrap-closed')) {
         jQuery('.peekobot_wrap').addClass('peekobot_wrap-closed');
