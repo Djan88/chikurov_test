@@ -243,6 +243,8 @@
                     <?php echo do_shortcode('[contact-form-7 id="4918" title="Запись на семинар_Плотников_Москва"]'); ?>
                   <?php } else if ($autor == 'Галина Москаленко') { ?>
                     <?php echo do_shortcode('[contact-form-7 id="4978" title="Запись на семинар_Москаленко"]'); ?>
+                  <?php } else if ($autor == 'Вячеслав Павленок') { ?>
+                    <?php echo do_shortcode('[contact-form-7 id="5968" title="Запись на семинар_Павленок_Москва"]'); ?>
                   <?php } ?>
                 <?php } ?>
               <?php } ?>

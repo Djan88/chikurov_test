@@ -52,8 +52,6 @@
               <a href="mailto:zukule7@gmail.com"><span class="glyphicon glyphicon-envelope"></span> zukule7@gmail.com</a>
             </div>
           </div>
-        </div>
-        <div class="col-md-12">
           <div class="school-lector col-md-2 col-sm-5 col-xs-12">
             <a target="_blank" href="http://www.yuchikurov.info/members/nhiller/">
               <img src="<?php bloginfo('template_url'); ?>/img/istomin.jpg" alt="">
@@ -65,6 +63,8 @@
               <a href="mailto:7929822@mail.ru"><span class="glyphicon glyphicon-envelope"></span> nhiller@yandex.ru</a>
             </div>
           </div>
+        </div>
+        <div class="col-md-12">
           <!-- <div class="school-lector col-md-2 col-sm-5 col-xs-12">
             <a target="_blank" href="http://www.yuchikurov.info/members/e1e7e/">
               <img src="<?php// bloginfo('template_url'); ?>/img/stekanov.png" alt="">
@@ -107,6 +107,17 @@
             <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(967)312-07-96</div>
             <div class="lector_email">
               <a href="mailto:63-galina@mail.ru"><span class="glyphicon glyphicon-envelope"></span> 63-galina@mail.ru</a>
+            </div>
+          </div>
+          <div class="school-lector col-md-2 col-sm-5 col-xs-12">
+            <a target="_blank" href="http://www.yuchikurov.info/members/nhiller/">
+              <img src="<?php bloginfo('template_url'); ?>/img/pavlenok.jpg" alt="">
+              <div class="lector_name">Вячеслав Павленок</div>
+            </a>
+            <div class="lector_city">г.Южно-Сахалинск</div>
+            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(914)756-92-82</div>
+            <div class="lector_email">
+              <a href="mailto:dr.paltus@mail.ru"><span class="glyphicon glyphicon-envelope"></span> dr.paltus@mail.ru</a>
             </div>
           </div>
         </div>
