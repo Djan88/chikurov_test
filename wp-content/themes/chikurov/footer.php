@@ -307,6 +307,9 @@
             } else if (filter_param == 'ms') {
               jQuery('.seminar_in').addClass('hidden');
               jQuery('.seminar_item__ms').removeClass('hidden');
+            }  else if (filter_param == 'pa') {
+              jQuery('.seminar_in').addClass('hidden');
+              jQuery('.seminar_item__pa').removeClass('hidden');
             } else if (filter_param == 'online') {
               jQuery('.seminar_in').addClass('hidden');
               jQuery('.seminar_item__online').removeClass('hidden');
