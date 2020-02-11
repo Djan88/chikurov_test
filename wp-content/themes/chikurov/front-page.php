@@ -115,7 +115,7 @@
               <div class="lector_name">Вячеслав Павленок</div>
             </a>
             <div class="lector_city">г.Южно-Сахалинск</div>
-            <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(914)756-92-82</div>
+            <!-- <div class="lector_tel"><span class="glyphicon glyphicon-earphone"></span> +7(914)756-92-82</div> -->
             <div class="lector_email">
               <a href="mailto:dr.paltus@mail.ru"><span class="glyphicon glyphicon-envelope"></span> dr.paltus@mail.ru</a>
             </div>
