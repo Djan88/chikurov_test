@@ -62,7 +62,7 @@
           <span class="contacts_phone pull-right">+7 (495) 135-25-48</span>
           <a class="contacts_home" href="/">Институт Биологического Центрирования</a>
         </div>
-        <div class="col-xs-2 col-sm-1 col-sm-offset-1 col-md-1 col-md-offset-2 header-logo">
+        <div class="col-xs-2 col-sm-1 col-sm-offset-1 col-md-1 col-md-offset-1 header-logo">
           <br>
           <a href="/"><img src="<?php bloginfo('template_url'); ?>/img/bc_2.png" alt="" class="img-responsive logo"></a>
         </div>
