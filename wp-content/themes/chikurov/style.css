@@ -846,7 +846,7 @@ p b
 }
 .contacts_phone 
 {
-    margin-top: 5px;
+    padding-top: 5px;
     font-size: 16px;
     color: #337ab7;
 }
@@ -1689,11 +1689,18 @@ responsive area
     }
     .contacts_email, .contacts_phone 
     {
-        font-size: 13px;
+        font-size: 14px;
+        padding-top: 15px;
     }
     .contacts_home 
     {
         font-size: 17px;
+    }
+    .contacts_home
+    {
+        max-width: 250px;
+        display: inline-block;
+        white-space: normal;
     }
     .top-header .container
     {
@@ -1763,6 +1770,11 @@ responsive area
         margin-top: 25px;
     }
     .contacts_email, .contacts_phone 
+    {
+        font-size: 17px;
+        padding-top: 3px;
+    }
+    .contacts_home
     {
         font-size: 17px;
     }
