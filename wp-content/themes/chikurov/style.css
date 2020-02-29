@@ -814,9 +814,13 @@ p b
 {
     white-space: nowrap;
 }
+.header-logo
+{
+    padding: 0;
+}
 .main-menu 
 {
-    margin-top: -32px;
+    margin-top: -55px;
 }
 .header-logo.center-block 
 {
@@ -1646,7 +1650,7 @@ responsive area
         padding: 14px 4px;
     }
     .main-menu {
-        margin-top: -20px;
+        margin-top: -50px;
     }
     .media_area {
         margin-top: 5px;
