@@ -1616,6 +1616,20 @@ ul#myTab
 {
     display: none;
 }
+#banner_one .modal-body
+{
+    padding: 0;
+}
+#banner_one .modal-body a img
+{
+    width: 100%;
+}
+#banner_one .modal-body .close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+}
 /*.seminar_acent a
 {
     color: #fff;
