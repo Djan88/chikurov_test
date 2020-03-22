@@ -252,7 +252,7 @@
           <div class="modal-content">
               <div class="modal-body">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                  <a href="https://school-bc.ru/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/wizardtherapy.png" alt="wizardtherapy"></a> 
+                  <a href="https://school-bc.ru/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/banner_april.png" alt="banner_april"></a> 
               </div>
           </div>
       </div>

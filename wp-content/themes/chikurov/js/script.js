@@ -118,8 +118,16 @@ jQuery(document).ready(function () {
   function openPopupTwo(){
     jQuery('#lovushka_down').modal('show');
   }
+
+  // Рекланые баннеры
+  function openPopupOne(){
+    jQuery('#banner_one').modal('show');
+  }
+  var popupStatus1 = false;
+
   //Получение данных из локального хранилища
   if(supportsStorage && localStorage.getItem('popupStatus')){
+    popupStatus1 = localStorage.getItem('popupStatus1');
     popupStatus = localStorage.getItem('popupStatus');
     var peekobot_status = localStorage.getItem('peekobot_status');
     if (peekobot_status != 'open') {
@@ -127,6 +135,12 @@ jQuery(document).ready(function () {
       jQuery(jQuery('.pekobot_open')).addClass('hidden');
     }
   }
+
+  if (!popupStatus1 || popupStatus1 == false) {
+    setTimeout(openPopupOne, 5000);
+    localStorage.setItem('popupStatus1', true);
+  }
+
   if (popupStatus == false) {
     setTimeout(openPopup, 5000);
     jQuery('#book_down').on('hidden.bs.modal', function (e) {
