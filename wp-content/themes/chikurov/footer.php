@@ -247,6 +247,16 @@
           </div>
       </div>
   </div>
+  <div class="modal fade modal_link" id="banner_one" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal_menu">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <a href="https://school-bc.ru/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/wizardtherapy.png" alt="wizardtherapy"></a> 
+              </div>
+          </div>
+      </div>
+  </div>
   <script>
     jQuery(function($){
       $('#loadSeminar').on('click', function(event) {
