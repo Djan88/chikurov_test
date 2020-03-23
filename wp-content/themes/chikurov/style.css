@@ -1636,6 +1636,10 @@ ul#myTab
     border-radius: 6px;
     padding: 0 7px;
 }
+.col-md-12.seminar_content li 
+{
+    list-style: initial;
+}
 /*.seminar_acent a
 {
     color: #fff;
