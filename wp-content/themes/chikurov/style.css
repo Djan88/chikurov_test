@@ -856,7 +856,7 @@ p b
 }
 .contacts_home
 {
-    font-size: 20px;
+    font-size: 22px;
     padding: 0 10px;
     color: #000;
 }
@@ -1718,7 +1718,7 @@ responsive area
     .contacts_email, .contacts_phone 
     {
         font-size: 14px;
-        padding-top: 15px;
+        padding-top: 2px;
     }
     .contacts_home 
     {
@@ -1999,7 +1999,7 @@ responsive area
     }
     .contacts_home 
     {
-        font-size: 20px;
+        font-size: 25px;
         display: block;
     }
     .school-lector 
