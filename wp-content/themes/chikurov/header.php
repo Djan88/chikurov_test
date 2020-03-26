@@ -64,7 +64,7 @@
         </div>
         <div class="col-xs-2 col-sm-1 col-sm-offset-1 col-md-1 col-md-offset-1 header-logo">
           <br>
-          <a href="/"><img src="<?php bloginfo('template_url'); ?>/img/bc_2.png" alt="" class="img-responsive logo"></a>
+          <a href="/"><img src="<?php bloginfo('template_url'); ?>/img/school_logo_new.png" alt="" class="img-responsive logo"></a>
         </div>
       </div>
       <div class="row">
