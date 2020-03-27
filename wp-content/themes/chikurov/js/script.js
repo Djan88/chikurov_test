@@ -198,7 +198,4 @@ jQuery(document).ready(function () {
   jQuery('.nav a, .close_menu').on('click', function(event) {
     jQuery('.navbar-collapse.collapse').removeClass('in');
   });
-  jQuery(window).scroll(function(){
-    console.log('trr');
-  });
 });
