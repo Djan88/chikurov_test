@@ -271,13 +271,14 @@
           url:ajaxurl, // обработчик
           data:data, // данные
           type:'POST', // тип запроса
+          beforeSend: function( xhr){
+            $('body').addClass('loading');
+          },
           success:function(data){
             if( data ) {
-              $('#loadSeminar').text('Загрузить ещё').before(data); // вставляем новые посты
-              current_page++; // увеличиваем номер страницы на единицу
-              if (current_page == max_pages) $("#loadSeminar").remove(); // если последняя страница, удаляем кнопку
-            } else {
-              $('#loadSeminar').remove(); // если мы дошли до последней страницы постов, скроем кнопку
+              $('#true_loadmore').before(data);
+              $('body').removeClass('loading');
+              current_page++;
             }
             // var filter_param = jQuery('.btn_city_filter.active').data('filter');
             // if (filter_param == 'all') {
