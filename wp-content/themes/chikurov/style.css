@@ -1643,9 +1643,17 @@ ul#myTab
 .close_menu
 {
     display: none;
+    color: #000;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    right: 10px;
+    padding: 0;
+    margin: 0;
+    right: 30px;
+    cursor: pointer;
     top: 10px;
+    text-align: center;
+    font-size: 50px;
 }
 /*.seminar_acent a
 {

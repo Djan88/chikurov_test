@@ -85,7 +85,7 @@
 
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <div class="close_menu navbar-toggle">×</div>
+                    <div class="close_menu navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">×</div>
                   <!-- <div id="bs-example-navbar-collapse-1"> -->
                     
                     <ul class="nav navbar-nav navbar-left">
