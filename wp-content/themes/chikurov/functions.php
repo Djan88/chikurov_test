@@ -7,7 +7,7 @@ setcookie(TEST_COOKIE, 'WP Cookie check', 0, SITECOOKIEPATH, COOKIE_DOMAIN);
 ?>
 <?php
     if (function_exists('add_theme_support')) {
-     add_theme_support('menus');
+        add_theme_support('menus');
     }
 ?>
 <?php
@@ -35,3 +35,4 @@ function true_load_posts(){
 }
 add_action('wp_ajax_loadmore', 'true_load_posts');
 add_action('wp_ajax_nopriv_loadmore', 'true_load_posts');
+?>
