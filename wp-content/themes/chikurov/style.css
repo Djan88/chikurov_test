@@ -1552,7 +1552,7 @@ ul#myTab
     width: 400px;
     position: fixed;
     right: 5px;
-    bottom: 5px;
+    top: 50px;
     z-index: 998;
     background: #fff;
     transition: right 1s cubic-bezier(.96,-0.48,.63,.99);
@@ -2318,11 +2318,11 @@ responsive area
     }
     .peekobot_wrap
     {
-        width: 250px;
+        width: 300px;
     }
     .peekobot_wrap-closed
     {
-        right: -250px;
+        right: -300px;
         transition: right 1s cubic-bezier(.98,.01,.18,1.37);
     }
 }
@@ -2370,11 +2370,11 @@ responsive area
     }
     .peekobot_wrap
     {
-        width: 250px;
+        width: 300px;
     }
     .peekobot_wrap-closed
     {
-        right: -250px;
+        right: -300px;
         transition: right 1s cubic-bezier(.98,.01,.18,1.37);
     }
 }
