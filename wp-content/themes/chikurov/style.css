@@ -1886,9 +1886,6 @@ responsive area
     {
         min-height: 80px;
     }
-    .navbar-default .navbar-nav>li>a, .dropdown_menu {
-        font-size: 15px;
-    }
     .carousel-caption {
         margin-top: -110px;
     }
@@ -1944,11 +1941,6 @@ responsive area
     .submenu_wrap li
     {
         border: none;
-    }
-    .navbar-default .navbar-nav>li>a, .dropdown_menu
-    {
-        font-size: 18px;
-        padding: 7px 0;
     }
     .media_area 
     {
@@ -2062,10 +2054,6 @@ responsive area
     .contacts
     {
         border-radius: 0;
-    }
-    .navbar-default .navbar-nav>li>a, .dropdown_menu
-    {
-        font-size: 13px;
     }
     .media_area 
     {
@@ -2213,11 +2201,6 @@ responsive area
         margin-top: -7px;
         /*right: 10%;*/
     }
-    .navbar-default .navbar-nav>li>a, .dropdown_menu {
-        font-size: 18px;
-        /* text-align: left; */
-        padding: 7px 0;
-    }
     .main-menu 
     {
         margin-top: 25px;
@@ -2331,9 +2314,42 @@ responsive area
     }
 }
 @media (max-width: 420px) {
-    .navbar-default .navbar-nav>li>a, .dropdown_menu {
-        font-size: 10px;
-        padding: 5px;
+    .navbar-header 
+    {
+        position: fixed;
+        left: 20px;
+        top: 0;
+        z-index: 999;
+    }
+    .close_menu
+    {
+        display: block
+    }
+    .navbar-default .navbar-collapse
+    {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 110vw;
+        height: 100vh;
+        z-index: 999;
+        padding-top: 50px;
+        background: #fff;
+    }
+    .navbar-default .navbar-toggle
+    {
+        background: #fff;
+        border: 2px solid #42b3e5;
+        margin-left: -10px;
+    }
+    ul.nav.navbar-nav.navbar-left
+    {
+        text-align: left;
+    }
+    .navbar-default .navbar-nav>li>a, .dropdown_menu
+    {
+        font-size: 25px;
+        padding: 15px;
     }
     .school-lector 
     {
