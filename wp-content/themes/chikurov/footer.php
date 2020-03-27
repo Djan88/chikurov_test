@@ -261,7 +261,6 @@
     jQuery(function($){
       $(window).scroll(function(){
               var bottomOffset = 3000;
-              console.log('test');
               var data = {
                 'action': 'loadmore',
                 'query': true_posts,
@@ -269,7 +268,6 @@
               };
               var cur_offset = +$(document).height() - bottomOffset;
               if( $(document).scrollTop() > cur_offset && !$('body').hasClass('loading')){
-                console.log('Ding!!!!');
                 $.ajax({
                   url:ajaxurl, // обработчик
                   data:data, // данные
