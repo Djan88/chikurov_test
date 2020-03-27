@@ -1552,7 +1552,7 @@ ul#myTab
     width: 400px;
     position: fixed;
     right: 5px;
-    top: 50px;
+    top: 10px;
     z-index: 998;
     background: #fff;
     transition: right 1s cubic-bezier(.96,-0.48,.63,.99);
