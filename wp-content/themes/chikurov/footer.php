@@ -259,95 +259,97 @@
   </div>
   <script>
     jQuery(function($){
-      $('#loadSeminar').on('click', function(event) {
-        $(this).text('Загружаю...'); // изменяем текст кнопки, вы также можете добавить прелоадер
+      $(window).scroll(function(){
+        var bottomOffset = 2000;
         console.log('test');
         var data = {
           'action': 'loadmore',
           'query': true_posts,
           'page' : current_page
         };
-        $.ajax({
-          url:ajaxurl, // обработчик
-          data:data, // данные
-          type:'POST', // тип запроса
-          beforeSend: function( xhr){
-            $('body').addClass('loading');
-          },
-          success:function(data){
-            if( data ) {
-              $('#true_loadmore').before(data);
-              $('body').removeClass('loading');
-              current_page++;
-            }
-            // var filter_param = jQuery('.btn_city_filter.active').data('filter');
-            // if (filter_param == 'all') {
-            //   jQuery('.seminar_in').removeClass('hidden');
-            // } else if (filter_param == 'msk') {
-            //   jQuery('.seminar_in').addClass('hidden');
-            //   jQuery('.seminar_item__msk').removeClass('hidden');
-            // } else if (filter_param == 'spb') {
-            //   jQuery('.seminar_in').addClass('hidden');
-            //   jQuery('.seminar_item__spb').removeClass('hidden');
-            // } else if (filter_param == 'kiev') {
-            //   jQuery('.seminar_in').addClass('hidden');
-            //   jQuery('.seminar_item__kiev').removeClass('hidden');
-            // } else if (filter_param == 'ast') {
-            //   jQuery('.seminar_in').addClass('hidden');
-            //   jQuery('.seminar_item__ast').removeClass('hidden');
-            // }
-            var filter_param = jQuery('.btn_seminar_filter.active').data('filter_s');
+        if( $(document).scrollTop() > ($(document).height() - bottomOffset) && !$('body').hasClass('loading')){
+          $.ajax({
+            url:ajaxurl, // обработчик
+            data:data, // данные
+            type:'POST', // тип запроса
+            beforeSend: function( xhr){
+              $('body').addClass('loading');
+            },
+            success:function(data){
+              if( data ) {
+                $('#true_loadmore').before(data);
+                $('body').removeClass('loading');
+                current_page++;
+              }
+              // var filter_param = jQuery('.btn_city_filter.active').data('filter');
+              // if (filter_param == 'all') {
+              //   jQuery('.seminar_in').removeClass('hidden');
+              // } else if (filter_param == 'msk') {
+              //   jQuery('.seminar_in').addClass('hidden');
+              //   jQuery('.seminar_item__msk').removeClass('hidden');
+              // } else if (filter_param == 'spb') {
+              //   jQuery('.seminar_in').addClass('hidden');
+              //   jQuery('.seminar_item__spb').removeClass('hidden');
+              // } else if (filter_param == 'kiev') {
+              //   jQuery('.seminar_in').addClass('hidden');
+              //   jQuery('.seminar_item__kiev').removeClass('hidden');
+              // } else if (filter_param == 'ast') {
+              //   jQuery('.seminar_in').addClass('hidden');
+              //   jQuery('.seminar_item__ast').removeClass('hidden');
+              // }
+              var filter_param = jQuery('.btn_seminar_filter.active').data('filter_s');
 
-            if (filter_param == 'all') {
-              jQuery('.seminar_in').removeClass('hidden');
-            } else if (filter_param == 'msk') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__msk').removeClass('hidden');
-            } else if (filter_param == 'spb') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__spb').removeClass('hidden');
-            } else if (filter_param == 'kiev') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__kiev').removeClass('hidden');
-            } else if (filter_param == 'riga') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__riga').removeClass('hidden');
-            } else if (filter_param == 'ch') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__ch').removeClass('hidden');
-            } else if (filter_param == 'iv') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__iv').removeClass('hidden');
-            } else if (filter_param == 'ks') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__ks').removeClass('hidden');
-            } else if (filter_param == 'zk') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__zk').removeClass('hidden');
-            } else if (filter_param == 'sh') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__sh').removeClass('hidden');
-            } else if (filter_param == 'is') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__is').removeClass('hidden');
-            } else if (filter_param == 'st') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__st').removeClass('hidden');
-            } else if (filter_param == 'pl') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__pl').removeClass('hidden');
-            } else if (filter_param == 'ms') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__ms').removeClass('hidden');
-            }  else if (filter_param == 'pa') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__pa').removeClass('hidden');
-            } else if (filter_param == 'online') {
-              jQuery('.seminar_in').addClass('hidden');
-              jQuery('.seminar_item__online').removeClass('hidden');
+              if (filter_param == 'all') {
+                jQuery('.seminar_in').removeClass('hidden');
+              } else if (filter_param == 'msk') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__msk').removeClass('hidden');
+              } else if (filter_param == 'spb') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__spb').removeClass('hidden');
+              } else if (filter_param == 'kiev') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__kiev').removeClass('hidden');
+              } else if (filter_param == 'riga') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__riga').removeClass('hidden');
+              } else if (filter_param == 'ch') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__ch').removeClass('hidden');
+              } else if (filter_param == 'iv') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__iv').removeClass('hidden');
+              } else if (filter_param == 'ks') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__ks').removeClass('hidden');
+              } else if (filter_param == 'zk') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__zk').removeClass('hidden');
+              } else if (filter_param == 'sh') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__sh').removeClass('hidden');
+              } else if (filter_param == 'is') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__is').removeClass('hidden');
+              } else if (filter_param == 'st') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__st').removeClass('hidden');
+              } else if (filter_param == 'pl') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__pl').removeClass('hidden');
+              } else if (filter_param == 'ms') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__ms').removeClass('hidden');
+              }  else if (filter_param == 'pa') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__pa').removeClass('hidden');
+              } else if (filter_param == 'online') {
+                jQuery('.seminar_in').addClass('hidden');
+                jQuery('.seminar_item__online').removeClass('hidden');
+              }
             }
-          }
-        });
+          });
+        }
       });
     });
   </script>
