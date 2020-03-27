@@ -1854,13 +1854,9 @@ responsive area
         font-size: 25px;
         padding: 15px;
     }
-    .main-menu 
-    {
-        margin-top: 45px;
-    }
     .main-menu
     {
-        margin-top: 25px;
+        margin-top: 35px;
     }
     .contacts_email, .contacts_phone 
     {
@@ -1957,6 +1953,7 @@ responsive area
         position: absolute;
         top: 45px;
         width: 180px;
+        padding: 10px 0;
         left: 0;
         right: 0;
         margin: auto;
@@ -2071,6 +2068,7 @@ responsive area
         position: absolute;
         top: 73px;
         width: 180px;
+        padding: 10px 0;
         left: 0;
         right: 0;
         margin: auto;
@@ -2198,6 +2196,7 @@ responsive area
     }
     .media_area {
         white-space: nowrap;
+        padding: 10px 0;
     }
     .main-menu {
         float: right;
