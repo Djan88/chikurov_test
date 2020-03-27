@@ -91,9 +91,9 @@
                     
                     <ul class="nav navbar-nav navbar-left">
                     <?php if (is_front_page()) { ?>
-                      <li><a class="menu navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" href="#seminars">Семинары</a></li>
+                      <li><a class="menu" href="#seminars">Семинары</a></li>
                     <?php } else { ?>
-                      <li><a class="menu navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" href="/#seminars">Семинары</a></li>
+                      <li><a class="menu" href="/#seminars">Семинары</a></li>
                     <?php } ?>
                       <!-- <li><a class="menu" href="#about">Биологическое центрирование</a></li> -->
                       <li><a class="menu" href="http://school-bc.ru/" target="_blank">Онлайн школа</a></li>
