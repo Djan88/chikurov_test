@@ -1988,6 +1988,38 @@ responsive area
     }
 }
 @media (max-width: 670px) {
+    .navbar-header 
+    {
+        position: fixed;
+        left: 20px;
+        top: 0;
+        z-index: 999;
+    }
+    .close_menu
+    {
+        display: block
+    }
+    .navbar-default .navbar-collapse
+    {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 110vw;
+        height: 100vh;
+        z-index: 999;
+        padding-top: 50px;
+        background: #fff;
+    }
+    .navbar-default .navbar-toggle
+    {
+        background: #fff;
+        border: 2px solid #42b3e5;
+        margin-left: -10px;
+    }
+    ul.nav.navbar-nav.navbar-left
+    {
+        text-align: left;
+    }
     .navbar-default .navbar-nav>li>a, .dropdown_menu
     {
         font-size: 25px;
@@ -2065,6 +2097,43 @@ responsive area
 /* XS Portrait */
 
 @media (max-width: 479px) {
+    .navbar-header 
+    {
+        position: fixed;
+        left: 20px;
+        top: 0;
+        z-index: 999;
+    }
+    .close_menu
+    {
+        display: block
+    }
+    .navbar-default .navbar-collapse
+    {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 110vw;
+        height: 100vh;
+        z-index: 999;
+        padding-top: 50px;
+        background: #fff;
+    }
+    .navbar-default .navbar-toggle
+    {
+        background: #fff;
+        border: 2px solid #42b3e5;
+        margin-left: -10px;
+    }
+    ul.nav.navbar-nav.navbar-left
+    {
+        text-align: left;
+    }
+    .navbar-default .navbar-nav>li>a, .dropdown_menu
+    {
+        font-size: 25px;
+        padding: 15px;
+    }
     .doctor p, .seminar_content
     {
         text-align: left;
