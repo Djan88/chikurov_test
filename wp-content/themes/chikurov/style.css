@@ -1646,7 +1646,6 @@ ul#myTab
     color: #000;
     border: none!important;
     width: 50px;
-    height: 50px;
     position: absolute!important;
     padding: 0!important;
     margin: 0!important;
@@ -2042,7 +2041,7 @@ responsive area
     .navbar-toggle 
     {
         position: relative;
-        padding: 9px 10px;
+        padding: 10px 5px;
         margin-top: 8px;
         margin-bottom: 8px;
         background-color: transparent;
