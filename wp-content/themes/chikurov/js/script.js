@@ -195,7 +195,7 @@ jQuery(document).ready(function () {
       jQuery('.seminar_in').removeClass('hidden');
     }
   });
-  jQuery('.nav a').on('click', function(event) {
+  jQuery('.nav a, .close_menu').on('click', function(event) {
     jQuery('.navbar-collapse.collapse').removeClass('in');
   });
 });
