@@ -1658,11 +1658,11 @@ ul#myTab
 .menu_logo
 {
     display: none;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     position: absolute;
-    left: 20px;
-    top: 20px;
+    left: 30px;
+    top: 30px;
 }
 /*.seminar_acent a
 {
@@ -1836,7 +1836,7 @@ responsive area
         width: 110vw;
         height: 100vh;
         z-index: 999;
-        padding-top: 50px;
+        padding-top: 150px;
         background: #fff;
     }
     .navbar-default .navbar-toggle
@@ -2016,7 +2016,7 @@ responsive area
         width: 110vw;
         height: 100vh;
         z-index: 999;
-        padding-top: 50px;
+        padding-top: 150px;
         background: #fff;
     }
     .navbar-default .navbar-toggle
@@ -2121,7 +2121,7 @@ responsive area
         width: 110vw;
         height: 100vh;
         z-index: 999;
-        padding-top: 50px;
+        padding-top: 150px;
         background: #fff;
     }
     .navbar-default .navbar-toggle
@@ -2342,7 +2342,7 @@ responsive area
         width: 110vw;
         height: 100vh;
         z-index: 999;
-        padding-top: 50px;
+        padding-top: 150px;
         background: #fff;
     }
     .navbar-default .navbar-toggle
