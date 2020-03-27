@@ -258,6 +258,7 @@
       </div>
   </div>
   <script>
+    console.log('test1');
     jQuery(function($){
       $(window).scroll(function(){
         var bottomOffset = 4000;
