@@ -267,9 +267,10 @@
           'query': true_posts,
           'page' : current_page
         };
+        var cur_offset = +$(document).height() - bottomOffset;
         console.log('scrollTop '+$(document).scrollTop());
-        console.log('scroll '+(+$(document).height() - bottomOffset));
-        if( $(document).scrollTop() > (+$(document).height() - bottomOffset) && !$('body').hasClass('loading')){
+        console.log('cur_offset '+cur_offset);
+        if( $(document).scrollTop() > cur_offset && !$('body').hasClass('loading')){
           $.ajax({
             url:ajaxurl, // обработчик
             data:data, // данные
