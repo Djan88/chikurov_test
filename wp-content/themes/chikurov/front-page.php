@@ -170,7 +170,7 @@
                 var true_posts = '<?php echo serialize($wp_query->query_vars); ?>';
                 var current_page = <?php echo (get_query_var('paged')) ? get_query_var('paged') : 1; ?>;
               </script>
-              <!-- <div id="loadSeminar" class="btn btn-primary btn-lg">Загрузить ещё</div> -->
+              <div id="loadSeminar" class="btn btn-primary btn-lg hidden">Загрузить ещё</div>
             <?php endif; ?>
           </div>
         </div>
