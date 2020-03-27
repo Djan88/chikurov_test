@@ -2042,6 +2042,7 @@ responsive area
     {
         float: none;
         display: block; 
+        text-align: left;
     }
     .navbar-header 
     {
