@@ -268,8 +268,6 @@
           'page' : current_page
         };
         var cur_offset = +$(document).height() - bottomOffset;
-        console.log('scrollTop '+$(document).scrollTop());
-        console.log('cur_offset '+cur_offset);
         if( $(document).scrollTop() > cur_offset && !$('body').hasClass('loading')){
           console.log('Ding!!!!');
           $.ajax({
