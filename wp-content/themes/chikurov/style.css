@@ -750,7 +750,7 @@ body,
 .carousel-inner,
 .carousel-inner .item {
     height: 100%;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 .doctor p, .seminar_content
 {

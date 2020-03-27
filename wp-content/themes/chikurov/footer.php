@@ -260,7 +260,7 @@
   <script>
     jQuery(function($){
       $(window).scroll(function(){
-              var bottomOffset = 3000;
+              var bottomOffset = 4000;
               console.log('test');
               var data = {
                 'action': 'loadmore',
