@@ -260,7 +260,7 @@
   <script>
     jQuery(function($){
       $(window).scroll(function(){
-        var bottomOffset = 2000;
+        var bottomOffset = 1000;
         console.log('test');
         var data = {
           'action': 'loadmore',
@@ -271,6 +271,7 @@
         console.log('scrollTop '+$(document).scrollTop());
         console.log('cur_offset '+cur_offset);
         if( $(document).scrollTop() > cur_offset && !$('body').hasClass('loading')){
+          console.log('Ding!!!!');
           $.ajax({
             url:ajaxurl, // обработчик
             data:data, // данные
