@@ -269,7 +269,7 @@
         };
         console.log('scrollTop '+$(document).scrollTop());
         console.log('scroll '+(+$(document).height() - bottomOffset));
-        if( $(document).scrollTop() > ($(document).height() - bottomOffset) && !$('body').hasClass('loading')){
+        if( $(document).scrollTop() > (+$(document).height() - bottomOffset) && !$('body').hasClass('loading')){
           $.ajax({
             url:ajaxurl, // обработчик
             data:data, // данные
