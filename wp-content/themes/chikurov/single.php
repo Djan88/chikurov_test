@@ -102,8 +102,6 @@
                       (<i class="fa fa-clock-o" aria-hidden="true"> </i> <span class="time_info"> <?php the_field('seminar_time_start'); ?> — <?php the_field('seminar_time_end'); ?></span> )
                     <?php } ?>
                   </div>
-                </div>
-                <div class="seminar_params clearfix">
                   <span class="params_content">
                     <?php if (get_field('seminar_online')) { ?>
                       <span class="fa fa-globe"></span> <span class="place_info">ОНЛАЙН "ШКОЛА ДОКТОРА ЧИКУРОВА"</span>
@@ -140,13 +138,11 @@
               <div class="seminar_wrap">
                 <div class="seminar_params clearfix">
                   <div class="params_title_high">Записаться:</div>
-                  <span class="fa fa-phone"></span> <span class="params_content phone_info"><?php the_field('phone'); ?></span>
+                  <a href="tel:<?php the_field('phone'); ?>" class="params_content phone_info"><span class="fa fa-phone"></span> <?php the_field('phone'); ?></a>
                 </div>
-                <div class="seminar_params clearfix">
-                  <span class="params_content">
-                    <a class="email_info" href="mailto:<?php the_field('email'); ?>"><span class="fa fa-envelope"></span> <?php the_field('email'); ?></a>
-                  </span>
-                </div>
+                <span class="params_content">
+                  <a class="email_info" href="mailto:<?php the_field('email'); ?>"><span class="fa fa-envelope"></span> <?php the_field('email'); ?></a>
+                </span>
                 <?php if (get_field('order_closed')) { ?>
                   <div class="seminar_params clearfix">
                     <div class="pull-left order_closed">
