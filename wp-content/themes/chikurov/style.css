@@ -1005,6 +1005,9 @@ section#doctor
 .seminar_article
 {
     padding: 10px;
+}
+.seminar_wrap
+{
     background: #ddeff7;
     border: 1px solid #42b3e5;
     border-radius: 6px;
