@@ -102,7 +102,7 @@
                       (<i class="fa fa-clock-o" aria-hidden="true"> </i> <span class="time_info"> <?php the_field('seminar_time_start'); ?> — <?php the_field('seminar_time_end'); ?></span> )
                     <?php } ?>
                   </div>
-                  <span class="params_content">
+                  <span class="params_content" style="padding-top: 10px;">
                     <?php if (get_field('seminar_online')) { ?>
                       <span class="fa fa-globe"></span> <span class="place_info">ОНЛАЙН "ШКОЛА ДОКТОРА ЧИКУРОВА"</span>
                     <?php } else { ?>
