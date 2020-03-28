@@ -159,7 +159,7 @@
                     <?php if (get_field('seminar_online')) { ?>
                       <a target="_blank" href="<?php the_field('online_link'); ?>" class="seminar_order btn btn-primary">Перейти на сайт "Онлайн Школы"</a>
                     <?php } else { ?>
-                      <a href="#order" class="seminar_order btn btn-primary">Записаться</a>
+                      <a href="#order" class="seminar_order btn btn-success">Записаться</a>
                     <?php } ?>
                   </div>
                 <?php } ?>
