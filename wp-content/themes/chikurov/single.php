@@ -113,7 +113,7 @@
                 <?php $coords_seminar = get_field('coords');?>
                 <?php if ($coords_seminar) { ?>
                 <div class="seminar_params clearfix">
-                    <a href="#map" class="seminar_map btn btn-primary">Карта проезда</a>
+                    <a href="#the_map" class="seminar_map btn btn-primary">Карта проезда</a>
                 </div>
                 <?php } ?>
               </div>
@@ -431,7 +431,7 @@
     
     <!-- end of doctor section -->
     <?php if ($coords_seminar) { ?>
-      <section class="doctor seminar text-center" id="map">
+      <section class="doctor seminar text-center" id="the_map">
         <?php $seminar_map = "[showyamap] [placemark coordinates='".$coords_seminar."'/] [/showyamap]";?>
         <?php echo do_shortcode($seminar_map); ?>
       </section>
