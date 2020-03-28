@@ -75,6 +75,7 @@
             <div class="col-md-5 col-sm-12 col-xs-12 seminar_article">
               <div class="seminar_wrap">
                 <div class="seminar_params clearfix">
+                  <div class="params_title_high">Где и когда:</div>
                   <div class="params_title">
                     <span class="fa fa-calendar"></span> Дата проведения:
                   </div> 
@@ -139,11 +140,11 @@
                         $autor = array_shift($autor);
                       }
                     ?>
-                    <div class="params_title">
+                    <div class="params_title_high">
                       <?php if (get_field('seminar_online')) { ?>
-                        <span class="fa fa-user"></span> Автор:
+                        Автор:
                       <?php } else { ?>
-                        <span class="fa fa-user"></span> Семинар читает:
+                        Семинар читает:
                       <?php } ?>
                     </div>
                     <img src="<?php bloginfo('template_url'); ?>/img/chi_img.jpg" alt="">
@@ -155,6 +156,7 @@
             <div class="col-md-5 col-sm-12 col-xs-12 seminar_article">
               <div class="seminar_wrap">
                 <div class="seminar_params clearfix">
+                  <div class="params_title_high">Записаться:</div>
                   <div class="params_title">
                     <?php if (get_field('seminar_online')) { ?>
                       <span class="fa fa-phone"></span> Задать вопрос по телефону:

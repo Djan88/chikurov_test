@@ -1680,7 +1680,13 @@ ul#myTab
 .params_content 
 {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 17px;
+}
+.params_title_high
+{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
 }
 .params_author
 {
