@@ -146,15 +146,26 @@
             </div>
             <div class="col-md-4 col-sm-12 col-xs-12 seminar_article">
               <div class="seminar_params clearfix">
-                <div class="params_title">
-                  <?php if (get_field('seminar_online')) { ?>
-                    <span class="fa fa-user"></span> Автор:
-                  <?php } else { ?>
-                    <span class="fa fa-user"></span> Читает:
-                  <?php } ?>
-                </div> 
-                <div class="params_content"><?php the_field('autor'); ?></div>
+                <div class="params_photo">
+                  <?php $autor = get_field('autor'); ?>
+                  <?php 
+                    if (is_array($autor)) {
+                      $autor = array_shift($autor);
+                    }
+                  ?>
+                  <img src="<?php bloginfo('template_url'); ?>/img/chi_img.jpg" alt="">
+                  <div class="params_title">
+                    <?php if (get_field('seminar_online')) { ?>
+                      <span class="fa fa-user"></span> Автор:
+                    <?php } else { ?>
+                      <span class="fa fa-user"></span> Семинар читает:
+                    <?php } ?>
+                  </div> 
+                  <div class="params_author"><?php the_field('autor'); ?></div>
+                </div>
               </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12 seminar_article">
               <div class="seminar_params clearfix">
                 <div class="params_title">
                   <?php if (get_field('seminar_online')) { ?>
@@ -180,12 +191,6 @@
               <?php
               the_content(__('(more...)'));
               edit_post_link(__('Edit This'));
-              ?>
-              <?php $autor = get_field('autor'); ?>
-              <?php 
-                if (is_array($autor)) {
-                  $autor = array_shift($autor);
-                }
               ?>
               <?php $city = get_field('city');?>
               <?php if ($autor == 'Юрий Чикуров' && get_field('seminar_online')) { ?>
