@@ -72,7 +72,7 @@
               <h2 class="page_title"><span class="title_info"><?php the_title(); ?></span><span class="price_info hidden"><?php the_field('seminar_price'); ?></span></h2>
               <div class="hidden page_url"><?php the_permalink(); ?></div>
             </div>
-            <div class="col-md-5 col-sm-12 col-xs-12 seminar_article">
+            <div class="col-md-5 col-sm-5 col-xs-12 seminar_article">
               <div class="seminar_wrap">
                 <div class="seminar_params clearfix">
                   <div class="params_title_high">Где и когда:</div>
@@ -130,7 +130,7 @@
                 <?php } ?>
               </div>
             </div>
-            <div class="col-md-2 col-sm-12 col-xs-12 seminar_article">
+            <div class="col-md-2 col-sm-2 col-xs-12 seminar_article">
               <div class="seminar_wrap">
                 <div class="seminar_params clearfix">
                   <div class="params_photo">
@@ -153,7 +153,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-5 col-sm-12 col-xs-12 seminar_article">
+            <div class="col-md-5 col-sm-5 col-xs-12 seminar_article">
               <div class="seminar_wrap">
                 <div class="seminar_params clearfix">
                   <div class="params_title_high">Записаться:</div>
