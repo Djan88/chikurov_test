@@ -73,7 +73,7 @@
               <div class="hidden page_url"><?php the_permalink(); ?></div>
             </div>
             <div class="col-md-5 col-sm-5 col-xs-12 seminar_article">
-              <div class="seminar_wrap">
+              <div class="item_wrap">
                 <div class="seminar_params clearfix">
                   <div class="params_title_high">Где и когда:</div>
                   <div class="params_content">
@@ -119,7 +119,7 @@
               </div>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-12 seminar_article">
-              <div class="seminar_wrap" style="background: #fff;">
+              <div class="item_wrap" style="background: #fff;">
                 <div class="seminar_params clearfix">
                   <div class="params_photo">
                     <?php $autor = get_field('autor'); ?>
@@ -135,7 +135,7 @@
               </div>
             </div>
             <div class="col-md-5 col-sm-5 col-xs-12 seminar_article">
-              <div class="seminar_wrap">
+              <div class="item_wrap">
                 <div class="seminar_params clearfix">
                   <div class="params_title_high">Записаться:</div>
                   <a href="tel:<?php the_field('phone'); ?>" class="params_content phone_info"><span class="fa fa-phone"></span> <?php the_field('phone'); ?></a>
