@@ -139,31 +139,28 @@
                 <div class="seminar_params clearfix">
                   <div class="params_title_high">Записаться:</div>
                   <a href="tel:<?php the_field('phone'); ?>" class="params_content phone_info"><span class="fa fa-phone"></span> <?php the_field('phone'); ?></a>
-                </div>
-                <span class="params_content">
+                  <span class="params_content">
                   <a class="email_info" href="mailto:<?php the_field('email'); ?>"><span class="fa fa-envelope"></span> <?php the_field('email'); ?></a>
                 </span>
+                </div>
                 <?php if (get_field('order_closed')) { ?>
                   <div class="seminar_params clearfix">
-                    <div class="pull-left order_closed">
+                    <div class="order_closed">
                       <span class="fa fa-pencil-square-o"></span> Запись закрыта
                     </div>
-                    <span class="pull-right">
-                      <button class="pull-right disabled btn btn-primary" data-toggle="popover" data-placement="top" data-original-title="Свободные места на этот семинар исчерпаны" data-content='Ознакомьтесь с расписанием чтоб узнать когда состоится следующий семинар'>Записаться
-                    </button>
+                    <button class="disabled btn btn-primary" data-toggle="popover" data-placement="top" data-original-title="Свободные места на этот семинар исчерпаны" data-content='Ознакомьтесь с расписанием чтоб узнать когда состоится следующий семинар'>Записаться
+                  </button>
                   </div>
                 <?php } else { ?>
                   <div class="seminar_params clearfix">
-                    <div class="pull-left order_open">
+                    <div class="order_open">
                       <span class="fa fa-pencil-square-o"></span> Запись открыта
                     </div>
-                    <span class="pull-right">
-                      <?php if (get_field('seminar_online')) { ?>
-                        <a target="_blank" href="<?php the_field('online_link'); ?>" class="pull-right seminar_order btn btn-primary">Перейти на сайт "Онлайн Школы"</a>
-                      <?php } else { ?>
-                        <a href="#order" class="pull-right seminar_order btn btn-primary">Записаться</a>
-                      <?php } ?>
-                    </span>
+                    <?php if (get_field('seminar_online')) { ?>
+                      <a target="_blank" href="<?php the_field('online_link'); ?>" class="seminar_order btn btn-primary">Перейти на сайт "Онлайн Школы"</a>
+                    <?php } else { ?>
+                      <a href="#order" class="seminar_order btn btn-primary">Записаться</a>
+                    <?php } ?>
                   </div>
                 <?php } ?>
               </div>
