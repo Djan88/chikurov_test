@@ -1018,6 +1018,10 @@ section#doctor
     border-radius: 6px;
     min-height: 216px;
 }
+.seminar_article.item_wrap
+{
+    min-height: 140px;
+}
 .seminar_params .pull-right 
 {
     font-weight: 500;
