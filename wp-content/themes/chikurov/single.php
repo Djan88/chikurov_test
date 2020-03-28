@@ -74,10 +74,10 @@
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
               <div class="seminar_params clearfix">
-                <div class="pull-left">
+                <div class="params_title">
                   <span class="fa fa-calendar"></span> Дата проведения:
                 </div> 
-                <div class="pull-right">
+                <div class="params_content">
                   <span class="date_info"> 
                     <?php
                       echo $seminar_start_d;
@@ -107,14 +107,14 @@
                 </div>
               </div>
               <div class="seminar_params clearfix">
-                <div class="pull-left">
+                <div class="params_title">
                   <?php if (get_field('seminar_online')) { ?>
                     <span class="fa fa-globe"></span> Онлайн курс
                   <?php } else { ?>
                     <span class="fa fa-map-marker"></span> Место проведения:
                   <?php } ?>
                 </div>
-                <span class="pull-right">
+                <span class="params_content">
                   <?php if (get_field('seminar_online')) { ?>
                     <span class="place_info">ОНЛАЙН "ШКОЛА ДОКТОРА ЧИКУРОВА"</span>
                   <?php } else { ?>
@@ -264,10 +264,10 @@
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
               <div class="seminar_params clearfix">
-                <div class="params_title">
+                <div class="pull-left">
                   <span class="fa fa-calendar"></span> Дата проведения:
                 </div> 
-                <div class="params_content">
+                <div class="pull-right">
                   <span class="date_info"> 
                     <?php
                       echo $seminar_start_d;
@@ -297,14 +297,14 @@
                 </div>
               </div>
               <div class="seminar_params clearfix">
-                <div class="params_title">
+                <div class="pull-left">
                   <?php if (get_field('seminar_online')) { ?>
                     <span class="fa fa-globe"></span> Онлайн курс
                   <?php } else { ?>
                     <span class="fa fa-map-marker"></span> Место проведения:
                   <?php } ?>
                 </div>
-                <span class="params_title">
+                <span class="pull-right">
                   <?php if (get_field('seminar_online')) { ?>
                     <span class="place_info">ОНЛАЙН "ШКОЛА ДОКТОРА ЧИКУРОВА"</span>
                   <?php } else { ?>
