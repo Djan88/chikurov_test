@@ -1134,21 +1134,23 @@ ul.nav.navbar-nav.navbar-left
 {
     display: inline;
 }
-.pull-left.order_open 
+.order_open 
 {
     padding-top: 5px;
     padding-bottom: 6px;
     font-size: 17px;
     color: darkcyan;
     font-weight: 500;
+    margin-bottom: 10px;
 }
-.pull-left.order_closed 
+.order_closed 
 {
     padding-top: 5px;
     padding-bottom: 6px;
     font-size: 17px;
     color: red;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 .order_closed_text 
 {
