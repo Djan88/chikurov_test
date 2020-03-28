@@ -140,13 +140,6 @@
                         $autor = array_shift($autor);
                       }
                     ?>
-                    <div class="params_title_high">
-                      <?php if (get_field('seminar_online')) { ?>
-                        Автор:
-                      <?php } else { ?>
-                        Семинар читает:
-                      <?php } ?>
-                    </div>
                     <img src="<?php bloginfo('template_url'); ?>/img/chi_img.jpg" alt="">
                     <div class="params_author"><?php the_field('autor'); ?></div>
                   </div>
