@@ -121,28 +121,11 @@
                     <?php } ?>
                   </span>
                 </div>
-                <?php if (get_field('order_closed')) { ?>
-                  <div class="seminar_params clearfix">
-                    <div class="pull-left order_closed">
-                      <span class="fa fa-pencil-square-o"></span> Запись закрыта
-                    </div>
-                    <span class="pull-right">
-                      <button class="pull-right disabled btn btn-primary" data-toggle="popover" data-placement="top" data-original-title="Свободные места на этот семинар исчерпаны" data-content='Ознакомьтесь с расписанием чтоб узнать когда состоится следующий семинар'>Записаться</a>
-                    </button>
-                  </div>
-                <?php } else { ?>
-                  <div class="seminar_params clearfix">
-                    <div class="pull-left order_open">
-                      <span class="fa fa-pencil-square-o"></span> Запись открыта
-                    </div>
-                    <span class="pull-right">
-                      <?php if (get_field('seminar_online')) { ?>
-                        <a target="_blank" href="<?php the_field('online_link'); ?>" class="pull-right seminar_order btn btn-primary">Перейти на сайт "Онлайн Школы"</a>
-                      <?php } else { ?>
-                        <a href="#order" class="pull-right seminar_order btn btn-primary">Записаться</a>
-                      <?php } ?>
-                    </span>
-                  </div>
+                <?php $coords_seminar = get_field('coords');?>
+                <?php if ($coords_seminar) { ?>
+                <div class="seminar_params clearfix">
+                    <a href="#map" class="seminar_map btn btn-primary">Карта проезда</a>
+                </div>
                 <?php } ?>
               </div>
             </div>
@@ -189,6 +172,29 @@
                     <a class="email_info" href="mailto:<?php the_field('email'); ?>"><?php the_field('email'); ?></a>
                   </span>
                 </div>
+                <?php if (get_field('order_closed')) { ?>
+                  <div class="seminar_params clearfix">
+                    <div class="pull-left order_closed">
+                      <span class="fa fa-pencil-square-o"></span> Запись закрыта
+                    </div>
+                    <span class="pull-right">
+                      <button class="pull-right disabled btn btn-primary" data-toggle="popover" data-placement="top" data-original-title="Свободные места на этот семинар исчерпаны" data-content='Ознакомьтесь с расписанием чтоб узнать когда состоится следующий семинар'>Записаться
+                    </button>
+                  </div>
+                <?php } else { ?>
+                  <div class="seminar_params clearfix">
+                    <div class="pull-left order_open">
+                      <span class="fa fa-pencil-square-o"></span> Запись открыта
+                    </div>
+                    <span class="pull-right">
+                      <?php if (get_field('seminar_online')) { ?>
+                        <a target="_blank" href="<?php the_field('online_link'); ?>" class="pull-right seminar_order btn btn-primary">Перейти на сайт "Онлайн Школы"</a>
+                      <?php } else { ?>
+                        <a href="#order" class="pull-right seminar_order btn btn-primary">Записаться</a>
+                      <?php } ?>
+                    </span>
+                  </div>
+                <?php } ?>
               </div>
             </div>
             <div class="clearfix"></div>
@@ -456,9 +462,8 @@
     <?php } ?> 
     
     <!-- end of doctor section -->
-    <?php $coords_seminar = get_field('coords');?>
     <?php if ($coords_seminar) { ?>
-      <section class="doctor seminar text-center" id="doctor">
+      <section class="doctor seminar text-center" id="map">
         <?php $seminar_map = "[showyamap] [placemark coordinates='".$coords_seminar."'/] [/showyamap]";?>
         <?php echo do_shortcode($seminar_map); ?>
       </section>
