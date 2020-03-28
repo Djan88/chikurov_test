@@ -76,11 +76,8 @@
               <div class="seminar_wrap">
                 <div class="seminar_params clearfix">
                   <div class="params_title_high">Где и когда:</div>
-                  <div class="params_title">
-                    <span class="fa fa-calendar"></span> Дата проведения:
-                  </div> 
                   <div class="params_content">
-                    <span class="date_info"> 
+                    <span class="date_info"> <span class="fa fa-calendar"></span> 
                       <?php
                         echo $seminar_start_d;
                         echo ' ';
@@ -107,18 +104,11 @@
                   </div>
                 </div>
                 <div class="seminar_params clearfix">
-                  <div class="params_title">
-                    <?php if (get_field('seminar_online')) { ?>
-                      <span class="fa fa-globe"></span> Онлайн курс
-                    <?php } else { ?>
-                      <span class="fa fa-map-marker"></span> Место проведения:
-                    <?php } ?>
-                  </div>
                   <span class="params_content">
                     <?php if (get_field('seminar_online')) { ?>
-                      <span class="place_info">ОНЛАЙН "ШКОЛА ДОКТОРА ЧИКУРОВА"</span>
+                      <span class="fa fa-globe"></span> <span class="place_info">ОНЛАЙН "ШКОЛА ДОКТОРА ЧИКУРОВА"</span>
                     <?php } else { ?>
-                      <span class="place_info"> <?php the_field('city'); ?>, <?php the_field('adres'); ?></span>
+                      <span class="fa fa-map-marker"></span> <span class="place_info"> <?php the_field('city'); ?>, <?php the_field('adres'); ?></span>
                     <?php } ?>
                   </span>
                 </div>
@@ -150,21 +140,11 @@
               <div class="seminar_wrap">
                 <div class="seminar_params clearfix">
                   <div class="params_title_high">Записаться:</div>
-                  <div class="params_title">
-                    <?php if (get_field('seminar_online')) { ?>
-                      <span class="fa fa-phone"></span> Задать вопрос по телефону:
-                    <?php } else { ?>
-                      <span class="fa fa-phone"></span> Записаться по телефону:
-                    <?php } ?>
-                  </div>
-                  <span class="params_content phone_info"><?php the_field('phone'); ?></span>
+                  <span class="fa fa-phone"></span> <span class="params_content phone_info"><?php the_field('phone'); ?></span>
                 </div>
                 <div class="seminar_params clearfix">
-                  <div class="params_title">
-                    <span class="fa fa-envelope"></span> Написать письмо:
-                  </div>
                   <span class="params_content">
-                    <a class="email_info" href="mailto:<?php the_field('email'); ?>"><?php the_field('email'); ?></a>
+                    <a class="email_info" href="mailto:<?php the_field('email'); ?>"><span class="fa fa-envelope"></span> <?php the_field('email'); ?></a>
                   </span>
                 </div>
                 <?php if (get_field('order_closed')) { ?>
