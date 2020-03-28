@@ -72,7 +72,7 @@
               <h2 class="page_title"><span class="title_info"><?php the_title(); ?></span><span class="price_info hidden"><?php the_field('seminar_price'); ?></span></h2>
               <div class="hidden page_url"><?php the_permalink(); ?></div>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
+            <div class="col-md-4 col-sm-12 col-xs-12 seminar_article">
               <div class="seminar_params clearfix">
                 <div class="params_title">
                   <span class="fa fa-calendar"></span> Дата проведения:
@@ -83,8 +83,6 @@
                       echo $seminar_start_d;
                       echo ' ';
                       echo $seminar_start_m;
-                      echo ' ';
-                      echo $seminar_start_y;
                     ?> — 
                     <?php if ($seminar_end) {
                       echo $seminar_end_d;
@@ -146,32 +144,32 @@
                 </div>
               <?php } ?>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
+            <div class="col-md-4 col-sm-12 col-xs-12 seminar_article">
               <div class="seminar_params clearfix">
-                <div class="pull-left">
+                <div class="params_title">
                   <?php if (get_field('seminar_online')) { ?>
                     <span class="fa fa-user"></span> Автор:
                   <?php } else { ?>
                     <span class="fa fa-user"></span> Читает:
                   <?php } ?>
                 </div> 
-                <div class="pull-right"><?php the_field('autor'); ?></div>
+                <div class="params_content"><?php the_field('autor'); ?></div>
               </div>
               <div class="seminar_params clearfix">
-                <div class="pull-left">
+                <div class="params_title">
                   <?php if (get_field('seminar_online')) { ?>
                     <span class="fa fa-phone"></span> Задать вопрос по телефону:
                   <?php } else { ?>
                     <span class="fa fa-phone"></span> Записаться по телефону:
                   <?php } ?>
                 </div>
-                <span class="pull-right phone_info"><?php the_field('phone'); ?></span>
+                <span class="params_content phone_info"><?php the_field('phone'); ?></span>
               </div>
               <div class="seminar_params clearfix">
-                <div class="pull-left">
+                <div class="params_title">
                   <span class="fa fa-envelope"></span> Написать письмо:
                 </div>
-                <span class="pull-right">
+                <span class="params_content">
                   <a class="email_info" href="mailto:<?php the_field('email'); ?>"><?php the_field('email'); ?></a>
                 </span>
               </div>

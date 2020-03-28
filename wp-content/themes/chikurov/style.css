@@ -1668,6 +1668,16 @@ ul#myTab
     left: 30px;
     top: 30px;
 }
+.params_title
+{
+    font-weight: 300;
+    font-size: 16px;
+}
+.params_content 
+{
+    font-weight: 500;
+    font-size: 15px;
+}
 /*.seminar_acent a
 {
     color: #fff;
