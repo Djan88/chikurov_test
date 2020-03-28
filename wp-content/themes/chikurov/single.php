@@ -72,63 +72,55 @@
               <h2 class="page_title"><span class="title_info"><?php the_title(); ?></span><span class="price_info hidden"><?php the_field('seminar_price'); ?></span></h2>
               <div class="hidden page_url"><?php the_permalink(); ?></div>
             </div>
-            <div class="col-md-4 col-sm-12 col-xs-12 seminar_article">
-              <div class="row seminar_params">
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                  <div class="pull-left">
-                    <span class="fa fa-calendar"></span> Дата проведения:
-                  </div> 
-                </div>
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                  <div class="pull-right">
-                    <span class="date_info"> 
-                      <?php
-                        echo $seminar_start_d;
-                        echo ' ';
-                        echo $seminar_start_m;
-                        echo ' ';
-                        echo $seminar_start_y;
-                      ?> — 
-                      <?php if ($seminar_end) {
-                        echo $seminar_end_d;
-                        echo ' ';
-                        echo $seminar_end_m;
-                        echo ' ';
-                        echo $seminar_end_y;
-                      } else {
-                        echo $seminar_start_d;
-                        echo ' ';
-                        echo $seminar_start_m;
-                        echo ' ';
-                        echo $seminar_start_y;
-                      }
-                      ?>
-                    </span>
-                    <?php if (get_field('seminar_time_start')&& get_field('time_true')) { ?>
-                      (<i class="fa fa-clock-o" aria-hidden="true"> </i> <span class="time_info"> <?php the_field('seminar_time_start'); ?> — <?php the_field('seminar_time_end'); ?></span> )
-                    <?php } ?>
-                  </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
+              <div class="seminar_params clearfix">
+                <div class="pull-left">
+                  <span class="fa fa-calendar"></span> Дата проведения:
+                </div> 
+                <div class="pull-right">
+                  <span class="date_info"> 
+                    <?php
+                      echo $seminar_start_d;
+                      echo ' ';
+                      echo $seminar_start_m;
+                      echo ' ';
+                      echo $seminar_start_y;
+                    ?> — 
+                    <?php if ($seminar_end) {
+                      echo $seminar_end_d;
+                      echo ' ';
+                      echo $seminar_end_m;
+                      echo ' ';
+                      echo $seminar_end_y;
+                    } else {
+                      echo $seminar_start_d;
+                      echo ' ';
+                      echo $seminar_start_m;
+                      echo ' ';
+                      echo $seminar_start_y;
+                    }
+                    ?>
+                  </span>
+                  <?php if (get_field('seminar_time_start')&& get_field('time_true')) { ?>
+                    (<i class="fa fa-clock-o" aria-hidden="true"> </i> <span class="time_info"> <?php the_field('seminar_time_start'); ?> — <?php the_field('seminar_time_end'); ?></span> )
+                  <?php } ?>
                 </div>
               </div>
-              <div class="row seminar_params">
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                  <div class="pull-left">
-                    <?php if (get_field('seminar_online')) { ?>
-                      <span class="fa fa-globe"></span> Онлайн курс
-                    <?php } else { ?>
-                      <span class="fa fa-map-marker"></span> Место проведения:
-                    <?php } ?>
-                  </div>
+              <div class="seminar_params clearfix">
+                <div class="pull-left">
+                  <?php if (get_field('seminar_online')) { ?>
+                    <span class="fa fa-globe"></span> Онлайн курс
+                  <?php } else { ?>
+                    <span class="fa fa-map-marker"></span> Место проведения:
+                  <?php } ?>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                  <div class="pull-right">
-                    <?php if (get_field('seminar_online')) { ?>
-                      <span class="place_info">ОНЛАЙН "ШКОЛА ДОКТОРА ЧИКУРОВА"</span>
-                    <?php } else { ?>
-                      <span class="place_info"> <?php the_field('city'); ?>, <?php the_field('adres'); ?></span>
-                    <?php } ?>
-                  </div>
-                </div>
+                <span class="pull-right">
+                  <?php if (get_field('seminar_online')) { ?>
+                    <span class="place_info">ОНЛАЙН "ШКОЛА ДОКТОРА ЧИКУРОВА"</span>
+                  <?php } else { ?>
+                    <span class="place_info"> <?php the_field('city'); ?>, <?php the_field('adres'); ?></span>
+                  <?php } ?>
+                </span>
               </div>
               <?php if (get_field('order_closed')) { ?>
                 <div class="seminar_params clearfix">
