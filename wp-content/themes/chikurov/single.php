@@ -139,9 +139,9 @@
                 <div class="seminar_params clearfix">
                   <div class="params_title_high">Записаться:</div>
                   <a href="tel:<?php the_field('phone'); ?>" class="params_content phone_info"><span class="fa fa-phone"></span> <?php the_field('phone'); ?></a>
-                  <span class="params_content">
+                  <div class="params_content">
                   <a class="email_info" href="mailto:<?php the_field('email'); ?>"><span class="fa fa-envelope"></span> <?php the_field('email'); ?></a>
-                </span>
+                </div>
                 </div>
                 <?php if (get_field('order_closed')) { ?>
                   <div class="seminar_params clearfix">
