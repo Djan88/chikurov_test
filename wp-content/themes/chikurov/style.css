@@ -1136,8 +1136,6 @@ ul.nav.navbar-nav.navbar-left
 }
 .order_open 
 {
-    padding-top: 5px;
-    padding-bottom: 6px;
     font-size: 17px;
     color: darkcyan;
     font-weight: 500;
@@ -1145,8 +1143,6 @@ ul.nav.navbar-nav.navbar-left
 }
 .order_closed 
 {
-    padding-top: 5px;
-    padding-bottom: 6px;
     font-size: 17px;
     color: red;
     font-weight: 500;
@@ -1161,6 +1157,10 @@ ul.nav.navbar-nav.navbar-left
     border-radius: 6px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.phone_info
+{
+    color: #000;
 }
 h5.age 
 {
