@@ -102,13 +102,13 @@
                       (<i class="fa fa-clock-o" aria-hidden="true"> </i> <span class="time_info"> <?php the_field('seminar_time_start'); ?> — <?php the_field('seminar_time_end'); ?></span> )
                     <?php } ?>
                   </div>
-                  <span class="params_content" style="padding-top: 10px;">
+                  <div class="params_content" style="margin-top: 10px;">
                     <?php if (get_field('seminar_online')) { ?>
                       <span class="fa fa-globe"></span> <span class="place_info">ОНЛАЙН "ШКОЛА ДОКТОРА ЧИКУРОВА"</span>
                     <?php } else { ?>
                       <span class="fa fa-map-marker"></span> <span class="place_info"> <?php the_field('city'); ?>, <?php the_field('adres'); ?></span>
                     <?php } ?>
-                  </span>
+                  </div>
                 </div>
                 <?php $coords_seminar = get_field('coords');?>
                 <?php if ($coords_seminar) { ?>
