@@ -245,7 +245,7 @@
               <h2 class="page_title"><span class="title_info"><?php the_title(); ?></span><span class="price_info hidden"><?php the_field('seminar_price'); ?></span></h2>
               <div class="hidden page_url"><?php the_permalink(); ?></div>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
+            <div class="col-md-6 col-sm-12 col-xs-12 seminar_article item_wrap">
               <div class="seminar_params clearfix">
                 <div class="pull-left">
                   <span class="fa fa-calendar"></span> Дата проведения:
@@ -319,7 +319,7 @@
                 </div>
               <?php } ?>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 seminar_article">
+            <div class="col-md-6 col-sm-12 col-xs-12 seminar_article item_wrap">
               <div class="seminar_params clearfix">
                 <div class="pull-left">
                   <?php if (get_field('seminar_online')) { ?>
