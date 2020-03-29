@@ -68,7 +68,7 @@
       <section class="doctor seminar text-center" id="doctor">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" style="padding: 5px;">
               <h2 class="page_title"><span class="title_info"><?php the_title(); ?></span><span class="price_info hidden"><?php the_field('seminar_price'); ?></span></h2>
               <div class="hidden page_url"><?php the_permalink(); ?></div>
             </div>
@@ -102,7 +102,7 @@
                       <br><i class="fa fa-clock-o" aria-hidden="true"> </i> <span class="time_info"> <?php the_field('seminar_time_start'); ?> — <?php the_field('seminar_time_end'); ?></span>
                     <?php } ?>
                   </div>
-                  <div class="params_content" style="margin-top: 10px;">
+                  <div class="params_content" style="margin-top: 10px; font-size: 16px;">
                     <?php if (get_field('seminar_online')) { ?>
                       <span class="fa fa-globe"></span> <span class="place_info">ОНЛАЙН "ШКОЛА ДОКТОРА ЧИКУРОВА"</span>
                     <?php } else { ?>
