@@ -128,8 +128,34 @@
                         $autor = array_shift($autor);
                       }
                     ?>
-                    <img src="<?php bloginfo('template_url'); ?>/img/chi_img.jpg" alt="">
-                    <div class="params_author"><?php the_field('autor'); ?></div>
+                    <?php if ($autor == 'Юрий Чикуров') {?>
+                      <img src="<?php bloginfo('template_url'); ?>/img/chi_img.jpg" alt="">
+                      <div class="params_author"><a target="_blank" href="/"><?php the_field('autor'); ?></a></div>
+                    <?php } else if ($autor == 'Ирина Иванова') { ?>
+                      <img src="<?php bloginfo('template_url'); ?>/img/ivanova.jpg" alt="">
+                      <div class="params_author"><a target="_blank" href="http://www.yuchikurov.info/members/irina_ivanova/"><?php the_field('autor'); ?></a></div>
+                    <?php } else if ($autor == 'Василий Киселев') { ?>
+                      <img src="<?php bloginfo('template_url'); ?>/img/kiselev.jpg" alt="">
+                      <div class="params_author"><a target="_blank" href="http://www.yuchikurov.info/members/Bazilevs/"><?php the_field('autor'); ?></a></div>
+                    <?php } else if ($autor == 'Елена Зукуле') { ?>
+                      <img src="<?php bloginfo('template_url'); ?>/img/zukule.jpeg" alt="">
+                      <div class="params_author"><a target="_blank" href="http://www.yuchikurov.info/members/zukule-elena/"><?php the_field('autor'); ?></a></div>
+                    <?php } else if ($autor == 'Марина Салехова') { ?>
+                      <img src="<?php bloginfo('template_url'); ?>/img/salechova.jpg" alt="">
+                      <div class="params_author"><a target="_blank" href="http://www.yuchikurov.info/members/salehova_marina/"><?php the_field('autor'); ?></a></div>
+                    <?php } else if ($autor == 'Сергей Стеканов') { ?>
+                      <img src="<?php bloginfo('template_url'); ?>/img/stekanov.png" alt="">
+                      <div class="params_author"><a target="_blank" href="http://www.yuchikurov.info/members/e1e7e/"><?php the_field('autor'); ?></a></div>
+                    <?php } else if ($autor == 'Олег Плотников') { ?>
+                      <img src="<?php bloginfo('template_url'); ?>/img/plotnikov.jpg" alt="">
+                      <div class="params_author"><a target="_blank" href="http://www.yuchikurov.info/members/plotnikov/"><?php the_field('autor'); ?></a></div>
+                    <?php } else if ($autor == 'Галина Москаленко') { ?>
+                      <img src="<?php bloginfo('template_url'); ?>/img/moskalenko.png" alt="">
+                      <div class="params_author"><a target="_blank" href="http://www.yuchikurov.info/members/galina-63/"><?php the_field('autor'); ?></a></div>
+                    <?php } else if ($autor == 'Вячеслав Павленок') { ?>
+                      <img src="<?php bloginfo('template_url'); ?>/img/pavlenok.jpg" alt="">
+                      <div class="params_author"><a target="_blank" href="http://www.yuchikurov.info/members/paltus/"><?php the_field('autor'); ?></a></div>
+                    <?php } ?>
                   </div>
                 </div>
               </div>
