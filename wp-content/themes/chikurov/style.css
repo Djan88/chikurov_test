@@ -1733,6 +1733,11 @@ ul#myTab
     padding: 7px 10px;
     color: #f12222;
 }
+.seminar__alert_footer
+{
+    font-size: 15px;
+    padding-top: 10px;
+}
 /*.seminar_acent a
 {
     color: #fff;
