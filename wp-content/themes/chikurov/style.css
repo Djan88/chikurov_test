@@ -1717,6 +1717,8 @@ ul#myTab
     border-radius: 6px;
     width: 100%;
     padding: 10px;
+    border: 1px solid #fb0000;
+    margin-bottom: 15px;
 }
 .seminar__alert_header 
 {
