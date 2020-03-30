@@ -59,7 +59,7 @@
         </div>
         <div class="col-md-8 col-sm-8 col-xs-12 contacts">
           <a class="contacts_email pull-left" href="mailto:info@chikurov.com">info@chikurov.com</a>
-          <span class="contacts_phone pull-right">+7 (495) 135-25-48</span>
+          <a class="contacts_phone pull-right" href="tel:+74951352548">+7 (495) 135-25-48</a>
           <a class="contacts_home" href="/">Школа Доктора Чикурова</a>
         </div>
         <div class="col-xs-2 col-sm-1 col-sm-offset-1 col-md-1 col-md-offset-1 header-logo">
