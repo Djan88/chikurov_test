@@ -140,16 +140,16 @@
         <div class="autors col-md-12">
           
         </div>
+        <div class="seminar__alert col-md-12">
+          <div class="row">
+            <div class="col-md-12 seminar__alert_header">Внимание! В связи со сложившейся ситуацией следующие семинары переносятся на более поздние даты:</div>
+            <div class="col-md-12 seminar__alert_item">"БЦ2. Продвинутый семинар по Биологическому центрированию" перносится с 3-5 апреля 2020 на 8-10 мая 2020</div>
+            <div class="col-md-12 seminar__alert_item">"MARAKATA – Мастер реальности" перносится с 10-12 апреля 2020 на 15-17 мая 2020</div>
+            <div class="col-md-12 seminar__alert_footer">Актуальную информацию Вы всегда можете уточнить по телефону +7 (495) 135-25-48</div>
+          </div>
+        </div>
         <div class="col-md-12 seminar_wrap">
           <div class="row">
-            <div class="seminar__alert col-md-12">
-              <div class="row">
-                <div class="col-md-12 seminar__alert_header">Внимание! В связи со сложившейся ситуацией следующие семинары переносятся на более поздние даты:</div>
-                <div class="col-md-12 seminar__alert_item">"БЦ2. Продвинутый семинар по Биологическому центрированию" перносится с 3-5 апреля 2020 на 8-10 мая 2020</div>
-                <div class="col-md-12 seminar__alert_item">"MARAKATA – Мастер реальности" перносится с 10-12 апреля 2020 на 15-17 мая 2020</div>
-                <div class="col-md-12 seminar__alert_footer">Актуальную информацию Вы всегда можете уточнить по телефону +7 (495) 135-25-48</div>
-              </div>
-            </div>
             <?php
             // The Query
             $wp_query = new WP_Query( array(
