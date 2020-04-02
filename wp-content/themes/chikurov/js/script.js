@@ -136,10 +136,10 @@ jQuery(document).ready(function () {
     }
   }
 
-  if (!popupStatus1 || popupStatus1 == false) {
-    setTimeout(openPopupOne, 5000);
-    localStorage.setItem('popupStatus1', true);
-  }
+  // if (!popupStatus1 || popupStatus1 == false) {
+  //   setTimeout(openPopupOne, 5000);
+  //   localStorage.setItem('popupStatus1', true);
+  // }
 
   if (popupStatus == false) {
     setTimeout(openPopup, 5000);
