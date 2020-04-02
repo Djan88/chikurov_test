@@ -14,7 +14,7 @@
     </div>
   </section><!-- end of doctor section -->
   <!-- Мастера -->
-  <section class="seminars text-center" id="lectors">
+  <!-- <section class="seminars text-center" id="lectors">
     <div class="container">
       <div class="row">
         <div class="col-md-12"><h2>Мастера школы</h2></div>
@@ -112,7 +112,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <section class="seminars text-center" id="seminars">
     <div class="container">
       <div class="row">
