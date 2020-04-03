@@ -153,6 +153,7 @@ ul.nav {
 {
     font-size: 17px;
     padding: 0;
+    display: block;
 }
 .header_contacts .menu.menu_email
 {
@@ -1613,7 +1614,7 @@ ul#myTab
     font-size: 30px;
     width: 40px;
     height: 44px;
-    top: 15px;
+    top: 0;
     left: -39px;
     background: #fff;
     cursor: pointer;
@@ -1784,11 +1785,18 @@ responsive area
         font-size: 17px;
     }
     .navbar-default .navbar-nav>li>a, .dropdown_menu {
-        font-size: 14px;
+        font-size: 17px;
         padding: 14px 4px;
     }
+    .header_contacts {
+        margin-top: 20px;
+    }
+    .header_contacts a.menu.menu_email, .header_contacts a.menu.menu_tel {
+        font-size: 14px;
+        padding: 0;
+    }
     .main-menu {
-        margin-top: -50px;
+        margin-top: 15px;
     }
     .media_area {
         margin-top: 5px;
@@ -1860,7 +1868,7 @@ responsive area
     }
     .container-fluid, .navbar-collapse, .main-menu
     {
-        padding: 0;
+        padding: 5px 10px;
     }
     .carousel-caption h1 {
         font-size: 90px;
@@ -1923,7 +1931,7 @@ responsive area
         position: fixed;
         left: 0;
         top: 0;
-        width: 110vw;
+        width: 105vw;
         height: 100vh;
         z-index: 999;
         padding-top: 150px;
@@ -1946,7 +1954,7 @@ responsive area
     }
     .main-menu
     {
-        margin-top: 40px;
+        margin-top: 0;
     }
     .contacts_email, .contacts_phone 
     {
@@ -1979,7 +1987,11 @@ responsive area
     }
     .top-header .container
     {
-        min-height: 80px;
+        min-height: 60px;
+    }
+    .header_contacts a.menu.menu_email, .header_contacts a.menu.menu_tel
+    {
+        font-size: 18px;
     }
     .carousel-caption {
         margin-top: -110px;
@@ -2081,6 +2093,11 @@ responsive area
     .school-lector 
     {
         border: 1px solid #42b3e5;
+    }
+    .header_contacts 
+    {
+        margin-top: 10px;
+        text-align: center;
     }
 }
 @media (max-width: 670px) {
