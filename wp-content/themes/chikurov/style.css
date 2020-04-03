@@ -139,8 +139,8 @@ ul.nav {
     padding: 0;
 }
 .navbar-default .navbar-nav>li>a {
-    font-size: 20px;
-    color: #737373;
+    font-size: 19px;
+    color: #000000;
     transition: all .7s ease 0s;
     padding: 14px 0 7px 7px;
     font-weight: bold;
