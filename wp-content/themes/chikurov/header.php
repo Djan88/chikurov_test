@@ -60,7 +60,7 @@
           <br>
           <a href="/"><img src="<?php bloginfo('template_url'); ?>/img/school_logo_new.png" alt="" class="img-responsive logo"></a>
         </div>
-        <div class="col-xs-2 col-sm-1 col-md-1 header_contacts pull-right">
+        <div class="col-xs-12 col-sm-2 col-md-2 header_contacts pull-right">
           <a class="menu menu_tel" href="tel:+74951352548">+7 (495) 135-25-48</a>
           <a class="menu menu_email" href="mailto:info@chikurov.com">info@chikurov.com</a>
         </div>

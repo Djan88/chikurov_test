@@ -147,8 +147,7 @@ ul.nav {
 }
 .header_contacts
 {
-    vertical-align: middle;
-    padding-left: 30px;
+    margin-top: 15px;
 }
 .header_contacts a.menu.menu_email, .header_contacts a.menu.menu_tel 
 {
