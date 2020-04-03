@@ -83,7 +83,8 @@ Tags: simple
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
 }
 li {
     list-style: none;
@@ -116,11 +117,8 @@ h2 {
 .top-header img.logo {
     margin-bottom: 10px;
     margin-top: -15px;
+    max-width: 70px;
     transition: all .5s ease 0s;
-    -webkit-transition: all .5s ease 0s;
-    -moz-transition: all .5s ease 0s;
-    -o-transition: all .5s ease 0s;
-    -ms-transition: all .5s ease 0s;
 }
 .navbar-default {
     background-color: transparent;
@@ -129,10 +127,6 @@ h2 {
     margin-top: 0;
     min-height: auto;
     transition: all .5s ease 0s;
-    -webkit-transition: all .5s ease 0s;
-    -moz-transition: all .5s ease 0s;
-    -o-transition: all .5s ease 0s;
-    -ms-transition: all .5s ease 0s;
 }
 .nav-bar {
     /*margin-top: 29px;*/
@@ -145,16 +139,32 @@ ul.nav {
     padding: 0;
 }
 .navbar-default .navbar-nav>li>a {
-    font-size: 16px;
+    font-size: 20px;
     color: #737373;
-    text-transform: uppercase;
     transition: all .7s ease 0s;
-    -webkit-transition: all .7s ease 0s;
-    -moz-transition: all .7s ease 0s;
-    -o-transition: all .7s ease 0s;
-    -ms-transition: all .7s ease 0s;
-    padding: 14px 7px;
+    padding: 14px 0 7px 7px;
     font-weight: bold;
+}
+.header_contacts
+{
+    vertical-align: middle;
+    padding-left: 30px;
+}
+.navbar-default .navbar-nav>li>a.menu.menu_email, .navbar-default .navbar-nav>li>a.menu.menu_tel 
+{
+    font-size: 17px;
+    padding: 0;
+}
+.navbar-default .navbar-nav>li>a.menu.menu_email
+{
+    color: #42b3e5;
+}
+.navbar-default .navbar-nav>li>a.menu.menu_tel
+{
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #ff206d;
 }
 .navbar-default .navbar-nav>li>a:hover {
     color: #42b3e5;
@@ -824,11 +834,11 @@ p b
 }
 .main-menu 
 {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .header-logo.center-block 
 {
-    margin-top: -15px;
+    margin-top: -10px;
 }
 .media_area_item i 
 {
@@ -879,6 +889,7 @@ section#doctor
 {
     border: 1px solid #42b3e5;
     border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
 }
 .seminar_item 
 {

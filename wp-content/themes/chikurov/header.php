@@ -101,9 +101,9 @@
                       <!-- <li><a class="menu" href="/kniga">Книги</a></li> -->
                       <li><a target="_blank" class="menu" href="https://shop-bc.com/">Магазин БЦ</a></li>
                       <li><a class="menu" href="/kniga">Консультации Ю.Чикурова</a></li>
-                      <li>
-                        <a class="menu menu_email" href="mailto:info@chikurov.com">info@chikurov.com</a>
+                      <li class="header_contacts">
                         <a class="menu menu_tel" href="tel:+74951352548">+7 (495) 135-25-48</a>
+                        <a class="menu menu_email" href="mailto:info@chikurov.com">info@chikurov.com</a>
                       </li>
                     </ul>
                   </div><!-- /navbar-collapse -->
