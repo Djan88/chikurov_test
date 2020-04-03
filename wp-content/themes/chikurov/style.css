@@ -150,16 +150,16 @@ ul.nav {
     vertical-align: middle;
     padding-left: 30px;
 }
-.navbar-default .navbar-nav>li>a.menu.menu_email, .navbar-default .navbar-nav>li>a.menu.menu_tel 
+.header_contacts a.menu.menu_email, .header_contacts a.menu.menu_tel 
 {
     font-size: 17px;
     padding: 0;
 }
-.navbar-default .navbar-nav>li>a.menu.menu_email
+.header_contacts .menu.menu_email
 {
     color: #42b3e5;
 }
-.navbar-default .navbar-nav>li>a.menu.menu_tel
+.header_contacts .menu.menu_tel
 {
     font-size: 18px;
     margin-bottom: 5px;
