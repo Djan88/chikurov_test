@@ -51,24 +51,16 @@
   <header class="top-header">
     <div class="container">
       <div class="row contacts_wrap">
-        <div class="media_area col-md-2 col-xs-1 col-sm-2">
-          <a target="_blank" href="http://vk.com/id139677998" class="media_area_item media_area_item-vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
-          <a target="_blank" href="https://www.facebook.com/profile.php?id=100012253260685&pnref" class="media_area_item media_area_item-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-          <a target="_blank" href="https://www.youtube.com/user/ThePractik01/" class="media_area_item media_area_item-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-          <a target="_blank" href="https://www.instagram.com/dr.chikurov/" class="media_area_item media_area_item-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        </div>
-        <div class="col-md-8 col-sm-8 col-xs-12 contacts">
+        <!-- <div class="col-md-8 col-sm-8 col-xs-12 contacts">
           <a class="contacts_email pull-left" href="mailto:info@chikurov.com">info@chikurov.com</a>
           <a class="contacts_phone pull-right" href="tel:+74951352548">+7 (495) 135-25-48</a>
           <a class="contacts_home" href="/">Школа Доктора Чикурова</a>
-        </div>
-        <div class="col-xs-2 col-sm-1 col-sm-offset-1 col-md-1 col-md-offset-1 header-logo">
+        </div> -->
+        <div class="col-xs-2 col-sm-1 col-md-1 header-logo">
           <br>
           <a href="/"><img src="<?php bloginfo('template_url'); ?>/img/school_logo_new.png" alt="" class="img-responsive logo"></a>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 main-menu">
+        <div class="col-md-10 col-sm-10 col-xs-12 main-menu">
           <div class="row">
             <div class="col-md-12">
               <nav class="navbar navbar-default">
