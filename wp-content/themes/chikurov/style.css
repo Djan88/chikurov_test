@@ -2206,6 +2206,15 @@ responsive area
     {
         border: 1px solid #42b3e5;
     }
+    .header_contacts 
+    {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .top-header
+    {
+        height: 85px;
+    }
 
 }
 
@@ -2432,6 +2441,15 @@ responsive area
         right: -300px;
         transition: right 1s cubic-bezier(.98,.01,.18,1.37);
     }
+    .header_contacts 
+    {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .top-header
+    {
+        height: 85px;
+    }
 }
 @media (max-width: 420px) {
     .navbar-header 
@@ -2483,5 +2501,14 @@ responsive area
     {
         right: -300px;
         transition: right 1s cubic-bezier(.98,.01,.18,1.37);
+    }
+    .header_contacts 
+    {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .top-header
+    {
+        height: 85px;
     }
 }
