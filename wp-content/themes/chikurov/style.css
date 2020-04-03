@@ -106,7 +106,10 @@ h2 {
     background: #fff !important;
     /*position: fixed;*/
     width: 100%;
-    border-bottom: 1px solid #42b3e5;
+    /*border-bottom: 1px solid #42b3e5;*/
+    position: fixed;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 999;
 }
 .header-backup {
     width: 20px;
@@ -884,6 +887,7 @@ section#doctor
     border-bottom: 1px solid #42b3e5;
     padding-bottom: 10px;
     background: #f5fcff;
+    padding-top: 90px;
 }
 .seminar_wrap 
 {
