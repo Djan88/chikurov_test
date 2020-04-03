@@ -1860,12 +1860,12 @@ responsive area
         font-size: 12px;
         padding: 14px 3px;
     }
-    .header-logo {
+    /*.header-logo {
         position: absolute;
         right: 0;
         top: 0;
         max-width: 100px;
-    }
+    }*/
     .container-fluid, .navbar-collapse, .main-menu
     {
         padding: 5px 10px;
