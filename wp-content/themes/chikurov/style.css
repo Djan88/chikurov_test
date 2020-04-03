@@ -824,7 +824,7 @@ p b
 }
 .main-menu 
 {
-    margin-top: -55px;
+    margin-top: 30px;
 }
 .header-logo.center-block 
 {
@@ -1118,7 +1118,6 @@ div#loadSeminar
 ul.nav.navbar-nav.navbar-left 
 {
     width: 100%;
-    text-align: center;
     white-space: nowrap;
 }
 .navbar-nav>li 

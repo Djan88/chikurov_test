@@ -82,15 +82,11 @@
                   <!-- <div id="bs-example-navbar-collapse-1"> -->
                     
                     <ul class="nav navbar-nav navbar-left">
-                    <?php if (is_front_page()) { ?>
-                      <li><a class="menu" href="#seminars">Семинары</a></li>
-                    <?php } else { ?>
-                      <li><a class="menu" href="/#seminars">Семинары</a></li>
-                    <?php } ?>
+                      <li><a class="menu" href="/seminary">Расписание</a></li>
                       <!-- <li><a class="menu" href="#about">Биологическое центрирование</a></li> -->
-                      <li><a class="menu" href="http://school-bc.ru/" target="_blank">Онлайн школа</a></li>
-                      <li><a class="menu" target="_blank" href="http://www.yuchikurov.info/reestr/">Реестр специалистов</a></li>
-                      <li class="dropdown_menu">Визардтерапия <i class="fa fa-caret-down"></i>
+                      <li><a class="menu" href="http://school-bc.ru/" target="_blank">Онлайн Школа</a></li>
+                      <!-- <li><a class="menu" target="_blank" href="http://www.yuchikurov.info/reestr/">Реестр специалистов</a></li> -->
+                      <!-- <li class="dropdown_menu">Визардтерапия <i class="fa fa-caret-down"></i>
                         <ul class="submenu_wrap">
                           <li><a class="submenu" target="_blank" href="https://wizardmachine.ru/">Wizard Machine</a></li>
                           <li><a class="submenu" target="_blank" href="https://wizardduos.ru/">Wizard Duos</a></li>
@@ -101,9 +97,14 @@
                           <li><a class="submenu" target="_blank" href="http://braincleaner.ru/">Brain Cleaner</a></li>
                           <li><a class="submenu" target="_blank" href="https://school-bc.ru/wizardtherapy">Wizard Therapy</a></li>
                         </ul>
+                      </li> -->
+                      <!-- <li><a class="menu" href="/kniga">Книги</a></li> -->
+                      <li><a target="_blank" class="menu" href="https://shop-bc.com/">Магазин БЦ</a></li>
+                      <li><a class="menu" href="/kniga">Консультации Ю.Чикурова</a></li>
+                      <li>
+                        <a class="menu menu_email" href="mailto:info@chikurov.com">info@chikurov.com</a>
+                        <a class="menu menu_tel" href="tel:+74951352548">+7 (495) 135-25-48</a>
                       </li>
-                      <li><a class="menu" href="/kniga">Книги</a></li>
-                      <li><a target="_blank" class="menu" href="https://shop-bc.com/">Магазин товаров бц</a></li>
                     </ul>
                   </div><!-- /navbar-collapse -->
                 </div><!-- / .container-fluid -->
