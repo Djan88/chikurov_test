@@ -198,4 +198,18 @@ jQuery(document).ready(function () {
   jQuery('.nav a, .close_menu').on('click', function(event) {
     jQuery('.navbar-collapse.collapse').removeClass('in');
   });
+  jQuery('.programm_item').on('click', function(event) {
+    jQuery('.programm_menu_item').removeClass('active');
+    jQuery('.programm_item').addClass('hidden');
+    jQuery(this).addClass('active');
+    if (jQuery(this).hasClass('programm_menu_item_1')) {
+      jQuery('.programm_item_1').removeClass('hidden');
+    } else if (jQuery(this).hasClass('programm_menu_item_2')) {
+      jQuery('.programm_item_2').removeClass('hidden');
+    } else if (jQuery(this).hasClass('programm_menu_item_3')) {
+      jQuery('.programm_item_3').removeClass('hidden');
+    } else if (jQuery(this).hasClass('programm_menu_item_all')) {
+      jQuery('.programm_item').removeClass('hidden');
+    }
+  });
 });

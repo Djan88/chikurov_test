@@ -26,7 +26,13 @@
           <div class="programm_menu_item programm_menu_item_all">Все</div>
         </div>
         <div class="col-md-12 programm_items">
-          
+          <div class="col-md-4 programm_item programm_item_1">БЦ1. Базовый семинар по Биологическому Центрированию</div>
+          <div class="col-md-4 programm_item programm_item_1">БЦ2. Продвинутый семинар по Биологическому Центрированию</div>
+          <div class="col-md-4 programm_item programm_item_1">Эстетическое мануальное моделирование лица</div>
+          <div class="col-md-4 programm_item programm_item_1">Мягкие мануальные техники</div>
+          <div class="col-md-4 programm_item programm_item_2 hidden">Коррекция кармических отношений (В ПОДАРОК ДУОС МАШИНА)</div>
+          <div class="col-md-4 programm_item programm_item_3 hidden">Коррекция висцеральных систем</div>
+          <div class="col-md-4 programm_item programm_item_3 hidden">Краниосакральная терапия, избранные техники</div>
         </div>
       </div>
     </div>

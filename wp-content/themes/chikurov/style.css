@@ -904,11 +904,36 @@ p b
 }
 section#doctor 
 {
-    border-bottom: 1px solid #42b3e5;
+    border-bottom: 1px solid #e6e6e6;
     padding-bottom: 10px;
     /*background: #f5fcff;*/
     background: #fff;
     padding-top: 140px;
+}
+section#programm 
+{
+    background: #f2f3f5;
+    border-bottom: 1px solid #e6e6e6;
+}
+.programm_menu_item
+{
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.programm_menu 
+{
+    margin-top: 10px;
+}
+.programm_menu_item.active, .programm_menu_item:hover 
+{
+    color: #ff206d;
+}
+.programm_items 
+{
+    margin-top: 40px;
 }
 .seminar_wrap 
 {
