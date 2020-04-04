@@ -340,11 +340,12 @@ li a.active {
 {
     background: #42b3e5;
     display: block;
-    visibility: hidden;
+    opacity: 0;
     margin-top: 20px;
     border-color: #42b3e5;
     text-transform: uppercase;
     font-weight: bold;
+    transition: opacity .7s ease 0s;
 }
 .parogramm_item_link:hover, .parogramm_item_link:active
 {
@@ -353,7 +354,7 @@ li a.active {
 }
 .programm_item_inner:hover .parogramm_item_link
 {
-    visibility: visible;
+    opacity: 1;
 }
 .about-img img {
     width: 100%;
