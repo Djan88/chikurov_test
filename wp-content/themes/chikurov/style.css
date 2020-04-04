@@ -323,6 +323,38 @@ li a.active {
     background: #fff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
+.parogramm_item_heading
+{
+    color: #26364b;
+    font-weight: bold;
+    font-size: 16px;
+    min-height: 55px;
+    display: inline-block;
+}
+.parogramm_item_content 
+{
+    color: #26364b;
+}
+
+.parogramm_item_link 
+{
+    background: #42b3e5;
+    display: block;
+    visibility: hidden;
+    margin-top: 20px;
+    border-color: #42b3e5;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.parogramm_item_link:hover, .parogramm_item_link:active
+{
+    background: #278bb7;
+    border-color: #278bb7;
+}
+.programm_item_inner .parogramm_item_link
+{
+    visibility: visible;
+}
 .about-img img {
     width: 100%;
 }
