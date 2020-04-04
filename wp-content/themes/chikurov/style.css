@@ -2059,11 +2059,11 @@ responsive area
         padding-top: 150px;
         background: #fff;
     }
-    .navbar-default .navbar-toggle
+    .navbar-toggle .icon-bar 
     {
-        background: #fff;
-        border: 2px solid #42b3e5;
-        margin-left: -10px;
+        width: 25px;
+        height: 3px;
+        color: #26364b;
     }
     ul.nav.navbar-nav.navbar-left
     {
