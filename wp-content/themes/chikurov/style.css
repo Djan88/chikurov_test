@@ -309,10 +309,16 @@ li a.active {
     /*font-style: italic;*/
     font-family: 'Montserrat', sans-serif;
 }
+.programm_item
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
 .programm_item_inner
 {
     border: 2px solid #ff206d;
-    border-radius: 3px;
+    border-radius: 6px;
+    padding: 10px;
 }
 .about-img img {
     width: 100%;
@@ -920,7 +926,7 @@ section#programm
 {
     display: inline-block;
     font-size: 18px;
-    margin-right: 20px;
+    margin-left: 15px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -934,7 +940,7 @@ section#programm
 }
 .programm_items 
 {
-    margin-top: 40px;
+    margin-top: 25px;
 }
 .seminar_wrap 
 {

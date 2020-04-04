@@ -27,8 +27,10 @@
   ============================================================= -->
   <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/loadmore.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/conversation.js"></script>  
-  <script src="<?php bloginfo('template_url'); ?>/js/peekobot.js"></script>
+  <?php if (is_front_page()) { ?>
+    <script src="<?php bloginfo('template_url'); ?>/js/conversation.js"></script>  
+    <script src="<?php bloginfo('template_url'); ?>/js/peekobot.js"></script>
+  <?php } ?>
   <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
   <div class="modal fade" id="videoCours" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
       <div class="modal-dialog modal-sm">
