@@ -356,6 +356,10 @@ li a.active {
 {
     opacity: 1;
 }
+.programm_item_inner:hover
+{
+    border-color: #42b3e5; 
+}
 .about-img img {
     width: 100%;
 }
