@@ -54,6 +54,13 @@
               <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
             </span>
           </a>
+          <a href="/" class="col-md-4 col-sm-4 col-xs-12 programm_item programm_item_1">
+            <span class="programm_item_inner">
+              <span class="parogramm_item_heading">Терапевтическая дефрагментация актуальных и латентных психосоматических паттернов</span></br>
+              <span class="parogramm_item_content">24 учебных часа</span></br>
+              <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
+            </span>
+          </a>
           <a href="/" class="col-md-4 col-sm-4 col-xs-12 programm_item programm_item_2">
             <span class="programm_item_inner">
               <span class="parogramm_item_heading">Коррекция кармических отношений (В подарок дуос машина)</span></br>
