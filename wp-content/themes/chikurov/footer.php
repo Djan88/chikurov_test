@@ -259,7 +259,7 @@
           </div>
       </div>
   </div>
-  <?php if (is_page(546)) { ?>
+  <?php if (is_page('seminary')) { ?>
     <script>
       jQuery(function($){
         $(window).scroll(function(){
