@@ -32,7 +32,7 @@
     <script src="<?php bloginfo('template_url'); ?>/js/peekobot.js"></script>
   <?php } ?>
   <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
-  <?php if (!is_front_page()) { ?>
+  <?php if (is_page('546')) { ?>
     <script>
       jQuery(function($){
         $(window).scroll(function(){
