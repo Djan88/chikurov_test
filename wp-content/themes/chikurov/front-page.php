@@ -27,11 +27,11 @@
         </div>
         <div class="col-md-12 programm_items">
           <a href="/" class="col-md-4 programm_item programm_item_1">
-            <div class="programm_item_inner">
-              <div class="parogramm_item_heading">БЦ1. Базовый семинар по Биологическому Центрированию</div>
-              <div class="parogramm_item_content">24 учебных часа</div>
+            <span class="programm_item_inner">
+              <span class="parogramm_item_heading">БЦ1. Базовый семинар по Биологическому Центрированию</span>
+              <span class="parogramm_item_content">24 учебных часа</span>
               <a href="/" class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</a>
-            </div>
+            </span>
           </a>
           <a href="/" class="col-md-4 programm_item programm_item_1">
             <div class="programm_item_inner">БЦ2. Продвинутый семинар по Биологическому Центрированию</div>
