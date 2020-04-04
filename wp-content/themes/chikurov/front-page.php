@@ -1,13 +1,13 @@
 <?php get_header(); ?>
-  <section class="doctor text-center" id="doctor">
+  <section class="doctor" id="doctor">
     <div class="container chikurov_info">
       <div class="row">
         <div class="col-md-6">
-          <h1>Биологическое Центрирование</h1>
-          <h2>Cистема здоровья</h2>
+          <h1 class="main_heading">Биологическое Центрирование</h1>
+          <h3>Cистема здоровья</h3>
         </div>
         <div class="col-md-6">
-          <img src="/wp-content/themes/chikurov/img/chi_img.jpg" alt="Чикуров Ю.В.">
+          <img class="chikurov_img" src="/wp-content/themes/chikurov/img/chi_img.jpg" alt="Чикуров Ю.В.">
         </div>
       </div>
     </div>
