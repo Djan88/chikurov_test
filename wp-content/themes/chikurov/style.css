@@ -2687,8 +2687,13 @@ responsive area
     .navbar-default .navbar-toggle
     {
         background: #fff;
-        border: 2px solid #42b3e5;
-        margin-left: -10px;
+        margin-left: 5px;
+    }
+    .navbar-toggle .icon-bar 
+    {
+        width: 25px;
+        height: 3px;
+        color: #26364b;
     }
     ul.nav.navbar-nav.navbar-left
     {
