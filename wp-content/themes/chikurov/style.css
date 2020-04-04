@@ -279,7 +279,12 @@ li a.active {
     max-width: 300px;
     border-radius: 50%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+.seminars_link
+{
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 .seminars h2, .doctor h2
 {
@@ -897,7 +902,7 @@ section#doctor
     border-bottom: 1px solid #42b3e5;
     padding-bottom: 10px;
     background: #f5fcff;
-    padding-top: 100px;
+    padding-top: 140px;
 }
 .seminar_wrap 
 {
@@ -1590,7 +1595,7 @@ ul#myTab
     width: 400px;
     position: fixed;
     right: 5px;
-    top: 95px;
+    top: 135px;
     z-index: 994;
     background: #fff;
     transition: right 1s cubic-bezier(.96,-0.48,.63,.99);
@@ -1628,7 +1633,7 @@ ul#myTab
     font-size: 30px;
     width: 40px;
     height: 44px;
-    top: 5px;
+    top: 0;
     left: -39px;
     background: #fff;
     cursor: pointer;
