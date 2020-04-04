@@ -273,6 +273,7 @@ li a.active {
 .main_heading
 {
     font-size: 50px;
+    color: #26364b;
 }
 .chikurov_img
 {
@@ -280,6 +281,10 @@ li a.active {
     border-radius: 50%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
     margin-bottom: 50px;
+}
+.chikurov_info
+{
+    color: #26364b;
 }
 .seminars_link
 {
