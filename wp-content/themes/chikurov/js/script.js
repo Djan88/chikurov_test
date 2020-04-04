@@ -198,7 +198,7 @@ jQuery(document).ready(function () {
   jQuery('.nav a, .close_menu').on('click', function(event) {
     jQuery('.navbar-collapse.collapse').removeClass('in');
   });
-  jQuery('.programm_item').on('click', function(event) {
+  jQuery('.programm_menu_item').on('click', function(event) {
     jQuery('.programm_menu_item').removeClass('active');
     jQuery('.programm_item').addClass('hidden');
     jQuery(this).addClass('active');
