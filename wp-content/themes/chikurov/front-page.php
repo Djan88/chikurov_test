@@ -68,14 +68,14 @@
               <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
             </span>
           </a>
-          <a href="/" class="col-md-4 col-sm-4 col-xs-12 programm_item programm_item_3">
+          <a href="/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_3">
             <span class="programm_item_inner">
               <span class="parogramm_item_heading">Коррекция висцеральных систем</span></br>
               <span class="parogramm_item_content">8 учебных часа</span></br>
               <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
             </span>
           </a>
-          <a href="/" class="col-md-4 col-sm-4 col-xs-12 programm_item programm_item_3">
+          <a href="/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_3">
             <span class="programm_item_inner">
               <span class="parogramm_item_heading">Краниосакральная терапия, избранные техники</span></br>
               <span class="parogramm_item_content">8 учебных часа</span></br>
