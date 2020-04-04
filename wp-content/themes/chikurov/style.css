@@ -329,6 +329,7 @@ li a.active {
     font-size: 20px;
     min-height: 115px;
     display: inline-block;
+    transition: color .3s ease 0s;
 }
 .parogramm_item_content 
 {
