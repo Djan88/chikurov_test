@@ -1925,6 +1925,10 @@ responsive area
     .person-detail p {
         font-size: 12px;
     }
+    .parogramm_item_heading
+    {
+        min-height: 140px;
+    }
 }
 
 /* sm */
