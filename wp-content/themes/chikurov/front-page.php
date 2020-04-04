@@ -1,5 +1,16 @@
 <?php get_header(); ?>
   <section class="doctor text-center" id="doctor">
+    <div class="container chikurov_info">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Биологическое Центрирование</h1>
+          <h2>Cистема здоровья</h2>
+        </div>
+        <div class="col-md-6">
+          <img src="/wp-content/themes/chikurov/img/chi_img.jpg" alt="Чикуров Ю.В.">
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="row">
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
