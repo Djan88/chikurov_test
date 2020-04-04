@@ -345,7 +345,7 @@ li a.active {
     border-color: #42b3e5;
     text-transform: uppercase;
     font-weight: bold;
-    transition: opacity .7s ease 0s;
+    transition: opacity .3s ease 0s;
 }
 .parogramm_item_link:hover, .parogramm_item_link:active
 {
