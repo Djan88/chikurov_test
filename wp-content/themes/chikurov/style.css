@@ -2007,6 +2007,14 @@ responsive area
     {
         border: 1px solid #42b3e5;
     }
+    .main_heading
+    {
+        font-size: 40px;
+    }
+    .chikurov_img
+    {
+        max-width: 250px;
+    }
 }
 
 /* xs */
@@ -2196,6 +2204,16 @@ responsive area
         margin-top: 10px;
         text-align: center;
     }
+    .main_heading
+    {
+        font-size: 40px;
+        text-align: center;
+    }
+    .chikurov_info h3
+    {
+        text-align: center;
+    }
+
 }
 @media (max-width: 670px) {
     .navbar-header 
@@ -2307,6 +2325,15 @@ responsive area
     .top-header
     {
         height: 85px;
+    }
+    .main_heading
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+    .chikurov_info h3
+    {
+        text-align: center;
     }
 
 }
@@ -2543,6 +2570,15 @@ responsive area
     {
         height: 85px;
     }
+    .main_heading
+    {
+        font-size: 25px;
+        text-align: center;
+    }
+    .chikurov_info h3
+    {
+        text-align: center;
+    }
 }
 @media (max-width: 420px) {
     .navbar-header 
@@ -2603,5 +2639,14 @@ responsive area
     .top-header
     {
         height: 85px;
+    }
+    .main_heading
+    {
+        font-size: 25px;
+        text-align: center;
+    }
+    .chikurov_info h3
+    {
+        text-align: center;
     }
 }

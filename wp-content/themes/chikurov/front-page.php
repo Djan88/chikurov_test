@@ -2,12 +2,12 @@
   <section class="doctor" id="doctor">
     <div class="container chikurov_info">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 col-sm-6 col-xs-12">
           <h1 class="main_heading">Биологическое Центрирование</h1>
           <h3>Cистема здоровья</h3>
           <a href="/seminary" target="_blank" class="seminars_link btn btn-success btn-lg">Расписание семинаров</a>
         </div>
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 col-sm-6 col-xs-12 text-center">
           <img class="chikurov_img" src="/wp-content/themes/chikurov/img/chi_img.jpg" alt="Чикуров Ю.В.">
         </div>
       </div>
