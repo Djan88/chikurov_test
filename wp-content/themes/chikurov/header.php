@@ -64,7 +64,7 @@
           <a class="menu menu_tel" href="tel:+74951352548">+7 (495) 135-25-48</a>
           <a class="menu menu_email" href="mailto:info@chikurov.com">info@chikurov.com</a>
         </div>
-        <div class="col-md-8 col-sm-8 col-xs-12 main-menu">
+        <div class="col-md-9 col-sm-8 col-xs-12 main-menu">
           <div class="row">
             <div class="col-md-12">
               <nav class="navbar navbar-default">
