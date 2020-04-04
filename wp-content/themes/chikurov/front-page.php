@@ -6,7 +6,7 @@
           <h1 class="main_heading">Биологическое Центрирование</h1>
           <h3>Cистема здоровья</h3>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 text-center">
           <img class="chikurov_img" src="/wp-content/themes/chikurov/img/chi_img.jpg" alt="Чикуров Ю.В.">
         </div>
       </div>
