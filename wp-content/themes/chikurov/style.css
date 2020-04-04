@@ -2015,6 +2015,10 @@ responsive area
     {
         max-width: 250px;
     }
+    section#doctor
+    {
+        padding-top: 120px;
+    }
 }
 
 /* xs */
@@ -2216,6 +2220,10 @@ responsive area
     .chikurov_img
     {
         margin-top: 30px;
+    }
+    section#doctor
+    {
+        padding-top: 80px;
     }
 
 }
