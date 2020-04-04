@@ -12,18 +12,6 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-          <?php
-          the_content(__('(more...)'));
-          edit_post_link(__('Edit This'));
-          ?>
-        <?php endwhile; else: ?>
-          <?php _e('Sorry, no posts matched your criteria.'); ?>
-        <?php endif; ?>
-      </div>
-    </div>
   </section><!-- end of doctor section -->
   <!-- Мастера -->
   <!-- <section class="seminars text-center" id="lectors">
