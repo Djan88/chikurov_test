@@ -2023,6 +2023,15 @@ responsive area
     {
         padding-top: 120px;
     }
+    .programm_menu
+    {
+        text-align: center;
+    }
+    .programm_menu_item
+    {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
 }
 
 /* xs */
@@ -2229,6 +2238,15 @@ responsive area
     {
         padding-top: 80px;
     }
+    .programm_menu
+    {
+        text-align: center;
+    }
+    .programm_menu_item
+    {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
 
 }
 @media (max-width: 670px) {
@@ -2358,6 +2376,15 @@ responsive area
     section#doctor
     {
         padding-top: 80px;
+    }
+    .programm_menu
+    {
+        text-align: center;
+    }
+    .programm_menu_item
+    {
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
 }
@@ -2611,6 +2638,15 @@ responsive area
     {
         padding-top: 80px;
     }
+    .programm_menu
+    {
+        text-align: center;
+    }
+    .programm_menu_item
+    {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -2689,5 +2725,14 @@ responsive area
     section#doctor
     {
         padding-top: 80px;
+    }
+    .programm_menu
+    {
+        text-align: center;
+    }
+    .programm_menu_item
+    {
+        margin-left: 8px;
+        margin-right: 8px;
     }
 }
