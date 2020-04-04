@@ -2351,6 +2351,10 @@ responsive area
     {
         margin-top: 30px;
     }
+    section#doctor
+    {
+        padding-top: 80px;
+    }
 
 }
 
@@ -2599,7 +2603,12 @@ responsive area
     {
         margin-top: 30px;
     }
+    section#doctor
+    {
+        padding-top: 80px;
+    }
 }
+
 @media (max-width: 420px) {
     .navbar-header 
     {
@@ -2672,5 +2681,9 @@ responsive area
     .chikurov_img
     {
         margin-top: 30px;
+    }
+    section#doctor
+    {
+        padding-top: 80px;
     }
 }
