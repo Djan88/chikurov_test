@@ -26,27 +26,31 @@
           <div class="programm_menu_item programm_menu_item_all">Все</div>
         </div>
         <div class="col-md-12 programm_items">
-          <div class="col-md-4 programm_item programm_item_1">
-            <div class="programm_item_inner">БЦ1. Базовый семинар по Биологическому Центрированию</div>
-          </div>
-          <div class="col-md-4 programm_item programm_item_1">
+          <a href="/" class="col-md-4 programm_item programm_item_1">
+            <div class="programm_item_inner">
+              <div class="parogramm_item_heading">БЦ1. Базовый семинар по Биологическому Центрированию</div>
+              <div class="parogramm_item_content">24 учебных часа</div>
+              <a href="/" class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</a>
+            </div>
+          </a>
+          <a href="/" class="col-md-4 programm_item programm_item_1">
             <div class="programm_item_inner">БЦ2. Продвинутый семинар по Биологическому Центрированию</div>
-          </div>
-          <div class="col-md-4 programm_item programm_item_1">
+          </a>
+          <a href="/" class="col-md-4 programm_item programm_item_1">
             <div class="programm_item_inner">Эстетическое мануальное моделирование лица</div>
-          </div>
-          <div class="col-md-4 programm_item programm_item_1">
+          </a>
+          <a href="/" class="col-md-4 programm_item programm_item_1">
             <div class="programm_item_inner">Мягкие мануальные техники</div>
-          </div>
-          <div class="col-md-4 programm_item programm_item_2 hidden">
+          </a>
+          <a href="/" class="col-md-4 programm_item programm_item_2 hidden">
             <div class="programm_item_inner">Коррекция кармических отношений (В ПОДАРОК ДУОС МАШИНА)</div>
-          </div>
-          <div class="col-md-4 programm_item programm_item_3 hidden">
+          </a>
+          <a href="/" class="col-md-4 programm_item programm_item_3 hidden">
             <div class="programm_item_inner">Коррекция висцеральных систем</div>
-          </div>
-          <div class="col-md-4 programm_item programm_item_3 hidden">
+          </a>
+          <a href="/" class="col-md-4 programm_item programm_item_3 hidden">
             <div class="programm_item_inner">Краниосакральная терапия, избранные техники</div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

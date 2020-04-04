@@ -316,9 +316,11 @@ li a.active {
 }
 .programm_item_inner
 {
-    border: 2px solid #ff206d;
+    border: 1px solid #ff206d;
     border-radius: 6px;
     padding: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 .about-img img {
     width: 100%;
