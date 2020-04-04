@@ -30,7 +30,7 @@
             <span class="programm_item_inner">
               <span class="parogramm_item_heading">БЦ1. Базовый семинар по Биологическому Центрированию</span>
               <span class="parogramm_item_content">24 учебных часа</span>
-              <a href="/" class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</a>
+              <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
             </span>
           </a>
           <a href="/" class="col-md-4 programm_item programm_item_1">
