@@ -327,8 +327,8 @@ li a.active {
 {
     color: #26364b;
     font-weight: bold;
-    font-size: 16px;
-    min-height: 55px;
+    font-size: 20px;
+    min-height: 115px;
     display: inline-block;
 }
 .parogramm_item_content 
@@ -351,7 +351,7 @@ li a.active {
     background: #278bb7;
     border-color: #278bb7;
 }
-.programm_item_inner .parogramm_item_link
+.programm_item_inner:hover .parogramm_item_link
 {
     visibility: visible;
 }
