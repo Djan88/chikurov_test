@@ -32,6 +32,7 @@
     <script src="<?php bloginfo('template_url'); ?>/js/peekobot.js"></script>
   <?php } ?>
   <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
+  <?php if (!is_front_page()) { ?>
     <script>
       jQuery(function($){
         $(window).scroll(function(){
@@ -130,6 +131,7 @@
               });
             });
     </script>
+  <?php } ?>
   <div class="modal fade" id="videoCours" tabindex="-1" role="dialog" aria-labelledby="videoCoursLabel" aria-hidden="true">
       <div class="modal-dialog modal-sm">
           <div class="modal-content">
