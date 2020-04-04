@@ -2247,6 +2247,10 @@ responsive area
         margin-left: 8px;
         margin-right: 8px;
     }
+    .chikurov_img
+    {
+        max-width: 250px
+    }
 
 }
 @media (max-width: 670px) {
@@ -2385,6 +2389,10 @@ responsive area
     {
         margin-left: 8px;
         margin-right: 8px;
+    }
+    .chikurov_img
+    {
+        max-width: 250px
     }
 
 }
@@ -2647,6 +2655,10 @@ responsive area
         margin-left: 8px;
         margin-right: 8px;
     }
+    .chikurov_img
+    {
+        max-width: 250px
+    }
 }
 
 @media (max-width: 420px) {
@@ -2734,5 +2746,9 @@ responsive area
     {
         margin-left: 8px;
         margin-right: 8px;
+    }
+    .chikurov_img
+    {
+        max-width: 250px
     }
 }
