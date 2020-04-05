@@ -94,9 +94,9 @@
         </div>
         <div class="col-md-12">
           <div class="row">
-            <a class="col-md-3 col-xs-12" href="/wp-content/uploads/2020/04/acreditation-scaled.jpg" data-slb-active="1" data-slb-asset="666487422" data-slb-internal="0" data-slb-group="6340"><img class="alignnone size-thumbnail wp-image-6432" src="/wp-content/uploads/2020/04/acreditation-150x150.jpg" alt="" width="150" height="150"></a>
-            <a class="col-md-3 col-xs-12" href="/wp-content/uploads/2020/04/school_bc.png" data-slb-active="1" data-slb-asset="1076637829" data-slb-internal="0" data-slb-group="6340"><img class="alignnone size-thumbnail wp-image-6433" src="/wp-content/uploads/2020/04/school_bc-150x150.png" alt="" width="150" height="150"></a>
-            <a class="col-md-3 col-xs-12" href="/wp-content/uploads/2020/04/narod.png" data-slb-active="1" data-slb-asset="1363873937" data-slb-internal="0" data-slb-group="6340"><img class="alignnone size-thumbnail wp-image-6434" src="/wp-content/uploads/2020/04/narod-150x150.png" alt="" width="150" height="150"></a>
+            <a href="/wp-content/uploads/2020/04/acreditation-scaled.jpg" class="cboxElement col-md-3 col-xs-12"><img class="alignnone size-thumbnail wp-image-6432 colorbox-6340" src="/wp-content/uploads/2020/04/acreditation-150x150.jpg" alt="" width="150" height="150"></a>
+            <a href="/wp-content/uploads/2020/04/school_bc.png" class="cboxElement col-md-3 col-xs-12"><img class="alignnone size-thumbnail wp-image-6433 colorbox-6340" src="/wp-content/uploads/2020/04/school_bc-150x150.png" alt="" width="150" height="150"></a>
+            <a href="/wp-content/uploads/2020/04/narod.png" class="cboxElement col-md-3 col-xs-12"><img class="alignnone size-thumbnail wp-image-6434 colorbox-6340" src="/wp-content/uploads/2020/04/narod-150x150.png" alt="" width="150" height="150"></a>
           </div>
         </div>
       </div>
