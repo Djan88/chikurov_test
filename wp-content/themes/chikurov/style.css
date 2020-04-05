@@ -1857,19 +1857,15 @@ ul#myTab
     padding-top: 10px;
     font-weight: 600;
 }
-/*.seminar_acent a
+.docs_item
 {
-    color: #fff;
-    text-decoration: underline;
+    text-align: center;
 }
-.seminar_online_title, .seminar_online a
+.docs_item img
 {
-    color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
-.seminar_online
-{
-    background: #72b8ff
-}*/
 /******************************
 responsive area
 ********************************/
