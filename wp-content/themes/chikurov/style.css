@@ -1866,6 +1866,8 @@ ul#myTab
 {
     border-radius: 6px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: auto;
 }
 /******************************
 responsive area
