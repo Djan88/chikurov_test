@@ -97,6 +97,7 @@
             <a href="/wp-content/uploads/2020/04/acreditation-scaled.jpg" class="cboxElement col-md-3 col-xs-12"><img class="alignnone size-thumbnail wp-image-6432 colorbox-6340" src="/wp-content/uploads/2020/04/acreditation-150x150.jpg" alt="" width="150" height="150"></a>
             <a href="/wp-content/uploads/2020/04/school_bc.png" class="cboxElement col-md-3 col-xs-12"><img class="alignnone size-thumbnail wp-image-6433 colorbox-6340" src="/wp-content/uploads/2020/04/school_bc-150x150.png" alt="" width="150" height="150"></a>
             <a href="/wp-content/uploads/2020/04/narod.png" class="cboxElement col-md-3 col-xs-12"><img class="alignnone size-thumbnail wp-image-6434 colorbox-6340" src="/wp-content/uploads/2020/04/narod-150x150.png" alt="" width="150" height="150"></a>
+            <a href="/wp-content/uploads/2020/04/narod.png" class="cboxElement col-md-3 col-xs-12"><img class="alignnone size-thumbnail wp-image-6434 colorbox-6340" src="/wp-content/uploads/2020/04/narod-150x150.png" alt="" width="150" height="150"></a>
           </div>
         </div>
       </div>
