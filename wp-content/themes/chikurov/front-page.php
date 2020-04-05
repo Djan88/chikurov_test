@@ -94,10 +94,9 @@
         </div>
         <div class="col-md-12">
           <div class="row">
-            <a href="/wp-content/uploads/2020/04/acreditation-scaled.jpg" class="cboxElement col-md-3 col-sm-3 col-xs-6 docs_item"><img class="alignnone size-thumbnail wp-image-6432 colorbox-6340" src="/wp-content/uploads/2020/04/acreditation-150x150.jpg" alt="" width="150" height="150"></a>
-            <a href="/wp-content/uploads/2020/04/school_bc.png" class="cboxElement col-md-3 col-sm-3 col-xs-6 docs_item"><img class="alignnone size-thumbnail wp-image-6433 colorbox-6340" src="/wp-content/uploads/2020/04/school_bc-150x150.png" alt="" width="150" height="150"></a>
-            <a href="/wp-content/uploads/2020/04/narod.png" class="cboxElement col-md-3 col-sm-3 col-xs-6 docs_item"><img class="alignnone size-thumbnail wp-image-6434 colorbox-6340" src="/wp-content/uploads/2020/04/narod-150x150.png" alt="" width="150" height="150"></a>
-            <a href="/wp-content/uploads/2020/04/narod.png" class="cboxElement col-md-3 col-sm-3 col-xs-6 docs_item"><img class="alignnone size-thumbnail wp-image-6434 colorbox-6340" src="/wp-content/uploads/2020/04/narod-150x150.png" alt="" width="150" height="150"></a>
+            <a href="/wp-content/uploads/2020/04/acreditation-scaled.jpg" class="cboxElement col-md-3 col-sm-3 col-xs-6 docs_item"><img class="alignnone size-thumbnail wp-image-6438 colorbox-6340" src="/wp-content/uploads/2020/04/acreditation-400x400.jpg" alt="" width="400" height="400"></a>
+            <a href="/wp-content/uploads/2020/04/school_bc.png" class="cboxElement col-md-3 col-sm-3 col-xs-6 docs_item"><img class="alignnone size-thumbnail wp-image-6439 colorbox-6340" src="/wp-content/uploads/2020/04/school_bc-400x400.png" alt="" width="400" height="400"></a>
+            <a href="/wp-content/uploads/2020/04/narod.png" class="cboxElement col-md-3 col-sm-3 col-xs-6 docs_item"><img class="alignnone size-thumbnail wp-image-6440 colorbox-6340" src="/wp-content/uploads/2020/04/narod-400x400.png" alt="" width="400" height="400"></a>
           </div>
         </div>
       </div>
