@@ -957,9 +957,14 @@ section#doctor
     background: #fff;
     padding-top: 140px;
 }
-section#programm 
+.seminars_dark
 {
     background: #F7FAFC;
+    padding-bottom: 30px;
+}
+.seminars_light
+{
+    background: #FFFFFF;
     padding-bottom: 30px;
 }
 .programm_menu_item

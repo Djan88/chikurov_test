@@ -13,7 +13,7 @@
       </div>
     </div>
   </section><!-- end of doctor section -->
-  <section class="seminars programm" id="programm">
+  <section class="seminars seminars_dark programm" id="programm">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -82,6 +82,22 @@
               <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
             </span>
           </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="seminars seminars_light docs" id="docs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Документы</h2>
+        </div>
+        <div class="col-md-12">
+          <div class="row">
+            <a class="col-md-3 col-xs-12" href="/wp-content/uploads/2020/04/acreditation-scaled.jpg" data-slb-active="1" data-slb-asset="666487422" data-slb-internal="0" data-slb-group="6340"><img class="alignnone size-thumbnail wp-image-6432" src="/wp-content/uploads/2020/04/acreditation-150x150.jpg" alt="" width="150" height="150"></a>
+            <a class="col-md-3 col-xs-12" href="/wp-content/uploads/2020/04/school_bc.png" data-slb-active="1" data-slb-asset="1076637829" data-slb-internal="0" data-slb-group="6340"><img class="alignnone size-thumbnail wp-image-6433" src="/wp-content/uploads/2020/04/school_bc-150x150.png" alt="" width="150" height="150"></a>
+            <a class="col-md-3 col-xs-12" href="/wp-content/uploads/2020/04/narod.png" data-slb-active="1" data-slb-asset="1363873937" data-slb-internal="0" data-slb-group="6340"><img class="alignnone size-thumbnail wp-image-6434" src="/wp-content/uploads/2020/04/narod-150x150.png" alt="" width="150" height="150"></a>
+          </div>
         </div>
       </div>
     </div>
