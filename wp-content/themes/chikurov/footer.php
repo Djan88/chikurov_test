@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row footer-area">
         <div class="col-xs-6 footer-para">
-          <p>&copy; Юрий Чикуров</p>
+          <p>&copy; Юрий Чикуров <?php echo date('Y'); ?></p>
         </div>
         <div class="col-xs-6 col-sm-3 pull-right text-right footer-social">
           <a target="_blank" href="https://vk.com/id139677998"><i class="fa fa-vk" aria-hidden="true"></i></a>
@@ -13,7 +13,7 @@
         <div class="clearfix"></div>
 
         <div class="menu_footer">
-          <a href="/seminary">Семинары доктора Чикурова |</a>
+          <a href="/seminary">Семинары Доктора Чикурова |</a>
           <a href="/video">Видео |</a>
           <a href="category/otzyvy">Отзывы |</a>
           <a href="/kniga" target="_blank">Книги Доктора Чикурова |</a>

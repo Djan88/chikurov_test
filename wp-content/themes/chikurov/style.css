@@ -93,6 +93,7 @@ a:hover,
 a:visited,
 a {
     text-decoration: none;
+    color: #42b3e5;
 }
 h1,
 h2 {
@@ -1190,6 +1191,8 @@ div#loadSeminar
 {
     font-size: 16px;
     margin-right: 5px;
+    color: #26364b;
+    font-weight: 600;
 }
 .bc p
 {
@@ -1976,6 +1979,10 @@ ul#myTab
 {
     color: #ff206d;
     font-weight: bold;
+}
+.footer
+{
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
 }
 /******************************
 responsive area
