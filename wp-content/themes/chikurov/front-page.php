@@ -163,7 +163,9 @@
           <!-- <button class="btn btn-primary btn-lg down_book" data-toggle="modal" data-target="#book_down">Скачать книгу бесплатно</button> -->
         </div>
         <div class="col-md-6 text-center books_title_wrap">
-          <img class="" src="/wp-content/themes/chikurov/img/oblojka.png" alt="">
+          <img class="books_item books_item_bc" src="/wp-content/themes/chikurov/img/oblojka_min.png" alt="">
+          <img class="books_item books_item_ps" src="/wp-content/themes/chikurov/img/psichosomatics_rus.png" alt="">
+          <img class="books_item books_item_tr" src="/wp-content/themes/chikurov/img/tarot.png" alt="">
         </div>
       </div>
     </div>

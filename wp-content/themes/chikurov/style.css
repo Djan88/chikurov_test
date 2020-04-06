@@ -1884,6 +1884,22 @@ ul#myTab
     background: none;
     color: #ff206d;
 }
+.books_title_wrap
+{
+    position: relative;
+}
+.books_title_wrap img 
+{
+    width: 200px;
+}
+.books_title_wrap
+{
+    position: relative;
+}
+.books_item
+{
+    position: absolute;
+}
 /******************************
 responsive area
 ********************************/
