@@ -1876,11 +1876,11 @@ ul#myTab
     border-bottom: none;
     margin: 20px 0;
 }
-.nav-tabs>li.active a
+.nav-tabs>li a
 {
     color: #26364b;
 }
-.nav-tabs>li a
+.nav-tabs>li.active a
 {
     border: none;
     background: none;
@@ -1890,7 +1890,7 @@ ul#myTab
 {
     border: none;
     background: none;
-    color: #26364b;
+    color: #ff206d;
 }
 /******************************
 responsive area
