@@ -170,12 +170,12 @@
       </div>
     </div>
   </section>
-  <section class="seminars text-center reviews_wrap" id="lectors">
+  <section class="seminars seminars_dark reviews" id="reviews">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h2>Отзывы</h2>
-          <h4>Каждый отзыв снабжен ссылкой на первоисточник. Кликнув на "читать далее" можно увидеть отзыв целиком.</h4>
+          <h4>Каждый отзыв снабжен ссылкой на первоисточник. Кликнув на <span class="text_pink">"читать далее"</span> можно увидеть отзыв целиком.</h4>
         </div>
         <div class="col-md-12  bc reviews">
           <?php
@@ -217,34 +217,6 @@
       </div>
       <div class="row">
         <div class="col-md-12 reviews_more"><a href="/category/otzyvy">Читать все отзывы</a></div>
-      </div>
-    </div>
-  </section>
-  <!-- end of reviews section -->
-  <section class="doctor seminar text-center" id="bc">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Магазин товаров БЦ</h2>
-        </div>
-        <div class="col-md-12 bc">
-          <img class="img-responsive pull-left content_img colorbox-147" src="/wp-content/themes/chikurov/img/shop-bc.png" alt="">
-          <p>Интернет-магазин <a href="https://shop-bc.com">shop-bc.com</a> – инструменты для тех, то занимается по методике "Биологическое центрирование"</p>
-          <p>Мы рады предложить вам недорогие, но качественные товары с подробными описаниями, характеристиками и фотографиями. У нас Вы можете купить замечательные товары.</p>
-          <p>Продажа небольшого ассортимента разнообразных товаров – основная специализация нашего интернет-магазина. Мы доставим ваш заказ, осуществим подробную консультацию по товарам и поможем с выбором.</p>
-          <p>Магазин <a href="https://shop-bc.com">shop-bc.com</a> предлагает Вам купить книги и многое другое с доставкой! Все виды современных товаров от эконом класса до более дорогих представлены в нашем каталоге.</p>
-          <!-- <a target="_blank" href="http://www.yuchikurov.info/biologicheskoe-centrirovanie/" class="btn btn-primary btn-lg">Читать книгу</a> -->
-          <a target="_blank" href="https://shop-bc.com" class="btn btn-primary btn-lg">shop-bc.com</a>
-        </div>
-        <div class="peekobot_wrap peekobot_wrap-closed">
-          <div class="peekobot_paranja">
-            <div class="pekobot_close"><i class="fa fa-times"></i></div>
-            <div class="pekobot_open"><i class="fa fa-comment"></i></i></div>
-          </div>
-          <div id="peekobot-container">
-            <div id="peekobot"></div>
-          </div>
-        </div>
       </div>
     </div>
   </section>

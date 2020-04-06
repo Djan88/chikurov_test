@@ -1465,11 +1465,11 @@ section#seminars
 }
 .review_inner
 {
-    border: 1px solid #42b3e5;
     margin: 5px;
     padding: 5px;
     border-radius: 6px;
-    background: #f5fcff;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 .seminar_acent
 {
@@ -1957,6 +1957,10 @@ ul#myTab
     background-color: #d20c50;
     color: #fff;
     outline: none;
+}
+.reviews h4
+{
+    font-size: 25px;
 }
 /******************************
 responsive area
