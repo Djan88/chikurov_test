@@ -2141,6 +2141,10 @@ responsive area
     {
         margin-right: 0;
     }
+    .books h3 
+    {
+        font-size: 30px;
+    }
 }
 
 /* xs */
