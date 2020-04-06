@@ -109,11 +109,8 @@
         <div class="col-md-12">
           <h2>Визардмашины</h2>
         </div>
-        <div class="col-md-12" style="padding: 10px; background: #fff; border: 1px solid #42b3e5; border-radius: 6px; color: #000;">
-          <h4 style="text-align: center;">
-            <span style="font-size: 14pt;">Персональные сессии "Wizard Machine".</span>
-          </h4>
-          <p style="text-align: center;">Вы можете испытать на себе эффект <b>"Wizard Machine"</b> и <b>"Wizard Duos"</b>. Для этого оставьте заявку кликнув на кнопку ниже. Вам на почту поступит письмо от специалиста для согласования даты и времени проведения сессии.</p>
+        <div class="col-md-12" style="color: #26364b;">
+          <p style="text-align: center; font-size: 18px;">Вы можете испытать на себе эффект <b>"Wizard Machine"</b> и <b>"Wizard Duos"</b>. Для этого оставьте заявку кликнув на кнопку ниже. Вам на почту поступит письмо от специалиста для согласования даты и времени проведения сессии.</p>
           <div class="row">
             <div class="col-md-12">
               <ul id="myTab" class="nav nav-tabs">
@@ -127,7 +124,7 @@
               <div class="tab-content">
                 <div id="wm" class="tab-pane fade in active">
                   <div class="col-md-6 myTab_content">
-                    <b>"Wizard Machine"</b> — это программа для коррекции психосоматики. Работа осуществляется по фотографии клиента. Время сессии колеблется от 20 до 35 минут, в зависимости от типа протокола.</br>
+                    <b>"Wizard Machine"</b> — это программа для коррекции психосоматики. Работа осуществляется по фотографии клиента. Время сессии колеблется от 35 до 45 минут, в зависимости от типа протокола.</br>
                     <button style="margin-top: 15px;" class="btn btn-primary btn_session" data-toggle="modal" data-target="#order_session" data-session_type="WizardMachine">Записаться на сессию "Wizard Machine"</button>
                   </div>
                   <div class="col-md-6">
@@ -136,7 +133,7 @@
                 </div>
                 <div id="wd" class="tab-pane fade">
                   <div class="col-md-6 myTab_content">
-                    <b>"Wizard Duos"</b> — это программа для коррекции парных, семейных и партнерских отношений. Работа осуществляется по фотографиям двух людей, отношения между которыми необходимо корректировать. Время сессии составляет примерно 30 минут, в зависимости от типа протокола.</br>
+                    <b>"Wizard Duos"</b> — это программа для коррекции парных, семейных и партнерских отношений. Работа осуществляется по фотографиям двух людей, отношения между которыми необходимо корректировать. Время сессии составляет примерно 45 минут, в зависимости от типа протокола.</br>
                     <button style="margin-top: 15px;" class="btn btn-primary btn_session" data-toggle="modal" data-target="#order_session" data-session_type="WizardDuos">Записаться на сессию "Wizard Duos"</button>
                   </div>
                   <div class="col-md-6">
