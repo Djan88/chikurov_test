@@ -175,7 +175,7 @@
       <div class="row">
         <div class="col-md-12">
           <h2>Отзывы</h2>
-          <h4>Каждый отзыв снабжен ссылкой на первоисточник. Кликнув на <span class="text_pink">"читать полностью"</span> можно увидеть отзыв целиком.</h4>
+          <h4>Каждый отзыв снабжен ссылкой на первоисточник. Кликнув на <span class="pink_text">"читать полностью"</span> можно увидеть отзыв целиком.</h4>
         </div>
         <div class="col-md-12  bc reviews">
           <?php
@@ -205,7 +205,7 @@
               } else {
                 echo the_permalink();
               }
-              echo '" target="_blank" title="Ссылка на источник">';
+              echo '" target="_blank" class="link_autor" title="Ссылка на источник">';
               echo the_field('name_review');
               echo '</a>';
               echo '</div>';
