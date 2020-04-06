@@ -154,7 +154,7 @@
           <h2>Книги</h2>
         </div>
         <div class="col-md-7 col-sm-8">
-          <h3>Книги Доктора Чикурова можно скачать <span class="blue_text">бесплатно</span> с нашего сайта или <span class="pink_text">приобрести</span> в бумажном издании</h3>
+          <h3>Книги Доктора Чикурова можно <span class="blue_text">скачать</span> бесплатно с нашего сайта или <span class="pink_text">приобрести</span> в бумажном издании</h3>
           <!-- <a target="_blank" href="http://www.yuchikurov.info/biologicheskoe-centrirovanie/" class="btn btn-primary btn-lg">Читать книгу</a> -->
           <a href="/kniga" class="btn btn-primary btn-lg">Электронные книги</a>
           <a target="_blank" href="https://shop-bc.com/collection/books" class="btn btn-pink btn-lg">Бумажные издания</a>

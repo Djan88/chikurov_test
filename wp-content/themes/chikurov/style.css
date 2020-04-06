@@ -1944,10 +1944,12 @@ ul#myTab
 {
     background-color: #ff206d;
     border: 1px solid #ad003c;
+    color: #fff;
 }
 .btn-pink:hover, .btn-pink:active, .btn-pink:focus
 {
     background-color: #ad003c;
+    color: #fff;
     outline: none;
 }
 /******************************
