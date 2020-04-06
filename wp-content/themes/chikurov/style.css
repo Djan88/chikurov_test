@@ -2360,6 +2360,10 @@ responsive area
     {
         display: none;
     }
+    .books h3
+    {
+        font-size: 20px;
+    }
 
 
 }
@@ -2507,6 +2511,10 @@ responsive area
     img.books_item 
     {
         display: none;
+    }
+    .books h3
+    {
+        font-size: 20px;
     }
 
 }
