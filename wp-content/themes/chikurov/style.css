@@ -2537,6 +2537,10 @@ responsive area
     {
         text-align: center;
     }
+    .kniga_el 
+    {
+        margin-right: 0;
+    }
 
 }
 
@@ -2806,6 +2810,10 @@ responsive area
     {
         font-size: 17px;
         padding: 10px;
+    }
+    .kniga_el 
+    {
+        margin-right: 0;
     }
 }
 
