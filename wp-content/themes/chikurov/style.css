@@ -1879,6 +1879,7 @@ ul#myTab
 .nav-tabs>li a
 {
     color: #26364b;
+    border: none;
 }
 .nav-tabs>li.active a
 {
@@ -1886,7 +1887,7 @@ ul#myTab
     background: none;
     color: #ff206d;
 }
-.nav-tabs>li a:hover
+.nav-tabs>li a:hover, .nav-tabs>li.active a:hover
 {
     border: none;
     background: none;
