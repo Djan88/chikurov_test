@@ -1967,9 +1967,10 @@ ul#myTab
     font-size: 25px;
     margin-bottom: 30px; 
 }
-.reviews .more_link
+.reviews .more-link
 {
     color: #ff206d;
+    font-weight: bold;
 }
 /******************************
 responsive area
