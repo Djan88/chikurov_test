@@ -153,7 +153,7 @@
         <div class="col-md-12">
           <h2>Книги</h2>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-7 col-sm-8">
           <p>Биологическое Центрирование объединяет людей с совершенно различным образованием и профессиями. Эти люди хотят познать принципы формирования здорового и успешного жизнеустройства и проистекающих из него физического здоровья, личностного развития, успешной самореализации в жизни. </p>
           <p>Методика объясняет не только причины болезней и жизненных неудач, но и место Человека в общем мироустройстве.</p>
           <p>Биологическое Центрирование является продуктом более чем четверть векового моего практического опыта работы с клиентами, предельно холистично по своей сути – и объединяет в себе анатомию/физиологию/клинику с невидимыми глазу и приборам, тонкоматериальными процессами Ума, которые помимо физического тела составляют истинную суть человека.  Эти процессы на стыке души/ума/тела ранее всегда были прерогативой различных практик и религий, а в Биологическом Центрировании, пожалуй, впервые, сведены во вполне материальные и реально работающие алгоритмы схемы и протоколы действия.</p>
@@ -162,7 +162,7 @@
           <a target="_blank" href="https://shop-bc.com/collection/books" class="btn btn-success btn-lg">Бумажные издания</a>
           <!-- <button class="btn btn-primary btn-lg down_book" data-toggle="modal" data-target="#book_down">Скачать книгу бесплатно</button> -->
         </div>
-        <div class="col-md-5 text-center books_title_wrap">
+        <div class="col-md-5 col-sm-4 text-center books_title_wrap">
           <img class="books_item books_item_bc" src="/wp-content/themes/chikurov/img/oblojka_min.jpg" alt="">
           <img class="books_item books_item_ps" src="/wp-content/themes/chikurov/img/psichosomatics_rus.png" alt="">
           <img class="books_item books_item_tr" src="/wp-content/themes/chikurov/img/tarot.png" alt="">

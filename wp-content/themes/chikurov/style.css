@@ -1894,7 +1894,7 @@ ul#myTab
 }
 .books_title_wrap
 {
-    position: relative;
+    white-space: nowrap;
 }
 .books_item
 {
@@ -1977,6 +1977,10 @@ responsive area
     .parogramm_item_heading
     {
         min-height: 140px;
+    }
+    .books_title_wrap img 
+    {
+        width: 100px;
     }
 }
 
@@ -2080,6 +2084,10 @@ responsive area
     {
         margin-left: 8px;
         margin-right: 8px;
+    }
+    .books_title_wrap img 
+    {
+        width: 100px;
     }
 }
 
