@@ -158,8 +158,8 @@
           <p>Биологическое Центрирование объясняет не только причины болезней и жизненных неудач, но и место Человека в общем мироустройстве.</p>
           <p>Биологическое Центрирование является продуктом более чем четверть векового моего практического опыта работы с клиентами, предельно холистично по своей сути – и объединяет в себе анатомию/физиологию/клинику с невидимыми глазу и приборам, тонкоматериальными процессами Ума, которые помимо физического тела составляют истинную суть человека.  Эти тонкоматериальные человеческие процессы на стыке души/ума/тела ранее всегда были прерогативой различных практик и религий, а в Биологическом Центрировании, пожалуй, впервые, сведены во вполне материальные и реально работающие алгоритмы схемы и протоколы действия.</p>
           <!-- <a target="_blank" href="http://www.yuchikurov.info/biologicheskoe-centrirovanie/" class="btn btn-primary btn-lg">Читать книгу</a> -->
-          <a href="/kniga" class="btn btn-primary btn-lg">Скачать книги бесплатно</a>
-          <a target="_blank" href="https://shop-bc.com/collection/books" class="btn btn-primary btn-lg">Купить бумажное издание</a>
+          <a href="/kniga" class="btn btn-primary btn-sm">Скачать книги бесплатно</a>
+          <a target="_blank" href="https://shop-bc.com/collection/books" class="btn btn-success btn-sm">Купить бумажное издание</a>
           <!-- <button class="btn btn-primary btn-lg down_book" data-toggle="modal" data-target="#book_down">Скачать книгу бесплатно</button> -->
         </div>
         <div class="col-md-6 text-center books_title_wrap">
