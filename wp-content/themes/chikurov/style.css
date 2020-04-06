@@ -1914,6 +1914,37 @@ ul#myTab
     margin-top: 120px;
     margin-left: -100px;
 }
+.books h3 
+{
+    font-size: 35px;
+}
+.blue_text
+{
+    color: #42b3e5;
+}
+.pink_text
+{
+    color: #ff206d;
+}
+.btn-primary
+{
+    background-color: #42b3e5;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus
+{
+    background-color: #337ab7;
+    outline: none;
+}
+.btn-pink
+{
+    background-color: #ff206d;
+    border: 1px solid #ad003c;
+}
+.btn-pink:hover, .btn-pink:active, .btn-pink:focus
+{
+    background-color: #ad003c;
+    outline: none;
+}
 /******************************
 responsive area
 ********************************/
