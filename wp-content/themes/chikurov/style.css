@@ -1884,10 +1884,6 @@ ul#myTab
     background: none;
     color: #ff206d;
 }
-.books_title_wrap
-{
-    position: relative;
-}
 .books_title_wrap img 
 {
     width: 200px;
@@ -1896,9 +1892,19 @@ ul#myTab
 {
     position: relative;
 }
-.books_item
+.books_item_bc
 {
-    position: absolute;
+    margin-top: -100px;
+}
+.books_item_ps
+{
+    margin-top: 20px;
+    margin-left: -100px;
+}
+.books_item_tr
+{
+    margin-top: 120px;
+    margin-left: -100px;
 }
 /******************************
 responsive area
