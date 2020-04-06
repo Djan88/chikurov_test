@@ -2143,7 +2143,11 @@ responsive area
     }
     .books h3 
     {
-        font-size: 30px;
+        font-size: 25px;
+    }
+    .book_btns
+    {
+        text-align: center;
     }
 }
 
