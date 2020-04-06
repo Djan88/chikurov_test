@@ -2026,6 +2026,10 @@ responsive area
     {
         width: 150px;
     }
+    .books h3 
+    {
+        font-size: 30px;
+    }
 }
 
 /* sm */

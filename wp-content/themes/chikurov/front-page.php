@@ -153,7 +153,7 @@
         <div class="col-md-12">
           <h2>Книги</h2>
         </div>
-        <div class="col-md-7 col-sm-8">
+        <div class="col-md-7 col-sm-7">
           <h3>Книги Доктора Чикурова можно <span class="blue_text">скачать</span> бесплатно с нашего сайта или <span class="pink_text">приобрести</span> в бумажном издании с подписью автора</h3>
           <!-- <a target="_blank" href="http://www.yuchikurov.info/biologicheskoe-centrirovanie/" class="btn btn-primary btn-lg">Читать книгу</a> -->
           <div class="book_btns">
@@ -162,7 +162,7 @@
           </div>
           <!-- <button class="btn btn-primary btn-lg down_book" data-toggle="modal" data-target="#book_down">Скачать книгу бесплатно</button> -->
         </div>
-        <div class="col-md-5 col-sm-4 text-center books_title_wrap">
+        <div class="col-md-5 col-sm-5 text-center books_title_wrap">
           <img class="books_item books_item_bc" src="/wp-content/themes/chikurov/img/oblojka_min.jpg" alt="">
           <img class="books_item books_item_ps" src="/wp-content/themes/chikurov/img/psichosomatics_rus.png" alt="">
           <img class="books_item books_item_tr" src="/wp-content/themes/chikurov/img/tarot.png" alt="">
