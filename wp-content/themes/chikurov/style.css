@@ -1947,7 +1947,12 @@ ul#myTab
 {
     text-align: center;
     font-size: 17px;
-    padding-top: 5px;
+    padding-top: 30px;
+}
+.reviews_more a
+{
+    color: #ff206d;
+    font-weight: bold;
 }
 .review_inner
 {
