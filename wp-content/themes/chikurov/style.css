@@ -1884,6 +1884,10 @@ ul#myTab
     background: none;
     color: #ff206d;
 }
+.books
+{
+    font-size: 17px;
+}
 .books_title_wrap img 
 {
     width: 200px;
@@ -1891,6 +1895,10 @@ ul#myTab
 .books_title_wrap
 {
     position: relative;
+}
+.books_item
+{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 .books_item_bc
 {
