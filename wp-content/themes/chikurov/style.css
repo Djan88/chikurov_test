@@ -1894,7 +1894,7 @@ ul#myTab
 }
 .books_title_wrap img 
 {
-    width: 200px;
+    width: 150px;
 }
 .books_title_wrap
 {
@@ -1906,11 +1906,11 @@ ul#myTab
 }
 .books_item_bc
 {
-    margin-top: -100px;
+    margin-top: -20px;
 }
 .books_item_ps
 {
-    margin-top: 20px;
+    margin-top: 60px;
     margin-left: -100px;
 }
 .books_item_tr
@@ -2356,13 +2356,10 @@ responsive area
     {
         max-width: 250px
     }
-    img.books_item 
-    {
-        display: none;
-    }
     .books h3
     {
-        font-size: 20px;
+        font-size: 30px;
+        text-align: center;
     }
     .book_btns
     {
