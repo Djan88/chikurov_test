@@ -2133,6 +2133,10 @@ responsive area
     {
         width: 150px;
     }
+    .kniga_el
+    {
+        margin-right: 0;
+    }
 }
 
 /* xs */
@@ -2352,6 +2356,11 @@ responsive area
     {
         max-width: 250px
     }
+    img.books_item 
+    {
+        display: none;
+    }
+
 
 }
 @media (max-width: 670px) {
@@ -2494,6 +2503,10 @@ responsive area
     .chikurov_img
     {
         max-width: 250px
+    }
+    img.books_item 
+    {
+        display: none;
     }
 
 }
