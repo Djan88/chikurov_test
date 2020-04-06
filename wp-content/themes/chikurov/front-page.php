@@ -103,7 +103,7 @@
       </div>
     </div>
   </section>
-  <section class="seminars seminars_dark docs" id="docs">
+  <section class="seminars seminars_dark wizard" id="wizard">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -143,6 +143,27 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="seminars seminars_light books" id=" books">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Книги</h2>
+        </div>
+        <div class="col-md-6">
+          <p>Биологическое Центрирование объединяет людей с совершенно различным образованием и профессиями. Эти люди хотят познать принципы формирования здорового и успешного жизнеустройства и проистекающих из него физического здоровья, личностного развития, успешной самореализации в жизни. </p>
+          <p>Биологическое Центрирование объясняет не только причины болезней и жизненных неудач, но и место Человека в общем мироустройстве.</p>
+          <p>Биологическое Центрирование является продуктом более чем четверть векового моего практического опыта работы с клиентами, предельно холистично по своей сути – и объединяет в себе анатомию/физиологию/клинику с невидимыми глазу и приборам, тонкоматериальными процессами Ума, которые помимо физического тела составляют истинную суть человека.  Эти тонкоматериальные человеческие процессы на стыке души/ума/тела ранее всегда были прерогативой различных практик и религий, а в Биологическом Центрировании, пожалуй, впервые, сведены во вполне материальные и реально работающие алгоритмы схемы и протоколы действия.</p>
+          <!-- <a target="_blank" href="http://www.yuchikurov.info/biologicheskoe-centrirovanie/" class="btn btn-primary btn-lg">Читать книгу</a> -->
+          <a href="/kniga" class="btn btn-primary btn-lg">Скачать книги бесплатно</a>
+          <a target="_blank" href="https://shop-bc.com/collection/books" class="btn btn-primary btn-lg">Купить бумажное издание</a>
+          <!-- <button class="btn btn-primary btn-lg down_book" data-toggle="modal" data-target="#book_down">Скачать книгу бесплатно</button> -->
+        </div>
+        <div class="col-md-6 text-center books_title_wrap">
+          <img class="" src="/wp-content/themes/chikurov/img/oblojka.png" alt="">
         </div>
       </div>
     </div>
@@ -194,24 +215,6 @@
       </div>
       <div class="row">
         <div class="col-md-12 reviews_more"><a href="/category/otzyvy">Читать все отзывы</a></div>
-      </div>
-    </div>
-  </section>
-  <!-- end of reviews section -->
-  <section class="doctor seminar text-center" id="bc">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Биологическое центрирование</h2>
-        </div>
-        <div class="col-md-12 bc">
-          <img class="img-responsive pull-left content_img colorbox-147" src="/wp-content/themes/chikurov/img/oblojka.png" alt="">
-          <p>Биологическое Центрирование объединяет людей с совершенно различным образованием и профессиями. Эти люди хотят познать принципы формирования здорового и успешного жизнеустройства и проистекающих из него физического здоровья, личностного развития, успешной самореализации в жизни. </p>
-          <p>Биологическое Центрирование объясняет не только причины болезней и жизненных неудач, но и место Человека в общем мироустройстве.</p>
-          <p>Биологическое Центрирование является продуктом более чем четверть векового моего практического опыта работы с клиентами, предельно холистично по своей сути – и объединяет в себе анатомию/физиологию/клинику с невидимыми глазу и приборам, тонкоматериальными процессами Ума, которые помимо физического тела составляют истинную суть человека.  Эти тонкоматериальные человеческие процессы на стыке души/ума/тела ранее всегда были прерогативой различных практик и религий, а в Биологическом Центрировании, пожалуй, впервые, сведены во вполне материальные и реально работающие алгоритмы схемы и протоколы действия.</p>
-          <!-- <a target="_blank" href="http://www.yuchikurov.info/biologicheskoe-centrirovanie/" class="btn btn-primary btn-lg">Читать книгу</a> -->
-          <button class="btn btn-primary btn-lg down_book" data-toggle="modal" data-target="#book_down">Скачать книгу бесплатно</button>
-        </div>
       </div>
     </div>
   </section>
