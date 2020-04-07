@@ -96,9 +96,7 @@
                       ),
                       array(
                           'key' => 'autor',
-                          'value' => 'Юрий Чикуров',
-                          'compare' => '=',
-                          'type' => 'CHAR'
+                          'value' => 'Юрий Чикуров'
                       )
                   )
               ));
