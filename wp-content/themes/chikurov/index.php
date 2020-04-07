@@ -89,14 +89,14 @@
                   'meta_key' => 'seminar_start',
                   'meta_query' => array(
                       array(
+                          'key' => 'autor',
+                          'value' => 'Юрий Чикуров'
+                      ),
+                      array(
                           'key' => 'seminar_end',
                           'value' => date('Y-m-d'),
                           'compare' => '>=',
                           'type' => 'DATE'
-                      ),
-                      array(
-                          'key' => 'autor',
-                          'value' => 'Юрий Чикуров'
                       )
                   )
               ));
