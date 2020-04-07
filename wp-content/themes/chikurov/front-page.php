@@ -2,7 +2,7 @@
   <section class="doctor seminars_dark" id="doctor">
     <div class="container chikurov_info">
       <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
+        <div class="col-md-8 col-sm-8 col-xs-12">
           <h1 class="main_heading">Школа Доктора Чикурова</h1>
           <div class="doctor_about">
             <p>Доктор Ю. Чикуров, кандадат медицинских наук, доцент, специалист в области неврологии, остеопатии и психологии.</p>
@@ -11,8 +11,12 @@
           </div>
           <a href="/seminary" target="_blank" class="seminars_link btn btn-success btn-lg">Расписание семинаров</a>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 text-center">
-          <img class="chikurov_img" src="/wp-content/themes/chikurov/img/chi_img.jpg" alt="Чикуров Ю.В.">
+        <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+          <ul>
+            <li style="height: 100vh; vertical-align: middle;">
+              <img class="chikurov_img" src="/wp-content/themes/chikurov/img/chi_img.jpg" alt="Чикуров Ю.В.">
+            </li>
+          </ul>
         </div>
       </div>
     </div>
