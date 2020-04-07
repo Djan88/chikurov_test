@@ -96,7 +96,9 @@
                       ),
                       array(
                           'key' => 'autor',
-                          'value' => array('Юрий Чикуров'),
+                          'value' => array(
+                            [0] => 'Юрий Чикуров'
+                          ),
                           'compare' => '=',
                           'type' => 'CHAR'
                       )
