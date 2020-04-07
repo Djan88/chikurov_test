@@ -95,7 +95,7 @@
                           'type' => 'DATE'
                       ),
                       array(
-                          'key' => 'autor',
+                          'key' => 'autor[0]',
                           'value' => 'Юрий Чикуров',
                           'compare' => '=',
                           'type' => 'CHAR'
