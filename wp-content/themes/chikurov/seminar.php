@@ -193,11 +193,13 @@ if (get_field('seminar_online')) {
 // the_field('autor');
 echo '</div>';
 echo '</div>';
-echo '<a class="seminar_head col-md-8 col-sm-7 col-xs-12" target="_blank" href="';
+echo '<div class="seminar_head col-md-8 col-sm-7 col-xs-12">';
+echo '<a target="_blank" href="';
 echo the_permalink();
 echo '">';
 echo the_title();
 echo '</a>';
+echo '</div>';
 echo '</div>';
 echo '</div>';
 ?>
