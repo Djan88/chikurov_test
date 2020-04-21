@@ -131,10 +131,8 @@ if ($seminar_autor == 'Юрий Чикуров') {
 
 global $cur_month;
 if ($cur_month != $seminar_start_months) {
-  echo '<a class="seminar_item col-md-12 seminar_heading_wrap seminar_heading_wrap_';
+  echo '<div class="seminar_item col-md-12 seminar_heading_wrap seminar_heading_wrap_';
   echo $cur_month;
-  echo ' target="_blank" href="';
-  echo the_permalink();
   echo '">';
   echo '<h3 class="seminar_heading">';
   $cur_month = date('m',$date_formated_start);
@@ -203,5 +201,5 @@ echo the_title();
 echo '</a>';
 echo '</div>';
 echo '</div>';
-echo '</a>';
+echo '</div>';
 ?>
