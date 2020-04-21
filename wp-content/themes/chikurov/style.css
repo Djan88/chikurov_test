@@ -1049,11 +1049,11 @@ section#doctor
     text-align: left;
     font-size: 15px;
     background: #F7FAFC;
-    padding: 10px;
+    padding: 10px 15px;
 }
 .seminar_head
 {
-    padding: 10px;
+    padding: 10px 15px;
     font-size: 23px;
     color: #0094e1!important;
     transition: all ease .7s;
