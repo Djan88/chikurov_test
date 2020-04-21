@@ -85,6 +85,7 @@ body {
     padding: 0;
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
+    color: #413e66;
 }
 li {
     list-style: none;
@@ -148,7 +149,7 @@ ul.nav {
 }
 .navbar-default .navbar-nav>li>a {
     font-size: 20px;
-    color: #26364b;
+    color: #413e66;
     transition: all .7s ease 0s;
     padding: 14px 0 7px 20px;
     font-weight: bold;
@@ -1001,10 +1002,10 @@ section#doctor
 .seminar_item 
 {
     /*border-bottom: 1px solid #42b3e5;*/
-    padding: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 15px;
     border-radius: 6px; 
+    overflow: hidden;
     text-align: left;
 }
 .seminar_item:nth-child(odd)
@@ -1015,10 +1016,6 @@ section#doctor
 {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-}
-.seminar_head
-{
-    font-size: 20px;
 }
 .seminar_item:last-child
 {
@@ -1040,6 +1037,17 @@ section#doctor
     position: relative;
     text-align: left;
     font-size: 15px;
+    background: #F7FAFC;
+    padding: 10px;
+}
+.seminar_head
+{
+    padding: 10px;
+}
+.seminar_head a
+{
+    color: #1762a2
+    font-size: 20px;
 }
 .seminar_city_name 
 {
