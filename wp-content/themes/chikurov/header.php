@@ -18,8 +18,10 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/peekobot.css">
   
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
-  <link rel="icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico">
-  <meta name="yandex-verification" content="b49724cdf441409a" />
+  <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/img/fav180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/img/fav32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/img/fav16.png">
+  <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico">
   <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
