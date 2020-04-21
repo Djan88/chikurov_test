@@ -1012,7 +1012,7 @@ section#doctor
 .seminar_item:hover
 {
     color: #413e66!important;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .seminar_item:hover .seminar_head
 {
