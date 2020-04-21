@@ -2703,8 +2703,9 @@ responsive area
     }
     .seminar_date
     {
-        font-size: 16px;
+        font-size: 12px;
         display: inline-block;
+        margin-bottom: 0!important;
     }
     .seminar_date:first-child
     {
