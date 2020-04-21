@@ -1006,13 +1006,14 @@ section#doctor
     margin-bottom: 15px;
     border-radius: 6px; 
     overflow: hidden;
+    display: block;
     text-align: left;
     transition: all ease .7s;
 }
 .seminar_item:hover
 {
     color: #413e66!important;
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 .seminar_item:hover .seminar_head
 {
@@ -2092,6 +2093,14 @@ responsive area
     {
         font-size: 30px;
     }
+    .seminar_date
+    {
+        font-size: 15px;
+    }
+    .seminar_head
+    {
+        font-size: 20px;
+    }
 }
 
 /* sm */
@@ -2442,6 +2451,14 @@ responsive area
     .book_btns
     {
         text-align: center;
+    }
+    .seminar_date
+    {
+        font-size: 15px;
+    }
+    .seminar_head
+    {
+        font-size: 20px;
     }
 
 

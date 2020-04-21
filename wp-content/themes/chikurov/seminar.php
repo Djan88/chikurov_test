@@ -175,7 +175,7 @@ if($seminar_end){
  echo $seminar_start_m;
  echo $seminar_start_y;
 }
-echo '</div>';
+echo ' </div>';
 echo '<div class="seminar_date">';
 if (get_field('seminar_online')) {
   echo ' <span class="fa fa-globe"></span> ';
