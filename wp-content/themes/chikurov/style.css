@@ -94,7 +94,7 @@ a:hover,
 a:visited,
 a {
     text-decoration: none;
-    color: #42b3e5;
+    color: #0094e1;
 }
 a.btn
 {
@@ -112,7 +112,7 @@ h2 {
     background: #fff !important;
     /*position: fixed;*/
     width: 100%;
-    /*border-bottom: 1px solid #42b3e5;*/
+    /*border-bottom: 1px solid #0094e1;*/
     position: fixed;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 995;
@@ -166,7 +166,7 @@ ul.nav {
 }
 .header_contacts .menu.menu_email
 {
-    color: #42b3e5;
+    color: #0094e1;
 }
 .header_contacts .menu.menu_tel
 {
@@ -176,7 +176,7 @@ ul.nav {
     color: #ff206d;
 }
 .navbar-default .navbar-nav>li>a:hover {
-    color: #42b3e5;
+    color: #0094e1;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #000;
@@ -344,11 +344,11 @@ li a.active {
 
 .parogramm_item_link 
 {
-    background: #42b3e5;
+    background: #0094e1;
     display: block;
     opacity: 0;
     margin-top: 20px;
-    border-color: #42b3e5;
+    border-color: #0094e1;
     text-transform: uppercase;
     font-weight: bold;
     transition: opacity .3s ease 0s;
@@ -364,7 +364,7 @@ li a.active {
 }
 .programm_item_inner:hover .parogramm_item_heading
 {
-    color: #42b3e5;
+    color: #0094e1;
 }
 .about-img img {
     width: 100%;
@@ -557,7 +557,7 @@ li a.active {
 }
 .team h2 {
     font-size: 90px;
-    color: #42b3e5;
+    color: #0094e1;
     margin-top: 50px;
     margin-bottom: 0;
 }
@@ -775,7 +775,7 @@ li a.active {
     padding: 22px 10px;
 }
 .footer a i.fa:hover {
-    color: #42b3e5;
+    color: #0094e1;
 }
 .carousel-inner {
     position: relative;
@@ -924,9 +924,9 @@ p b
 {
     text-align: center;
     padding: 10px;
-    border-bottom: 1px solid #42b3e5;
-    border-right: 1px solid #42b3e5;
-    border-left: 1px solid #42b3e5;
+    border-bottom: 1px solid #0094e1;
+    border-right: 1px solid #0094e1;
+    border-left: 1px solid #0094e1;
     background: #f5fcff;
     display: inline-block;
     border-bottom-left-radius: 6px;
@@ -995,13 +995,13 @@ section#doctor
 }
 .seminar_wrap 
 {
-    /*border: 1px solid #42b3e5;*/
+    /*border: 1px solid #0094e1;*/
     border-radius: 6px;
     font-family: 'Roboto', sans-serif;
 }
-.seminar_item 
+.seminar_item, .seminar_item:hover
 {
-    /*border-bottom: 1px solid #42b3e5;*/
+    color: #413e66;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 15px;
     border-radius: 6px; 
@@ -1019,7 +1019,7 @@ section#doctor
 }
 .seminar_item:last-child
 {
-    border-bottom: 1px solid #42b3e5;
+    border-bottom: 1px solid #0094e1;
 }
 .seminar_title 
 {
@@ -1043,6 +1043,8 @@ section#doctor
 .seminar_head
 {
     padding: 10px;
+    font-size: 25px;
+    color: #0094e1;
 }
 .seminar_head a
 {
@@ -1147,7 +1149,7 @@ section#doctor
 {
     padding: 10px;
     background: #ddeff7;
-    border: 1px solid #42b3e5;
+    border: 1px solid #0094e1;
     border-radius: 6px;
     min-height: 216px;
 }
@@ -1228,10 +1230,10 @@ div#loadSeminar
 #bc
 {
     background: #f5fcff;
-    border-bottom: 1px solid #42b3e5;
+    border-bottom: 1px solid #0094e1;
     padding-bottom: 10px;
     margin-top: -1px;
-    border-top: 1px solid #42b3e5;
+    border-top: 1px solid #0094e1;
 }
 .order_seminar input[type="text"],.order_seminar input[type="email"],.order_seminar input[type="tel"]
 {
@@ -1239,7 +1241,7 @@ div#loadSeminar
     max-width: 100%;
     padding: 10px;
     margin-top: 15px;
-    border: 1px solid #42b3e5;
+    border: 1px solid #0094e1;
     /*background: #ddeff7;*/
     border-radius: 6px;
 }
@@ -1249,7 +1251,7 @@ div#loadSeminar
 }
 .rc-anchor.rc-anchor-normal.rc-anchor-light {
     background: #ddeff7;
-    border: 1px solid #42b3e5;
+    border: 1px solid #0094e1;
     border-radius: 6px;
 }
 ul.nav.navbar-nav.navbar-left 
@@ -1293,7 +1295,7 @@ ul.nav.navbar-nav.navbar-left
     font-size: 18px;
     padding: 5px;
     background: #ddeff7;
-    border: 1px solid #42b3e5;
+    border: 1px solid #0094e1;
     border-radius: 6px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -1358,7 +1360,7 @@ h3.seminar_heading
     border-radius: 6px;
     padding: 5px;
     /*background: #ddeff7;*/
-    /*border: 1px solid #42b3e5;*/
+    /*border: 1px solid #0094e1;*/
     margin: 0;
 }
 .seminar_heading_wrap_
@@ -1367,13 +1369,13 @@ h3.seminar_heading
 }
 section#lectors 
 {
-    border-bottom: 1px solid #42b3e5;
+    border-bottom: 1px solid #0094e1;
     padding-bottom: 15px;
 }
 .school-lector 
 {
     background: #f5fcff;
-    border: 1px solid #42b3e5;
+    border: 1px solid #0094e1;
     border-radius: 6px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -1386,7 +1388,7 @@ section#lectors
 }
 .school-lector:last-child
 {
-    border-right: 1px solid #42b3e5;
+    border-right: 1px solid #0094e1;
 }
 .school-lector img 
 {
@@ -1444,7 +1446,7 @@ section#lectors
 .order_seminar 
 {
     background: #ddeff7;
-    border: 1px solid #42b3e5;
+    border: 1px solid #0094e1;
     padding: 10px;
     border-radius: 6px;
 }
@@ -1465,7 +1467,7 @@ input.wpcf7-form-control
 section#seminars 
 {
     /*background: #f5fcff;*/
-    border-bottom: 1px solid #42b3e5;
+    border-bottom: 1px solid #0094e1;
     padding-bottom: 10px;
     padding-top: 100px;
 }
@@ -1482,7 +1484,7 @@ a.online_school
 {
     display: block;
     padding: 10px;
-    /*border-left: 1px solid #42b3e5;*/
+    /*border-left: 1px solid #0094e1;*/
 }
 a.online_school img 
 {
@@ -1490,7 +1492,7 @@ a.online_school img
 }
 .online_school_text
 {
-    border-right: 1px solid #42b3e5;
+    border-right: 1px solid #0094e1;
 }
 .order_seminar .online_school_text p:after
 {
@@ -1498,7 +1500,7 @@ a.online_school img
     display: block;
     width: 60%;
     margin: auto;
-    border-bottom: 1px solid #42b3e5;
+    border-bottom: 1px solid #0094e1;
     padding-bottom: 15px;
 }
 .order_seminar .online_school_text p:last-child:after
@@ -1515,14 +1517,14 @@ a.online_school img
     display: block;
     width: 40%;
     margin: auto;
-    border-bottom: 1px solid #42b3e5;
+    border-bottom: 1px solid #0094e1;
     padding-bottom: 15px;
 }
 .online
 {
     padding: 10px;
     /*background: #ddeff7;*/
-    border: 1px solid #42b3e5;
+    border: 1px solid #0094e1;
     border-radius: 6px;
     min-height: 115px;
 }
@@ -1538,7 +1540,7 @@ a.online_school img
     right: 0;
     height: 100%;
     position: absolute;
-    border-right: 1px solid #42b3e5;
+    border-right: 1px solid #0094e1;
 }
 .online .col-md-6:after
 {
@@ -1548,7 +1550,7 @@ a.online_school img
     right: 0;
     height: 100%;
     position: absolute;
-    border-right: 1px solid #42b3e5;
+    border-right: 1px solid #0094e1;
 }
 .online .col-md-6:before
 {
@@ -1558,7 +1560,7 @@ a.online_school img
     left: 0;
     height: 100%;
     position: absolute;
-    border-left: 1px solid #42b3e5;
+    border-left: 1px solid #0094e1;
 }
 .online .col-md-4:last-child:after
 {
@@ -1571,7 +1573,7 @@ a.online_school img
 .online_heading
 {
     background: #ddeff7;
-    border: 1px solid #42b3e5;
+    border: 1px solid #0094e1;
     border-radius: 6px;
 }
 .online_body_heading
@@ -1610,7 +1612,7 @@ ul#myTab
 }
 .styled_field
 {
-    border: 2px solid #42b3e5;
+    border: 2px solid #0094e1;
     border-radius: 6px;
     padding: 5px 10px;
     font-size: 15px;
@@ -1636,7 +1638,7 @@ ul#myTab
 {
     display: none;
     position: absolute;
-    background: #42b3e5;
+    background: #0094e1;
     z-index: 999;
     border-radius: 6px;
     overflow: hidden;
@@ -1652,7 +1654,7 @@ ul#myTab
     color: #737373;
     padding: 5px 7px;
     font-weight: bold;
-    border-bottom: 1px solid #42b3e5;
+    border-bottom: 1px solid #0094e1;
 }
 .submenu_wrap li a 
 {
@@ -1711,8 +1713,8 @@ ul#myTab
     left: -39px;
     background: #fff;
     cursor: pointer;
-    color: #42b3e5;
-    border: 1px solid #42b3e5;
+    color: #0094e1;
+    border: 1px solid #0094e1;
     border-right: 1px solid transparent;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
@@ -1723,7 +1725,7 @@ ul#myTab
 }
 .pekobot_close:hover 
 {
-    color: #42b3e5;
+    color: #0094e1;
 }
 .chat-response::before
 {
@@ -1928,7 +1930,7 @@ ul#myTab
 }
 .blue_text
 {
-    color: #42b3e5;
+    color: #0094e1;
 }
 .pink_text
 {
@@ -1936,7 +1938,7 @@ ul#myTab
 }
 .btn-primary
 {
-    background-color: #42b3e5;
+    background-color: #0094e1;
     border: 1px solid #488dca;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus
@@ -2159,7 +2161,7 @@ responsive area
     }
     .school-lector 
     {
-        border: 1px solid #42b3e5;
+        border: 1px solid #0094e1;
     }
     .main_heading
     {
@@ -2384,7 +2386,7 @@ responsive area
     }
     .school-lector 
     {
-        border: 1px solid #42b3e5;
+        border: 1px solid #0094e1;
     }
     .header_contacts 
     {
@@ -2533,7 +2535,7 @@ responsive area
     }
     .school-lector 
     {
-        border: 1px solid #42b3e5;
+        border: 1px solid #0094e1;
     }
     .header_contacts 
     {
@@ -2621,7 +2623,7 @@ responsive area
     .navbar-default .navbar-toggle
     {
         background: #fff;
-        border: 2px solid #42b3e5;
+        border: 2px solid #0094e1;
         margin-left: -10px;
     }
     ul.nav.navbar-nav.navbar-left
@@ -2737,7 +2739,7 @@ responsive area
     }
     .about h2 {
         font-size: 50px;
-        color: #42b3e5;
+        color: #0094e1;
         margin-top: 30px;
     }
     .service h2 {
@@ -2805,7 +2807,7 @@ responsive area
     }
     .school-lector 
     {
-        border: 1px solid #42b3e5;
+        border: 1px solid #0094e1;
     }
     .peekobot_wrap
     {
@@ -2911,7 +2913,7 @@ responsive area
     }
     .school-lector 
     {
-        border: 1px solid #42b3e5;
+        border: 1px solid #0094e1;
     }
     .peekobot_wrap
     {
