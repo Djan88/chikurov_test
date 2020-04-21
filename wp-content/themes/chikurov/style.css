@@ -1002,7 +1002,7 @@ section#doctor
 .seminar_item
 {
     color: #413e66!important;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 15px;
     border-radius: 6px; 
     overflow: hidden;
@@ -2701,10 +2701,14 @@ responsive area
     {
         float: none!important;
     }
-    .seminar_date 
+    .seminar_date
     {
-        display: block;
-        margin-top: 5px;
+        font-size: 16px;
+        display: inline-block;
+    }
+    .seminar_date:first-child
+    {
+        margin-right: 10px;
     }
     .header-logo {
         position: absolute;
