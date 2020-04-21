@@ -184,13 +184,13 @@ if (get_field('seminar_online')) {
   echo $seminar_city;
   echo '</span>';
 }
-echo ' | ';
-if (get_field('seminar_online')) {
-  echo ' <span class="fa fa-user"></span>Автор: ';
-} else {
-  echo ' <span class="fa fa-user"></span>Читает: ';
-}
-the_field('autor');
+// echo ' | ';
+// if (get_field('seminar_online')) {
+  // echo ' <span class="fa fa-user"></span>Автор: ';
+// } else {
+  // echo ' <span class="fa fa-user"></span>Читает: ';
+// }
+// the_field('autor');
 echo '</div>';
 echo '</div>';
 echo '<div class="seminar_head col-md-9 col-sm-7 col-xs-12">';
