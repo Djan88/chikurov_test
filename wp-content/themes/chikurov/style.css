@@ -2454,11 +2454,18 @@ responsive area
     }
     .seminar_date
     {
-        font-size: 15px;
+        font-size: 18px;
+        display: inline-block;
+        margin-right: 10px;
     }
     .seminar_head
     {
         font-size: 20px;
+        padding-top: 0;
+    }
+    .seminar_time
+    {
+        padding-bottom: 0;
     }
 
 
