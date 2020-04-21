@@ -1008,7 +1008,7 @@ section#doctor
     overflow: hidden;
     display: block;
     text-align: left;
-    transition: all ease .7s;
+    transition: all ease .3s;
 }
 .seminar_item:hover
 {
