@@ -1011,12 +1011,12 @@ section#doctor
 }
 .seminar_item:hover
 {
-    color: #0094e1!important;
+    color: #413e66!important;
     transform: scale(1.1);
 }
 .seminar_item:hover .seminar_head
 {
-    color: #0094e1!important;
+    color: #7e1361!important;
 }
 .seminar_item:nth-child(odd)
 {
@@ -1054,6 +1054,7 @@ section#doctor
 {
     padding: 10px;
     font-size: 23px;
+    color: #0094e1!important;
     transition: all ease .7s;
 }
 .seminar_head a
