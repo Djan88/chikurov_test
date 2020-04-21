@@ -155,9 +155,7 @@ if (get_field('seminar_online')) {
 echo ' col-md-12"';
 echo 'data-start="';
 echo $seminar_start;
-echo' target="_blank" href="';
-echo the_permalink();
-echo '">';
+echo'">';
 echo '<div class="row">';
 echo '<div class="seminar_time col-md-4 col-sm-5 col-xs-12">';
 echo '<div class="seminar_date" style="margin-bottom: 10px;">';
@@ -195,13 +193,11 @@ if (get_field('seminar_online')) {
 // the_field('autor');
 echo '</div>';
 echo '</div>';
-echo '<div class="seminar_head col-md-8 col-sm-7 col-xs-12">';
-echo '<a target="_blank" href="';
+echo '<a class="seminar_head col-md-8 col-sm-7 col-xs-12" target="_blank" href="';
 echo the_permalink();
 echo '">';
 echo the_title();
 echo '</a>';
 echo '</div>';
 echo '</div>';
-echo '</a>';
 ?>
