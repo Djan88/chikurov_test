@@ -157,8 +157,8 @@ echo 'data-start="';
 echo $seminar_start;
 echo'">';
 echo '<div class="row">';
-echo '<div class="seminar_time col-md-6">';
-echo '<div class="seminar_date">';
+echo '<div class="seminar_time col-md-3 col-sm-5 col-xs-12">';
+echo '<div class="seminar_date" style="margin-bottom: 10px;">';
 echo '<span class="fa fa-calendar"></span> ';
 echo $seminar_start_d;
 echo $seminar_start_m;
@@ -173,9 +173,6 @@ if($seminar_end){
  echo $seminar_start_m;
  echo $seminar_start_y;
 }
-echo '</div>';
-echo '<div class="on_wide">';
-echo ' | ';
 echo '</div>';
 echo '<div class="seminar_date">';
 if (get_field('seminar_online')) {
@@ -195,11 +192,8 @@ if (get_field('seminar_online')) {
 }
 the_field('autor');
 echo '</div>';
-echo '<div class="on_wide">';
-echo ' | ';
 echo '</div>';
-echo '</div>';
-echo '<div class="seminar_time col-md-6">';
+echo '<div class="seminar_head col-md-9 col-sm-7 col-xs-12">';
 echo '<a target="_blank" href="';
 echo the_permalink();
 echo '">';

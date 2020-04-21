@@ -1003,7 +1003,7 @@ section#doctor
     /*border-bottom: 1px solid #42b3e5;*/
     padding: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-radius: 6px; 
     text-align: left;
 }
@@ -1015,6 +1015,10 @@ section#doctor
 {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
+}
+.seminar_head
+{
+    font-size: 20px;
 }
 .seminar_item:last-child
 {
@@ -1181,6 +1185,8 @@ div#loadSeminar
 .seminar_date 
 {
     /*display: inline-block;*/
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 .row.footer-area 
 {
@@ -1334,6 +1340,7 @@ h5.age
 .seminar_heading_wrap
 {
     text-align: center;
+    box-shadow: none;
 }
 h3.seminar_heading
  {
