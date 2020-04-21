@@ -204,4 +204,5 @@ echo the_title();
 echo '</div>';
 echo '</div>';
 echo '</a>';
+echo '</div>';
 ?>
