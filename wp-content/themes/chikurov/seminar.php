@@ -142,7 +142,7 @@ if ($cur_month != $seminar_start_months) {
   echo '</h3>';
   echo "</div>";
 }
-echo '<div class="seminar_item seminar_in ';
+echo '<a class="seminar_item seminar_in ';
 echo $seminar_filter;
 echo ' ';
 echo $seminar_filter_a;
@@ -204,5 +204,4 @@ echo the_title();
 echo '</div>';
 echo '</div>';
 echo '</a>';
-echo '</div>';
 ?>
