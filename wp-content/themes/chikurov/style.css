@@ -318,6 +318,10 @@ li a.active {
 {
     margin-bottom: 20px;
 }
+.seminar_type, .seminar_timeing
+{
+    text-align: left;
+}
 .programm_item
 {
     margin-bottom: 15px;
