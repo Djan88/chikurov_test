@@ -147,7 +147,7 @@
           <h2><?php the_title(); ?></h2>
         </div>
         <div class="col-md-3 seminar_type">Обязательный семинар</div>
-        <div class="col-md-2 seminar_time">24 учебных часа</div>
+        <div class="col-md-2 seminar_timeing">24 учебных часа</div>
         <div class="col-md-12 seminar_content">
           <?php
           the_content(__('(more...)'));
