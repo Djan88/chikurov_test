@@ -321,6 +321,13 @@ li a.active {
 .seminar_type, .seminar_timeing
 {
     text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.seminar_type
+{
+    color: #ff206d;
 }
 .programm_item
 {
