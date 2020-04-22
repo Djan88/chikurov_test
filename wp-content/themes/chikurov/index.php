@@ -146,8 +146,6 @@
         <div class="col-md-12">
           <h2><?php the_title(); ?></h2>
         </div>
-      </div>
-      <div class="row">
         <div class="col-md-6 seminar_type"><i class="fa fa-bookmark" aria-hidden="true"> </i> Обязательный семинар <span class="seminar_timing"><i class="fa fa-clock-o" aria-hidden="true"> </i> 24 учебных часа</span></div>
         <div class="col-md-12 seminar_content">
           <?php
@@ -167,37 +165,37 @@
         </div>
         <div class="col-md-12 seminar_wrap seminar_next">
           <h4 class="content_center">Ближайшие даты проведения</h4>
-          <div class="row"></div>
-          <?php if (is_page(6513)) { ?>
-            <?php
-              $wp_query = new WP_Query( array(
-                  'category_name' => 'seminary',
-                  'order' => 'ASC',
-                  'title' => 'БЦ1. Базовый семинар по биологическому центрированию',
-                  'orderby' => 'meta_value',
-                  'meta_key' => 'seminar_start',
-                  'meta_query' => array(
-                      array(
-                          'key' => 'seminar_end',
-                          'value' => date('Y-m-d'),
-                          'compare' => '>=',
-                          'type' => 'DATE'
-                      ),
-                      array(
-                          'key' => 'autor',
-                          'value' => 'Юрий Чикуров',
-                          'compare' => '=',
-                          'type' => 'CHAR'
-                      )
-                  )
-              ));
-              $cur_month = 0;
-              while ($wp_query->have_posts()) : $wp_query->the_post();
-                  get_template_part( 'seminar');
-              endwhile;
-              wp_reset_postdata();
-            ?>
-          <?php } ?> 
+          <div class="row">
+            <?php if (is_page(6513)) { ?>
+              <?php
+                $wp_query = new WP_Query( array(
+                    'category_name' => 'seminary',
+                    'order' => 'ASC',
+                    'title' => 'БЦ1. Базовый семинар по биологическому центрированию',
+                    'orderby' => 'meta_value',
+                    'meta_key' => 'seminar_start',
+                    'meta_query' => array(
+                        array(
+                            'key' => 'seminar_end',
+                            'value' => date('Y-m-d'),
+                            'compare' => '>=',
+                            'type' => 'DATE'
+                        ),
+                        array(
+                            'key' => 'autor',
+                            'value' => 'Юрий Чикуров',
+                            'compare' => '=',
+                            'type' => 'CHAR'
+                        )
+                    )
+                ));
+                $cur_month = 0;
+                while ($wp_query->have_posts()) : $wp_query->the_post();
+                    get_template_part( 'seminar');
+                endwhile;
+                wp_reset_postdata();
+              ?>
+            <?php } ?> 
           </div>
         </div>
       </div>
