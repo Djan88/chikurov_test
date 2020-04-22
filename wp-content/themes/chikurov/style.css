@@ -329,10 +329,12 @@ li a.active {
     padding-bottom: 10px;
     color: #ff206d;
     border-bottom: 1px solid #ff206d;
+    border-left: 1px solid #ff206d;
 }
 .seminar_timing
 {
     color: #413e66;
+    padding-left: 20px;
 }
 .programm_item
 {
