@@ -163,9 +163,15 @@
         </div>
         <div class="col-md-12 seminar_content">
           <h4 class="content_center">Ближайшие даты проведения</h4>
+        <?php if (is_page(6513)) { ?>
+          test
+        <?php } ?> 
         </div>
       </div>
     </div>
+    <?php endwhile; else: ?>
+      <?php _e('Sorry, no posts matched your criteria.'); ?>
+    <?php endif; ?>
   </section>
 <?php } else { ?>
   <section class="seminar text-center" id="seminar">
