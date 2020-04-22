@@ -314,6 +314,10 @@ li a.active {
     /*font-style: italic;*/
     font-family: 'Montserrat', sans-serif;
 }
+.seminar_next h4
+{
+    margin-bottom: 20px;
+}
 .programm_item
 {
     margin-bottom: 15px;

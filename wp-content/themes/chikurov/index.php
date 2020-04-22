@@ -155,6 +155,9 @@
           edit_post_link(__('Edit This'));
           ?>
         </div>
+        <div class="col-md-12" style="padding: 0;">
+          <h5 class="age">Внимание! Семинар рассчитан на аудиторию достигшую возраста 18 лет</h5>
+        </div>
         <div class="col-md-12 seminar_wrap seminar_next">
           <h4 class="content_center">Ближайшие даты проведения</h4>
           <div class="row"></div>
