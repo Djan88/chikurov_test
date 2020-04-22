@@ -1378,6 +1378,10 @@ h3.seminar_heading
     /*border: 1px solid #0094e1;*/
     margin: 0;
 }
+.seminar_next h3.seminar_heading
+{
+    display: none;
+}
 .seminar_heading_wrap_
 {
     display: none;

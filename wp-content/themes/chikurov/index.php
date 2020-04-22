@@ -155,7 +155,7 @@
           edit_post_link(__('Edit This'));
           ?>
         </div>
-        <div class="col-md-12 seminar_wrap">
+        <div class="col-md-12 seminar_wrap seminar_next">
           <h4 class="content_center">Ближайшие даты проведения</h4>
           <div class="row"></div>
         <?php if (is_page(6513)) { ?>
@@ -186,8 +186,7 @@
                 get_template_part( 'seminar');
             endwhile;
             wp_reset_postdata();
-            ?>
-          } ?> 
+          ?>
         <?php } ?> 
           </div>
         </div>
