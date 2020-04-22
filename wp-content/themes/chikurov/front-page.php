@@ -30,7 +30,7 @@
           <div class="programm_menu_item programm_menu_item_all">Все</div>
         </div>
         <div class="col-md-12 programm_items">
-          <a href="/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_1">
+          <a href="/bc1-bazovyj-seminar-po-biologicheskomu-centrirovaniyu/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_1">
             <span class="programm_item_inner">
               <span class="parogramm_item_heading">БЦ1. Базовый семинар по Биологическому Центрированию</span></br>
               <span class="parogramm_item_content">24 учебных часа</span></br>
