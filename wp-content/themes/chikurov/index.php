@@ -152,6 +152,11 @@
         edit_post_link(__('Edit This'));
         ?>
       </div>
+      <?php if (is_page(6513)) { ?>
+      <div class="col-md-12">
+        test
+      </div>
+      <?php } ?> 
     </div>
   </div>
   <?php endwhile; else: ?>
