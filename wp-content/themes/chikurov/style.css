@@ -301,7 +301,7 @@ li a.active {
 {
     font-size: 40px;
     color: #26364b;
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -961,6 +961,11 @@ section#doctor
     /*background: #f5fcff;*/
     background: #fff;
     padding-top: 140px;
+}
+section#seminar 
+{
+    background: #fff;
+    padding-top: 100px;
 }
 .seminars_dark
 {

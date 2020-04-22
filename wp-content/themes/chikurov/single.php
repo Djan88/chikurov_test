@@ -64,7 +64,7 @@
       $seminar_end_m = ' декабря ';
     }
     ?>
-    <section class="doctor seminar text-center" id="doctor">
+    <section class="doctor seminar text-center" id="seminar">
       <div class="container">
         <div class="row">
           <div class="col-md-12" style="padding: 5px;">
@@ -128,7 +128,7 @@
                     }
                   ?>
                   <?php if ($autor == 'Юрий Чикуров') {?>
-                    <img src="<?php bloginfo('template_url'); ?>/img/chi_img.jpg" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/img/chi_img.png" alt="">
                     <div class="params_author"><a target="_blank" href="/"><?php the_field('autor'); ?></a></div>
                   <?php } else if ($autor == 'Ирина Иванова') { ?>
                     <img src="<?php bloginfo('template_url'); ?>/img/ivanova.jpg" alt="">
