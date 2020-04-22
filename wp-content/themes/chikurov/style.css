@@ -1035,10 +1035,6 @@ section#seminar
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
 }
-.seminar_item:last-child
-{
-    border-bottom: 1px solid #0094e1;
-}
 .seminar_title 
 {
     text-align: center;
