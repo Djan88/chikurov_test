@@ -850,6 +850,7 @@ body section
 .seminar_content div 
 {
     margin-bottom: 5px;
+    text-align: center;
 }
 p b
 {
@@ -1258,7 +1259,7 @@ div#loadSeminar
     max-width: 100%;
     padding: 10px;
     margin-top: 15px;
-    border: 1px solid #0094e1;
+    border: 1px solid #D4D4D4;
     /*background: #ddeff7;*/
     border-radius: 6px;
 }
