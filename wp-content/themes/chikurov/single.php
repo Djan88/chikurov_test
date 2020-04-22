@@ -200,10 +200,12 @@
             <?php $city = get_field('city');?>
             <?php if ($autor == 'Юрий Чикуров' && get_field('seminar_online')) { ?>
               <h4 class="order_online_bottom">Подать заявку на участие Вы можете со <a target="_blank" href="<?php the_field('online_link'); ?>">страницы курса на сайте "Онлайн Школы"</a></h4>
-            <?php } else if ($autor == 'Юрий Чикуров') { ?>
-              <h5 class="age">Внимание! Семинар рассчитан на аудиторию достигшую возраста 18 лет</h5>
-            <?php } ?>
           </div>
+          <?php } else if ($autor == 'Юрий Чикуров') { ?>
+            <div class="col-md-12">
+              <h5 class="age">Внимание! Семинар рассчитан на аудиторию достигшую возраста 18 лет</h5>
+            </div>
+          <?php } ?>
           <div class="col-md-12 order_seminar">
             <?php if (get_field('seminar_online')) { ?>
               <h4 class="content_center order_online" id="order">Что такое Онлайн "Школа Доктора Чикурова"?</h4>

@@ -307,7 +307,7 @@ li a.active {
 }
 .about h4, .doctor h4 {
     font-size: 18px;
-    color: #000;
+    color: #413e66;
     margin-bottom: 15px;
     font-weight: 600;
     text-align: left;
@@ -842,7 +842,7 @@ body section
 }
 .doctor p, .seminar_content
 {
-    font-size: 17px;
+    font-size: 18px;
     text-align: justify;
     /*font-style: italic;*/
     font-family: 'Montserrat', sans-serif;
@@ -964,7 +964,7 @@ section#doctor
 }
 section#seminar 
 {
-    background: #fff;
+    background: #F7FAFC;
     padding-top: 100px;
 }
 .seminars_dark
@@ -1152,7 +1152,7 @@ section#seminar
 .seminar h4 
 {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 30px;
 }
 .seminar_content 
 {
@@ -1165,8 +1165,7 @@ section#seminar
 .item_wrap
 {
     padding: 10px;
-    background: #ddeff7;
-    border: 1px solid #0094e1;
+    background: #eef2f8;
     border-radius: 6px;
     min-height: 216px;
 }
@@ -1324,12 +1323,12 @@ ul.nav.navbar-nav.navbar-left
 h5.age 
 {
     font-size: 18px;
-    text-decoration: underline;
-    color: black;
+    color: #fff;
     font-weight: bold;
-    background: #eee;
+    background: linear-gradient(225deg,#fa097c,#321575);
     text-align: center;
-    padding: 3px;
+    padding: 20px;
+    margin: 20px 0;
 }
 .styled_form .g-recaptcha div 
 {
@@ -1460,12 +1459,14 @@ section#lectors
 {
     color: #f19b22;
 }
-.order_seminar 
+.order_seminar
 {
-    background: #ddeff7;
-    border: 1px solid #0094e1;
+    background: #fff;
+    margin: 10px 0 30px;
+    color: #413e66;
     padding: 10px;
     border-radius: 6px;
+    box-shadow: 0 2px 16px rgba(26,61,107,.16);
 }
 .order_seminar p 
 {
@@ -1480,6 +1481,10 @@ section#lectors
 input.wpcf7-form-control 
 {
     margin-top: 5px;
+}
+.order_seminar .wpcf7-submit
+{
+    margin: 20px 0px 10px;
 }
 section#seminars 
 {
@@ -1818,12 +1823,16 @@ ul#myTab
 {
     margin-bottom: 10px;
     font-size: 21px;
-    font-weight: 500;
+    font-weight: bold;
 }
 .params_author
 {
-    font-size: 17px;
-    margin-top: 10px;
+    font-size: 21px;
+    /*margin-top: 10px;*/
+}
+.params_author a
+{
+    color: #ff206d;
 }
 .params_photo img 
 {
