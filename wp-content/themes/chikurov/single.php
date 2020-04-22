@@ -118,7 +118,7 @@
             </div>
           </div>
           <div class="col-md-2 col-sm-2 col-xs-12 seminar_article">
-            <div class="item_wrap" style="background: #fff;">
+            <div class="item_wrap">
               <div class="seminar_params clearfix">
                 <div class="params_photo">
                   <?php $autor = get_field('autor'); ?>
