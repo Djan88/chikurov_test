@@ -85,6 +85,7 @@
               $wp_query = new WP_Query( array(
                   'category_name' => 'seminary',
                   'order' => 'ASC',
+                  'title' => 'БЦ1. Базовый семинар по биологическому центрированию',
                   'orderby' => 'meta_value',
                   'meta_key' => 'seminar_start',
                   'meta_query' => array(
@@ -97,12 +98,6 @@
                       array(
                           'key' => 'autor',
                           'value' => 'Юрий Чикуров',
-                          'compare' => '=',
-                          'type' => 'CHAR'
-                      ),
-                      array(
-                          'key' => 'title',
-                          'value' => 'БЦ1. Базовый семинар по биологическому центрированию',
                           'compare' => '=',
                           'type' => 'CHAR'
                       )
