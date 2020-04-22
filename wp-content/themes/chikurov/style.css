@@ -318,7 +318,7 @@ li a.active {
 {
     margin-bottom: 20px;
 }
-.seminar_type, .seminar_timeing
+.seminar_type
 {
     text-align: left;
     font-size: 18px;
@@ -327,11 +327,12 @@ li a.active {
     margin-bottom: 15px;
     font-weight: bold;
     padding-bottom: 10px;
+    color: #ff206d;
     border-bottom: 1px solid #ff206d;
 }
-.seminar_type
+.seminar_timing
 {
-    color: #ff206d;
+    color: #413e66;
 }
 .programm_item
 {

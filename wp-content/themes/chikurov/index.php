@@ -146,8 +146,7 @@
         <div class="col-md-12">
           <h2><?php the_title(); ?></h2>
         </div>
-        <div class="col-md-4 seminar_type"><i class="fa fa-bookmark" aria-hidden="true"> </i> Факультативный семинар</div>
-        <div class="col-md-3 seminar_timeing"><i class="fa fa-clock-o" aria-hidden="true"> </i> 24 учебных часа</div>
+        <div class="col-md-4 seminar_type"><i class="fa fa-bookmark" aria-hidden="true"> </i> Обязательный семинар <span class="seminar_timing"><i class="fa fa-clock-o" aria-hidden="true"> </i> 24 учебных часа</span></div>
         <div class="col-md-12 seminar_content">
           <?php
           the_content(__('(more...)'));
