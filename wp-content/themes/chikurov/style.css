@@ -966,6 +966,7 @@ section#seminar
 {
     background: #F7FAFC;
     padding-top: 100px;
+    padding-bottom: 30px;
 }
 .seminars_dark
 {
@@ -1329,6 +1330,7 @@ h5.age
     text-align: center;
     padding: 20px;
     margin: 20px 0;
+    border-radius: 6px;
 }
 .styled_form .g-recaptcha div 
 {

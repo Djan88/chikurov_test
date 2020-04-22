@@ -202,7 +202,7 @@
               <h4 class="order_online_bottom">Подать заявку на участие Вы можете со <a target="_blank" href="<?php the_field('online_link'); ?>">страницы курса на сайте "Онлайн Школы"</a></h4>
           </div>
           <?php } else if ($autor == 'Юрий Чикуров') { ?>
-            <div class="col-md-12">
+            <div class="col-md-12" style="padding: 0;">
               <h5 class="age">Внимание! Семинар рассчитан на аудиторию достигшую возраста 18 лет</h5>
             </div>
           <?php } ?>
