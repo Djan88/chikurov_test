@@ -102,7 +102,7 @@
                       ),
                       array(
                           'key' => 'post_title',
-                          'value' => 'БЦ1. Базовый семинар по биологическому центрированию',
+                          'value' => 'Юрий Чикуров',
                           'compare' => '=',
                           'type' => 'CHAR'
                       )
@@ -140,32 +140,6 @@
               <div id="loadSeminar" class="btn btn-primary btn-lg hidden">Загрузить ещё</div>
             <?php endif; ?>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-<?php } else if (is_page(6513)) { ?>
-  <section class="seminar text-center" id="seminar">
-    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2><?php the_title(); ?></h2>
-        </div>
-        <div class="col-md-12">
-          <h2></h2>
-        </div>
-        <div class="col-md-12 seminar_content">
-          <?php
-          the_content(__('(more...)'));
-          edit_post_link(__('Edit This'));
-          ?>
-        </div>
-        <div class="col-md-12 seminar_content">
-          <h4 class="content_center">Ближайшие даты проведения</h4>
-        <?php if (is_page(6513)) { ?>
-          test
-        <?php } ?> 
         </div>
       </div>
     </div>
