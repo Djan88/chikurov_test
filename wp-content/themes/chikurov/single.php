@@ -128,7 +128,7 @@
                     }
                   ?>
                   <?php if ($autor == 'Юрий Чикуров') {?>
-                    <img src="<?php bloginfo('template_url'); ?>/img/chi_img.png" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/img/chi_img.jpg" alt="">
                     <div class="params_author"><a target="_blank" href="/"><?php the_field('autor'); ?></a></div>
                   <?php } else if ($autor == 'Ирина Иванова') { ?>
                     <img src="<?php bloginfo('template_url'); ?>/img/ivanova.jpg" alt="">
