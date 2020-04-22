@@ -101,7 +101,7 @@
                           'type' => 'CHAR'
                       ),
                       array(
-                          'key' => 'post_title',
+                          'key' => 'title',
                           'value' => 'БЦ1. Базовый семинар по биологическому центрированию',
                           'compare' => '=',
                           'type' => 'CHAR'
