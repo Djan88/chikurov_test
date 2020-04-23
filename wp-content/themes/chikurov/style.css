@@ -343,6 +343,25 @@ li a.active {
     padding-top: 10px;
     color: #ff206d;
 }
+.slick-prev 
+{
+    left: -35px;
+}
+.slick-next 
+{
+    right: -35px;
+}
+.slick-prev, .slick-next 
+{
+    top: 45%;
+    width: 30px;
+    height: 30px;
+    color: #ff206d;
+}
+.slick-prev:before, .slick-next:before 
+{
+    font-size: 30px;
+}
 .seminar_timing
 {
     color: #413e66;
