@@ -61,7 +61,7 @@ jQuery(document).ready(function () {
   jQuery('.chi_masters').slick({
     centerMode: true,
     centerPadding: '60px',
-    slidesToShow: 3,
+    slidesToShow: 5,
     responsive: [
       {
         breakpoint: 768,
