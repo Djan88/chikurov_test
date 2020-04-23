@@ -62,11 +62,11 @@ jQuery(document).ready(function () {
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 5,
+    arrows: true,
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          arrows: false,
           centerMode: true,
           centerPadding: '40px',
           slidesToShow: 5
@@ -75,7 +75,6 @@ jQuery(document).ready(function () {
       {
         breakpoint: 480,
         settings: {
-          arrows: false,
           centerMode: true,
           centerPadding: '40px',
           slidesToShow: 3
