@@ -57,6 +57,33 @@ jQuery(document).ready(function () {
   //   }
   // });
 
+
+  jQuery('.chi_masters').slick({
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+
   jQuery('.btn_seminar_filter').on('click', function(event) {
     jQuery('.btn_seminar_filter').removeClass('active');
     jQuery(this).addClass('active');

@@ -30,6 +30,7 @@
   <?php if (is_front_page()) { ?>
     <script src="<?php bloginfo('template_url'); ?>/js/conversation.js"></script>  
     <script src="<?php bloginfo('template_url'); ?>/js/peekobot.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/slick.min.js"></script>
   <?php } ?>
   <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
   <?php if (!is_front_page()) { ?>

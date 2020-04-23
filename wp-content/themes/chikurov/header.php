@@ -16,6 +16,9 @@
     }
   </style>
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/peekobot.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/peekobot.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/slick.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/slick-theme.css">
   
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
   <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/img/fav180.png">
