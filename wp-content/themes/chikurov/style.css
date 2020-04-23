@@ -345,11 +345,11 @@ li a.active {
 }
 .slick-prev 
 {
-    left: -35px;
+    left: -55px;
 }
 .slick-next 
 {
-    right: -35px;
+    right: -55px;
 }
 .slick-prev, .slick-next 
 {
