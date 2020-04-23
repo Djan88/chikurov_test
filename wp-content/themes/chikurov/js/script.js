@@ -57,32 +57,6 @@ jQuery(document).ready(function () {
   //   }
   // });
 
-
-  jQuery('.chi_masters').slick({
-    centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 5,
-    arrows: true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 2
-        }
-      }
-    ]
-  });
-
   jQuery('.btn_seminar_filter').on('click', function(event) {
     jQuery('.btn_seminar_filter').removeClass('active');
     jQuery(this).addClass('active');
@@ -237,5 +211,30 @@ jQuery(document).ready(function () {
     } else if (jQuery(this).hasClass('programm_menu_item_all')) {
       jQuery('.programm_item').removeClass('hidden');
     }
+  });
+  
+  jQuery('.chi_masters').slick({
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 5,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 2
+        }
+      }
+    ]
   });
 });
