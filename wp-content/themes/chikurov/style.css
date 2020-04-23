@@ -356,11 +356,11 @@ li a.active {
     top: 45%;
     width: 30px;
     height: 30px;
-    color: #ff206d;
 }
 .slick-prev:before, .slick-next:before 
 {
     font-size: 30px;
+    color: #ff206d;
 }
 .seminar_timing
 {
