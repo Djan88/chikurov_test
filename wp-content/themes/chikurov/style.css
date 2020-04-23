@@ -336,6 +336,13 @@ li a.active {
     width: 100%;
     height: auto;
 }
+.lector_name 
+{
+    text-align: center;
+    font-weight: 700;
+    padding-top: 10px;
+    color: #ff206d;
+}
 .seminar_timing
 {
     color: #413e66;
