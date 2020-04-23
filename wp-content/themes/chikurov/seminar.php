@@ -186,6 +186,11 @@ if (get_field('seminar_online')) {
   echo $seminar_city;
   echo '</span>';
 }
+if (get_field('order_closed')) {
+  echo '<span class="seminar_closed">';
+  echo 'Запись закрыта';
+  echo  '</span>';
+}
 // echo ' | ';
 // if (get_field('seminar_online')) {
   // echo ' <span class="fa fa-user"></span>Автор: ';

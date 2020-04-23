@@ -1361,10 +1361,9 @@ ul.nav.navbar-nav.navbar-left
 {
     font-size: 18px;
     padding: 5px;
-    background: #ddeff7;
-    border: 1px solid #0094e1;
     border-radius: 6px;
     margin-top: 10px;
+    color: #ff206d;
     margin-bottom: 10px;
 }
 .phone_info
