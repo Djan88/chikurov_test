@@ -331,6 +331,11 @@ li a.active {
     border-bottom: 1px solid #ff206d;
     border-left: 1px solid #ff206d;
 }
+.school-master img 
+{
+    width: 100%;
+    height: auto;
+}
 .seminar_timing
 {
     color: #413e66;
