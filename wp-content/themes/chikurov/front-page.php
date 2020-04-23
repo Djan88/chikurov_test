@@ -229,7 +229,7 @@
         <div class="col-md-12">
           <h2>Наши ученики</h2>
         </div>
-        <div class="col-md-12">
+        <div class="col-xs-10 col-xs-offset-1">
           <div class="row chi_masters">
             <a class="col-sm-2 col-xs-4 school-master" target="_blank" href="http://www.yuchikurov.info/members/irina_ivanova/">
               <img src="<?php bloginfo('template_url'); ?>/img/ivanova.jpg" alt="">
