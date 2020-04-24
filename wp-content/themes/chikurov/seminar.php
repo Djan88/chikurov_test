@@ -186,10 +186,12 @@ if (get_field('seminar_online')) {
   echo $seminar_city;
   echo '</span>';
 }
+if ($seminar_autor != 'Юрий Чикуров') {
   echo '<span class="seminar_lector">';
   echo '<span class="fa fa-user"></span> Читает: ';
   echo $seminar_autor;
   echo  '</span>';
+}
 if (get_field('order_closed')) {
   echo '<span class="seminar_closed">';
   echo 'Запись закрыта';
