@@ -189,7 +189,9 @@ if (get_field('seminar_online')) {
 if ($seminar_autor != 'Юрий Чикуров') {
   echo '<div class="seminar_lector">';
   echo '<span class="fa fa-user"></span> Читает: ';
+  echo '<span class="seminar_lector_name">';
   echo $seminar_autor;
+  echo  '</span>';
   echo  '</div>';
 }
 if (get_field('order_closed')) {
