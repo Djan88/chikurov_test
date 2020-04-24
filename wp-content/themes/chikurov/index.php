@@ -74,7 +74,7 @@
             </div> -->
           <?php } ?> 
           <?php if (is_page(630)) { ?>
-            <h2>Семинары сертифицированных специалистов</h2>
+            <h2>Расписание семинаров учеников</h2>
           <?php } ?> 
         </div>
         <div class="col-md-12 seminar_wrap">
@@ -104,7 +104,7 @@
               ));
             } else if (630) {
               $wp_query = new WP_Query( array(
-                  'category_name' => 'seminary-masterov',
+                  'category_name' => 'seminary',
                   'order' => 'ASC',
                   'orderby' => 'meta_value',
                   'meta_key' => 'seminar_start',
@@ -114,6 +114,12 @@
                           'value' => date('Y-m-d'),
                           'compare' => '>=',
                           'type' => 'DATE'
+                      ),
+                      array(
+                          'key' => 'autor',
+                          'value' => 'Юрий Чикуров',
+                          'compare' => '!=',
+                          'type' => 'CHAR'
                       )
                   )
               ));
