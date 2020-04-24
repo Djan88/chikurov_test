@@ -267,7 +267,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12 seminars_more"><a href="/category/otzyvy">Расписание семинаров учеников</a></div>
+        <div class="col-md-12 seminars_more"><a href="/seminary-masterov/">Расписание семинаров учеников</a></div>
       </div>
     </div>
   </section>
