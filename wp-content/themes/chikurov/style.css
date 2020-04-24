@@ -345,6 +345,10 @@ li a.active {
     padding-top: 10px;
     color: #0094e1;
 }
+.seminar_lector 
+{
+    padding-top: 10px;
+}
 .slick-prev 
 {
     left: -55px;

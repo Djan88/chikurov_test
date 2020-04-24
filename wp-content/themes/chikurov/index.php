@@ -118,7 +118,7 @@
                       array(
                           'key' => 'autor',
                           'value' => 'Юрий Чикуров',
-                          'compare' => '!=',
+                          'compare' => 'NOT LIKE',
                           'type' => 'CHAR'
                       )
                   )
