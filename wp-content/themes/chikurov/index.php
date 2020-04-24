@@ -102,7 +102,7 @@
                       )
                   )
               ));
-            } else if (630) {
+            } else if (is_page(630)) {
               $wp_query = new WP_Query( array(
                   'category_name' => 'seminary',
                   'order' => 'ASC',
