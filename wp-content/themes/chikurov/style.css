@@ -2060,13 +2060,13 @@ ul#myTab
     border-radius: 50%;
     width: 60px;
 }
-.reviews_more
+.reviews_more, .seminars_more
 {
     text-align: center;
     font-size: 17px;
     padding-top: 30px;
 }
-.reviews_more a
+.reviews_more a, .seminars_more a
 {
     color: #ff206d;
     font-weight: bold;
