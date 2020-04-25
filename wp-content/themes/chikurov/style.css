@@ -2112,6 +2112,11 @@ ul#myTab
     padding: 15px;
     font-weight: 600;
 }
+.seminar_next h4
+{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
 /******************************
 responsive area
 ********************************/
