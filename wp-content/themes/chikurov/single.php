@@ -215,8 +215,8 @@
             <div class="row">
               <?php if (get_field('order_closed')) { ?>
                 <div class="order_closed_text">
-                  Сожалеем, но свободные места на этот семинар исчерпаны.<br>
-                  <div class="seminar_else_text">Клкинув по ссылке ниже можно ознакомиться с расписанием проведения следующих семинаров "<?php the_title(); ?>"</div>
+                  Сожалеем, но запись на этот семинар уже закрыта.<br>
+                  <div class="seminar_else_text">Клкините по ссылке ниже и ознакомьтесь с расписанием проведения следующих семинаров "<?php the_title(); ?>"</div>
                   <a href="#seminars_else" class="else_seminars_link">Показать даты</a>
                 </div>
               <?php } else { ?>
