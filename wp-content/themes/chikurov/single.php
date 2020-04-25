@@ -271,47 +271,46 @@
         <?php echo do_shortcode($seminar_map); ?>
       </section>
     <?php } ?>
-    <section class="doctor seminar text-center" id="seminars_else">
-      <div class="row">
-        <div class="col-md-12 seminar_wrap seminar_next">
-          <h4 class="content_center">Этот семинар так же состоится:</h4>
-          <div class="row">
-            <?php
-              $wp_query = new WP_Query( array(
-                  'category_name' => 'seminary',
-                  'order' => 'ASC',
-                  'title' => esc_html(get_the_title()),
-                  'orderby' => 'meta_value',
-                  'meta_key' => 'seminar_start',
-                  'meta_query' => array(
-                      array(
-                          'key' => 'seminar_end',
-                          'value' => date('Y-m-d'),
-                          'compare' => '>=',
-                          'type' => 'DATE'
-                      ),
-                      array(
-                          'key' => 'autor',
-                          'value' => 'Юрий Чикуров',
-                          'compare' => '=',
-                          'type' => 'CHAR'
-                      )
-                  )
-              ));
-              $cur_month = 0;
-              while ($wp_query->have_posts()) : $wp_query->the_post();
-                  get_template_part( 'seminar');
-              endwhile;
-              wp_reset_postdata();
-            ?>
-          </div>
-        </div>
-      </div>
-    </section>
   <?php endwhile; else: ?>
     <?php _e('Sorry, no posts matched your criteria.'); ?>
   <?php endif; ?>
-
+  <section class="doctor seminar text-center" id="seminars_else">
+    <div class="row">
+      <div class="col-md-12 seminar_wrap seminar_next">
+        <h4 class="content_center">Этот семинар так же состоится:</h4>
+        <div class="row">
+          <?php
+            $wp_query = new WP_Query( array(
+                'category_name' => 'seminary',
+                'order' => 'ASC',
+                'title' => esc_html(get_the_title()),
+                'orderby' => 'meta_value',
+                'meta_key' => 'seminar_start',
+                'meta_query' => array(
+                    array(
+                        'key' => 'seminar_end',
+                        'value' => date('Y-m-d'),
+                        'compare' => '>=',
+                        'type' => 'DATE'
+                    ),
+                    array(
+                        'key' => 'autor',
+                        'value' => 'Юрий Чикуров',
+                        'compare' => '=',
+                        'type' => 'CHAR'
+                    )
+                )
+            ));
+            $cur_month = 0;
+            while ($wp_query->have_posts()) : $wp_query->the_post();
+                get_template_part( 'seminar');
+            endwhile;
+            wp_reset_postdata();
+          ?>
+        </div>
+      </div>
+    </div>
+  </section>
 <?php } else { ?>
   <section class="doctor seminar text-center" id="doctor">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
