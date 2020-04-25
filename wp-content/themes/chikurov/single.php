@@ -215,7 +215,7 @@
               <?php if (get_field('order_closed')) { ?>
                 <div class="order_closed_text">
                   Сожалеем, но запись на этот семинар уже закрыта.<br>
-                  <div class="seminar_else_text">Клкините по ссылке ниже и ознакомьтесь с расписанием проведения следующих семинаров "<?php the_title(); ?>"</div>
+                  <div class="seminar_else_text">Клкините по ссылке ниже и ознакомьтесь с расписанием следующих семинаров "<?php the_title(); ?>"</div>
                   <a href="#seminars_else" class="else_seminars_link">Показать даты</a>
                 </div>
               <?php } else { ?>
@@ -301,6 +301,13 @@
             endwhile;
             wp_reset_postdata();
           ?>
+        </div>
+        <div class="row seminrs_more">
+          <?php if (is_page(546)) { ?>
+            <a href="/seminary/">Все семинары</a>
+          <?php } else if (is_page(630)) { ?>
+            <a href="/seminary-masterov/">Все семинары</a>
+          <?php } ?>
         </div>
       </div>
     </div>
