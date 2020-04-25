@@ -275,7 +275,7 @@
     <?php _e('Sorry, no posts matched your criteria.'); ?>
   <?php endif; ?>
   <section class="doctor seminar text-center" id="seminars_else">
-    <div class="row">
+    <div class="container">
       <div class="col-md-12 seminar_wrap seminar_next">
         <h4 class="content_center">Этот семинар так же состоится:</h4>
         <div class="row">
