@@ -173,8 +173,7 @@
                   <div class="order_closed">
                     <span class="fa fa-pencil-square-o"></span> Запись закрыта
                   </div>
-                  <button class="disabled btn btn-primary" data-toggle="popover" data-placement="top" data-original-title="Свободные места на этот семинар исчерпаны" data-content='Ознакомьтесь с расписанием чтоб узнать когда состоится следующий семинар'>Записаться
-                </button>
+                  <a href="#seminars_else" class="seminar_order btn btn-success">Другие даты</a>
                 </div>
               <?php } else { ?>
                 <div class="seminar_params clearfix">
