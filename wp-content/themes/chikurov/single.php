@@ -302,13 +302,6 @@
             wp_reset_postdata();
           ?>
         </div>
-        <div class="row seminrs_more">
-          <?php if (is_page(546)) { ?>
-            <a href="/seminary/">Все семинары</a>
-          <?php } else if (is_page(630)) { ?>
-            <a href="/seminary-masterov/">Все семинары</a>
-          <?php } ?>
-        </div>
       </div>
     </div>
   </section>
