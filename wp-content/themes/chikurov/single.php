@@ -210,7 +210,7 @@
             <?php if (get_field('seminar_online')) { ?>
               <h4 class="content_center order_online" id="order">Что такое Онлайн "Школа Доктора Чикурова"?</h4>
             <?php } else { ?>
-              <h4 class="content_center" id="order">Записаться на семинар</h4>
+              <h4 class="content_center" id="order">Запись на семинар</h4>
             <?php } ?>
             <div class="row">
               <?php if (get_field('order_closed')) { ?>

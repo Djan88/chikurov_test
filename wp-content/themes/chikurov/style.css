@@ -2070,7 +2070,7 @@ ul#myTab
     font-size: 17px;
     padding-top: 30px;
 }
-.reviews_more a, .seminars_more a
+.reviews_more a, .seminars_more a, .else_seminars_link
 {
     color: #ff206d;
     font-weight: bold;
@@ -2105,6 +2105,12 @@ ul#myTab
 .seminar_lector_name
 {
     color: #ff206d;
+}
+.seminar_else_text
+{
+    color: #413e66;
+    padding: 15px;
+    font-weight: 600;
 }
 /******************************
 responsive area
