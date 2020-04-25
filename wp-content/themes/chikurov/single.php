@@ -292,12 +292,6 @@
                         'value' => date('Y-m-d'),
                         'compare' => '>=',
                         'type' => 'DATE'
-                    ),
-                    array(
-                        'key' => 'autor',
-                        'value' => 'Юрий Чикуров',
-                        'compare' => '=',
-                        'type' => 'CHAR'
                     )
                 )
             ));
