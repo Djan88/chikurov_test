@@ -213,11 +213,8 @@ jQuery(document).ready(function () {
     }
   });
 
-  jQuery('.wpcf7-submit').on('click', function(event) {
+  jQuery('.submit_seminar').on('click', function(event) {
     console.log('test_disab');
-    if (jQuery(this).attr('disabled')) {
-      console.log('test_disabled');
-    }
   });
   
   jQuery('.chi_masters').slick({
