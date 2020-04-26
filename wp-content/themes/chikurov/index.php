@@ -177,7 +177,7 @@
                 $wp_query = new WP_Query( array(
                     'category_name' => 'seminary',
                     'order' => 'ASC',
-                    'title' => 'Ручная актуализация и коррекция функционального состояния организма воздействием на зоны телесного подсознания — зоны DSV',
+                    'title' => 'БЦ1. Базовый семинар по биологическому центрированию',
                     'orderby' => 'meta_value',
                     'meta_key' => 'seminar_start',
                     'meta_query' => array(
