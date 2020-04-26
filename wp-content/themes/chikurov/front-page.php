@@ -30,7 +30,14 @@
           <div class="programm_menu_item programm_menu_item_all">Все</div>
         </div>
         <div class="col-md-12 programm_items">
-          <a href="/bc1-bazovyj-seminar-po-biologicheskomu-centrirovaniyu/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_1">
+          <a href="/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_1">
+            <span class="programm_item_inner">
+              <span class="parogramm_item_heading">Развитие перцептивных навыков чувствования и движения</span></br>
+              <span class="parogramm_item_content">8 учебных часов</span></br>
+              <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
+            </span>
+          </a>
+          <a href="/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_1">
             <span class="programm_item_inner">
               <span class="parogramm_item_heading">БЦ1. Базовый семинар по Биологическому Центрированию</span></br>
               <span class="parogramm_item_content">24 учебных часа</span></br>
@@ -46,8 +53,8 @@
           </a>
           <a href="/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_1">
             <span class="programm_item_inner">
-              <span class="parogramm_item_heading">Эстетическое мануальное моделирование лица</span></br>
-              <span class="parogramm_item_content">16 учебных часа</span></br>
+              <span class="parogramm_item_heading">БЦ тейпирование</span></br>
+              <span class="parogramm_item_content">8 учебных часов</span></br>
               <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
             </span>
           </a>
@@ -60,8 +67,8 @@
           </a>
           <a href="/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_1">
             <span class="programm_item_inner">
-              <span class="parogramm_item_heading">Терапевтическая дефрагментация</span></br>
-              <span class="parogramm_item_content">24 учебных часа</span></br>
+              <span class="parogramm_item_heading">Эстетическое мануальное моделирование лица</span></br>
+              <span class="parogramm_item_content">16 учебных часа</span></br>
               <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
             </span>
           </a>
@@ -69,6 +76,20 @@
             <span class="programm_item_inner">
               <span class="parogramm_item_heading">Коррекция кармических отношений (В подарок дуос машина)</span></br>
               <span class="parogramm_item_content">16 учебных часа</span></br>
+              <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
+            </span>
+          </a>
+          <a href="/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_2">
+            <span class="programm_item_inner">
+              <span class="parogramm_item_heading">MARAKATA – Мастер реальности</span></br>
+              <span class="parogramm_item_content">24 учебных часа</span></br>
+              <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
+            </span>
+          </a>
+          <a href="/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_2">
+            <span class="programm_item_inner">
+              <span class="parogramm_item_heading">Терапевтическая дефрагментация</span></br>
+              <span class="parogramm_item_content">24 учебных часа</span></br>
               <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
             </span>
           </a>
@@ -82,6 +103,20 @@
           <a href="/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_3">
             <span class="programm_item_inner">
               <span class="parogramm_item_heading">Краниосакральная терапия, избранные техники</span></br>
+              <span class="parogramm_item_content">8 учебных часа</span></br>
+              <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
+            </span>
+          </a>
+          <a href="/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_3">
+            <span class="programm_item_inner">
+              <span class="parogramm_item_heading">Коррекция внутрикостных дисфункций</span></br>
+              <span class="parogramm_item_content">8 учебных часа</span></br>
+              <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
+            </span>
+          </a>
+          <a href="/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_3">
+            <span class="programm_item_inner">
+              <span class="parogramm_item_heading">Эстетическая мануальная коррекция лица, избранные техники</span></br>
               <span class="parogramm_item_content">8 учебных часа</span></br>
               <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
             </span>
