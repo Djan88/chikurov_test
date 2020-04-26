@@ -213,6 +213,7 @@ jQuery(document).ready(function () {
     }
   });
 
+  console.log('test_disab');
   jQuery('.wpcf7-submit').on('click', function(event) {
     if (jQuery(this).attr('disabled')) {
       console.log('test_disabled');
