@@ -32,22 +32,22 @@
         <div class="col-md-12 programm_items">
           <a href="/bc1-bazovyj-seminar-po-biologicheskomu-centrirovaniyu/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_1">
             <span class="programm_item_inner">
-              <span class="parogramm_item_heading">БЦ1. Базовый семинар по Биологическому Центрированию</span></br>
+              <span class="parogramm_item_heading">Ручная актуализация и коррекция функционального состояния организма воздействием на зоны телесного подсознания - зоны DSV</span></br>
               <span class="parogramm_item_content">24 учебных часа</span></br>
               <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
             </span>
           </a>
           <a href="/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_1">
             <span class="programm_item_inner">
-              <span class="parogramm_item_heading">БЦ2. Продвинутый семинар по Биологическому Центрированию</span></br>
+              <span class="parogramm_item_heading">Практическая психосоматика, актуализация и коррекция функционального состояния организма через символы-образы бессознательного</span></br>
               <span class="parogramm_item_content">24 учебных часа</span></br>
               <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
             </span>
           </a>
           <a href="/" class="col-md-4 col-sm-6 col-xs-12 programm_item programm_item_1">
             <span class="programm_item_inner">
-              <span class="parogramm_item_heading">Эстетическое мануальное моделирование лица</span></br>
-              <span class="parogramm_item_content">16 учебных часа</span></br>
+              <span class="parogramm_item_heading">Развитие перцептивных навыков чувствования и движения</span></br>
+              <span class="parogramm_item_content">8 учебных часа</span></br>
               <span class="parogramm_item_link btn btn-success btn-sm">Узнать подробнее</span>
             </span>
           </a>
