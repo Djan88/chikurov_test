@@ -227,7 +227,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2>Семинары учеников школы</h2>
+          <h2>Семинары мастеров школы</h2>
         </div>
         <div class="col-xs-10 col-xs-offset-1">
           <div class="row chi_masters">
@@ -267,7 +267,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12 seminars_more"><a href="/seminary-masterov/">Расписание семинаров учеников</a></div>
+        <div class="col-md-12 seminars_more"><a href="/seminary-masterov/">Расписание семинаров мастеров</a></div>
       </div>
     </div>
   </section>
