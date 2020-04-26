@@ -214,7 +214,10 @@ jQuery(document).ready(function () {
   });
 
   jQuery('.submit_seminar').on('click', function(event) {
-    console.log('test_disab');
+    jQuery('.oferta_wrap').addClass('oferta_wrap_styled');
+    setTimeout(function(){
+      jQuery('.oferta_wrap').removeClass('oferta_wrap_styled');
+    },2000);
   });
   
   jQuery('.chi_masters').slick({
