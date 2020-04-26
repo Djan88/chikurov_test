@@ -2195,7 +2195,7 @@ responsive area
     }
     .seminar_head
     {
-        font-size: 20px;
+        font-size: 17px;
     }
 }
 
@@ -2319,6 +2319,16 @@ responsive area
     .books .btn 
     {
         margin-top: 20px;
+    }
+    .seminar_head
+    {
+        font-size: 17px;
+    }
+    .seminar_closed 
+    {
+        padding-left: 0;
+        display: block;
+        padding-top: 10px;
     }
 }
 
@@ -2567,6 +2577,11 @@ responsive area
     {
         display: inline-block;
         padding-left: 10px;
+    }
+    .seminar_closed 
+    {
+        padding-left: 15px;
+        display: inline-block;
     }
 
 }
