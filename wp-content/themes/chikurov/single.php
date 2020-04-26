@@ -283,6 +283,7 @@
             $wp_query = new WP_Query( array(
                 'category_name' => 'seminary',
                 'order' => 'ASC',
+                'post_type' => 'post',
                 'title' => esc_html(get_the_title()),
                 'orderby' => 'meta_value',
                 'meta_key' => 'seminar_start',
