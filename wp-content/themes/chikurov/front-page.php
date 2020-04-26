@@ -24,8 +24,8 @@
           <h2>Программа обучения в школе</h2>
         </div>
         <div class="col-md-12 programm_menu">
-          <div class="programm_menu_item programm_menu_item_1 active">Обязательные</div>
-          <div class="programm_menu_item programm_menu_item_2">Факультативные</div>
+          <div class="programm_menu_item programm_menu_item_1 active">Сертификационные</div>
+          <div class="programm_menu_item programm_menu_item_2">Дополнительные</div>
           <div class="programm_menu_item programm_menu_item_3">Мастер - классы</div>
           <div class="programm_menu_item programm_menu_item_all">Все</div>
         </div>
