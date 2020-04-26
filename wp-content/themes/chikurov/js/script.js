@@ -212,6 +212,12 @@ jQuery(document).ready(function () {
       jQuery('.programm_item').removeClass('hidden');
     }
   });
+
+  jQuery('.wpcf7-submit').on('click', function(event) {
+    if (jQuery(this).attr('disabled')) {
+      console.log('test_disabled');
+    }
+  });
   
   jQuery('.chi_masters').slick({
     centerMode: true,
