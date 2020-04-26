@@ -2119,11 +2119,11 @@ ul#myTab
 .oferta_wrap 
 {
     padding-top: 15px;
-    transition: color .5s linear;
 }
 .oferta_wrap_styled
 {
     color: #ff206d;
+    text-decoration: underline;
 }
 /******************************
 responsive area
