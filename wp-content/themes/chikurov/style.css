@@ -390,8 +390,8 @@ li a.active {
 {
     color: #413e66;
     font-weight: bold;
-    font-size: 20px;
-    min-height: 115px;
+    font-size: 18px;
+    min-height: 155px;
     display: inline-block;
     transition: color .3s ease 0s;
 }
@@ -1116,7 +1116,7 @@ section#seminar
 .seminar_head
 {
     padding: 10px 15px;
-    font-size: 23px;
+    font-size: 20px;
     color: #0094e1!important;
     transition: all ease .7s;
 }
